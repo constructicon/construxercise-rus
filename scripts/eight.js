@@ -23,7 +23,7 @@ function Ex1_norw() {
 }
 
 function Ex2_eng() {
-    result = "Connect the phrases by choosing a matching continuation. Use the construction <span class='construction'>Cl,и на том спасибо</span> meaning ‘it’s something at least; Thank Heaven for small favours!’ In the slot Cl we can place an entire sentence (Cl=clause, sentence)."
+    result = "Connect the phrases by choosing a matching continuation. Use the construction <span class='construction'>Cl,и на том спасибо</span> meaning ‘it’s something at least; Thank Heaven for small favors!’ We can place an entire sentence in the Cl slot (Cl=clause, sentence)."
     var x = document.getElementById("ex2_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -59,7 +59,7 @@ function check_Ex2() {
 }
 
 function Ex2() {
-    result = "1в, 2а, 3г, 4д, 5б<br><br>Соня опять пересолила* суп. Со сметаной есть можно, <span class='construction'>и на том спасибо</span>.<br>Паша снова съел шоколадку вместо ужина. Что-то поел, <span class='construction'>и на том спасибо</span>.<br>Я выпил(а) уже 3 кружки кофе за утро. Не пиво, <span class='construction'>и на том спасибо</span>.<br>У моего брата сильная аллергия на цитрусовые. Он может есть остальные фрукты, <span class='construction'>и на том спасибо</span>.<br> Муж опять забыл убрать молоко в холодильник, и оно испортилось. Никто это молоко не выпил, <span class='construction'>и на том спасибо</span>";
+    result = "1в, 2а, 3г, 4д, 5б<br><br>Соня опять пересолила суп. Со сметаной есть можно, <span class='construction'>и на том спасибо</span>.<br>Паша снова съел шоколадку вместо ужина. Что-то поел, <span class='construction'>и на том спасибо</span>.<br>Я выпил(а) уже 3 кружки кофе за утро. Не пиво, <span class='construction'>и на том спасибо</span>.<br>У моего брата сильная аллергия на цитрусовые. Он может есть остальные фрукты, <span class='construction'>и на том спасибо</span>.<br> Муж опять забыл убрать молоко в холодильник, и оно испортилось. Никто это молоко не выпил, <span class='construction'>и на том спасибо</span>";
     var x = document.getElementById("ex2_ans");
     x.innerHTML = result;
     if (x.style.display === "block") {
@@ -70,7 +70,7 @@ function Ex2() {
 }
 
 function Ex3_eng() {
-    result = "Some popular Russian meals (dishes?) have analogues in other countries. Imagine that you went to a cafe in Moscow. Tell your friend about the Russian dishes you have tried there by using the construction <span class='construction'>NP типа NP-Gen</span> ‘something like X’. In this construction, NP stands for a noun (NP=noun phrase), аnd NP-Gen means a noun in the Genitive case (Gen=Genitive case)."
+    result = "Some popular Russian dishes have analogues in other countries. Imagine that you have been at cafe in Moscow. Tell your friend about the Russian dishes you have tried there by using the construction <span class='construction'>NP типа NP-Gen</span> ‘something like X’. In this construction, NP stands for a noun (NP=noun phrase), аnd NP-Gen means a noun in the Genitive case (Gen=Genitive case)."
     var x = document.getElementById("ex3_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -135,7 +135,7 @@ function Ex3d() {
 }
 
 function Ex4_eng() {
-    result = "Complete a conversation by adding a third line. Put the adjective in parentheses () into the short form. Use the construction <span class=\'construction\'>вот и Pred!</span> ‘then X’ (for example Then fine!). In this construction, Pred stands for a predicative, that is a short form of an adjective."
+    result = "Complete a conversation by adding a third line. Use the short form of the adjective in parentheses (). Use the construction <span class=\'construction\'>вот и Pred!</span> ‘then X’ (for example Then fine!). In this construction, Pred stands for a predicative, that is a short form of an adjective."
     var x = document.getElementById("ex4_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -202,7 +202,7 @@ function Ex4() {
 }
 
 function Ex5_eng() {
-    result = "You and your interlocutor must decide what to cook for a festive dinner. Discuss food (meals) with him (or her). Use the construction <span class=\'construction\'>(а) насчёт NP-Gen – Cl</span> ‘and concerning X, ...’ and the construction <span class=\'construction\'>вот и Pred!</span> ‘then X’ (for example Then fine!). <br>In these constructions, NP-Gen stands for a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), Cl means an entire sentence (Cl=clause, sentence), Pred means a predicative, that is a short form of an adjective, and parentheses () indicate an optional element of a construction.\n"
+    result = "You and your interlocutor must decide what to cook for a festive dinner. Discuss your meal plan with him (or her). Use the construction <span class=\'construction\'>(а) насчёт NP-Gen – Cl</span> ‘and concerning X, ...’ and the construction <span class=\'construction\'>вот и Pred!</span> ‘then X’ (for example Then fine!). <br>In these constructions, NP-Gen stands for a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), Cl means an entire sentence (Cl=clause, sentence), Pred means a predicative, that is a short form of an adjective, and parentheses () indicate an optional element of a construction.\n"
     var x = document.getElementById("ex5_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -237,7 +237,7 @@ function Ex5() {
 }
 
 function Ex6_eng() {
-    result = "You heard a small part of a conversation on the street. Try to guess what was said before. Name the topic of the conversation and think what the previous remarks (lines) might have been. Use the construction <span class=\'construction\'>(а) насчёт NP-Gen – Cl</span> meaning ‘and concerning X, ...’.<br>In this construction, NP-Gen stands for a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), Cl means an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction."
+    result = "You overheard a small part of a conversation on the street. Try to guess what was said before the part that you heard. Name the topic of the conversation and imagine what the previous remarks might have been. Use the construction <span class=\'construction\'>(а) насчёт NP-Gen – Cl</span> meaning ‘and concerning X, ...’.<br>In this construction, NP-Gen stands for a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), Cl means an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction."
     var x = document.getElementById("ex6_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -292,7 +292,7 @@ function Ex6c() {
 }
 
 function Ex7_eng() {
-    result = "You are a restaurant critic and have to evaluate the dishes of a young chef. You found a problem in each dish. Explain what exactly the chef did wrong when making the food. Use the notes provided below and the construction <span class=\'construction\'>дело Cop не в NP-Loc (, а в NP-Loc)</span> ‘the point is not in X but in Y’.<br> In this construction, Cop is a copula verb быть (Cop =copula verb), NP-Loc is a noun in the Locative case (NP=noun phrase, Loc=Locative case), and parentheses () indicate an optional element of a construction."
+    result = "You are a restaurant critic and have to evaluate the dishes prepared by a young chef. You found a problem with each dish. Explain what exactly the chef did wrong when making the food. Use the notes provided below and the construction <span class=\'construction\'>дело Cop не в NP-Loc (, а в NP-Loc)</span> ‘the point is not in X but in Y’.<br> In this construction, Cop is a copula verb быть (Cop =copula verb), NP-Loc is a noun in the Locative case (NP=noun phrase, Loc=Locative case), and parentheses () indicate an optional element of a construction."
     var x = document.getElementById("ex7_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -763,7 +763,7 @@ function Ex11_norw() {
 }
 
 function Ex12_eng() {
-    result = "Home assignment. Write a short text about how you went to a restaurant. What did you order there? What dishes did you try? What did you like and dislike? Use all new constructions from this lesson."
+    result = "Write a short text about a visit to a restaurant. What did you order there? What dishes did you try? What did you like and dislike? Use all new constructions from this lesson."
     var x = document.getElementById("ex12_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -775,7 +775,7 @@ function Ex12_eng() {
 }
 
 function Ex12_norw() {
-    result = "Hjemmeoppgave. Skriv en kort tekst om når du var på restaurant. Hva bestilte du? Hvilke retter prøvde du? "
+    result = "Skriv en kort tekst om når du var på restaurant. Hva bestilte du? Hvilke retter prøvde du? "
     var x = document.getElementById("ex12_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
