@@ -70,7 +70,7 @@ function Ex2() {
 }
 
 function Ex3_eng() {
-    result = "Some popular Russian dishes have analogues in other countries. Imagine that you have been at cafe in Moscow. Tell your friend about the Russian dishes you have tried there by using the construction <span class='construction'>NP типа NP-Gen</span> ‘something like X’. In this construction, NP stands for a noun (NP=noun phrase), аnd NP-Gen means a noun in the Genitive case (Gen=Genitive case)."
+    result = "Some popular Russian dishes have analogues in other countries. Imagine that you have been at a cafe in Moscow. Tell your friend about the Russian dishes you have tried there by using the construction <span class='construction'>NP типа NP-Gen</span> ‘something like X’. In this construction, NP stands for a noun (NP=noun phrase), аnd NP-Gen means a noun in the Genitive case (Gen=Genitive case)."
     var x = document.getElementById("ex3_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
