@@ -162,7 +162,7 @@ function Ex2e() {
 }
 
 function Ex3_eng() {
-    result = "Fill in the blanks by using the construction <span class='construction'>(а/так) что насчёт XP? </span> ‘(And) what about ...?’ and the words given in parentheses. In the place of XP we can use various parts of speech. Nouns and adjectives should be used here in the Genitive case. Adverbs and verbs in the infinitive do not change their shape."
+    result = "Fill in the blanks by using the construction <span class='construction'>(а/так) что насчёт XP? </span> ‘(And) what about ...?’ and the words given in parentheses. In the place of XP we can use various parts of speech. Nouns and adjectives should be used here in the Genitive case. Adverbs and verbs in the infinitive do not change their form."
     var x = document.getElementById("ex3_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -355,7 +355,7 @@ function Ex4() {
 
 
 function Ex5_eng() {
-    result = "Use the table from the exercise 4. Discuss with your conversation partner whether it is wise to use these answers in a real job interview. Suggest your own answers to these questions. Use the construction <span class='construction'>Честно говоря, Cl</span> ‘Frankly speaking / To tell the truth, ...’. In this construction, in the place of Cl we locate an entire sentence (Cl = Clause, sentence)."
+    result = "Use the table in exercise 4. Discuss with your conversation partner whether it is wise to use these answers in a real job interview. Suggest your own answers to these questions. Use the construction <span class='construction'>Честно говоря, Cl</span> ‘Frankly speaking / To tell the truth, ...’. In this construction we insert an entire sentence in the place of Cl (Cl = Clause, sentence)."
     var x = document.getElementById("ex5_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -504,7 +504,7 @@ function Ex8() {
 }
 
 function Ex9_eng() {
-    result = "Today, three companies hold job interviews for their vacant positions. Depending on the role you receive (interviewer or interviewee), conduct or undergo an interview. The description of each role is provided below (three job positions and three candidate options). Use the constructions from the list."
+    result = "Today, three companies are holding job interviews for vacant positions. Depending on the role you receive (interviewer or interviewee), conduct or undergo an interview. The description of each role is provided below (three job positions and three candidate options). Use the constructions from the list."
     var x = document.getElementById("ex9_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -531,7 +531,7 @@ function Ex9_comment() {
     result = "Формат задания: в парах.\n" +
         "В задании предложено 6 карточек с ролями: 3 сотрудника HR получают карточки с описанием вакансии, на которую им нужно найти сотрудника; 3 кандидата получают карточки со своей биографией и хотят найти работу. Сотрудники HR сидят на своих местах и проводят собеседование с каждым кандидатом по очереди. Кандидаты ходят по собеседованиям.\n<br>" +
         "Task format: in pairs.\n" +
-        "The task contains 6 cards with roles: each of the three interviewers receives a card describing a vacant position for which they need to find an employee, and each of the three job candidates receives a card describing their biography. The interviewers are placed at their desks and interview each candidate in their turn. Candidates come to the interviewers and take interviews for different vacant positions in their turn.\n"
+        "The task contains 6 cards with roles: each of the three interviewers receives a card describing a vacant position for which they need to find an employee, and each of the three job candidates receives a card describing their biography. The interviewers are placed at their desks and interview each candidate in their turn. Candidates come to the interviewers and are interviewed for the various vacant positions one after another."
     var x = document.getElementById("ex9_comment")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
