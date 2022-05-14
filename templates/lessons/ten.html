@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="../../scripts/myscript.js"></script>
+    <meta charset="UTF-8">
+    <script src="../../scripts/ten.js"></script>
     <link rel="stylesheet" href="../../styles/style.css">
     <link rel="icon" href="../../images/logo.png">
     <title>Lesson 10
@@ -63,10 +64,236 @@
         <p>XP = phrase (фраза)<br>
             Cl = clause, sentence (предложение)
         </p>
-        <p>Русский конструктикон <a href="https://constructicon.github.io/russian/" target="_blank"
+        <p>Русский конструктикон содержит информацию обо всех конструкциях урока <a href="https://constructicon.github.io/russian/" target="_blank"
             style="color: inherit;">https://constructicon.github.io/russian/</a></p>
-    <div>page under construction</div>
 
+    <h3>1. Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?</h3>
+    <button onclick="Ex1_eng()">Show in English</button>
+    <div class="translation" id="ex1_eng"></div><br>
+    <button onclick="Ex1_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex1_norw"></div>
+    <div class="second_indent">
+        <p>
+            У меня<span class="construction">, мягко говоря,</span> тяжёлый характер. <span class="construction">На первый взгляд,</span> я серьёзный и трудолюбивый, но <span class="construction">на самом деле</span> я очень требователен* к людям. <span class="construction">Вряд ли</span> моим коллегам нравится, что я всё время критикую их за ошибки. <span class="construction">Не факт,</span> что они сильно расстраиваются* из-за этого, но <span class="construction">грубо говоря,</span> критика — это не лучший способ найти друзей на работе.<br><br>
+            *требователен к людям — English: demanding of other people; Norwegian: krevende til folk (eller «krever mye av andre mennesker», altså et menneske som har høye forventninger til kolleger og andre)<br>
+            *расстраиваться — English: be upset; Norwegian: å bli opprørt<br>
+
+        </p>
+    </div>
+    <h3>2. Опишите ваши первые впечатления от знакомства с одногруппниками и преподавателями и то, как эти впечатления изменились со временем. Используйте предложения (1-6) и конструкции:<br>
+        <ol>
+            <li><span class="construction">На первый взгляд, Cl</span></li>
+            <li><span class="construction">На самом деле Cl</span></li>
+        </ol>
+        На месте Cl находится целое предложение (Cl=clause, sentence).
+    </h3>
+    <button onclick="Ex2_eng()">Show in English</button>
+    <div class="translation" id="ex2_eng"></div><br>
+    <button onclick="Ex2_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex2_norw"></div>
+    <table class="table_lesson">
+        <tr>
+            <th><span class="construction">На первый взгляд, Cl</span></th>
+            <th><span class="construction">На самом деле Cl</span></th>
+        </tr>
+        <tr>
+            <td><span class="construction">На первый взгляд,</span> это не искусство.<br>
+                English<br>
+                ‘At first glance, this is not art.’<br>
+                Norwegian<br>
+                ‘Ved første øyekast er ikke dette kunst.’<br>
+            </td>
+            <td><span class="construction">На самом деле</span> всё не так страшно.<br>
+                English<br>
+                ‘Actually, this is not so scary.’<br>
+                Norwegian<br>
+                ‘Faktisk er ikke alt så skummelt.’<br>
+            </td>
+        </tr>
+        <tr>
+            <td>Конструкция обозначает <b>первоначальную, часто поверхностную и субъективную оценку</b> объекта или участника. Эта оценка не вполне соответствует действительности и впоследствии может измениться.</td>
+            <td>Конструкция обозначает <b>объективную оценку</b> объекта или участника или сообщает информацию, которая соответствует действительности. Часто эта информация противопоставлена другой, менее точной.</td>
+        </tr>
+        <tr>
+            <td>This construction denotes <b>the initial, often preliminary, and subjective assessment</b> of аn object or a participant. This assessment is not entirely true and may change later.</td>
+            <td>This construction denotes <b>an objective assessment</b> of an object or a participant or communicates information that is true. Often this information is contrasted with another, less accurate information.</td>
+        </tr>
+        <tr>
+            <td>Konstruksjonen betegner en <b>første, ofte overflatisk og subjektiv vurdering</b> av et objekt eller en deltaker, en vurdering som ikke samsvarer helt med virkeligheten og i det følgende kan bli endret.</td>
+            <td>Konstruksjonen angir en <b>objektiv evaluering</b> av et objekt eller en deltaker, eller kommuniserer informasjon som samsvarer med virkeligheten. Ofte blir denne informasjonen kontrastert med annen, mindre nøyaktig informasjon.</td>
+        </tr>
+    </table>
+    <p><b>Образец:</b></p>
+    <div class="second_indent">
+        <p>
+            Саша скучный. Саша спокойный.<br>
+            <span class="construction">На первый взгляд,</span> Саша скучный. Но <span class="construction">на самом деле</span> он спокойный.
+        </p>
+    </div>
+    <div class="second_indent">
+        <p>1.	Катя закрытая. Катя серьёзная.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex2a_input">
+        <button onclick="check_Ex2a()">Проверить</button><br>
+        <div id="ex2a_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex2a()">Показать ответ</button>
+        <div id="ex2a_ans"></div>
+        <p>2.	Игорь грубый. Игорь честный.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex2b_input">
+        <button onclick="check_Ex2b()">Проверить</button><br>
+        <div id="ex2b_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex2b()">Показать ответ</button>
+        <div id="ex2b_ans"></div>
+        <p>3.	Ася легкомысленная. Ася ответственная.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex2c_input">
+        <button onclick="check_Ex2c()">Проверить</button><br>
+        <div id="ex2c_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex2c()">Показать ответ</button>
+        <div id="ex2c_ans"></div>
+        <p>4.	Паша умный. Паша просто много говорит.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex2d_input">
+        <button onclick="check_Ex2d()">Проверить</button><br>
+        <div id="ex2d_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex2d()">Показать ответ</button>
+        <div id="ex2d_ans"></div>
+        <p>5.	Ирина Петровна строгая. Ирина Петровна справедливая.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex2e_input">
+        <button onclick="check_Ex2e()">Проверить</button><br>
+        <div id="ex2e_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex2e()">Показать ответ</button>
+        <div id="ex2e_ans"></div>
+        <p>6.	Николай Андреевич несерьёзный. Николай Андреевич очень весёлый.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex2f_input">
+        <button onclick="check_Ex2f()">Проверить</button><br>
+        <div id="ex2f_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex2f()">Показать ответ</button>
+        <div id="ex2f_ans"></div>
+    </div>
+
+    <h3>3. Обсудите с собеседником, что вы думаете о человеке на фото. Какой он или она по характеру? Используйте конструкцию <span class="construction">На первый взгляд, Cl</span>.</h3>
+    <button onclick="Ex3_eng()">Show in English</button>
+    <div class="translation" id="ex3_eng"></div><br>
+    <button onclick="Ex3_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex3_norw"></div><br>
+    <button onclick="Ex3_comment()">Comment for language teachers</button>
+    <div class="translation" id="ex3_comment"></div>
+
+    <table class="table_lesson">
+        <tr>
+            <td>
+                <div style="display: inline-block; width: 100%;">
+                    <img src="../../images/10/les_10_a.png" alt="Lyosha" style="height: 300px;">
+                </div>
+                а. Лёша, 29 лет
+            </td>
+            <td>
+                <div style="display: inline-block; width: 100%;">
+                    <img src="../../images/10/les_10_b.png" alt="Kristina" style="height: 300px;">
+                </div>
+                б. Кристина, 16 лет
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div style="display: inline-block; width: 100%;">
+                    <img src="../../images/10/les_10_c.png" alt="Galina" style="height: 300px;">
+                </div>
+                в. Галина Лазаревна, 68 лет
+            </td>
+            <td>
+                <div style="display: inline-block; width: 100%;">
+                    <img src="../../images/10/les_10_d.png" alt="Dima" style="height: 300px;">
+                </div>
+                г. Дима, 25 лет
+            </td>
+        </tr>
+    </table>
+
+    <h3>4. Прочитайте информацию в таблице. Чем похожи и чем отличаются конструкции <span class="construction">мягко говоря, Cl</span> и <span class="construction">грубо говоря, Cl</span>? На месте Cl находится целое предложение (Cl=clause, sentence).</h3>
+    <button onclick="Ex4_eng()">Show in English</button>
+    <div class="translation" id="ex4_eng"></div><br>
+    <button onclick="Ex4_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex4_norw"></div>
+
+    <table class="table_lesson">
+        <tr>
+            <th><span class="construction">мягко говоря, Cl</span></th>
+            <th><span class="construction">грубо говоря, Cl</span></th>
+        </tr>
+        <tr>
+            <td>Миша, <span class="construction">мягко говоря,</span> не подарок.<br>
+                English<br>
+                ‘<b>To put it mildly,</b> Misha is no joy to be with.’<br>
+                Norwegian<br>
+                ‘Misja er <b>mildt sagt</b> ikke en gave.’<br>
+            </td>
+            <td>Разница совсем небольшая. Все видят, <span class="construction">грубо говоря</span> одно и то же.<br>
+                English<br>
+                ‘The difference isn’t so big. <b>Roughly speaking,</b> everyone sees the same thing.’<br>
+                Norwegian<br>
+                ‘Forskjellen er ganske liten. Alle ser, <b>grovt sett,</b> det samme.’<br>
+            </td>
+        </tr>
+        <tr>
+            <td>Конструкция вводит некоторую <b>оценочную формулировку, которая является более нейтральной или вежливой</b>, чем могла бы быть в этой ситуации. Говорящий дает понять, что его <b>формулировка является более мягкой</b>, чем то, что он на самом деле думает. Говорящий намеренно избегает резких или грубых выражений.</td>
+            <td>Конструкция вводит некоторую <b>формулировку, которая является менее точной</b>, чем могла бы быть в этой ституации. Говорящий намеренно передает <b>общую идею и избегает деталей</b>.</td>
+        </tr>
+        <tr>
+            <td>This construction introduces an <b>evaluative statement that is more neutral or polite</b> than it might have been in this situation. The speaker makes it clear that <b>the wording is milder than what they really think</b>. The speaker deliberately avoids harsh or rude expressions.</td>
+            <td>This construction introduces an <b>evaluative statement</b> that is less precise than it might be in this situation. The speaker deliberately <b>conveys the general idea and avoids giving details</b>.</td>
+        </tr>
+        <tr>
+            <td>Konstruksjonen introduserer еn evaluerende <b>formulering, som er mer nøytral eller høflig</b> enn en kunne ha vært i denne situasjonen. Taleren gjør det klart at <b>formuleringen hans er mykere enn det han egentlig tror</b>. Taleren unngår bevisst harde eller frekke uttrykk.</td>
+            <td>Konstruksjonen introduserer en <b>formulering som er mindre presis</b> enn den kunne ha vært i denne situasjonen. Taleren formidler den <b>generelle ideen og unngår detaljer</b>.</td>
+        </tr>
+    </table>
+    <h3>5. Замените подчёркнутые слова на менее эмоциональные и резкие. Используйте конструкцию <span class="construction">мягко говоря, Cl</span>. На месте Cl находится целое предложение (Cl=clause, sentence). Слова <span class="construction">мягко говоря</span> могут находиться в начале, в конце или в середине предложения. Лучше всего помещать слова <span class="construction">мягко говоря</span> непосредственно перед фразой, которая используется как менее категоричная.</h3>
+    <button onclick="Ex5_eng()">Show in English</button>
+    <div class="translation" id="ex5_eng"></div><br>
+    <button onclick="Ex5_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex5_norw"></div>
+    <p><b>Образец:</b></p>
+    <div class="second_indent">
+        <p>
+            Соседи <b><u>были шокированы</u></b>, когда увидели вора у себя дома. <br>
+            -> Соседи, <span class="construction">мягко говоря,</span> удивились, когда увидели вора у себя дома.
+        </p>
+    </div>
+
+    <div class="second_indent">
+        <p>1. Миша ведёт себя <b><u>ужасно</u></b>! Сегодня он снова подрался с младшим братом.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex5a_input">
+        <button onclick="check_Ex5a()">Проверить</button><br>
+        <div id="ex5a_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex5a()">Показать ответ</button>
+        <div id="ex5a_ans"></div>
+        <p>2. Мы <b><u>ненавидим</u></b> нашего нового соседа! Он шумит каждую ночь и оставляет мусор у нас под окнами.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex5b_input">
+        <button onclick="check_Ex5b()">Проверить</button><br>
+        <div id="ex5b_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex5b()">Показать ответ</button>
+        <div id="ex5b_ans"></div>
+        <p>3. У моих друзей <b><u>тупая собака!</u></b> Она часто убегает во время прогулок. </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex5c_input">
+        <button onclick="check_Ex5c()">Проверить</button><br>
+        <div id="ex5c_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex5c()">Показать ответ</button>
+        <div id="ex5c_ans"></div>
+        <p>4. Я <b><u>в шоке!</u></b> Как вы могли прийти на день рождения и не принести подарок?</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex5d_input">
+        <button onclick="check_Ex5d()">Проверить</button><br>
+        <div id="ex5d_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex5d()">Показать ответ</button>
+        <div id="ex5d_ans"></div>
 </div>
 
     <br><br>
