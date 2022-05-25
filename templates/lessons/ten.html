@@ -294,6 +294,462 @@
         <div id="ex5d_result" style="display: inline-block;"></div><br>
         <button onclick="Ex5d()">Показать ответ</button>
         <div id="ex5d_ans"></div>
+    </div>
+
+    <h3>6. Соедините предложения, подобрав логичное продолжение. Используйте конструкцию <span class="construction">грубо говоря, Cl</span>. На месте Cl находится целое предложение (Cl=clause, sentence).</h3>
+    <button onclick="Ex6_eng()">Show in English</button>
+    <div class="translation" id="ex6_eng"></div><br>
+    <button onclick="Ex6_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex6_norw"></div>
+    <p><b>Образец:</b></p>
+    <table>
+        <tr>
+            <td>
+                Мой кот боится всего: шума на улице, гостей, яркого света и даже мух.
+            </td>
+            <td>
+                Он очень трусливый.
+            </td>
+        </tr>
+    </table>
+    <p>
+        -><br>
+        Мой кот боится всего: шума на улице, гостей, яркого света и даже мух. <span class="construction">Грубо говоря,</span> он очень трусливый.
+    </p>
+    <table>
+        <tr>
+            <td>
+                1. Игорь всегда готовится к семинарам, делает все домашние задания и ходит на все лекции.
+            </td>
+            <td>
+                а. Она ужасно неорганизованная.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2. Аня часто теряет ключи, забывает вещи в гостях и всегда опаздывает.
+            </td>
+            <td>
+                б. Он самый весёлый человек в группе.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3. Дима всё время шутит и рассказывает смешные истории.
+            </td>
+            <td>
+                в. Он идеальный студент.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                4. Нина никогда не помогает нам делать уборку или готовить ужин.
+            </td>
+            <td>
+                г. Она очень ленивая.
+            </td>
+        </tr>
+    </table>
+    <label for="answer">Ваш ответ:</label>
+    <input type="text" id="ex6_input">
+    <button onclick="check_Ex6()">Проверить</button><br>
+    <div id="ex6_result" style="display: inline-block;"></div><br>
+    <button onclick="Ex6()">Показать ответ</button>
+    <div id="ex6_ans"></div>
+
+    <h3>7. Проанализируйте схему. Чем отличаются конструкции <span class="construction">(на)вряд ли XP/Cl</span> и <span class="construction">Не факт, что Cl</span>? На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).</h3>
+    <button onclick="Ex7_eng()">Show in English</button>
+    <div class="translation" id="ex7_eng"></div><br>
+    <button onclick="Ex7_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex7_norw"></div>
+    <div style="display: inline-block; width: 100%;">
+        <img src="../../images/10/les_10_e.png" alt="Diagram" style="height: 400px;">
+    </div>
+    <table>
+        <tr>
+            <th><span class="construction">(на)вряд ли XP/Cl</span></th>
+            <th><span class="construction">Не факт, что Cl</span></th>
+        </tr>
+        <tr>
+            <td>
+                <span class="construction">Вряд ли</span> он придёт.<br><br>
+
+                English<br>
+                ‘It is unlikely that he will come.’<br>
+                = I think he is not coming.<br><br>
+
+                Norwegian<br>
+                ‘Det er usannsynlig at han kommer’.<br>
+                = Jeg tror ikke at han kommer.'<br>
+
+            </td>
+            <td>
+                <span class="construction">Не факт, что</span> он придёт.<br><br>
+
+                English<br>
+                ‘It is not necessarily the case that he will come.’<br>
+                = I do not know if he is not coming.<br><br>
+
+                Norwegian<br>
+                ‘Det er ikke sikkert han kommer’<br>
+                = Jeg vet ikke om han kommer.<br>
+
+            </td>
+        </tr>
+        <tr>
+            <td>Говорящий сомневается в том, что произойдет некоторое событие.</td>
+            <td>Говорящий сомневается в адекватности некоторой оценки или информации.<br>Конструкция часто передает скепсис говорящего, основанный на его знаниях о ситуации.</td>
+        </tr>
+        <tr>
+            <td>The speaker doubts that an event will take place.</td>
+            <td>The speaker has doubts about the adequacy of some assessment or information.<br>This construction often conveys the speaker’s skepticism based on their knowledge of the situation.</td>
+        </tr>
+        <tr>
+            <td>Taleren tviler på om en gitt hendelse vil inntreffe.</td>
+            <td>
+                Taleren tviler om tilstrekkeligheten til noen evaluering eller informasjon.<br>
+
+                Konstruksjonen uttrykker ofte talerens skepsis basert på hans kunnskap om situasjonen.
+
+            </td>
+        </tr>
+    </table>
+    <h3>8. Составьте предложения, используя конструкцию <span class="construction">(на)вряд ли XP/Cl</span>. Обратите внимание, что <span class="construction">навряд ли</span> более разговорный вариант, чем <span class="construction">вряд ли</span>. На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).</h3>
+    <button onclick="Ex8_eng()">Show in English</button>
+    <div class="translation" id="ex8_eng"></div><br>
+    <button onclick="Ex8_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex8_norw"></div>
+
+    <p><b>Образец:</b></p>
+    <p>Она такая инициативная. <span class="construction">Вряд ли</span> ей будет трудно найти работу.</p>
+
+    <table>
+        <tr>
+            <td>
+                NOM
+            </td>
+            <td>
+                - такой<br>
+                - такая<br>
+                - такие<br>
+                - слишком
+            </td>
+            <td>
+                - добрый<br>
+                - злой<br>
+                - талантливый<br>
+                - (не)внимательный<br>
+                - легкомысленный<br>
+                - ответственный<br>
+                - инициативный<br>
+                - (не)честный<br>
+                - смелый<br>
+                - храбрый<br>
+                - трусливый<br>
+                - хитрый<br>
+                - сообразительный<br>
+                - энергичный<br>
+                - ленивый<br>
+                - трудолюбивый<br>
+                - (не)терпеливый
+            </td>
+            <td>
+                <span class="construction">Вряд ли</span><br>
+                /<br>
+                <span class="construction">Навряд ли</span>
+            </td>
+            <td>
+                DAT
+            </td>
+            <td>
+                (будет)<br>
+                - трудно<br>
+                - легко
+            </td>
+            <td>
+                - найти работу<br>
+                - найти друзей<br>
+                - (быть) в отношениях<br>
+                - вести бизнес<br>
+                - знакомиться с людьми<br>
+                - работать в команде<br>
+                - работать одному (одной)<br>
+                - прыгнуть с парашютом<br>
+                - отправиться в кругосветное путешествие
+            </td>
+        </tr>
+    </table>
+    <h3>9. Составьте как можно больше предложений по моделям 1 и 2. Используйте конструкцию <span class="construction">Не факт, что Cl</span>. На месте Cl находится целое предложение (Cl=clause, sentence).<br>
+        Обратите внимание, что в модели 1 используется глагол в форме инфинитива, а в модели 2 используется союз чтобы с зависимым предложением. В каждой модели второе предложение должно по смыслу противоречить первому.
+    </h3>
+    <button onclick="Ex9_eng()">Show in English</button>
+    <div class="translation" id="ex9_eng"></div><br>
+    <button onclick="Ex9_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex9_norw"></div><br>
+    <button onclick="Ex9_comment()">Comment for language teachers</button>
+    <div class="translation" id="ex9_comment"></div>
+    <p><b>Модель 1</b></p>
+    <table>
+        <tr>
+            <td>Ты предлагаешь ___INF________. Но он(а) такой ____________! <span class="construction">Не факт, что</span> он(а) на это согласится.</td>
+        </tr>
+    </table>
+    <p><b>Образец</b></p>
+    <p>Ты предлагаешь обмануть. Но он такой честный! <span class="construction">Не факт, что</span> он на это согласится.</p><br>
+    <p><b>Модель 2</b></p>
+    <table>
+        <tr>
+            <td>Ты предлагаешь, чтобы ___________. Но он(а) такой ____________! <span class="construction">Не факт, что</span> он(а) на это согласится.</td>
+        </tr>
+    </table>
+    <p><b>Образец</b></p>
+    <p>Ты предлагаешь, чтобы они погуляли с нашей собакой. Но они такие ленивые. <span class="construction">Не факт, что</span> они согласятся.</p><br>
+    <br>
+    <p>
+        добрый<br>
+        злой<br>
+        талантливый<br>
+        (не)внимательный<br>
+        легкомысленный<br>
+        ответственный<br>
+        инициативный<br>
+        (не)честный<br>
+        смелый<br>
+        храбрый<br>
+        трусливый<br>
+        хитрый<br>
+        сообразительный<br>
+        энергичный<br>
+        ленивый<br>
+        трудолюбивый<br>
+        (не)терпеливый<br>
+        верный
+    </p>
+    <h3>
+        10. Бонусное упражнение*.<br>
+        Одни и те же качества могут быть полезными и вредными для разных целей. Oбсудите, какие традиционно отрицательные качества могут быть полезными, а какие традиционно положительные качества могут быть вредными (см. таблицу). Используйте конструкцию <span class="construction">Не факт, что Cl</span>. Некоторые качества, тем не менее, скорее однозначно плохие или хорошие. Назовите их, используя конструкцию <span class="construction">(на)вряд ли XP/Cl</span>. Объясните свою позицию. В этих конструкциях XP — это фраза (XP=phrase), а Cl — целое предложение (Cl=clause, sentence).
+    </h3>
+    <button onclick="Ex10_eng()">Show in English</button>
+    <div class="translation" id="ex10_eng"></div><br>
+    <button onclick="Ex10_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex10_norw"></div><br>
+    <p><b>Образец</b></p>
+    <ul>
+        <li><span class="construction">Не факт, что</span> эгоизм — это плохое качество. В карьере эгоизм даже помогает.</li>
+        <li><span class="construction">Навряд ли</span> злость может быть хорошим качеством. Она не приносит ничего хорошего человеку и окружающим. </li>
+    </ul>
+    <table>
+        <tr>
+            <th>Какой человек по характеру </th>
+            <th>Качество характера</th>
+        </tr>
+        <tr>
+            <td>Добрый</td>
+            <td>доброта</td>
+        </tr>
+        <tr>
+            <td>Ответственный</td>
+            <td>ответственность</td>
+        </tr>
+        <tr>
+            <td>Серьёзный</td>
+            <td>серьёзность</td>
+        </tr>
+        <tr>
+            <td>Честный</td>
+            <td>честность</td>
+        </tr>
+        <tr>
+            <td>Справедливый</td>
+            <td>любовь к справедливости </td>
+        </tr>
+        <tr>
+            <td>Смелый</td>
+            <td>смелость</td>
+        </tr>
+        <tr>
+            <td>Строгий</td>
+            <td>строгость</td>
+        </tr>
+        <tr>
+            <td>Требовательный</td>
+            <td>требовательность</td>
+        </tr>
+        <tr>
+            <td>Энергичный</td>
+            <td>энергичность</td>
+        </tr>
+        <tr>
+            <td>Трудолюбивый</td>
+            <td>трудолюбие</td>
+        </tr>
+        <tr>
+            <td>Умный</td>
+            <td>ум</td>
+        </tr>
+        <tr>
+            <td>Весёлый</td>
+            <td>весёлость</td>
+        </tr>
+        <tr>
+            <td>Бескомпромиссный</td>
+            <td>бескомпромиссность</td>
+        </tr>
+        <tr>
+            <td>Принципиальный</td>
+            <td>принципиальность</td>
+        </tr>
+        <tr>
+            <td>Педантичный</td>
+            <td>педантичность</td>
+        </tr>
+        <tr>
+            <td>Целеустремлённый</td>
+            <td>целеустремлённость</td>
+        </tr>
+        <tr>
+            <td>Любопытный</td>
+            <td>любопытность</td>
+        </tr>
+        <tr>
+            <td>Преданный</td>
+            <td>преданность</td>
+        </tr>
+        <tr>
+            <td>Верный</td>
+            <td>верность</td>
+        </tr>
+        <tr>
+            <td>Злой</td>
+            <td>злость</td>
+        </tr>
+        <tr>
+            <td>Легкомысленный</td>
+            <td>легкомысленность</td>
+        </tr>
+        <tr>
+            <td>Лживый</td>
+            <td>лживость</td>
+        </tr>
+        <tr>
+            <td>Хитрый</td>
+            <td>хитрость</td>
+        </tr>
+        <tr>
+            <td>Коварный</td>
+            <td>коварство</td>
+        </tr>
+        <tr>
+            <td>Трусливый</td>
+            <td>трусость</td>
+        </tr>
+        <tr>
+            <td>Жёсткий</td>
+            <td>жёсткость</td>
+        </tr>
+        <tr>
+            <td>Суровый</td>
+            <td>суровость</td>
+        </tr>
+        <tr>
+            <td>Жестокий</td>
+            <td>жестокость</td>
+        </tr>
+        <tr>
+            <td>Безынициативный</td>
+            <td>безынициативность</td>
+        </tr>
+        <tr>
+            <td>Ленивый</td>
+            <td>лень</td>
+        </tr>
+        <tr>
+            <td>Медлительный</td>
+            <td>медлительность</td>
+        </tr>
+        <tr>
+            <td>Глупый</td>
+            <td>глупость</td>
+        </tr>
+    </table>
+    <h3>
+        Обсудите с собеседником, какими вы видите идеального а) начальника, б) подчинённого, в) друга, г) партнёра, д) родителя, е) однокурсника. Используйте конструкции:
+        <ul>
+            <li><span class="construction">на первый взгляд, Cl</span></li>
+            <li><span class="construction">на самом деле, Cl</span></li>
+            <li><span class="construction">Не факт, что Cl</span></li>
+            <li><span class="construction">(на)вряд ли XP/Cl</span></li>
+            <li><span class="construction">мягко говоря, Cl</span></li>
+            <li><span class="construction">грубо говоря, Cl</span></li>
+        </ul>
+    </h3>
+    <button onclick="Ex11_eng()">Show in English</button>
+    <div class="translation" id="ex11_eng"></div><br>
+    <button onclick="Ex11_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex11_norw"></div><br>
+    <button onclick="Ex11_comment()">Comment for language teachers</button>
+    <div class="translation" id="ex11_comment"></div>
+
+    <h3>
+        12. Вы с другом должны были подготовить проект, но не успели сдать его до дедлайна. Обсудите, что делать дальше: как лучше сказать преподавателю, что вы не готовы? Kак он отреагирует: накажет вас или разрешит сдать проект позже? Используйте конструкции:
+        <ul>
+            <li><span class="construction">на первый взгляд, Cl</span></li>
+            <li><span class="construction">на самом деле, Cl</span></li>
+            <li><span class="construction">Не факт, что Cl</span></li>
+            <li><span class="construction">(на)вряд ли XP/Cl</span></li>
+            <li><span class="construction">мягко говоря, Cl</span></li>
+            <li><span class="construction">грубо говоря, Cl</span></li>
+        </ul>
+    </h3>
+    <button onclick="Ex12_eng()">Show in English</button>
+    <div class="translation" id="ex12_eng"></div><br>
+    <button onclick="Ex12_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex12_norw"></div><br>
+    <button onclick="Ex12_comment()">Comment for language teachers</button>
+    <div class="translation" id="ex12_comment"></div>
+
+    <h3>
+        13. Вы с соседом на время взяли любимую кружку третьего соседа и случайно сломали её. Что делать? Обсудите, как отреагирует ваш сосед и что вам нужно сделать, чтобы он не обиделся. Используйте конструкции:
+        <ul>
+            <li><span class="construction">на первый взгляд, Cl</span></li>
+            <li><span class="construction">на самом деле, Cl</span></li>
+            <li><span class="construction">Не факт, что Cl</span></li>
+            <li><span class="construction">(на)вряд ли XP/Cl</span></li>
+            <li><span class="construction">мягко говоря, Cl</span></li>
+            <li><span class="construction">грубо говоря, Cl</span></li>
+        </ul>
+    </h3>
+    <button onclick="Ex13_eng()">Show in English</button>
+    <div class="translation" id="ex13_eng"></div><br>
+    <button onclick="Ex13_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex13_norw"></div><br>
+    <button onclick="Ex13_comment()">Comment for language teachers</button>
+    <div class="translation" id="ex13_comment"></div>
+
+    <h3>
+        14. Вы влюбились в парня или девушку из вашей группы. Обсудите с лучшим другом или подругой, что вас беспокоит: есть ли у вас шансы? Как вы познакомились? Что предпринимать дальше? Используйте конструкции:
+        <ul>
+            <li><span class="construction">на первый взгляд, Cl</span></li>
+            <li><span class="construction">на самом деле, Cl</span></li>
+            <li><span class="construction">Не факт, что Cl</span></li>
+            <li><span class="construction">(на)вряд ли XP/Cl</span></li>
+            <li><span class="construction">мягко говоря, Cl</span></li>
+            <li><span class="construction">грубо говоря, Cl</span></li>
+        </ul>
+    </h3>
+    <button onclick="Ex14_eng()">Show in English</button>
+    <div class="translation" id="ex14_eng"></div><br>
+    <button onclick="Ex14_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex14_norw"></div><br>
+    <button onclick="Ex14_comment()">Comment for language teachers</button>
+    <div class="translation" id="ex14_comment"></div>
+
+    <h3>15. Составьте короткий текст (6-10 предложений). Опишите характер одного персонажа из любимого фильма или книги. Используйте все конструкции этого урока.</h3>
+    <button onclick="Ex15_eng()">Show in English</button>
+    <div class="translation" id="ex15_eng"></div><br>
+    <button onclick="Ex15_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex15_norw"></div><br>
+
 </div>
 
     <br><br>
