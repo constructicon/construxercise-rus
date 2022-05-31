@@ -42,7 +42,7 @@ function Ex1_norw() {
 
 
 function Ex2_eng() {
-    result = "Rephrase each sentence by using the construction <span class='construction'>не только XP, но и XP</span> &#39;not only... but also ...&#39;. Are there any sentences that cannot be rephrased?</i>"
+    result = "Rephrase each sentence by using the construction <span class='construction'>не только XP, но и XP</span> &#39;not only... but also ...&#39;. Are there any sentences that cannot be rephrased? We can put a word or a phrase in the slot marked XP (XP=phrase).</i>"
     var x = document.getElementById("ex2_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -54,7 +54,7 @@ function Ex2_eng() {
 }
 
 function Ex2_norw() {
-    result = "Omformuler hver setning ved å bruke konstruksjonen <span class='construction'>не только XP, но и XP</span> &#39;ikke bare... men også ...&#39;. Finnes det noen setninger som ikke kan omformuleres?"
+    result = "Omformuler hver setning ved å bruke konstruksjonen <span class='construction'>не только XP, но и XP</span> &#39;ikke bare... men også ...&#39;. Finnes det noen setninger som ikke kan omformuleres? Plassen XP kan fylles med et ord eller en frase (XP=frase)."
     var x = document.getElementById("ex2_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -208,7 +208,7 @@ function Ex4() {
 }
 
 function Ex5_eng() {
-    result = "Rephrase the sentences by using the construction <span class='construction'>(а) кроме того XP/Cl</span>."
+    result = "Rephrase the sentences by using the construction <span class='construction'>(а) кроме того XP/Cl</span>. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence), and parentheses () indicate an optional element of a construction."
     var x = document.getElementById("ex5_eng")
     x.innerHTML = result;
     // alert(x.style.display)
@@ -221,7 +221,7 @@ function Ex5_eng() {
 }
 
 function Ex5_norw() {
-    result = "Omformuler setningene ved å bruke konstruksjonen <span class='construction'>(а) кроме того XP/Cl</span>."
+    result = "Omformuler setningene ved å bruke konstruksjonen <span class='construction'>(а) кроме того XP/Cl</span>. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon."
     var x = document.getElementById("ex5_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -287,7 +287,7 @@ function Ex5b() {
 }
 
 function Ex6_eng() {
-    result = "Rephrase the sentences by using the construction <span class='construction'>(а) кроме того XP/Cl</span>.</i> Replace the conjunction <i>и</i> &#39;and&#39; with the words <span class='construction'>а кроме того</span>."
+    result = "Rephrase the sentences by using the construction <span class='construction'>(а) кроме того XP/Cl</span>.</i> Replace the conjunction <i>и</i> &#39;and&#39; with the words <span class='construction'>а кроме того</span>. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence), and parentheses () indicate an optional element of a construction."
     var x = document.getElementById("ex6_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -299,7 +299,7 @@ function Ex6_eng() {
 }
 
 function Ex6_norw() {
-    result = "Omformuler setningene ved å bruke konstruksjonen <span class='construction'>(а) кроме того XP/Cl</span>. Bytt ut konjunksjonen <i>и</i> &#39;og&#39; med ordene <span class='construction'>а кроме того</span>."
+    result = "Omformuler setningene ved å bruke konstruksjonen <span class='construction'>(а) кроме того XP/Cl</span>. Bytt ut konjunksjonen <i>и</i> &#39;og&#39; med ordene <span class='construction'>а кроме того</span>. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon."
     var x = document.getElementById("ex6_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -357,7 +357,7 @@ function Ex6b() {
 }
 
 function Ex7_eng() {
-    result = "You see an entry in a diary. Connect the matching sentences by using the indicated constructions."
+    result = "You see an entry in a diary. Connect the matching sentences by using the indicated constructions. In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence)."
     var x = document.getElementById("ex7_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -369,7 +369,7 @@ function Ex7_eng() {
 }
 
 function Ex7_norw() {
-    result = "Du leser et dagboksnotat. Koble sammen setningene ved hjelp av de foreslåtte konstruksjonene."
+    result = "Du leser et dagboksnotat. Koble sammen setningene ved hjelp av de foreslåtte konstruksjonene. I disse konstruksjonene fylles plassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning)."
     var x = document.getElementById("ex7_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -381,7 +381,7 @@ function Ex7_norw() {
 }
 
 function Ex8_eng() {
-    result = "Connect the phrases by choosing a matching continuation. Note that the construction <span class='construction'>(и) кстати (говоря), Cl</span> introduces additional information and often denotes digression."
+    result = "Connect the phrases by choosing a matching continuation. Note that the construction <span class='construction'>(и) кстати (говоря), Cl</span> introduces additional information and often denotes digression. We can put an entire sentence in the Cl slot (Cl=clause, sentence), and parentheses () indicate an optional element of a construction."
     var x = document.getElementById("ex8_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -393,7 +393,7 @@ function Ex8_eng() {
 }
 
 function Ex8_norw() {
-    result = "Koble sammen setningene ved å bruke delene som passer. Legg merke til at konstruksjonen <span class='construction'>(и) кстати (говоря), Cl</span> angir tilleggsinformasjon og ofte indikerer et avvik fra emnet."
+    result = "Koble sammen setningene ved å bruke delene som passer. Legg merke til at konstruksjonen <span class='construction'>(и) кстати (говоря), Cl</span> angir tilleggsinformasjon og ofte indikerer et avvik fra emnet. I denne konstruksjonen fylles пlassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon."
     var x = document.getElementById("ex8_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -429,7 +429,7 @@ function Ex8() {
 
 
 function Ex9_eng() {
-    result = "The construction <span class='construction'>(и) кстати (говоря), Cl</span> has the four variants indicated in the table. Note that the variants <span class='construction'>и кстати</span> and <span class='construction'>и кстати говоря</span> do not appear in the middle of a sentence. With this in mind, fill in the blanks in each sentence with as many options as possible."
+    result = "The construction <span class='construction'>(и) кстати (говоря), Cl</span> has the four variants indicated in the table. Note that the variants <span class='construction'>и кстати</span> and <span class='construction'>и кстати говоря</span> do not appear in the middle of a sentence. With this in mind, fill in the blanks in each sentence with as many options as possible. We can put an entire sentence in the Cl slot (Cl=clause, sentence), and parentheses () indicate an optional element of a construction."
     var x = document.getElementById("ex9_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -441,7 +441,7 @@ function Ex9_eng() {
 }
 
 function Ex9_norw() {
-    result = "Tabellen viser de fire mulige variantene av konstruksjonen <span class='construction'>(и) кстати (говоря), Cl</span>. Legg merke til at <span class='construction'>и кстати</span> og <span class='construction'>и кстати говоря</span> aldri forekommer i midten av en setning. Fyll ut de tomme feltene med så mange varianter av disse konstruksjonene som mulig."
+    result = "Tabellen viser de fire mulige variantene av konstruksjonen <span class='construction'>(и) кстати (говоря), Cl</span>. Legg merke til at <span class='construction'>и кстати</span> og <span class='construction'>и кстати говоря</span> aldri forekommer i midten av en setning. Fyll ut de tomme feltene med så mange varianter av disse konstruksjonene som mulig. I denne konstruksjonen fylles пlassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon."
     var x = document.getElementById("ex9_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -655,7 +655,7 @@ function Ex10() {
 }
 
 function Ex11_eng() {
-    result = "Discuss with your conversation partner whose best friend is better: yours or his/her. Give arguments to support your claims. Use the construction <span class='construction'>не только XP, но и XP</span> &#39;not only... but also ...&#39;."
+    result = "Discuss with your conversation partner whose best friend is better: yours or his/her. Give arguments to support your claims. Use the construction <span class='construction'>не только XP, но и XP</span> &#39;not only... but also ...&#39;. We can put a word or a phrase in the slot marked XP (XP=phrase)."
     var x = document.getElementById("ex11_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -667,7 +667,7 @@ function Ex11_eng() {
 }
 
 function Ex11_norw() {
-    result = "Diskuter med din samtalepartner om hvem som har den beste vennen. Argumenter for dine meninger. Bruk konstruksjonen <span class='construction'>не только XP, но и XP</span> &#39;ikke bare... men også ... &#39;."
+    result = "Diskuter med din samtalepartner om hvem som har den beste vennen. Argumenter for dine meninger. Bruk konstruksjonen <span class='construction'>не только XP, но и XP</span> &#39;ikke bare... men også ... &#39;. Plassen XP kan fylles med et ord eller en frase (XP=frase)."
     var x = document.getElementById("ex11_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -691,7 +691,7 @@ function Ex11_comment() {
 }
 
 function Ex12_eng() {
-    result = "Tell another person what a real friend should be like. Add information by using the constructions from this list."
+    result = "Tell another person what a real friend should be like. Add information by using the constructions from this list. In these constructions, XP stands for a word or a phrase (XP=phrase), Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence)."
     var x = document.getElementById("ex12_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -703,7 +703,7 @@ function Ex12_eng() {
 }
 
 function Ex12_norw() {
-    result = "Fortell en annen person hvordan en riktig venn skal være. Bruk konstruksjonene i listen for å legge til informasjon."
+    result = "Fortell en annen person hvordan en riktig venn skal være. Bruk konstruksjonene i listen for å legge til informasjon. I disse konstruksjonene er XP et ord eller en frase (XP=frase) og Cl er en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning)."
     var x = document.getElementById("ex12_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -727,7 +727,7 @@ function Ex12_comment() {
 }
 
 function Ex13_eng() {
-    result = "You have met a celebrity on the street. Explain to your friends who this person is without mentioning his or her name. Your friends should try to guess who this celebrity is. After each wrong guess, you add another fact to help your friends guess. Use the constructions from the list."
+    result = "You have met a celebrity on the street. Explain to your friends who this person is without mentioning his or her name. Your friends should try to guess who this celebrity is. After each wrong guess, you add another fact to help your friends guess. Use the constructions from the list. In these constructions, XP stands for a word or a phrase (XP=phrase), Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence)."
     var x = document.getElementById("ex13_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -739,7 +739,7 @@ function Ex13_eng() {
 }
 
 function Ex13_norw() {
-    result = "Du har truffet en kjendis på gata. Forklar for vennene dine hvem det er, uten å nevne navnet til vedkommende. Dine venner må gjette hvem det er. Etter hvert feilaktig svar skal du legge til ytterligere informasjon for å hjelpe dem å gjette. Bruk konstruksjonene i listen."
+    result = "Du har truffet en kjendis på gata. Forklar for vennene dine hvem det er, uten å nevne navnet til vedkommende. Dine venner må gjette hvem det er. Etter hvert feilaktig svar skal du legge til ytterligere informasjon for å hjelpe dem å gjette. Bruk konstruksjonene i listen. I disse konstruksjonene er XP et ord eller en frase (XP=frase) og Cl er en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning)."
     var x = document.getElementById("ex13_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
