@@ -95,7 +95,7 @@ function Ex3() {
 }
 
 function Ex4_eng() {
-    result = 'Here is a plan for obtaining a visa available on the website of the Ministry of Foreign Affairs of the Russian Federation (as of March 2022). You are an employee of the embassy. Tell a tourist who wants to go to Russia what he needs to do to get a visa. Use the figure below, the words «надо», «нужно» and «необходимо» all meaning &#39;necessary&#39; and the construction <span class="construction">в-NumOrd-ых, XP/Cl</span>.'
+    result = 'You are an employee of the embassy. Tell a tourist who wants to go to Russia what he needs to do to get a visa. Use the figure below, the words «надо», «нужно» and «необходимо» all meaning &#39;necessary&#39; and the construction <span class="construction">в-NumOrd-ых, XP/Cl</span>.'
     var x = document.getElementById("ex4_eng")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
@@ -107,7 +107,7 @@ function Ex4_eng() {
 }
 
 function Ex4_norw() {
-    result = 'På hjemmesiden til den Russiske Føderasjons utenriksdepartement finnes en veileder om hvordan man søker om visum. Du er ansatt på ambassaden. Forklar for en turist som ønsker å besøke Russland, hva han (eller hun) må gjøre for å få visum. Se på skjemaet nedenfor, og bruk ordene «надо», «нужно» og «необходимо», som alle betyr &#39;nødvendig&#39;. Bruk også konstruksjonen <span class="construction">в-NumOrd-ых, XP/Cl</span>.'
+    result = 'Du er ansatt på ambassaden. Forklar for en turist som ønsker å besøke Russland, hva han (eller hun) må gjøre for å få visum. Se på skjemaet nedenfor, og bruk ordene «надо», «нужно» og «необходимо», som alle betyr &#39;nødvendig&#39;. Bruk også konstruksjonen <span class="construction">в-NumOrd-ых, XP/Cl</span>.'
     var x = document.getElementById("ex4_norw")
     x.innerHTML = result;
     if (x.style.display === "inline-block") {
