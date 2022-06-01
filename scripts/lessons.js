@@ -38,6 +38,16 @@ function func_four() {
     }
 }
 
+function func_five() {
+  var x = document.getElementById("func_exmpl_five")
+  if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+      
+  }
+}
+
 function func_six() {
     var x = document.getElementById("func_exmpl_six")
     if (x.style.display === "block") {
