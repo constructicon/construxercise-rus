@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="../../scripts/myscript.js"></script>
+    <script src="../../scripts/func7.js"></script>
     <link rel="stylesheet" href="../../styles/style.css">
     <link rel="icon" href="../../images/logo.png">
     <title>Function 7
@@ -81,7 +81,525 @@
     </p>
     <p>Русский конструктикон содержит информацию обо всех конструкциях урока<br><a href="https://constructicon.github.io/russian/" target="_blank"
         style="color: inherit;">https://constructicon.github.io/russian/</a></p>
+    <h3>
+        7.6. Обсудите с собеседником ваше отношение к праздникам, которые отмечают в России и в вашей стране. Используйте конструкцию <span class="construction">(как) по мне, (так) Cl.</span><br>
+        В этой конструкции Cl — это целое предложение (Cl=clause, sentence), а скобки () вокруг слова означают, что это факультативный элемент конструкции.
+    </h3>
+        <button onclick="Ex76_eng()">Show in English</button><br>
+        <div class="translation" id="ex76_eng"></div><br>
+        <button onclick="Ex76_norw()">Show in Norwegian</button><br>
+        <div class="translation" id="ex76_norw"></div>
+        <div class="second_indent">
+            <p><b>Образец</b>:<br><br>
+            Праздник: 8 марта<br>
+                — <span class="construction">Как по мне,</span> люди не понимают смысл этого праздника.<br>
+                — <span class="construction">Как по мне,</span> этот праздник устарел.
+            </p><br>
+            <table class="table_lesson" style="width: 750px">
+                <tr>
+                    <td style="width: 400px">Праздники:</td>
+                    <td>Подсказки:</td>
+                </tr>
+                <tr>
+                    <td valign="top">
+                        <ul>
+                            <li>День рождения</li>
+                            <li>Новый год</li>
+                            <li>Рождество</li>
+                            <li>Пасха</li>
+                            <li>День космонавтики (12 апреля)</li>
+                            <li>8 марта</li>
+                            <li>День Конституции</li>
+                            <li>День святого Валентина</li>
+                            <li>Профессиональные праздники (День медицинского работника, День учителя)</li>
+                            <li>День знаний (1 сентября)</li>
+                            <li>Хэллоуин (31 октября)</li>
+                            <li>День труда (1 мая)</li>
+                            <li>День студента (25 января)</li>
+                            <li>добавляйте праздники, которые вы знаете</li>
+                        </ul>
+                    </td>
+                    <td valign="top">
+                        <ul>
+                            <li>важный</li>
+                            <li>неважный</li>
+                            <li>мой любимый</li>
+                            <li>главный праздник в моей стране</li>
+                            <li>устарел</li>
+                            <li>актуален</li>
+                            <li>коммерческий</li>
+                            <li>популярный</li>
+                            <li>непопулярный</li>
+                            <li>непонятный</li>
+                            <li>не понимаю, зачем поздравлять</li>
+                            <li>отмечают в каждой семье</li>
+                            <li>никто не отмечает</li>
+                            <li>праздник для детей</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    <h3>
+        6.7. Посоветуйте людям, названным в предложениях, другой способ передвижения. Используйте конструкцию <span class="construction">на PronPoss-Loc месте/на месте NP-Gen Cl бы.</span><br>
+        В этой конструкции PronPoss-Loc — это притяжательное местоимение в локативе (PronPoss=possessive pronoun, Loc=Locative case), NP-Gen — это существительное в генитиве (NP=noun phrase, Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence). Глагол после частицы бы используется в форме прошедшего времени и мужского или женского рода в зависимости от пола говорящего.
+    </h3>
+    <button onclick="Ex67_eng()">Show in English</button><br>
+    <div class="translation" id="ex67_eng"></div><br>
+    <button onclick="Ex67_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex67_norw"></div><br>
+    <div class="second_indent">
+        <p>
+            <b>Образец</b><br><br>
+            Я поеду на такси (автобус)<br>
+            ->
+        </p>
+        <img src="../../images/6/7_1.png" alt="7_1" style="width: 700px;">
+        <p><b>1.</b> Паша пойдёт пешком. (поехать на метро)</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex67_1_input">
+        <button onclick="check_Ex67_1()">Проверить</button><br>
+        <div id="ex67_1_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex67_1()">Показать ответ</button>
+        <div id="ex67_1_ans"></div>
+        <p><b>2.</b> Таня поедет на трамвае. (велосипед)</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex67_2_input">
+        <button onclick="check_Ex67_2()">Проверить</button><br>
+        <div id="ex67_2_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex67_2()">Показать ответ</button>
+        <div id="ex67_2_ans"></div>
+        <p><b>3.</b> Мы полетим на самолёте. (поехать на поезде)</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex67_3_input">
+        <button onclick="check_Ex67_3()">Проверить</button><br>
+        <div id="ex67_3_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex67_3()">Показать ответ</button>
+        <div id="ex67_3_ans"></div>
+        <p><b>4.</b> Они поедут на трамвае. (машине)</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex67_4_input">
+        <button onclick="check_Ex67_4()">Проверить</button><br>
+        <div id="ex67_4_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex67_4()">Показать ответ</button>
+        <div id="ex67_4_ans"></div>
+        <p><b>5.</b> Валя поедет на такси. (пойти пешком)</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex67_5_input">
+        <button onclick="check_Ex67_5()">Проверить</button><br>
+        <div id="ex67_5_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex67_5()">Показать ответ</button>
+        <div id="ex67_5_ans"></div>
+        </p>
+    </div>
+    <h3>
+        6.8. Бонусное упражнение* <br>
+        Вы с друзьями сидите в баре и обсуждаете ваши проблемы. Дайте советы своим друзьям: как бы вы поступили на их месте? Используйте конструкцию <span class="construction">на PronPoss-Loc месте/на месте NP-Gen Cl бы.</span><br>
+        В этой конструкции PronPoss-Loc — это притяжательное местоимение в локативе (PronPoss=possessive pronoun, Loc=Locative case), NP-Gen — это существительное в генитиве (NP=noun phrase, Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence). Глагол после частицы бы используется в форме прошедшего времени и мужского или женского рода в зависимости от пола говорящего.
+    </h3>
+    <button onclick="Ex68_eng()">Show in English</button><br>
+    <div class="translation" id="ex68_eng"></div><br>
+    <button onclick="Ex68_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex68_norw"></div><br>
+    <div class="second_indent">
+        <p><b>Образец</b></p>
+        <table class="table_lesson">
+            <tr>
+                <td><b>Друг</b></td>
+                <td><b>Проблема</b></td>
+                <td><b>Совет</b></td>
+            </tr>
+            <tr>
+                <td>Алёна</td>
+                <td>У меня постоянно болит живот.</td>
+                <td>не есть фастфуд каждый день</td>
+            </tr>
+        </table>
+        <p>-></p>
+        <img src="../../images/6/8_1.png" alt="8_1" style="width: 700px;">
+        <table class="table_lesson">
+            <tr>
+                <td><b>Друг</b></td>
+                <td><b>Проблема</b></td>
+                <td><b>Совет</b></td>
+            </tr>
+            <tr>
+                <td>Сергей</td>
+                <td>Я получаю плохие оценки за сессию.</td>
+                <td>готовиться к экзаменам заранее</td>
+            </tr>
+            <tr>
+                <td>Кристина</td>
+                <td>Я всё время сильно напиваюсь на вечеринках.</td>
+                <td>приходить на вечеринки с безалкогольными напитками</td>
+            </tr>
+            <tr>
+                <td>Костя</td>
+                <td>Я не могу найти себе девушку.</td>
+                <td>зарегистрироваться в Тиндере</td>
+            </tr>
+            <tr>
+                <td>Яна</td>
+                <td>Я постоянно забываю о своих дедлайнах.</td>
+                <td>записывать дедлайны в календарь</td>
+            </tr>
+        </table><br>
+        <button onclick="check_Ex68()">Проверить</button><br>
+        <div id="ex68_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex68()">Показать ответ</button>
+        <div id="ex68_ans"></div>
+    </div>
+    <h3>
+        7.5. Расскажите, что бы вы изменили в мире к лучшему, если бы была такая возможность. Используйте конструкцию <span class="construction">будь моя воля, Cl бы.</span><br>
+        В этой конструкции Cl — это целое предложение (Cl=clause, sentence). Глагол после частицы бы используется в форме прошедшего времени и мужского или женского рода в зависимости от пола говорящего (см. образец).
+    </h3>
+    <button onclick="Ex75_eng()">Show in English</button><br>
+    <div class="translation" id="ex75_eng"></div><br>
+    <button onclick="Ex75_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex75_norw"></div><br>
+    <div class="second_indent">
+        <p><b>Образец</b>:<br><br>
+            <img src="../../images/7/5_1.png" alt="5_1" style="width: 700px;">
+    </div>
+    <h3>
+        6.5. Вы с друзьями собираетесь в поездку и вам нужно выбрать транспорт. В парах обсудите плюсы и минусы самолёта, поезда, автобуса и личного автомобиля, используя конструкции <span class="construction">Cl, не так ли?</span> и <span class="construction">на PronPoss-Acc взгляд, Cl.</span><br>
+        В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а
+        PronPoss-Acc — это притяжательное местоимение в аккузативе (PronPoss = possessive pronoun, Acc = Accusative case), например <i>мой, наш</i>.<br>
+        Слова <span class="construction">на мой взгляд</span> и <span class="construction">на наш взгляд</span> могут находиться в начале, в конце или в середине предложения.
+    </h3>
+    <button onclick="Ex65_eng()">Show in English</button><br>
+    <div class="translation" id="ex65_eng"></div><br>
+    <button onclick="Ex65_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex65_norw"></div><br>
+    <div class="second_indent">
+        <p>
+            <b>Образец</b>
+            А: — На самолёте мы долетим намного быстрее, <span class="construction">не так ли?</span><br>
+            Б:  — Да, но <span class="construction">на мой взгляд,</span> мы больше времени потратим в аэропорту. Поезд намного экологичнее, <span class="construction">не так ли?</span><br>
+            А: — Да, но он дороже, чем автобус, <span class="construction">на мой взгляд</span>. Автобусы ходят очень часто, мы можем выбрать самый удобный рейс, <span class="construction">не так ли?</span>
+        </p>
+        <p><b>Опорные слова</b></p>
+        <p>Самолет</p>
+        <ul>
+            <li>быстро</li>
+            <li>красивый вид из иллюминатора</li>
+            <li>можно заказать еду и напитки в пути</li>
+            <li>дорого</li>
+            <li>необходимо приезжать в аэропорт за 2 часа до вылета</li>
+            <li>сложный предполётный досмотр</li>
+        </ul>
+        <p>Поезд</p>
+        <ul>
+            <li>можно приехать на вокзал сразу ко времени отправления</li>
+            <li>экологично</li>
+            <li>можно взять отдельное купе только для вашей компании</li>
+            <li>дольше ехать, чем на самолёте</li>
+            <li>дорого</li>
+            <li>могут быть шумные соседи</li>
+        </ul>
+        <p>Автобус</p>
+        <ul>
+            <li>недорого</li>
+            <li>много маршрутов и рейсов</li>
+            <li>можно приехать на автовокзал сразу ко времени отправления</li>
+            <li>долгая поездка может быть утомительной</li>
+            <li>некоторых людей в автобусах тошнит</li>
+            <li>неэкологично</li>
+        </ul>
+        <p>Личный автомобиль</p>
+        <ul>
+            <li>можно поехать в любое время</li>
+            <li>нет соседей</li>
+            <li>можно останавливаться в любом месте, где хочешь</li>
+            <li>дорогой бензин</li>
+            <li>если водитель один, то нужно будет останавливаться на ночь в отеле</li>
+            <li>машина может сломаться по дороге</li>
+        </ul>
+    </div>
+    <h3>
+        6.6. Вы приехали в Москву, и вас уже принимают за местного. Помогите туристам найти дорогу. Используйте конструкцию <span class="construction">насколько PronPers-1 понимать, Cl.</span><br>
+        В этой конструкции PronPers-1 — это личное местоимение 1 лица <i>я, мы</i> (PronPers=personal pronoun), а Cl — это целое предложение (Cl=clause, sentence). <br>
+        Глагол <i>понимать</i> согласуется с местоимением: <i>я понимаю, мы понимаем</i>.
+    </h3>
+    <button onclick="Ex66_eng()">Show in English</button><br>
+    <div class="translation" id="ex66_eng"></div><br>
+    <button onclick="Ex66_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex66_norw"></div><br>
+    <div class="second_indent">
+        <p>
+            <b>Образец</b><br>
+            Вопрос туриста:
+            — Как доехать от станции метро Театральная до Охотного ряда?<br>
+            (Это одна станция. Перейдите с зелёной ветки на красную.)<br>
+            -><br>
+            Ваш ответ:<br>
+            — <span class="construction">Насколько я понимаю,</span> это одна станция. Перейдите с зелёной ветки на красную.
+        </p><br>
+        <p><b>1.</b> Где находится Никольская улица? (рядом с Красной площадью)</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex66_1_input">
+        <button onclick="check_Ex66_1()">Проверить</button><br>
+        <div id="ex66_1_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex66_1()">Показать ответ</button>
+        <div id="ex66_1_ans"></div>
+        <p><b>2.</b> Как доехать до Третьяковской галереи? (трамвай номер 3)</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex66_2_input">
+        <button onclick="check_Ex66_2()">Проверить</button><br>
+        <div id="ex66_2_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex66_2()">Показать ответ</button>
+        <div id="ex66_2_ans"></div>
+        <p><b>3.</b> На чём можно уехать в Сергиев Посад? (электричка)</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex66_3_input">
+        <button onclick="check_Ex66_3()">Проверить</button><br>
+        <div id="ex66_3_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex66_3()">Показать ответ</button>
+        <div id="ex66_3_ans"></div>
+        <p><b>4.</b> На какой ветке метро находится парк Воробьёвы горы? (красная)</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex66_4_input">
+        <button onclick="check_Ex66_4()">Проверить</button><br>
+        <div id="ex66_4_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex66_4()">Показать ответ</button>
+        <div id="ex66_4_ans"></div>
+        <p><b>5.</b> Я могу доехать до аэропорта Домодедово на аэроэкспрессе? (да)</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex66_5_input">
+        <button onclick="check_Ex66_5()">Проверить</button><br>
+        <div id="ex66_5_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex66_5()">Показать ответ</button>
+        <div id="ex66_5_ans"></div>
+    </div>
+    <h3>
+        9.5. Выразите своё несогласие с утверждением собеседника. Используйте конструкцию <span class="construction">по-моему, Cl.</span> На месте Cl находится целое предложение (Cl=clause, sentence).
+    </h3>
+    <button onclick="Ex95_eng()">Show in English</button><br>
+    <div class="translation" id="ex95_eng"></div><br>
+    <button onclick="Ex95_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex95_norw"></div>
 
+    <div class="second_indent">
+        <p><b>Образец</b>:<br>
+            — <span class="construction">По-моему,</span> у Лёши карие глаза.
+            — А <span class="construction">по-моему,</span> зелёные.
+        </p>
+        <p>
+            <b>Собеседник 1:</b><br>
+        </p>
+        <ol>
+            <li>Алёна выглядит устало.</li>
+            <button onclick="Ex95_1()">Показать ответ</button><br>
+            <div id="ex95_1_ans"></div><br>
+            <li>У Миши красивые глаза.</li>
+            <button onclick="Ex95_2()">Показать ответ</button><br>
+            <div id="ex95_2_ans"></div><br>
+            <li>У Марины приветливая улыбка.</li>
+            <button onclick="Ex95_3()">Показать ответ</button><br>
+            <div id="ex95_3_ans"></div><br>
+            <li>У Наташи шикарные волосы.</li>
+            <button onclick="Ex95_4()">Показать ответ</button><br>
+            <div id="ex95_4_ans"></div><br>
+            <li>У Глеба не очень счастливое лицо.</li>
+            <button onclick="Ex95_5()">Показать ответ</button><br>
+            <div id="ex95_5_ans"></div>
+        </ol>
+        <p>
+            <b>Собеседник 2:</b><br>
+        </p>
+        <ol>
+            <li>Зина высокого роста.</li>
+            <button onclick="Ex95_6()">Показать ответ</button><br>
+            <div id="ex95_6_ans"></div><br>
+            <li>У Феди хитрый взгляд.</li>
+            <button onclick="Ex95_7()">Показать ответ</button><br>
+            <div id="ex95_7_ans"></div><br>
+            <li>У Гены крупный нос.</li>
+            <button onclick="Ex95_8()">Показать ответ</button><br>
+            <div id="ex95_8_ans"></div><br>
+            <li>У Лиды круглое лицо.</li>
+            <button onclick="Ex95_9()">Показать ответ</button><br>
+            <div id="ex95_9_ans"></div><br>
+            <li>У Аллы густые волосы.</li>
+            <button onclick="Ex95_10()">Показать ответ</button><br>
+            <div id="ex95_10_ans"></div><br>
+        </ol>
+    </div>
+    <h3>
+        7.3. Иностранные студенты обсуждают русские праздники. Заполните пропуски, используя конструкцию <span class="construction">Cl, так (ведь)?</span> в вопросах и конструкцию <span class="construction">Сам подумать-Imp, Cl</span> в ответах.<br>
+        В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а
+        подумать-Imp — это форма императива от глагола <i>подумать</i> (Imp = imperative), то есть <i>подумай</i> (в единственном числе) и <i>подумайте</i> (во множественном числе).<br>
+        Обратите внимание на то, что форма местоимения <i>сам</i> зависит от пола собеседника: <i>сам</i> при обращении к мужчине и <i>сама</i> при обращении к женщине (см. образец). При этом форма императива <i>подумай</i> не меняется.
+    </h3>
+        <button onclick="Ex73_eng()">Show in English</button><br>
+        <div class="translation" id="ex73_eng"></div><br>
+        <button onclick="Ex73_norw()">Show in Norwegian</button><br>
+        <div class="translation" id="ex73_norw"></div><br>
+        <button onclick="Ex73_comment()">Comment for language teachers</button><br>
+        <div class="translation" id="ex73_comment"></div>
+
+        <div class="second_indent">
+            <p><b>Образец</b>:<br><br>
+                <img src="../../images/7/3_1.png" alt="3_1" style="width: 700px;">
+            <p>
+                <b>а.</b><br>
+                Ханна:	— В День знаний в магазинах России не продают алкоголь, <input class="input_normal" type="text" id="ex73a1_input">? <span id="ex73a1_result" style="display: inline-block;"></span><br>
+                Майкл: —  Да. <input class="input_normal" type="text" id="ex73a2_input">, это же праздник для школьников. <span id="ex73a2_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex73a()">Проверить</button><br>
+            <button onclick="Ex73a()">Показать ответ</button>
+            <div id="ex73a_ans"></div>
+            <p>
+                <b>б.</b><br>
+                Закир: — Масленицу отмечают три дня, <input class="input_normal" type="text" id="ex73b1_input">? <span id="ex73b1_result" style="display: inline-block;"></span><br>
+                Фатима: — Нет. <input class="input_normal" type="text" id="ex73b2_input">. Масленицу же называют Масленичной неделей, значит семь дней. <span id="ex73b2_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex73b()">Проверить</button><br>
+            <button onclick="Ex73b()">Показать ответ</button>
+            <div id="ex73b_ans"></div>
+            <p>
+                <b>в.</b><br>
+                Шарлотта: — Ты отмечаешь День защиты детей, <input class="input_normal" type="text" id="ex73c1_input">? <span id="ex73c1_result" style="display: inline-block;"></span><br>
+                Лиам: — Нет. <input class="input_normal" type="text" id="ex73c2_input">, я же уже не ребенок и детей у меня пока нет. <span id="ex73c2_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex73c()">Проверить</button><br>
+            <button onclick="Ex73c()">Показать ответ</button>
+            <div id="ex73c_ans"></div>
+            <p>
+                <b>г.</b><br>
+                Сара: — Тебе подарили цветы на 8 марта, <input class="input_normal" type="text" id="ex73d1_input">? <span id="ex73d1_result" style="display: inline-block;"></span><br>
+                Оливия: — Конечно! <input class="input_normal" type="text" id="ex73d2_input">, я же женщина. <span id="ex73d2_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex73d()">Проверить</button><br>
+            <button onclick="Ex73d()">Показать ответ</button>
+            <div id="ex73d_ans"></div>
+            <p>
+                <b>д.</b><br>
+                Джеймс: — Итон, ты отмечал День святого Валентина в этом году, <input class="input_normal" type="text" id="ex73e1_input">? <span id="ex73e1_result" style="display: inline-block;"></span><br>
+                Итон: — Нет, конечно! <input class="input_normal" type="text" id="ex73e2_input">, я же недавно расстался с девушкой. <span id="ex73e2_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex73e()">Проверить</button><br>
+            <button onclick="Ex73e()">Показать ответ</button>
+            <div id="ex73e_ans"></div>
+        </div>
+    <h3>
+        7.4. У вашей подруги Саши скоро День Рождения. Вы с другом пришли в магазин и пытаетесь выбрать подарок, но Саше сложно угодить. Обсудите с другом, какой подарок вы купите. Используйте конструкции <span class="construction">Cl, так (ведь)?</span> и <span class="construction">Сам подумать-Imp, Cl.</span><br>
+        В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а подумать-Imp — это форма императива от глагола <i>подумать</i> (Imp = imperative), то есть <i>подумай</i> (в единственном числе) и <i>подумайте</i> (во множественном числе).
+        Обратите внимание на то, что форма местоимения <i>сам</i> зависит от пола собеседника: <i>сам</i> при обращении к мужчине и <i>сама</i> при обращении к женщине. При этом форма императива <i>подумай</i> не меняется.
+    </h3>
+        <button onclick="Ex74_eng()">Show in English</button><br>
+        <div class="translation" id="ex74_eng"></div><br>
+        <button onclick="Ex74_norw()">Show in Norwegian</button><br>
+        <div class="translation" id="ex74_norw"></div><br>
+
+        <div class="second_indent">
+            <p><b>Информация о Саше:</b>
+                <ul>
+                    <li>20 лет</li>
+                    <li>не любит оранжевый, красный и зелёный цвет</li>
+                    <li>учится на историка</li>
+                    <li>любит книги про феминизм</li>
+                    <li>любит мягкие игрушки</li>
+                    <li>у неё есть собака Буян</li>
+                    <li>любит яркий макияж</li>
+                    <li>не любит кошек</li>
+                </ul>
+            </p>
+            <p><b>Что есть в магазине:</b></p>
+            <table class="table_lesson">
+                <tr>
+                    <td><img src="../../images/7/4_1.jpg" alt="4_1" style="width: 200px;"><br>тени для век<br>(зелёные и красные)</td>
+                    <td><img src="../../images/7/4_2.jpg" alt="4_2" style="width: 200px;"><br>Энциклопедия<br>"История России"</td>
+                    <td><img src="../../images/7/4_3.jpg" alt="4_3" style="width: 200px;"><br>Журнал<br>"Феминизм в комиксах"</td>
+                </tr>
+                <tr>
+                    <td><img src="../../images/7/4_4.jpg" alt="4_4" style="width: 200px;"><br>мягкая игрушка, мишка</td>
+                    <td><img src="../../images/7/4_5.jpg" alt="4_5" style="width: 200px;"><br>мягкая игрушка, кот</td>
+                    <td><img src="../../images/7/4_6.jpg" alt="4_6" style="width: 200px;"><br>настольная игра “Дженга”</td>
+                </tr>
+                <tr>
+                    <td><img src="../../images/7/4_7.jpg" alt="4_7" style="width: 200px;"><br>термос (голубой)</td>
+                    <td><img src="../../images/7/4_8.jpg" alt="4_8" style="width: 200px;"><br>шарф</td>
+                    <td><img src="../../images/7/4_9.jpg" alt="4_9" style="width: 200px;"><br>курточка для собаки</td>
+                </tr>
+            </table>
+        </div>
+    <h3>
+        9.9. Бонусное упражнение* <br>
+        Вы — сценарист и кастинг-директор в студии по производству фильмов. Ваша студия хочет создать новые экранизации известных литературных произведений. Обсудите подбор актёров на разные роли с точки зрения внешности актёров и ваших представлений о роли. Используйте конструкции:
+    </h3>
+    <table class="table_lesson" style="width: 550px">
+        <tr>
+            <td><b>Узнать мнение</b></td>
+            <td><b>Выразить своё мнение</b></td>
+        </tr>
+        <tr>
+            <td valign="top">
+                 <ul style="margin-top: 0">
+                     <li><span class="construction">а NP-Nom не думать-Prs, что Cl?</span></li>
+                     <li><span class="construction">Cl, а NP-Nom как думать-Prs? </span></li>
+                     <li><span class="construction">Cl, не правда ли?</span></li>
+                     <li><span class="construction">Cl, по-твоему /по-вашему?</span></li>
+                 </ul>
+            </td>
+            <td valign="top">
+                <ul style="margin-top: 0">
+                     <li><span class="construction">по-моему, Cl</span></li>
+                     <li><span class="construction">(как) по мне, (так) Cl</span></li>
+                     <li><span class="construction">на PronPoss-Acc взгляд, Cl</span></li>
+                     <li><span class="construction">честно говоря, Cl</span></li>
+                 </ul>
+            </td>
+        </tr>
+    </table><br>
+    <p><b>Роли:</b></p>
+    <ul>
+        <li>Квазимодо</li>
+        <li>Эсмеральда</li>
+        <li>Джеймс Бонд</li>
+        <li>Король Лир</li>
+        <li>Шерлок Холмс</li>
+        <li>Миссис Хадсон</li>
+        <li>Джульетта</li>
+        <li>Гарри Поттер</li>
+        <li>Волан-де-морт</li>
+        <li>Гермиона</li>
+        <li>Мисс Марпл</li>
+    </ul>
+    <button onclick="Ex99_eng()">Show in English</button><br>
+    <div class="translation" id="ex99_eng"></div><br>
+    <button onclick="Ex99_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex99_norw"></div>
+    <div class="second_indent">
+        <p><b>Образец</b>:<br>
+            — <span class="construction">Как по мне,</span> Джульетту должна сыграть Джейн.<br>
+            — <span class="construction">А ты не думаешь, что</span> она для этой роли слишком старая? <span class="construction">На мой взгляд,</span> Джульетту должна сыграть Оливия: она молодая и красивая.<br>
+            — Но Джульетта не может быть блондинкой, <span class="construction">не правда ли</span>?<br>
+            — <span class="construction">По-твоему,</span> мы не можем покрасить ей волосы или надеть парик?<br>
+        </p>
+        <table class="table_lesson">
+            <tr>
+                <td><img src="../../images/9/9_1.jpg" alt="9_1" style="width: 200px"><br>Джессика</td>
+                <td><img src="../../images/9/9_2.jpg" alt="9_2" style="width: 200px"><br>Джейн</td>
+                <td><img src="../../images/9/9_3.jpg" alt="9_3" style="width: 200px"><br>Оливия</td>
+            </tr>
+            <tr>
+                <td><img src="../../images/9/9_4.jpg" alt="9_4" style="width: 200px"><br>Николь</td>
+                <td><img src="../../images/9/9_5.jpg" alt="9_5" style="width: 200px"><br>Сара</td>
+                <td><img src="../../images/9/9_6.jpg" alt="9_6" style="width: 200px"><br>Анжелика</td>
+            </tr>
+            <tr>
+                <td><img src="../../images/9/9_7.jpg" alt="9_7" style="width: 200px"><br>Рольф</td>
+                <td><img src="../../images/9/9_8.jpg" alt="9_8" style="width: 200px"><br>Саймон</td>
+                <td><img src="../../images/9/9_9.jpg" alt="9_9" style="width: 200px"><br>Рикардо</td>
+            </tr>
+            <tr>
+                <td><img src="../../images/9/9_10.jpg" alt="9_10" style="width: 200px"><br>Крис</td>
+                <td><img src="../../images/9/9_11.jpg" alt="9_11" style="width: 200px"><br>Джордж</td>
+                <td><img src="../../images/9/9_12.jpg" alt="9_12" style="width: 200px"><br>Антуан</td>
+            </tr>
+        </table>
+    </div>
 </div>
 
     <br><br>

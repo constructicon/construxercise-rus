@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="../../scripts/myscript.js"></script>
+    <script src="../../scripts/func9.js"></script>
     <link rel="stylesheet" href="../../styles/style.css">
     <link rel="icon" href="../../images/logo.png">
     <title>Function 9
@@ -36,7 +36,7 @@
         <tr>
             <td>934</td>
             <td>грубо говоря, Cl</td>
-            <td>Разница совсем небольшая. Все видят, <span class="construction">грубо говоря</span>, одно и то же.</td>
+            <td>Разница совсем небольшая. Все видят, <span class="construction">грубо говоря</span>, одно и то же.</td>
         </tr>
         <tr>
             <td>1138</td>
@@ -65,6 +65,588 @@
     <p>Русский конструктикон содержит информацию обо всех конструкциях урока<br><a href="https://constructicon.github.io/russian/" target="_blank"
         style="color: inherit;">https://constructicon.github.io/russian/</a></p>
 
+    <h3>10.4. Прочитайте информацию в таблице. Чем похожи и чем отличаются конструкции <span class="construction">мягко говоря, Cl</span> и <span class="construction">грубо говоря, Cl</span>? На месте Cl находится целое предложение (Cl=clause, sentence).</h3>
+    <button onclick="Ex104_eng()">Show in English</button>
+    <div class="translation" id="ex104_eng"></div><br>
+    <button onclick="Ex104_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex104_norw"></div>
+
+    <table class="table_lesson">
+        <tr>
+            <th><span class="construction">мягко говоря, Cl</span></th>
+            <th><span class="construction">грубо говоря, Cl</span></th>
+        </tr>
+        <tr>
+            <td>Миша, <span class="construction">мягко говоря,</span> не подарок.<br>
+                English<br>
+                ‘<b>To put it mildly,</b> Misha is no joy to be with.’<br>
+                Norwegian<br>
+                ‘Misja er <b>mildt sagt</b> ikke en gave.’<br>
+            </td>
+            <td>Разница совсем небольшая. Все видят, <span class="construction">грубо говоря</span> одно и то же.<br>
+                English<br>
+                ‘The difference isn’t so big. <b>Roughly speaking,</b> everyone sees the same thing.’<br>
+                Norwegian<br>
+                ‘Forskjellen er ganske liten. Alle ser, <b>grovt sett,</b> det samme.’<br>
+            </td>
+        </tr>
+        <tr>
+            <td>Конструкция вводит некоторую <b>оценочную формулировку, которая является более нейтральной или вежливой</b>, чем могла бы быть в этой ситуации. Говорящий дает понять, что его <b>формулировка является более мягкой</b>, чем то, что он на самом деле думает. Говорящий намеренно избегает резких или грубых выражений.</td>
+            <td>Конструкция вводит некоторую <b>формулировку, которая является менее точной</b>, чем могла бы быть в этой ституации. Говорящий намеренно передает <b>общую идею и избегает деталей</b>.</td>
+        </tr>
+        <tr>
+            <td>This construction introduces an <b>evaluative statement that is more neutral or polite</b> than it might have been in this situation. The speaker makes it clear that <b>the wording is milder than what they really think</b>. The speaker deliberately avoids harsh or rude expressions.</td>
+            <td>This construction introduces an <b>evaluative statement</b> that is less precise than it might be in this situation. The speaker deliberately <b>conveys the general idea and avoids giving details</b>.</td>
+        </tr>
+        <tr>
+            <td>Konstruksjonen introduserer еn evaluerende <b>formulering, som er mer nøytral eller høflig</b> enn en kunne ha vært i denne situasjonen. Taleren gjør det klart at <b>formuleringen hans er mykere enn det han egentlig tror</b>. Taleren unngår bevisst harde eller frekke uttrykk.</td>
+            <td>Konstruksjonen introduserer en <b>formulering som er mindre presis</b> enn den kunne ha vært i denne situasjonen. Taleren formidler den <b>generelle ideen og unngår detaljer</b>.</td>
+        </tr>
+    </table>
+    <h3>10.5. Замените подчёркнутые слова на менее эмоциональные и резкие. Используйте конструкцию <span class="construction">мягко говоря, Cl</span>. На месте Cl находится целое предложение (Cl=clause, sentence). Слова <span class="construction">мягко говоря</span> могут находиться в начале, в конце или в середине предложения. Лучше всего помещать слова <span class="construction">мягко говоря</span> непосредственно перед фразой, которая используется как менее категоричная.</h3>
+    <button onclick="Ex105_eng()">Show in English</button>
+    <div class="translation" id="ex105_eng"></div><br>
+    <button onclick="Ex105_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex105_norw"></div>
+    <p><b>Образец:</b></p>
+    <div class="second_indent">
+        <p>
+            Соседи <b><u>были шокированы</u></b>, когда увидели вора у себя дома. <br>
+            -> Соседи, <span class="construction">мягко говоря,</span> удивились, когда увидели вора у себя дома.
+        </p>
+    </div>
+
+    <div class="second_indent">
+        <p>1. Миша ведёт себя <b><u>ужасно</u></b>! Сегодня он снова подрался с младшим братом.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex105a_input">
+        <button onclick="check_Ex105a()">Проверить</button><br>
+        <div id="ex105a_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex105a()">Показать ответ</button>
+        <div id="ex105a_ans"></div>
+        <p>2. Мы <b><u>ненавидим</u></b> нашего нового соседа! Он шумит каждую ночь и оставляет мусор у нас под окнами.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex105b_input">
+        <button onclick="check_Ex105b()">Проверить</button><br>
+        <div id="ex105b_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex105b()">Показать ответ</button>
+        <div id="ex105b_ans"></div>
+        <p>3. У моих друзей <b><u>тупая собака!</u></b> Она часто убегает во время прогулок. </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex105c_input">
+        <button onclick="check_Ex105c()">Проверить</button><br>
+        <div id="ex105c_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex105c()">Показать ответ</button>
+        <div id="ex105c_ans"></div>
+        <p>4. Я <b><u>в шоке!</u></b> Как вы могли прийти на день рождения и не принести подарок?</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex105d_input">
+        <button onclick="check_Ex105d()">Проверить</button><br>
+        <div id="ex105d_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex105d()">Показать ответ</button>
+        <div id="ex105d_ans"></div>
+    </div>
+
+    <h3>10.6. Соедините предложения, подобрав логичное продолжение. Используйте конструкцию <span class="construction">грубо говоря, Cl</span>. На месте Cl находится целое предложение (Cl=clause, sentence).</h3>
+    <button onclick="Ex106_eng()">Show in English</button>
+    <div class="translation" id="ex106_eng"></div><br>
+    <button onclick="Ex106_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex106_norw"></div>
+    <p><b>Образец:</b></p>
+    <table>
+        <tr>
+            <td>
+                Мой кот боится всего: шума на улице, гостей, яркого света и даже мух.
+            </td>
+            <td>
+                Он очень трусливый.
+            </td>
+        </tr>
+    </table>
+    <p>
+        -><br>
+        Мой кот боится всего: шума на улице, гостей, яркого света и даже мух. <span class="construction">Грубо говоря,</span> он очень трусливый.
+    </p>
+    <table>
+        <tr>
+            <td>
+                1. Игорь всегда готовится к семинарам, делает все домашние задания и ходит на все лекции.
+            </td>
+            <td>
+                а. Она ужасно неорганизованная.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2. Аня часто теряет ключи, забывает вещи в гостях и всегда опаздывает.
+            </td>
+            <td>
+                б. Он самый весёлый человек в группе.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3. Дима всё время шутит и рассказывает смешные истории.
+            </td>
+            <td>
+                в. Он идеальный студент.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                4. Нина никогда не помогает нам делать уборку или готовить ужин.
+            </td>
+            <td>
+                г. Она очень ленивая.
+            </td>
+        </tr>
+    </table>
+    <label for="answer">Ваш ответ:</label>
+    <input type="text" id="ex106_input">
+    <button onclick="check_Ex106()">Проверить</button><br>
+    <div id="ex106_result" style="display: inline-block;"></div><br>
+    <button onclick="Ex106()">Показать ответ</button>
+    <div id="ex106_ans"></div>
+    <h3>10.2. Опишите ваши первые впечатления от знакомства с одногруппниками и преподавателями и то, как эти впечатления изменились со временем. Используйте предложения (1-6) и конструкции:<br>
+        <ol>
+            <li><span class="construction">На первый взгляд, Cl</span></li>
+            <li><span class="construction">На самом деле Cl</span></li>
+        </ol>
+        На месте Cl находится целое предложение (Cl=clause, sentence).
+    </h3>
+    <button onclick="Ex102_eng()">Show in English</button>
+    <div class="translation" id="ex102_eng"></div><br>
+    <button onclick="Ex102_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex102_norw"></div>
+    <table class="table_lesson">
+        <tr>
+            <th><span class="construction">На первый взгляд, Cl</span></th>
+            <th><span class="construction">На самом деле Cl</span></th>
+        </tr>
+        <tr>
+            <td><span class="construction">На первый взгляд,</span> это не искусство.<br>
+                English<br>
+                ‘At first glance, this is not art.’<br>
+                Norwegian<br>
+                ‘Ved første øyekast er ikke dette kunst.’<br>
+            </td>
+            <td><span class="construction">На самом деле</span> всё не так страшно.<br>
+                English<br>
+                ‘Actually, this is not so scary.’<br>
+                Norwegian<br>
+                ‘Faktisk er ikke alt så skummelt.’<br>
+            </td>
+        </tr>
+        <tr>
+            <td>Конструкция обозначает <b>первоначальную, часто поверхностную и субъективную оценку</b> объекта или участника. Эта оценка не вполне соответствует действительности и впоследствии может измениться.</td>
+            <td>Конструкция обозначает <b>объективную оценку</b> объекта или участника или сообщает информацию, которая соответствует действительности. Часто эта информация противопоставлена другой, менее точной.</td>
+        </tr>
+        <tr>
+            <td>This construction denotes <b>the initial, often preliminary, and subjective assessment</b> of аn object or a participant. This assessment is not entirely true and may change later.</td>
+            <td>This construction denotes <b>an objective assessment</b> of an object or a participant or communicates information that is true. Often this information is contrasted with another, less accurate information.</td>
+        </tr>
+        <tr>
+            <td>Konstruksjonen betegner en <b>første, ofte overflatisk og subjektiv vurdering</b> av et objekt eller en deltaker, en vurdering som ikke samsvarer helt med virkeligheten og i det følgende kan bli endret.</td>
+            <td>Konstruksjonen angir en <b>objektiv evaluering</b> av et objekt eller en deltaker, eller kommuniserer informasjon som samsvarer med virkeligheten. Ofte blir denne informasjonen kontrastert med annen, mindre nøyaktig informasjon.</td>
+        </tr>
+    </table>
+    <p><b>Образец:</b></p>
+    <div class="second_indent">
+        <p>
+            Саша скучный. Саша спокойный.<br>
+            <span class="construction">На первый взгляд,</span> Саша скучный. Но <span class="construction">на самом деле</span> он спокойный.
+        </p>
+    </div>
+    <div class="second_indent">
+        <p>1.	Катя закрытая. Катя серьёзная.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex102a_input">
+        <button onclick="check_Ex102a()">Проверить</button><br>
+        <div id="ex102a_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex102a()">Показать ответ</button>
+        <div id="ex102a_ans"></div>
+        <p>2.	Игорь грубый. Игорь честный.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex102b_input">
+        <button onclick="check_Ex102b()">Проверить</button><br>
+        <div id="ex102b_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex102b()">Показать ответ</button>
+        <div id="ex102b_ans"></div>
+        <p>3.	Ася легкомысленная. Ася ответственная.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex102c_input">
+        <button onclick="check_Ex102c()">Проверить</button><br>
+        <div id="ex102c_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex102c()">Показать ответ</button>
+        <div id="ex102c_ans"></div>
+        <p>4.	Паша умный. Паша просто много говорит.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex102d_input">
+        <button onclick="check_Ex102d()">Проверить</button><br>
+        <div id="ex102d_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex102d()">Показать ответ</button>
+        <div id="ex102d_ans"></div>
+        <p>5.	Ирина Петровна строгая. Ирина Петровна справедливая.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex102e_input">
+        <button onclick="check_Ex102e()">Проверить</button><br>
+        <div id="ex102e_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex102e()">Показать ответ</button>
+        <div id="ex102e_ans"></div>
+        <p>6.	Николай Андреевич несерьёзный. Николай Андреевич очень весёлый.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex102f_input">
+        <button onclick="check_Ex102f()">Проверить</button><br>
+        <div id="ex102f_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex102f()">Показать ответ</button>
+        <div id="ex102f_ans"></div>
+    </div>
+
+    <h3>10.3. Обсудите с собеседником, что вы думаете о человеке на фото. Какой он или она по характеру? Используйте конструкцию <span class="construction">На первый взгляд, Cl</span>.</h3>
+    <button onclick="Ex103_eng()">Show in English</button>
+    <div class="translation" id="ex103_eng"></div><br>
+    <button onclick="Ex103_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex103_norw"></div><br>
+    <button onclick="Ex103_comment()">Comment for language teachers</button>
+    <div class="translation" id="ex103_comment"></div>
+
+    <table class="table_lesson">
+        <tr>
+            <td>
+                <img src="../../images/10/les_10_a.png" alt="Lyosha" style="height: 300px;"><br>
+                а. Лёша, 29 лет
+            </td>
+            <td>
+                <img src="../../images/10/les_10_b.png" alt="Kristina" style="height: 300px;"><br>
+                б. Кристина, 16 лет
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="../../images/10/les_10_c.png" alt="Galina" style="height: 300px;"><br>
+                в. Галина Лазаревна, 68 лет
+            </td>
+            <td>
+                <img src="../../images/10/les_10_d.png" alt="Dima" style="height: 300px;"><br>
+                г. Дима, 25 лет
+            </td>
+        </tr>
+    </table>
+    <h3>10.7. Проанализируйте схему. Чем отличаются конструкции <span class="construction">(на)вряд ли XP/Cl</span> и <span class="construction">Не факт, что Cl</span>? На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).</h3>
+    <button onclick="Ex107_eng()">Show in English</button>
+    <div class="translation" id="ex107_eng"></div><br>
+    <button onclick="Ex107_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex107_norw"></div>
+    <div style="display: inline-block; width: 100%;">
+        <img src="../../images/10/les_10_e.png" alt="Diagram" style="height: 400px;">
+    </div>
+    <table>
+        <tr>
+            <th><span class="construction">(на)вряд ли XP/Cl</span></th>
+            <th><span class="construction">Не факт, что Cl</span></th>
+        </tr>
+        <tr>
+            <td>
+                <span class="construction">Вряд ли</span> он придёт.<br><br>
+
+                English<br>
+                ‘It is unlikely that he will come.’<br>
+                = I think he is not coming.<br><br>
+
+                Norwegian<br>
+                ‘Det er usannsynlig at han kommer’.<br>
+                = Jeg tror ikke at han kommer.'<br>
+
+            </td>
+            <td>
+                <span class="construction">Не факт, что</span> он придёт.<br><br>
+
+                English<br>
+                ‘It is not necessarily the case that he will come.’<br>
+                = I do not know if he is not coming.<br><br>
+
+                Norwegian<br>
+                ‘Det er ikke sikkert han kommer’<br>
+                = Jeg vet ikke om han kommer.<br>
+
+            </td>
+        </tr>
+        <tr>
+            <td>Говорящий сомневается в том, что произойдет некоторое событие.</td>
+            <td>Говорящий сомневается в адекватности некоторой оценки или информации.<br>Конструкция часто передает скепсис говорящего, основанный на его знаниях о ситуации.</td>
+        </tr>
+        <tr>
+            <td>The speaker doubts that an event will take place.</td>
+            <td>The speaker has doubts about the adequacy of some assessment or information.<br>This construction often conveys the speaker’s skepticism based on their knowledge of the situation.</td>
+        </tr>
+        <tr>
+            <td>Taleren tviler på om en gitt hendelse vil inntreffe.</td>
+            <td>
+                Taleren tviler om tilstrekkeligheten til noen evaluering eller informasjon.<br>
+
+                Konstruksjonen uttrykker ofte talerens skepsis basert på hans kunnskap om situasjonen.
+
+            </td>
+        </tr>
+    </table>
+    <h3>10.8. Составьте предложения, используя конструкцию <span class="construction">(на)вряд ли XP/Cl</span>. Обратите внимание, что <span class="construction">навряд ли</span> более разговорный вариант, чем <span class="construction">вряд ли</span>. На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).</h3>
+    <button onclick="Ex108_eng()">Show in English</button>
+    <div class="translation" id="ex108_eng"></div><br>
+    <button onclick="Ex108_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex108_norw"></div>
+
+    <p><b>Образец:</b></p>
+    <p>Она такая инициативная. <span class="construction">Вряд ли</span> ей будет трудно найти работу.</p>
+
+    <table>
+        <tr>
+            <td>
+                NOM
+            </td>
+            <td>
+                - такой<br>
+                - такая<br>
+                - такие<br>
+                - слишком
+            </td>
+            <td>
+                - добрый<br>
+                - злой<br>
+                - талантливый<br>
+                - (не)внимательный<br>
+                - легкомысленный<br>
+                - ответственный<br>
+                - инициативный<br>
+                - (не)честный<br>
+                - смелый<br>
+                - храбрый<br>
+                - трусливый<br>
+                - хитрый<br>
+                - сообразительный<br>
+                - энергичный<br>
+                - ленивый<br>
+                - трудолюбивый<br>
+                - (не)терпеливый
+            </td>
+            <td>
+                <span class="construction">Вряд ли</span><br>
+                /<br>
+                <span class="construction">Навряд ли</span>
+            </td>
+            <td>
+                DAT
+            </td>
+            <td>
+                (будет)<br>
+                - трудно<br>
+                - легко
+            </td>
+            <td>
+                - найти работу<br>
+                - найти друзей<br>
+                - (быть) в отношениях<br>
+                - вести бизнес<br>
+                - знакомиться с людьми<br>
+                - работать в команде<br>
+                - работать одному (одной)<br>
+                - прыгнуть с парашютом<br>
+                - отправиться в кругосветное путешествие
+            </td>
+        </tr>
+    </table>
+    <h3>10.9. Составьте как можно больше предложений по моделям 1 и 2. Используйте конструкцию <span class="construction">Не факт, что Cl</span>. На месте Cl находится целое предложение (Cl=clause, sentence).<br>
+        Обратите внимание, что в модели 1 используется глагол в форме инфинитива, а в модели 2 используется союз чтобы с зависимым предложением. В каждой модели второе предложение должно по смыслу противоречить первому.
+    </h3>
+    <button onclick="Ex109_eng()">Show in English</button>
+    <div class="translation" id="ex109_eng"></div><br>
+    <button onclick="Ex109_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex109_norw"></div><br>
+    <button onclick="Ex109_comment()">Comment for language teachers</button>
+    <div class="translation" id="ex109_comment"></div>
+    <p><b>Модель 1</b></p>
+    <table>
+        <tr>
+            <td>Ты предлагаешь ___INF________. Но он(а) такой ____________! <span class="construction">Не факт, что</span> он(а) на это согласится.</td>
+        </tr>
+    </table>
+    <p><b>Образец</b></p>
+    <p>Ты предлагаешь обмануть. Но он такой честный! <span class="construction">Не факт, что</span> он на это согласится.</p><br>
+    <p><b>Модель 2</b></p>
+    <table>
+        <tr>
+            <td>Ты предлагаешь, чтобы ___________. Но он(а) такой ____________! <span class="construction">Не факт, что</span> он(а) на это согласится.</td>
+        </tr>
+    </table>
+    <p><b>Образец</b></p>
+    <p>Ты предлагаешь, чтобы они погуляли с нашей собакой. Но они такие ленивые. <span class="construction">Не факт, что</span> они согласятся.</p><br>
+    <br>
+    <p>
+        добрый<br>
+        злой<br>
+        талантливый<br>
+        (не)внимательный<br>
+        легкомысленный<br>
+        ответственный<br>
+        инициативный<br>
+        (не)честный<br>
+        смелый<br>
+        храбрый<br>
+        трусливый<br>
+        хитрый<br>
+        сообразительный<br>
+        энергичный<br>
+        ленивый<br>
+        трудолюбивый<br>
+        (не)терпеливый<br>
+        верный
+    </p>
+    <h3>
+        10.10. Бонусное упражнение*.<br>
+        Одни и те же качества могут быть полезными и вредными для разных целей. Oбсудите, какие традиционно отрицательные качества могут быть полезными, а какие традиционно положительные качества могут быть вредными (см. таблицу). Используйте конструкцию <span class="construction">Не факт, что Cl</span>. Некоторые качества, тем не менее, скорее однозначно плохие или хорошие. Назовите их, используя конструкцию <span class="construction">(на)вряд ли XP/Cl</span>. Объясните свою позицию. В этих конструкциях XP — это фраза (XP=phrase), а Cl — целое предложение (Cl=clause, sentence).
+    </h3>
+    <button onclick="Ex1010_eng()">Show in English</button>
+    <div class="translation" id="ex1010_eng"></div><br>
+    <button onclick="Ex1010_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex1010_norw"></div><br>
+    <p><b>Образец</b></p>
+    <ul>
+        <li><span class="construction">Не факт, что</span> эгоизм — это плохое качество. В карьере эгоизм даже помогает.</li>
+        <li><span class="construction">Навряд ли</span> злость может быть хорошим качеством. Она не приносит ничего хорошего человеку и окружающим. </li>
+    </ul>
+    <table>
+        <tr>
+            <th>Какой человек по характеру </th>
+            <th>Качество характера</th>
+        </tr>
+        <tr>
+            <td>Добрый</td>
+            <td>доброта</td>
+        </tr>
+        <tr>
+            <td>Ответственный</td>
+            <td>ответственность</td>
+        </tr>
+        <tr>
+            <td>Серьёзный</td>
+            <td>серьёзность</td>
+        </tr>
+        <tr>
+            <td>Честный</td>
+            <td>честность</td>
+        </tr>
+        <tr>
+            <td>Справедливый</td>
+            <td>любовь к справедливости </td>
+        </tr>
+        <tr>
+            <td>Смелый</td>
+            <td>смелость</td>
+        </tr>
+        <tr>
+            <td>Строгий</td>
+            <td>строгость</td>
+        </tr>
+        <tr>
+            <td>Требовательный</td>
+            <td>требовательность</td>
+        </tr>
+        <tr>
+            <td>Энергичный</td>
+            <td>энергичность</td>
+        </tr>
+        <tr>
+            <td>Трудолюбивый</td>
+            <td>трудолюбие</td>
+        </tr>
+        <tr>
+            <td>Умный</td>
+            <td>ум</td>
+        </tr>
+        <tr>
+            <td>Весёлый</td>
+            <td>весёлость</td>
+        </tr>
+        <tr>
+            <td>Бескомпромиссный</td>
+            <td>бескомпромиссность</td>
+        </tr>
+        <tr>
+            <td>Принципиальный</td>
+            <td>принципиальность</td>
+        </tr>
+        <tr>
+            <td>Педантичный</td>
+            <td>педантичность</td>
+        </tr>
+        <tr>
+            <td>Целеустремлённый</td>
+            <td>целеустремлённость</td>
+        </tr>
+        <tr>
+            <td>Любопытный</td>
+            <td>любопытность</td>
+        </tr>
+        <tr>
+            <td>Преданный</td>
+            <td>преданность</td>
+        </tr>
+        <tr>
+            <td>Верный</td>
+            <td>верность</td>
+        </tr>
+        <tr>
+            <td>Злой</td>
+            <td>злость</td>
+        </tr>
+        <tr>
+            <td>Легкомысленный</td>
+            <td>легкомысленность</td>
+        </tr>
+        <tr>
+            <td>Лживый</td>
+            <td>лживость</td>
+        </tr>
+        <tr>
+            <td>Хитрый</td>
+            <td>хитрость</td>
+        </tr>
+        <tr>
+            <td>Коварный</td>
+            <td>коварство</td>
+        </tr>
+        <tr>
+            <td>Трусливый</td>
+            <td>трусость</td>
+        </tr>
+        <tr>
+            <td>Жёсткий</td>
+            <td>жёсткость</td>
+        </tr>
+        <tr>
+            <td>Суровый</td>
+            <td>суровость</td>
+        </tr>
+        <tr>
+            <td>Жестокий</td>
+            <td>жестокость</td>
+        </tr>
+        <tr>
+            <td>Безынициативный</td>
+            <td>безынициативность</td>
+        </tr>
+        <tr>
+            <td>Ленивый</td>
+            <td>лень</td>
+        </tr>
+        <tr>
+            <td>Медлительный</td>
+            <td>медлительность</td>
+        </tr>
+        <tr>
+            <td>Глупый</td>
+            <td>глупость</td>
+        </tr>
+    </table>
 </div>
 
     <br><br>

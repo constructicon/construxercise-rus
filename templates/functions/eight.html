@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="../../scripts/myscript.js"></script>
+    <script src="../../scripts/func8.js"></script>
     <link rel="stylesheet" href="../../styles/style.css">
     <link rel="icon" href="../../images/logo.png">
     <title>Function 8
@@ -73,6 +73,460 @@
     </p>
     <p>Русский конструктикон содержит информацию обо всех конструкциях урока<br><a href="https://constructicon.github.io/russian/" target="_blank"
         style="color: inherit;">https://constructicon.github.io/russian/</a></p>
+
+    <h3>9.1. Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?</h3>
+
+    <button onclick="Ex91_eng()">Show in English</button><br>
+    <div class="translation" id="ex91_eng"></div><br>
+    <button onclick="Ex91_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex91_norw"></div>
+
+    <div class="second_indent">
+        <p>
+            <b>а.</b><br>
+            Дочь:<br>
+            — Оля пригласила меня к себе на день рождения. Что мне надеть, <span class="construction">как думаешь?</span> <br>
+            Мама: <br>
+            — У тебя есть чудесное красное платье, <span class="construction">правда ведь?</span> Я думаю, можно надеть его.<br>
+            Дочь: <br>
+            — А <span class="construction">как по-твоему,</span> к нему подойдут мои светлые туфли?<br>
+            Мама: <br>
+            — <span class="construction">Ты не думаешь,</span> что в кроссовках или кедах тебе будет удобнее? <span class="construction">По-моему,</span> сейчас модно носить кроссовки с платьем. Вы же будете много танцевать, <span class="construction">не правда ли?</span><br>
+            Дочь: <br>
+            — Ты права. Надену те белые кроссовки, которые ты мне подарила на Новый год. Спасибо за идею!<br>
+        </p>
+        <p>
+            <b>б.</b><br>
+            — Ксюша сегодня очень хорошо выглядит,<span class="construction"> не правда ли?</span><br>
+            — <span class="construction">По-твоему,</span> ей идёт новая причёска?<br>
+            — Очень идёт, <span class="construction">а ты как думаешь?</span><br>
+            — Конечно! <span class="construction">По-моему,</span> чёлка* ей к лицу.<br><br>
+            чёлка* — English: bangs (of hair); Norwegian: pannelugg
+        </p>
+        <button onclick="Ex91()">Показать ответ</button>
+        <div id="ex91_ans"></div>
+    </div>
+
+    <h3>9.2. Заполните пропуски. Используйте конструкции <span class="construction">Cl, а NP-Nom как думать-Prs?</span> и <span class="construction">а NP-Nom не думать-Prs, что Cl?</span> <br>
+        В этих конструкциях Cl — это целое предложение (Cl=clause, sentence),
+        NP-Nom — это существительное (NP=noun phrase) в номинативе (Nom=Nominative case),
+        Prs — это настоящее время глагола (Prs= present tense).<br>
+        На месте NP-Nom часто бывает местоимение (ты, вы, он, она и др.).<br>
+        Обратите внимание на разницу в значении этих конструкций (см. таблицу).
+</h3>
+        <button onclick="Ex92_eng()">Show in English</button><br>
+        <div class="translation" id="ex92_eng"></div><br>
+        <button onclick="Ex92_norw()">Show in Norwegian</button><br>
+        <div class="translation" id="ex92_norw"></div>
+
+        <div class="second_indent">
+            <table class="table_lesson" style="width: 950px">
+                <tr>
+                    <td valign="top" style="width: 475px">
+                        <b>Cl, а NP-Nom <span class="construction">как думать</span>-Prs?</b><br><br>
+                        Мне кажется, ему не идёт этот костюм, <span class="construction">а ты как думаешь?</span>
+                    </td>
+                    <td valign="top">
+                        <b><span class="construction">а</span> NP-Nom <span class="construction">не думать</span>-Prs, что Cl?</b><br><br>
+                        <span class="construction">А ты не думаешь, что</span> это слишком дорого?
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       Спрашиваем мнение собеседника
+                    </td>
+                    <td>
+                        Формально спрашиваем мнение, а на самом деле хотим привести дополнительный аргумент. Слово <i>не</i> не передаёт отрицания!
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        We ask for our interlocutor’s opinion
+                    </td>
+                    <td>
+                        We formally ask for an opinion, but in fact we want to give an additional argument. The word <i>не</i> ‘not’ does not convey negation!
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Når vi spør etter samtalepartnerens mening
+                    </td>
+                    <td>
+                        Formelt sett spør vi etter samtalepartnerens mening, men egentlig ønsker vi å underbygge vår eget resonnement med ytterligere et argument. Ordet <i>не</i> ‘ikke’ er ikke nektende!
+                    </td>
+                </tr>
+            </table><br>
+            <p>
+                <b>1.</b>
+                <input class="input_normal" type="text" id="ex92_1_input"> эти брюки тебе уже малы? Давай купим тебе новые брюки. <span id="ex92_1_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex92_1()">Проверить</button><br>
+            <button onclick="Ex92_1()">Показать ответ</button>
+            <div id="ex92_1_ans"></div>
+            <p>
+                <b>2.</b>
+                Думаю, нам лучше не ехать на этом автобусе, а подождать следующий, <input class="input_normal" type="text" id="ex92_2_input"> ? <span id="ex92_2_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex92_2()">Проверить</button><br>
+            <button onclick="Ex92_2()">Показать ответ</button>
+            <div id="ex92_2_ans"></div>
+            <p>
+                <b>3.</b>
+                Почему ты не сказал мне о том, что собираешься прийти в гости? <input class="input_normal" type="text" id="ex92_3_input"> я могу быть не дома? <span id="ex92_3_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex92_3()">Проверить</button><br>
+            <button onclick="Ex92_3()">Показать ответ</button>
+            <div id="ex92_3_ans"></div>
+            <p>
+                <b>4.</b>
+                Я хочу покрасить волосы в розовый цвет. По-моему, мне пойдёт, <input class="input_normal" type="text" id="ex92_4_input"> ? <span id="ex92_4_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex92_4()">Проверить</button><br>
+            <button onclick="Ex92_4()">Показать ответ</button>
+            <div id="ex92_4_ans"></div>
+            <p>
+                <b>5.</b>
+                Почему ты хочешь быть похожей на Адель? <input class="input_normal" type="text" id="ex92_5_input"> твоя собственная внешность намного интереснее? <span id="ex92_5_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex92_5()">Проверить</button><br>
+            <button onclick="Ex92_5()">Показать ответ</button>
+            <div id="ex92_5_ans"></div>
+            <p>
+                <b>6.</b>
+                Я так волнуюсь из-за экзамена. Не уверен, что я сдам его, <input class="input_normal" type="text" id="ex92_6_input"> ? <span id="ex92_6_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex92_6()">Проверить</button><br>
+            <button onclick="Ex92_6()">Показать ответ</button>
+            <div id="ex92_6_ans"></div>
+        </div>
+
+    <h3>9.3. Допишите предложения, используя слова в скобках и конструкцию <span class="construction">а NP-Nom не думать-Prs, что Cl?</span> <br>
+        В этой конструкции NP-Nom — это существительное (NP=noun phrase) в номинативе (Nom=Nominative case), Prs — это настоящее время глагола (Prs= present tense), Cl — это целое предложение (Cl=clause, sentence). На месте NP-Nom используйте то местоимение, которое указано в скобках.
+    </h3>
+    <button onclick="Ex93_eng()">Show in English</button><br>
+    <div class="translation" id="ex93_eng"></div><br>
+    <button onclick="Ex93_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex93_norw"></div>
+
+    <div class="second_indent">
+        <p><b>Образец</b>:
+        <br>
+            Странно, что ты хочешь идти на стрижку к новому парикмахеру. ___________________ (ты / результат может тебе не понравиться)?<br>
+            -><br>
+            <span class="construction">А ты не думаешь, что</span> результат может тебе не понравиться?
+        <br>
+        <br>
+        <p>
+            <b>1.</b>
+            — У вас такая хорошая фигура! Как вам повезло!<br>
+            —____________________________ (вы / это благодаря спорту)? <br><br>
+            <label for="answer">Ваш ответ:</label>
+            <input type="text" id="ex93_1_input"><br>
+            <div id="ex93_1_result" style="display: inline;"></div>
+        </p>
+            <button onclick="check_Ex93_1()">Проверить</button><br>
+            <button onclick="Ex93_1()">Показать ответ</button>
+            <div id="ex93_1_ans"></div>
+        <p>
+            <b>2.</b>
+            Я слышал, твоя сестра хочет стать стилистом. ____________________________ (она / для этого надо учиться)? <br><br>
+            <label for="answer">Ваш ответ:</label>
+            <input type="text" id="ex93_2_input"><br>
+            <div id="ex93_2_result" style="display: inline;"></div>
+        </p>
+            <button onclick="check_Ex93_2()">Проверить</button><br>
+            <button onclick="Ex93_2()">Показать ответ</button>
+            <div id="ex93_2_ans"></div>
+        <p>
+            <b>3.</b>
+            Не понимаю, зачем твой брат купил вторую машину. __________________________ (он / это плохо для экологии)? <br><br>
+            <label for="answer">Ваш ответ:</label>
+            <input type="text" id="ex93_3_input"><br>
+            <div id="ex93_3_result" style="display: inline;"></div>
+        </p>
+            <button onclick="check_Ex93_3()">Проверить</button><br>
+            <button onclick="Ex93_3()">Показать ответ</button>
+            <div id="ex93_3_ans"></div>
+        <p>
+            <b>4.</b>
+            В Тромсё люди даже зимой ходят без шапки. Интересно, ______________________ (они / они могут заболеть)?<br><br>
+            <label for="answer">Ваш ответ:</label>
+            <input type="text" id="ex93_4_input"><br>
+            <div id="ex93_4_result" style="display: inline;"></div>
+        </p>
+            <button onclick="check_Ex93_4()">Проверить</button><br>
+            <button onclick="Ex93_4()">Показать ответ</button>
+            <div id="ex93_4_ans"></div>
+    </div>
+    <h3>
+        9.6. У многих людей до сих пор есть стереотипы насчёт внешности. Помогите развеять их, подобрав подходящий ответ на каждый из стереотипов.
+    </h3>
+    <button onclick="Ex96_eng()">Show in English</button><br>
+    <div class="translation" id="ex96_eng"></div><br>
+    <button onclick="Ex96_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex96_norw"></div>
+    <div class="second_indent">
+        <table class="table_lesson" style="width: 650px">
+            <tr>
+                <td>1. Она за собой не следит: совсем седая ходит. <br><br>
+                    2. Удивительно: он такой полный, а рекламирует спортивную одежду.<br><br>
+                    3. Что ты понимаешь в еде? Ты такой худой!<br><br>
+                    4. Будь осторожен: в машине впереди нас за рулём блондинка.<br><br>
+                    5. Почему ваша Света всё время ходит в джинсах? Она же девочка!<br><br>
+                </td>
+                <td>а. <span class="construction">По-твоему,</span> полные люди не могут заниматься спортом?<br><br>
+                    б. <span class="construction">По-твоему,</span> блондинки плохо водят машину?<br><br>
+                    в. <span class="construction">По-вашему,</span> худые не любят вкусно поесть?<br><br>
+                    г. <span class="construction">По-вашему,</span> девочка должна быть в платье?<br><br>
+                    д. <span class="construction">По-твоему,</span> волосы обязательно красить?<br><br>
+                </td>
+            </tr>
+        </table><br>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex96_input" placeholder="1а, 2б, 3в, 4г, 5д">
+        <button onclick="check_Ex96()">Проверить</button><br>
+        <div id="ex96_result" style="display: inline;"></div><br>
+        <button onclick="Ex96()">Показать ответ</button>
+        <div id="ex96_ans"></div>
+    </div>
+    <h3>
+        9.4. Переделайте утверждения в вопросы, используя конструкции
+        <ul style="margin-top: 0; margin-bottom: 0">
+            <li>Аdj-Nom Cop NP-Nom, <span class="construction">правда (ведь)?</span></li>
+            <li>Cl, <span class="construction">не правда ли?</span></li>
+        </ul>
+        В этих конструкциях Аdj-Nom — это прилагательное (Аdj = adjective) в номинативе (Nom=Nominative case), Cop — это связочный глагол быть (Cop =copula verb), NP-Nom — это существительное (NP=noun phrase) в номинативе (Nom=Nominative case), Cl — это целое предложение (Cl=clause, sentence). Конструкции очень похожи по значению. Обе конструкции значат, что говорящий ждёт от собеседника согласия. Частица "не" не передает отрицание!
+    </h3>
+    <button onclick="Ex94_eng()">Show in English</button><br>
+    <div class="translation" id="ex94_eng"></div><br>
+    <button onclick="Ex94_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex94_norw"></div>
+
+    <div class="second_indent">
+        <p><b>Образец</b><br>
+            У Алины весёлая улыбка.<br>
+            -><br>
+            У Алины весёлая улыбка, <span class="construction">правда?</span><br>
+            У Алины весёлая улыбка, <span class="construction">правда ведь?</span><br>
+            У Алины весёлая улыбка, <span class="construction">не правда ли?</span><br>
+        <p>
+            <b>1.</b> У Олега хитрый взгляд.
+        </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex94_1_input"><br>
+        <div id="ex94_1_result" style="display: inline;"></div><br>
+        <button onclick="check_Ex94_1()">Проверить</button><br>
+        <button onclick="Ex94_1()">Показать ответ</button>
+        <div id="ex94_1_ans"></div>
+        <p>
+            <b>2.</b> Мне к лицу зелёный цвет.
+        </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex94_2_input"><br>
+        <div id="ex94_2_result" style="display: inline;"></div><br>
+        <button onclick="check_Ex94_2()">Проверить</button><br>
+        <button onclick="Ex94_2()">Показать ответ</button>
+        <div id="ex94_2_ans"></div>
+        <p>
+            <b>3.</b> Настя очень красивая.
+        </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex94_3_input"><br>
+        <div id="ex94_3_result" style="display: inline;"></div><br>
+        <button onclick="check_Ex94_3()">Проверить</button><br>
+        <button onclick="Ex94_3()">Показать ответ</button>
+        <div id="ex94_3_ans"></div>
+        <p>
+            <b>4.</b> У Кирилла приятное лицо.
+        </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex94_4_input"><br>
+        <div id="ex94_4_result" style="display: inline;"></div><br>
+        <button onclick="check_Ex94_4()">Проверить</button><br>
+        <button onclick="Ex94_4()">Показать ответ</button>
+        <div id="ex94_4_ans"></div>
+        <p>
+            <b>5.</b> Пете к лицу эта рубашка.
+        </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex94_5_input"><br>
+        <div id="ex94_5_result" style="display: inline;"></div><br>
+        <button onclick="check_Ex94_5()">Проверить</button><br>
+        <button onclick="Ex94_5()">Показать ответ</button>
+        <div id="ex94_5_ans"></div>
+        <p>
+            <b>6.</b> Ваня очень симпатичный.
+        </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex94_6_input"><br>
+        <div id="ex94_6_result" style="display: inline;"></div><br>
+        <button onclick="check_Ex94_6()">Проверить</button><br>
+        <button onclick="Ex94_6()">Показать ответ</button>
+        <div id="ex94_6_ans"></div>
+        <p>
+            <b>7.</b> Алексей выглядит моложе своих лет.
+        </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex94_7_input"><br>
+        <div id="ex94_7_result" style="display: inline;"></div><br>
+        <button onclick="check_Ex94_7()">Проверить</button><br>
+        <button onclick="Ex94_7()">Показать ответ</button>
+        <div id="ex94_7_ans"></div>
+    </div>
+    <h3>
+        7.3. Иностранные студенты обсуждают русские праздники. Заполните пропуски, используя конструкцию <span class="construction">Cl, так (ведь)?</span> в вопросах и конструкцию <span class="construction">Сам подумать-Imp, Cl</span> в ответах.<br>
+        В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а
+        подумать-Imp — это форма императива от глагола <i>подумать</i> (Imp = imperative), то есть <i>подумай</i> (в единственном числе) и <i>подумайте</i> (во множественном числе).<br>
+        Обратите внимание на то, что форма местоимения <i>сам</i> зависит от пола собеседника: <i>сам</i> при обращении к мужчине и <i>сама</i> при обращении к женщине (см. образец). При этом форма императива <i>подумай</i> не меняется.
+    </h3>
+        <button onclick="Ex73_eng()">Show in English</button><br>
+        <div class="translation" id="ex73_eng"></div><br>
+        <button onclick="Ex73_norw()">Show in Norwegian</button><br>
+        <div class="translation" id="ex73_norw"></div><br>
+        <button onclick="Ex73_comment()">Comment for language teachers</button><br>
+        <div class="translation" id="ex73_comment"></div>
+
+        <div class="second_indent">
+            <p><b>Образец</b>:<br><br>
+                <img src="../../images/7/3_1.png" alt="3_1" style="width: 700px;">
+            <p>
+                <b>а.</b><br>
+                Ханна:	— В День знаний в магазинах России не продают алкоголь, <input class="input_normal" type="text" id="ex73a1_input">? <span id="ex73a1_result" style="display: inline-block;"></span><br>
+                Майкл: —  Да. <input class="input_normal" type="text" id="ex73a2_input">, это же праздник для школьников. <span id="ex73a2_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex73a()">Проверить</button><br>
+            <button onclick="Ex73a()">Показать ответ</button>
+            <div id="ex73a_ans"></div>
+            <p>
+                <b>б.</b><br>
+                Закир: — Масленицу отмечают три дня, <input class="input_normal" type="text" id="ex73b1_input">? <span id="ex73b1_result" style="display: inline-block;"></span><br>
+                Фатима: — Нет. <input class="input_normal" type="text" id="ex73b2_input">. Масленицу же называют Масленичной неделей, значит семь дней. <span id="ex73b2_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex73b()">Проверить</button><br>
+            <button onclick="Ex73b()">Показать ответ</button>
+            <div id="ex73b_ans"></div>
+            <p>
+                <b>в.</b><br>
+                Шарлотта: — Ты отмечаешь День защиты детей, <input class="input_normal" type="text" id="ex73c1_input">? <span id="ex73c1_result" style="display: inline-block;"></span><br>
+                Лиам: — Нет. <input class="input_normal" type="text" id="ex73c2_input">, я же уже не ребенок и детей у меня пока нет. <span id="ex73c2_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex73c()">Проверить</button><br>
+            <button onclick="Ex73c()">Показать ответ</button>
+            <div id="ex73c_ans"></div>
+            <p>
+                <b>г.</b><br>
+                Сара: — Тебе подарили цветы на 8 марта, <input class="input_normal" type="text" id="ex73d1_input">? <span id="ex73d1_result" style="display: inline-block;"></span><br>
+                Оливия: — Конечно! <input class="input_normal" type="text" id="ex73d2_input">, я же женщина. <span id="ex73d2_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex73d()">Проверить</button><br>
+            <button onclick="Ex73d()">Показать ответ</button>
+            <div id="ex73d_ans"></div>
+            <p>
+                <b>д.</b><br>
+                Джеймс: — Итон, ты отмечал День святого Валентина в этом году, <input class="input_normal" type="text" id="ex73e1_input">? <span id="ex73e1_result" style="display: inline-block;"></span><br>
+                Итон: — Нет, конечно! <input class="input_normal" type="text" id="ex73e2_input">, я же недавно расстался с девушкой. <span id="ex73e2_result" style="display: inline-block;"></span>
+            </p>
+            <button onclick="check_Ex73e()">Проверить</button><br>
+            <button onclick="Ex73e()">Показать ответ</button>
+            <div id="ex73e_ans"></div>
+        </div>
+    <h3>
+        7.4. У вашей подруги Саши скоро День Рождения. Вы с другом пришли в магазин и пытаетесь выбрать подарок, но Саше сложно угодить. Обсудите с другом, какой подарок вы купите. Используйте конструкции <span class="construction">Cl, так (ведь)?</span> и <span class="construction">Сам подумать-Imp, Cl.</span><br>
+        В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а подумать-Imp — это форма императива от глагола <i>подумать</i> (Imp = imperative), то есть <i>подумай</i> (в единственном числе) и <i>подумайте</i> (во множественном числе).
+        Обратите внимание на то, что форма местоимения <i>сам</i> зависит от пола собеседника: <i>сам</i> при обращении к мужчине и <i>сама</i> при обращении к женщине. При этом форма императива <i>подумай</i> не меняется.
+    </h3>
+        <button onclick="Ex74_eng()">Show in English</button><br>
+        <div class="translation" id="ex74_eng"></div><br>
+        <button onclick="Ex74_norw()">Show in Norwegian</button><br>
+        <div class="translation" id="ex74_norw"></div><br>
+
+        <div class="second_indent">
+            <p><b>Информация о Саше:</b>
+                <ul>
+                    <li>20 лет</li>
+                    <li>не любит оранжевый, красный и зелёный цвет</li>
+                    <li>учится на историка</li>
+                    <li>любит книги про феминизм</li>
+                    <li>любит мягкие игрушки</li>
+                    <li>у неё есть собака Буян</li>
+                    <li>любит яркий макияж</li>
+                    <li>не любит кошек</li>
+                </ul>
+            </p>
+            <p><b>Что есть в магазине:</b></p>
+            <table class="table_lesson">
+                <tr>
+                    <td><img src="../../images/7/4_1.jpg" alt="4_1" style="width: 200px;"><br>тени для век<br>(зелёные и красные)</td>
+                    <td><img src="../../images/7/4_2.jpg" alt="4_2" style="width: 200px;"><br>Энциклопедия<br>"История России"</td>
+                    <td><img src="../../images/7/4_3.jpg" alt="4_3" style="width: 200px;"><br>Журнал<br>"Феминизм в комиксах"</td>
+                </tr>
+                <tr>
+                    <td><img src="../../images/7/4_4.jpg" alt="4_4" style="width: 200px;"><br>мягкая игрушка, мишка</td>
+                    <td><img src="../../images/7/4_5.jpg" alt="4_5" style="width: 200px;"><br>мягкая игрушка, кот</td>
+                    <td><img src="../../images/7/4_6.jpg" alt="4_6" style="width: 200px;"><br>настольная игра “Дженга”</td>
+                </tr>
+                <tr>
+                    <td><img src="../../images/7/4_7.jpg" alt="4_7" style="width: 200px;"><br>термос (голубой)</td>
+                    <td><img src="../../images/7/4_8.jpg" alt="4_8" style="width: 200px;"><br>шарф</td>
+                    <td><img src="../../images/7/4_9.jpg" alt="4_9" style="width: 200px;"><br>курточка для собаки</td>
+                </tr>
+            </table>
+        </div>
+    <h3>
+        6.5. Вы с друзьями собираетесь в поездку и вам нужно выбрать транспорт. В парах обсудите плюсы и минусы самолёта, поезда, автобуса и личного автомобиля, используя конструкции <span class="construction">Cl, не так ли?</span> и <span class="construction">на PronPoss-Acc взгляд, Cl.</span><br>
+        В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а
+        PronPoss-Acc — это притяжательное местоимение в аккузативе (PronPoss = possessive pronoun, Acc = Accusative case), например <i>мой, наш</i>.<br>
+        Слова <span class="construction">на мой взгляд</span> и <span class="construction">на наш взгляд</span> могут находиться в начале, в конце или в середине предложения.
+    </h3>
+    <button onclick="Ex65_eng()">Show in English</button><br>
+    <div class="translation" id="ex65_eng"></div><br>
+    <button onclick="Ex65_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex65_norw"></div><br>
+    <div class="second_indent">
+        <p>
+            <b>Образец</b>
+            А: — На самолёте мы долетим намного быстрее, <span class="construction">не так ли?</span><br>
+            Б:  — Да, но <span class="construction">на мой взгляд,</span> мы больше времени потратим в аэропорту. Поезд намного экологичнее, <span class="construction">не так ли?</span><br>
+            А: — Да, но он дороже, чем автобус, <span class="construction">на мой взгляд</span>. Автобусы ходят очень часто, мы можем выбрать самый удобный рейс, <span class="construction">не так ли?</span>
+        </p>
+        <p><b>Опорные слова</b></p>
+        <p>Самолет</p>
+        <ul>
+            <li>быстро</li>
+            <li>красивый вид из иллюминатора</li>
+            <li>можно заказать еду и напитки в пути</li>
+            <li>дорого</li>
+            <li>необходимо приезжать в аэропорт за 2 часа до вылета</li>
+            <li>сложный предполётный досмотр</li>
+        </ul>
+        <p>Поезд</p>
+        <ul>
+            <li>можно приехать на вокзал сразу ко времени отправления</li>
+            <li>экологично</li>
+            <li>можно взять отдельное купе только для вашей компании</li>
+            <li>дольше ехать, чем на самолёте</li>
+            <li>дорого</li>
+            <li>могут быть шумные соседи</li>
+        </ul>
+        <p>Автобус</p>
+        <ul>
+            <li>недорого</li>
+            <li>много маршрутов и рейсов</li>
+            <li>можно приехать на автовокзал сразу ко времени отправления</li>
+            <li>долгая поездка может быть утомительной</li>
+            <li>некоторых людей в автобусах тошнит</li>
+            <li>неэкологично</li>
+        </ul>
+        <p>Личный автомобиль</p>
+        <ul>
+            <li>можно поехать в любое время</li>
+            <li>нет соседей</li>
+            <li>можно останавливаться в любом месте, где хочешь</li>
+            <li>дорогой бензин</li>
+            <li>если водитель один, то нужно будет останавливаться на ночь в отеле</li>
+            <li>машина может сломаться по дороге</li>
+        </ul>
+    </div>
 
 </div>
 
