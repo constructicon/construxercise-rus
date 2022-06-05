@@ -454,7 +454,7 @@ function check_Ex7b() {
         result = 'Неправильно';
         document.getElementById("ex7b_result").style.backgroundColor = "#ee5151";
     }
-    document.getElementById("ex6b_result").innerHTML = result;
+    document.getElementById("ex7b_result").innerHTML = result;
 }
 
 function Ex7b() {
@@ -479,7 +479,7 @@ function check_Ex7c() {
         result = 'Неправильно';
         document.getElementById("ex7c_result").style.backgroundColor = "#ee5151";
     }
-    document.getElementById("ex6c_result").innerHTML = result;
+    document.getElementById("ex7c_result").innerHTML = result;
 }
 
 function Ex7c() {
