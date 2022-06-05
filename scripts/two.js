@@ -22,7 +22,6 @@ function Ex1_norw() {
     }
 }
 
-
 function Ex2_eng() {
     result = 'Compose a text, using the construction <span class="construction">в-NumOrd-ых, XP/Cl</span>. In this construction, NumOrd stands for an ordinal numeral that forms the words <span class="construction">во-первых</span> &#39;firstly&#39;, <span class="construction">во-вторых</span> &#39;secondly&#39;, <span class="construction">в- третьих</span> &#39;thirdly&#39;, <span class="construction">в-четвёртых</span> &#39;fourthly&#39;. In the slot XP/Cl we can place a phrase or an entire sentence.'
     var x = document.getElementById("ex2_eng")
