@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="../../scripts/myscript.js"></script>
+    <meta charset="UTF-8">
+    <script src="../../scripts/func4.js"></script>
     <link rel="stylesheet" href="../../styles/style.css">
     <link rel="icon" href="../../images/logo.png">
     <title>Function 4
@@ -51,6 +52,311 @@
     </p>
     <p>Русский конструктикон содержит информацию обо всех конструкциях урока<br><a href="https://constructicon.github.io/russian/" target="_blank"
         style="color: inherit;">https://constructicon.github.io/russian/</a></p>
+
+    <h3>3.2. Соедините части предложений. Используйте конструкцию <span class="construction">что касается NP-Gen, то Cl</span>. В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen= Genitive case). На месте Cl находится целое предложение (Cl=clause, sentence).</h3>
+    <button onclick="Ex32_eng()">Show in English</button>
+    <div class="translation" id="ex32_eng"></div><br>
+    <button onclick="Ex32_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex32_norw"></div>
+    <div class="second_indent">
+        <p>а. Образование / Я закончил экономический факультет МГУ.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex32a_input">
+        <button onclick="check_Ex32a()">Проверить</button><br>
+        <div id="ex32a_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex32a()">Показать ответ</button>
+        <div id="ex32a_ans"></div>
+        <p>б. Опыт работы / Я уже два года работаю финансовым аналитиком в банке.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex32b_input">
+        <button onclick="check_Ex32b()">Проверить</button><br>
+        <div id="ex32b_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex32b()">Показать ответ</button>
+        <div id="ex32b_ans"></div>
+        <p>в. Хобби / Я люблю играть в теннис и кататься на лыжах.</p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex32c_input">
+        <button onclick="check_Ex32c()">Проверить</button><br>
+        <div id="ex32c_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex32c()">Показать ответ</button>
+        <div id="ex32c_ans"></div>
+        <p>г. Навыки программирования / Я программирую на языках Python и С++. </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex32d_input">
+        <button onclick="check_Ex32d()">Проверить</button><br>
+        <div id="ex32d_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex32d()">Показать ответ</button>
+        <div id="ex32d_ans"></div>
+        <p>д. Личные качества / Я коммуникабельный и умею работать в команде. </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex32e_input">
+        <button onclick="check_Ex32e()">Проверить</button><br>
+        <div id="ex32e_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex32e()">Показать ответ</button>
+        <div id="ex32e_ans"></div>
+    </div>
+
+    <h3>
+        2.7. Соедините два предложения в одно, используя конструкцию <span class="construction">что
+            касается NP-Gen, то Cl</span>. В этой конструкции <span class="construction">NP-Gen</span> — это существительное
+        (NP=noun phrase) в генитиве (Gen). На месте Cl находится целое
+        предложение (Cl=clause, sentence).
+    </h3>
+    <button onclick="Ex27_eng()">Show in English</button>
+    <div class="translation" id="ex27_eng"></div><br>
+    <button onclick="Ex27_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex27_norw"></div>
+    <div class="second_indent">
+
+        <p>
+            <b>Образец</b>:<br>
+            Отель мне ещё нужно забронировать. <u>Билеты</u> я купил уже давно.<br>
+            -&gt; Отель мне ещё нужно забронировать. <span class="construction">Что касается</span> билетов, <span class="construction">то</span> я купил их уже давно.
+        </p>
+        <ol>
+            <li>Студенческий билет у вас уже есть. <u>Справку об обучении</u> можно заказать в учебном
+                офисе*.<br>
+                * Учебный офис может также называться «деканат».</li>
+            <div id="ex27a_result" style="display: inline;"></div><br>
+            <li>Петя и Катя получили визу в Норвегию. <u>Кирилл</u> пока ждет ответа от посольства.</li>
+            <div id="ex27b_result" style="display: inline;"></div><br>
+            <li>С пропуском вы можете зайти в любое здание университета. <u>Студенческий билет</u> будет
+                нужен, если вы хотите купить билет в музей со скидкой.</li>
+            <div id="ex27c_result" style="display: inline;"></div><br>
+            <li>Фотографию для визы нужно принести с собой. <u>Отпечатки пальцев</u> у вас снимут в
+                посольстве.</li>
+            <div id="ex27d_result" style="display: inline;"></div><br>
+        </ol>
+        <button onclick="check_Ex27()">Проверить</button><br><br>
+        <button onclick="Ex27()">Показать ответ</button>
+        <div id="ex27_ans"></div>
+    </div>
+
+    <h3>2.13*. Бонусное упражнение. Соедините достопримечательности России (1-4)
+        и факты о них (а-г) при помощи конструкции <span class='construction'>что касается NP-Gen, то Cl.</span> В этой конструкции NP-Gen
+        — это существительное (NP=noun phrase) в генитиве (Gen= Genitive case). На
+        месте Cl находится целое предложение (Cl=clause, sentence).
+    </h3>
+    <button onclick="Ex213_eng()">Show in English</button>
+    <div class="translation" id="ex213_eng"></div><br>
+    <button onclick="Ex213_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex213_norw"></div>
+
+    <div class="second_indent">
+        <table class="table_lesson">
+            <tr>
+                <td><img src="../../images/2/13_1.jpg" alt="13_1" style="width: 400px;"><br>1. Красная площадь в Москве</td>
+                <td><img src="../../images/2/13_2.jpg" alt="13_2" style="width: 400px;"><br>2. Царь-колокол в Москве</td>
+            </tr>
+            <tr>
+                <td><img src="../../images/2/13_3.jpg" alt="13_3" style="width: 400px;"><br>3. Исаакиевский собор в Санкт-Петербурге</td>
+                <td><img src="../../images/2/13_4.jpg" alt="13_4" style="width: 400px;"><br>4. Зимний дворец в Санкт-Петербурге</td>
+            </tr>
+        </table>
+        <p>
+            Факты:<br>
+            а. Раньше это была резиденция российского императора, а сейчас в этом здании
+            находится музей «Государственный Эрмитаж».<br>
+            б. Этот огромный колокол весит 202 тонны и был поврежден во время большого пожара в
+            Москве в 1737 году.<br>
+            в. Это главная площадь Москвы, которая расположена рядом с Московским Кремлём на
+            берегу Москвы-реки.<br>
+            г. Это самый крупный православный храм Санкт-Петербурга, который сейчас является
+            музеем и одним из символов города.
+        </p>
+    </div>
+    <button onclick="Ex213()">Показать ответ</button>
+    <div id="ex213_ans"></div>
+
+    <h3>3.3. Заполните пропуски, используя конструкцию <span class="construction">(а/так) что насчёт XP? </span> и слова скобках. На месте XP могут быть слова разных частей речи. Если это существительное или прилагательное, то в этой конструкции оно стоит в генитиве. Если это наречие или глагол в инфинитиве, эти слова изменять не надо.
+    </h3>
+    <button onclick="Ex33_eng()">Show in English</button>
+    <div class="translation" id="ex33_eng"></div><br>
+    <button onclick="Ex33_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex33_norw"></div>
+
+    <div class="second_indent">
+        <p>
+            — ___________________________________________ (новый фильм Джеймса Кэмерона)?
+            Ты его уже смотрела?<br>
+            — Да! Фильм красивый, но мне кажется, он очень скучный.
+        </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex33a_input">
+        <button onclick="check_Ex33a()">Проверить</button><br>
+        <div id="ex33a_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex33a()">Показать ответ</button>
+        <div id="ex33a_ans"></div>
+        <p>
+            — ____________________________________________________ (поездка)? Ты согласен?<br>
+            — Ещё не знаю, мне надо подумать.
+        </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex33b_input">
+        <button onclick="check_Ex33b()">Проверить</button><br>
+        <div id="ex33b_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex33b()">Показать ответ</button>
+        <div id="ex33b_ans"></div>
+        <p>
+            — ___________________________________________________ (шкаф)? где его поставить?<br>
+            — Поставь его в спальне.
+        </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex33c_input">
+        <button onclick="check_Ex33c()">Проверить</button><br>
+        <div id="ex33c_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex33c()">Показать ответ</button>
+        <div id="ex33c_ans"></div>
+        <p>
+            — Вы говорили, что скучаете по своей старой работе. __________________________________________ (вернуться туда)?<br>
+            — Не могу, зарплата там слишком маленькая.
+        </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex33d_input">
+        <button onclick="check_Ex33d()">Проверить</button><br>
+        <div id="ex33d_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex33d()">Показать ответ</button>
+        <div id="ex33d_ans"></div>
+        <p>
+            — ____________________________________________________ (завтра)? Пойдём гулять?<br>
+            —  Да, пойдём! Завтра после работы у меня нет никаких дел.
+        </p>
+        <label for="answer">Ваш ответ:</label>
+        <input type="text" id="ex33e_input">
+        <button onclick="check_Ex33e()">Проверить</button><br>
+        <div id="ex33e_result" style="display: inline-block;"></div><br>
+        <button onclick="Ex33e()">Показать ответ</button>
+        <div id="ex33e_ans"></div>
+    </div>
+
+
+    <h3>3.7. Задавая вопрос, люди часто сначала отвечают на него сами. Продолжите предложения, используйте конструкции <span class="construction">К примеру,</span> и <span class="construction">Что касается NP-Gen, то Cl</span>.</h3>
+    <button onclick="Ex37_eng()">Show in English</button>
+    <div class="translation" id="ex37_eng"></div><br>
+    <button onclick="Ex37_norw()">Show in Norwegian</button>
+    <div class="translation" id="ex37_norw"></div><br>
+    <button onclick="Ex37_comment()">Comment for language teachers</button>
+    <div class="translation" id="ex37_comment"></div>
+    <div class="second_indent">
+        <p>
+            1.<br>
+            — Какие фильмы вам нравятся? Мне, <span class="construction">к примеру,</span> …<br>
+            — <span class="construction">Что касается</span> меня, <span class="construction">то</span> …<br><br>
+
+            2.<br>
+            — О чём вы мечтаете? Я, <span class="construction">к примеру,</span> о …<br>
+            — <span class="construction">Что касается</span> меня, <span class="construction">то</span> …<br><br>
+
+            3.<br>
+            — Часто ли вы читаете книги? Я, <span class="construction">к примеру,</span> …<br>
+            — <span class="construction">Что касается</span> меня, <span class="construction">то</span> …<br><br>
+
+            4.<br>
+            — Вы больше любите кино или театр? Я, <span class="construction">к примеру,</span> …<br>
+            — <span class="construction">Что касается</span> меня, то …<br><br>
+
+            5.<br>
+            — Какой вид спорта вы предпочитаете? Я, <span class="construction">к примеру,</span> …<br>
+            — <span class="construction">Что касается</span> меня, <span class="construction">то</span> …<br><br>
+
+            6.<br>
+            — Часто ли вы пропускаете дедлайны? Я, <span class="construction">к примеру,</span> …<br>
+            — <span class="construction">Что касается</span> меня, <span class="construction">то</span> …<br><br>
+
+            7.<br>
+            — Вы обычно делаете всё заранее или в последний момент? Я, <span class="construction">к примеру,</span> …<br>
+            — <span class="construction">Что касается</span> меня, <span class="construction">то</span> …<br><br>
+
+        </p>
+    </div>
+
+    <h3>8.5. Вы с собеседником должны решить, что приготовить на праздничный ужин. Обсудите с ним блюда, используя конструкции
+        <ul style="margin-top: 0; margin-bottom: 0">
+            <li><span class="construction">(а) насчёт NP-Gen – Cl</span></li>
+            <li><span class="construction">вот и Pred!</span></li>
+        </ul>
+        В этих конструкциях NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence), Pred — это предикатив, то есть прилагательное в краткой форме (Pred= predicative), a скобки () вокруг слова означают, что это факультативный элемент конструкции.
+    </h3>
+    <button onclick="Ex85_eng()">Show in English</button><br>
+    <div class="translation" id="ex85_eng"></div><br>
+    <button onclick="Ex85_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex85_norw"></div>
+
+    <div class="second_indent">
+        <p><b>Образец</b>:<br>
+            — <span class="construction">А насчёт</span> горячего — что мы будем готовить?<br>
+            — Я хочу лазанью. А ты?<br>
+            — Я тоже.<br>
+            — <span class="construction">Вот и</span> чудесно!<br><br>
+        </p>
+        <table class="table_lesson" style="width: 600px">
+            <tr>
+                <td><span class="construction">А насчёт</span> + NP-Gen</td>
+                <td>закуски<br>
+                    суп<br>
+                    горячее<br>
+                    гарнир<br>
+                    десерт<br></td>
+                <td>— что мы будем готовить?</td>
+            </tr>
+            <tr>
+                <td><span class="construction">Вот и</span></td>
+                <td colspan = "2">славно<br>
+                    отлично<br>
+                    хорошо<br>
+                    замечательно<br>
+                    чудесно<br>
+                    прекрасно<br>
+                </td>
+            </tr>
+        </table><br>
+        <button onclick="Ex85()">Показать ответ</button>
+        <div id="ex85_ans"></div>
+    </div>
+
+    <h3>8.6. Вы услышали небольшую часть разговора на улице. Попробуйте догадаться, о чём говорили до этого. Назовите тему разговора и придумайте предыдущие реплики. Используйте конструкцию <span class="construction">(а) насчёт NP-Gen – Cl. </span> <br>В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case), Cl — это целое предложение (Cl=clause, sentence), а скобки () вокруг слова означают, что это факультативный элемент.
+    </h3>
+    <button onclick="Ex86_eng()">Show in English</button><br>
+    <div class="translation" id="ex86_eng"></div><br>
+    <button onclick="Ex86_norw()">Show in Norwegian</button><br>
+    <div class="translation" id="ex86_norw"></div>
+    <div class="second_indent">
+        <p><b>Образец</b>:<br>
+            <b>Вы услышали:</b><br>
+            — Ой, мне звонят! Надо идти! <span class="construction">А насчёт</span> ужина — скажи, сможешь ли ты прийти в гости в пятницу.<br><br>
+            <b>Разговор до этого:</b><br>
+            <b>Тема:</b> Друзья говорили об ужине, планировали собраться на ужин.<br>
+            — Давай в конце недели поужинаем у меня, заодно поиграем в настольные игры. <br>
+            — Отличная идея! Правда, я пока не знаю, будет ли у меня время.
+        </p>
+        <p>
+            <b>а.</b><br>
+            <b>Вы услышали:</b><br>
+            — Хорошо, я подумаю об этом. <span class="construction">Насчёт</span> рецепта пирогов — спроси у бабушки, как она их печёт.<br>
+            <b>Разговор до этого:</b><br>
+            ________________________________________
+        </p>
+        <button onclick="Ex86a()">Показать ответ</button>
+        <div id="ex86a_ans"></div>
+        <p>
+            <b>б.</b><br>
+            <b>Вы услышали:</b><br>
+            — Вот это да! Хорошо, я никому не расскажу. <span class="construction">А насчёт</span> кофе — ты пробовал по утрам пить зелёный чай вместо него? Может, будешь лучше спать.<br>
+            <b>Разговор до этого:</b><br>
+            ________________________________________
+        </p>
+        <button onclick="Ex86b()">Показать ответ</button>
+        <div id="ex86b_ans"></div>
+        <p>
+            <b>в.</b><br>
+            <b>Вы услышали:</b><br>
+            — Хорошо, тогда приготовлю для тебя ужин без мяса. <span class="construction">А насчёт</span> десерта — он будет из фруктов, не переживай. <br>
+            <b>Разговор до этого:</b><br>
+            ________________________________________
+        </p>
+        <button onclick="Ex86c()">Показать ответ</button>
+        <div id="ex86c_ans"></div>
+    </div>
 
 </div>
 

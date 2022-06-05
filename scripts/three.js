@@ -427,7 +427,6 @@ function Ex6_comment() {
     }
 }
 
-
 function Ex7_eng() {
     result = "When one asks a question, it is common to first provide one’s own answer. Use this strategy and complete the sentences by using the constructions <span class='construction'>К примеру, Cl/XP</span> ‘For example, ...’ and <span class='construction'>что касается NP-Gen, то Cl</span> ‘As far as ... is concerned, ...’. In these constructions, NP-Gen stands for a noun in the Genitive case (NP=noun phrase; Gen= Genitive case), XP is a phrase, and Cl is an entire sentence (Cl=clause, sentence)."
     var x = document.getElementById("ex7_eng")
