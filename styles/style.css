@@ -16,9 +16,19 @@ td {
   text-align: center;
 }
 
-#container p {
-  display: inline
+#container {
+  display: inline;
 }
+
+p {
+  display: inline;
+  line-height: 1.5;
+}
+
+/* td ol ul {
+  display: inline;
+  line-height: 1.5;
+} */
 
 .grid-item_1 {
   background-color:#5980B9;
