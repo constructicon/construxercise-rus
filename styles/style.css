@@ -25,10 +25,10 @@ p {
   line-height: 1.5;
 }
 
-/* td ol ul {
-  display: inline;
-  line-height: 1.5;
-} */
+.no_interval {
+  /* display: inline; */
+  line-height: 1;
+}
 
 .grid-item_1 {
   background-color:#5980B9;
