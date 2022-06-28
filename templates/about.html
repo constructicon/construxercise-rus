@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="../css/about.css">
-    <link rel="icon" type="image/x-icon" href="..//images/logo.png">
+    <link rel="icon" type="image/x-icon" href="../images/logo.png">
 
     <title>Construxersize!</title>
 </head>
@@ -31,15 +31,18 @@
                 <div class="collapse navbar-collapse float-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item m-3">
-                            <a class="nav-link inactive" aria-current="page" href="../index.html">Home</a>
+                            <a class="btn btn-outline-info " aria-current="page" href="../index.html">Home</a>
                         </li>
-                        <li class="nav-item dropdown m-3">
-                            <a class="nav-link dropdown-toggle nav-link active" aria-current="page" href="#" id="navbarDropdownMenuLinkLessons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Lessons
-                            </a>
+                        <li class="nav-item btn-group m-3">
+
+                            <a class="btn btn-outline-info" href="Lessons.html" role="button">Lessons</a>
+                            <button  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" id="navbarDropdownMenuLinkLessons" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLinkLessons">
-                                <li><a class="dropdown-item" href="#"><b>1. Знакомство.</b> Introducing yourself</a></li>
-                                <li><a class="dropdown-item" href="#"><b>2. Поездка за границу.</b> Traveling abroad</a></li>
+                                <li><a class="dropdown-item" href="lessons/Lesson1.html"><b>1. Знакомство.</b> Introducing yourself</a></li>
+                                <li><a class="dropdown-item" href="lessons/Lesson2.html"><b>2. Поездка за границу.</b> Traveling abroad</a></li>
                                 <li><a class="dropdown-item" href="#"><b>3.Устройство на работу.</b> Getting a job</a></li>
                                 <li><a class="dropdown-item" href="#"><b>4. Поход к врачу.</b> Going to the doctor</a></li>
                                 <li><a class="dropdown-item" href="#"><b>5. Закрепление уроков 1-4.</b> Review lessons 1-4</a></li>
@@ -54,10 +57,12 @@
                             </ul>
                         </li>
 
-                        <li class="nav-item dropdown m-3">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLinkFunctions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Functions
-                            </a>
+                        <li class="nav-item btn-group m-3">
+                            <a class="btn btn-outline-info" href="Functions.html" role="button">Functions</a>
+                            <button  class="btn btn-outline-info dropdown-toggle dropdown-toggle-split" id="navbarDropdownMenuLinkFunctions" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="visually-hidden">Toggle Dropdown</span>
+                            </button>
+
                             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLinkFunctions">
                                 <li><a class="dropdown-item" href="#"><b>1. Пояснить. </b>Clarify your point</a></li>
                                 <li><a class="dropdown-item" href="#"><b>2. Привести пример. </b>Give an example</a></li>
@@ -71,7 +76,7 @@
                             </ul>
                         </li>
                         <li class="nav-item m-3">
-                            <a class="nav-link" href="#">About</a>
+                            <a class="btn btn-outline-info active" href="about.html">About</a>
                         </li>
                     </ul>
                 </div>
@@ -83,13 +88,13 @@
 
     <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="eng-tab" data-bs-toggle="tab" data-bs-target="#eng" type="button" role="tab" aria-controls="english" aria-selected="true">English</button>
+          <button class="nav-link active" id="eng-tab" data-bs-toggle="tab" data-bs-target="#eng" type="button" role="tab" aria-controls="english" aria-selected="true"><img src="../images/us.svg" alt="eng" width="25"></button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="norw-tab" data-bs-toggle="tab" data-bs-target="#norw" type="button" role="tab" aria-controls="norwegian" aria-selected="false">Norwegian</button>
+          <button class="nav-link" id="norw-tab" data-bs-toggle="tab" data-bs-target="#norw" type="button" role="tab" aria-controls="norwegian" aria-selected="false"><img src="../images/no.svg" alt="no" width="25"></button>
         </li>
         <li class="nav-item" role="presentation">
-          <button class="nav-link" id="rus-tab" data-bs-toggle="tab" data-bs-target="#rus" type="button" role="tab" aria-controls="russian" aria-selected="false">Russian</button>
+          <button class="nav-link" id="rus-tab" data-bs-toggle="tab" data-bs-target="#rus" type="button" role="tab" aria-controls="russian" aria-selected="false"><img src="../images/ru.svg" alt="rus" width="25"></button>
         </li>
       </ul>
 
