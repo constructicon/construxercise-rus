@@ -32,7 +32,7 @@
   example: С точки зрения комфорта, яхта лучше поезда.
   model: С точки зрения ________ , ________ лучше/хуже ________
   image: 
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/2.png
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/2.png"
     width: ~
     height: ~
   task: ~
@@ -86,7 +86,7 @@
   example: ~
   model: ~
   image:
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/3.png
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/3.png"
     width: ~
     height: ~
   task: ~
@@ -151,7 +151,7 @@
           Москвич/москвичка:<br>
           — Вам нужно доехать до (Gen)____________, а потом пересесть на (Acc) ____________ ветку. Впрочем, вы можете доехать до (Gen)____________, а потом пересесть на (Acc) ____________ ветку (а потом доехать до (Gen)____________и пересесть на (Acc) ____________ ветку)"
   image:
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/4.png
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/4.png"
     width: ~
     height: ~
   task: ~
@@ -348,7 +348,7 @@
   example: Я поеду на такси (автобус)
   model: ~
   image:
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/7.png
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/7.png"
     width: ~
     height: ~
   task:
@@ -415,7 +415,7 @@
   example: ~
   model: ~
   image: 
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/8.png
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/8.png"
   task: ~
   answer_to_show: ~
   answer_key: ~
@@ -498,20 +498,20 @@
       text: "<b>Турист 1</b><br>
             Вы едете отдыхать. Ваше идеальное путешествие:"
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_1.png
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/10_1.png"
     task2:
       text: "<b>Турист 2</b><br>
             Вы едете отдыхать. Ваше идеальное путешествие:"
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_2.png
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/10_2.png"
     task3:
       text: "<b>Турагент</b><br>
             Продайте турпутёвку в Калининград, Сочи или Санкт-Петербург."
       image:
         image1:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_3.png
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/10_3.png"
         image2:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/10_4.png    
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/10_4.png"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
@@ -548,10 +548,10 @@
             Куда: музей Полярия"
       image:
         image1:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_1.png
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/11_1.png"
           width: 500
         image2:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_2.png
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/10_2.png"
           width: 450
     task2:
       text: "<b>Ситуация 2</b><br>
@@ -560,10 +560,10 @@
             Куда: музей Орсе"
       image:
         image1:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_3.png
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/11_3.png"
           width: 1100
         image2:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_4.png
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/11_4.png"
           width: 450
     task3:
       text: "<b>Ситуация 3</b><br>
@@ -572,10 +572,10 @@
             Куда: музей Третьяковская галерея"
       image:
         image1:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_5.png
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/11_5.png"
           width: 700
         image2:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/6/11_6.png
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/11_6.png"
           width: 450
   answer_to_show: ~
   answer_key: ~
