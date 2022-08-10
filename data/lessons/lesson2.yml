@@ -101,7 +101,7 @@
   example: ~
   model: ~
   image:
-    link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_1.jpeg"
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/2_1.jpeg"
   task: ~
   answer_to_show: ~
   answer_key: ~
@@ -227,20 +227,20 @@
   example: Леонид выспался, сходил на море и на футбольный матч. ^В целом@ день прошёл хорошо.
   model: ~
   image:
-    link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_2.png"
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/2_2.png"
   task:
     task1:
       text: a
       image:
-        link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_3.png"
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/2_3.png"
     task2:
       text: б
       image:
-        link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_4.png"
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/2_4.png"
     task3:
       text: в
       image:
-        link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_5.png"
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/2_5.png"
   answer_to_show:
     answer1: Евгения отдохнула, сходила в спа и посмотрела фильм. ^В целом,@ день прошёл хорошо.
     answer2: Наташа и Андрей потеряли ключи от квартиры, опоздали на поезд и замёрзли на прогулке. ^В целом,@ день прошёл плохо.
@@ -419,7 +419,7 @@
   example: ~
   model: ~
   image:
-    link: "https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/2/2_6.png"
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/2_6.png"
   task: "Факты:<br>а. Раньше это была резиденция российского императора, а сейчас в этом здании находится музей «Государственный Эрмитаж».<br>б. Этот огромный колокол весит 202 тонны и был поврежден во время большого пожара в Москве в 1737 году.<br>в. Это главная площадь Москвы, которая расположена рядом с Московским Кремлём на берегу Москвы-реки.<br>г. Это самый крупный православный храм Санкт-Петербурга, который сейчас является музеем и одним из символов города."
   answer_to_show: "^Что касается@ Красной площади в Москве, ^то@ это главная площадь Москвы, которая расположена рядом с Московским Кремлём на берегу Москвы-реки.<br>^Что касается@ Царь-колокола в Москве, ^то@ этот огромный колокол весит 202 тонны и был повреждён во время большого пожара в Москве в 1737 году.<br>^Что касается@ Исаакиевского собора в Санкт-Петербурге, ^то@ это самый крупный православный храм Санкт-Петербурга, который сейчас является музеем и одним из символов города.<br>^Что касается@ Зимнего дворца в Санкт-Петербурге, ^то@ раньше это была резиденция российского императора, а сейчас в этом здании находится музей «Государственный Эрмитаж»."
   answer_key: ~
