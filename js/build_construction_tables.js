@@ -1,9 +1,9 @@
 const tree = document.createDocumentFragment();
 const lesson_id = document.title.split(" ")[1]
 if (document.title.split(" ")[0] == "Lesson") {
-    var r = await axios.get("https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/lessons.yml");
+    var r = await axios.get("https://raw.githubusercontent.com/constructicon/construxercise-rus/main/data/lessons.yml");
 } else {
-    var r = await axios.get("https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/functions.yml");
+    var r = await axios.get("https://raw.githubusercontent.com/constructicon/construxercise-rus/main/data/functions.yml");
 }
 
 let json_data = jsyaml.loadAll(r.data);
