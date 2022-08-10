@@ -5,10 +5,11 @@ const lesson_id = document.title.split(" ")[1]
 console.log(document.title.split(" ")[0])
 
 if (document.title.split(" ")[0] == "Lesson") {
-    var r = await axios.get(`https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/lessons/lesson${lesson_id}.yml`);
+    var r = await axios.get(`https://raw.githubusercontent.com/constructicon/construxercise-rus/main/data/lessons/lesson${lesson_id}.yml`);
 } else {
     console.log(2)
-    var r = await axios.get(`https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/data/functions/function${lesson_id}.yml`);
+    var r = await axios.get(`https://raw.githubusercontent.com/constructicon/construxercise-rus/main/data/functions/function${lesson_id}.yml`);
+    
 }
 let json_data = jsyaml.loadAll(r.data);
 let records = {};
