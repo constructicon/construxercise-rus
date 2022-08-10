@@ -61,7 +61,7 @@
   example: Егор любит ^не только@ играть на компьютере, ^но и@ придумывать свои игры.
   model: ~
   image:
-    link: https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/1/1_1.png
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/1_1.png"
   task: ~
   answer_to_show: ~
   answer_key: ~
