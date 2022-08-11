@@ -11,7 +11,7 @@
   example: ~
   model: ~
   image:
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/1.jpg
+    link: "https://github.com/constructicon/construxercise-rus/blob/main/images/8/1.jpg"
     width: 600
   task: <b>а.</b><br>
         Я очень редко готовлю по интересным рецептам. Дело не в том, что я не люблю готовить, а в том, что у меня нет на это времени. Обычно я делаю что-то простое типа каши или спагетти с сыром. Поел что-то горячее, и на том спасибо. А насчёт рецептов — пробую их, когда ко мне приходят гости. Они всегда говорят, что я готовлю вкусные и необычные блюда. Вот и отлично!<br>
@@ -74,19 +74,19 @@
   task:
     task1:
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_0.png
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/8/3_0.png"
     task2:
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_1.png
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/8/3_1.png"
     task3:
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_2.png
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/8/3_2.png"
     task4:
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_3.png
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/8/3_3.png"
     task5:
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/3_4.png
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/8/3_4.png"
   answer_to_show: Затем я попробовала кексы. Это что-то ^типа@ маффинов.<br>
                   Затем я попробовала яичницу болтунью. Это что-то ^типа@ яичного скрэмбла.<br>
                   Затем я попробовала бефстроганов. Это что-то ^типа@ гуляша.<br>
@@ -154,7 +154,7 @@
             — ^Вот и@ чудесно!
   model: ~
   image:
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/5.png
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/8/5.png"
   task: ~
   answer_to_show: 1) — ^А насчёт@ закусок — что мы будем готовить?<br>
                   2) — ^А насчёт@ супа — что мы будем готовить?<br>
@@ -347,7 +347,7 @@
             — ^Вот и@ хорошо!
   model: ~
   image:
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/8/9.png
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/8/9.png"
   task: ~
   answer_to_show: ~
   answer_key: ~
