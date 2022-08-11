@@ -12,7 +12,7 @@
     example: ~
     model: ~
     image:
-      link: "https://github.com/zojabutenko/zojabutenko.github.io/raw/main/images/12/12_1.jpg"
+      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_1.jpg"
       width: 200
     task: "— Миша, привет! ^Так что насчёт@ среды? Идём в бассейн? Ты обещал подумать и написать мне.<br>
 — Привет, Игорь! ^Честно говоря,@ среда не очень хороший день для бассейна. У меня работа до 16:30, и ^к тому же@ дедлайн по философии… ^Не факт,@ что я успею в бассейн.<br>
@@ -116,7 +116,7 @@
 "
       task2:
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/raw/main/images/12/12_2.png"
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_2.png"
         text: "<b>2) Что получит в подарок Кристина?</b>"
     answer_to_show:
       answer1: "1в, 2е, 3а, 4г, 5д, 6б<br>
@@ -161,7 +161,7 @@
     example: ~
     model: ~
     image:
-      link: "https://github.com/zojabutenko/zojabutenko.github.io/raw/main/images/12/12_3.png"
+      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_3.png"
     task: ~
     answer_to_show: "— Ирина, привет! ^Так что насчёт@ ужина в субботу? Мы хотели приготовить что-нибудь новое. Может, утку с яблоками?<br>
 — Привет, Коля! ^Честно говоря,@ я не хочу готовить ужин целый день. Утка — это очень долго, и ^к тому же@ половина наших гостей — вегетарианцы. ^Не факт, что@ они будут рады утке.<br>
@@ -189,15 +189,15 @@
       task1:
         text: "а. Ваша подруга Соня выходит замуж. Вы с подругой собираетесь устроить для неё девичник перед свадьбой. Для Сони это пока секрет. Обсудите, что вы будете делать, куда вы пойдёте, что вы будете есть, когда будет девичник и т.д.<br>"
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/raw/main/images/12/12_4.jpg"
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_4.jpg"
       task2:
         text: "б. Ваш друг Серёжа скоро женится. Вы с другом собираетесь устроить для него мальчишник перед свадьбой. Для Серёжи это пока секрет. Обсудите, что вы будете делать, куда вы пойдёте, что вы будете есть, когда будет мальчишник и т.д.<br>"
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/raw/main/images/12/12_5.jpg"
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_5.jpg"
       task3:
         text: "в. У ваших родителей скоро юбилей свадьбы — 30 лет. Вы с братом или сестрой хотите устроить им праздник-сюрприз. Обсудите, что вы будете делать, где будете праздновать, что вы будете есть, какой подарок вы купите и т.д.<br>"
         image:
-          link: "https://github.com/zojabutenko/zojabutenko.github.io/raw/main/images/12/12_6.jpg"
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_6.jpg"
     answer_to_show: ~
     answer_key: ~
     difficult_words: ~
@@ -215,7 +215,7 @@
     example: ~
     model: ~
     image:
-      link: "https://github.com/zojabutenko/zojabutenko.github.io/raw/main/images/12/12_7.jpg"
+      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_7.jpg"
     task: "Вчера ходил в гости к Паше. Я, ^мягко говоря,@ не хотел идти, но пришлось. ^Сама подумай,@ я уже три раза до этого говорил, что занят и не смогу. Паша может и обидеться, поэтому я согласился. Паша сказал, что приготовит свою фирменную пиццу по секретному рецепту. Ты даже не представляешь, какой это рецепт! ^Грубо говоря,@ он купил замороженную пиццу ^типа@ пепперони и добавил в неё майонез и сосиски. Не сжёг её, ^и на том спасибо@… ^Будь моя воля,@ не стал бы её есть. Но я съел. ^Вряд ли@ Паша понял, что его пицца мне не понравилась: я хороший актёр.<br>
     <b>Назовите, чем недоволен Егор.</b>"
     answer_to_show: "1. Егор не хотел идти в гости, но ему пришлось<br>
@@ -271,7 +271,7 @@
     example: ~
     model: ~
     image:
-      link: "https://github.com/zojabutenko/zojabutenko.github.io/raw/main/images/12/12_8.jpg"
+      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_8.jpg"
     task: "Не хочу больше общаться с Кириллом. Он позвал на свидание Юлю, хотя знает, что она мне давно нравится. 1._______________________ , разве друзья так делают? Это, 2._______________________ , не по-братски. 3._______________________ , врезал* бы ему как следует*. Ещё и подарил ей какие-то цветы 4._______________________ тюльпанов… Ну, он хотя бы сам мне сказал об этом, 5._______________________. Но все равно мы 6._______________________ будем с ним друзьями после такого. 7._______________________ , будем здороваться, но не более того*."
     answer_to_show: "1. Сам подумай <br>
 2. мягко говоря <br>
@@ -298,7 +298,7 @@
     example: ~
     model: ~
     image:
-      link: "https://github.com/zojabutenko/zojabutenko.github.io/raw/main/images/12/12_9.png"
+      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_9.png"
     task: "<b>Опорные предложения</b><br><ul>
 <li>Мы с Настей поссорились. Я злюсь на неё.</li>
 <li>Настя взяла у меня любимую блузку и испачкала её вареньем.</li>
