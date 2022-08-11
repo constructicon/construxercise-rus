@@ -75,24 +75,24 @@
     task1:
       image:
         image1:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_1.jpg
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/3_1.jpg"
           width: 250
         image2:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_2.jpg
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/3_2.jpg"
           width: 250
         image3:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_3.jpg
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/3_3.jpg"
           width: 250
     task2:
       image:
         image1:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_4.jpg
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/3_4.jpg"
           width: 250
         image2:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_5.jpg
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/3_5.jpg"
           width: 250
         image3:
-          link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/3_6.jpg
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/3_6.jpg"
           width: 250
   answer_to_show:
     answer1: ^Итак,@ в этом сезоне женщины будут носить короткие светлые брюки (бежевые и белые).<br>
@@ -454,7 +454,7 @@
             — Туфли на каблуках<br>
             — Строгий костюм
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/12_1.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/12_1.jpg"
     task3:
       text: <b>б.</b><br>
             — 1920-е годы<br>
@@ -466,7 +466,7 @@
             — Туфли с узким носком на низких каблуках<br>
             — Бусы
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/12_2.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/12_2.jpg"
     task4:
       text: <b>в.</b><br>
             — 1900-е годы<br>
@@ -475,7 +475,7 @@
             — Вышивка на одежде<br>
             — Бусы
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/12_3.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/12_3.jpg"
     task5:
       text: "<b>г.</b><br>
               — начало 1900-х годов<br>
@@ -483,7 +483,7 @@
               — У мужчин: рубашка, галстук, трость<br>
               — У женщин: длинная юбка, платье в пол"
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/12_4.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/12_4.jpg"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
@@ -505,7 +505,7 @@
   example: ~
   model: ~
   image:
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/13.jpg
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/13.jpg"
     width: 600
   task: "Цветотип — это цветовой тип внешности, он есть у каждого. Считается, что существует четыре цветотипа: весна, лето, осень и зима (1 __________________
         , у каждого времени года есть ещё более подробная классификация: 2 __________________
@@ -541,23 +541,23 @@
             Цветотип Кристины — лето: у неё голубые глаза холодного оттенка и светлые волосы. Кристине подойдут неяркие холодные цвета, ^в частности,@ сиреневый, голубой, бирюзовый и ^так далее@. ^Скажем,@ она будет прекрасно выглядеть в голубой рубашке, светлых джинсах, синем пальто и бежевых ботинках. Также ей подойдёт пастельно- розовая толстовка, светло-серый свитер, бежевая куртка ^и тому подобное@. ^Итак,@ мы собрали для Кристины новый гардероб."
   model: ~
   image:
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/14_1.jpg
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/14_1.jpg"
     width: 400
   task:
     task1:
       text: 1. Инна, 29 лет
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/14_2.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/14_2.jpg"
         width: 250
     task2:
       text: 2. Олег, 29 лет
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/14_3.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/14_3.jpg"
         width: 250
     task3:
       text: 3. Костя, 31 год
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/14_4.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/14_4.jpg"
         width: 250
   answer_to_show: 1. на самом деле<br>
                   2. в частности / скажем<br>
