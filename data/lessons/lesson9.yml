@@ -302,10 +302,10 @@
   task:
     task1:
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/7_1.png
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/7_1.png"
     task2:
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/7_2.png
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/7_2.png"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
@@ -351,27 +351,27 @@
     task1:
       text: <b>а.</b>
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/8_1.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/8_1.jpg"
     task2:
       text: <b>б.</b>
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/8_2.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/8_2.jpg"
     task3:
       text: <b>в.</b>
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/8_3.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/8_3.jpg"
     task4:
       text: <b>г.</b>
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/8_4.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/8_4.jpg"
     task5:
       text: <b>д.</b>
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/8_5.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/8_5.jpg"
     task6:
       text: <b>е.</b>
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/8_6.jpg
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/8_6.jpg"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
@@ -429,10 +429,10 @@
   task:
     task1:
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/9_1.png
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/9_1.png"
     task2:
       image:
-        link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/9/9_2.png
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/9_2.png"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
