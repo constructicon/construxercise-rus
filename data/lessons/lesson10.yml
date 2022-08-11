@@ -95,7 +95,7 @@
   example: ~
   model: ~
   image:
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/10/3.png
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/10/3.png"
   task: ~
   answer_to_show: ~
   answer_key: ~
@@ -218,7 +218,7 @@
   example: ~
   model: ~
   image:
-    link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/10/7.png
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/10/7.png"
   task: ~
   answer_to_show: ~
   answer_key: ~
