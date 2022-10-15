@@ -71,15 +71,14 @@
   lesson_id: 1
   ex_number: 4
   title: Соедините части предложений, подобрав логичное продолжение. Назовите, слова каких частей речи стоят на месте XP в конструкции ^не только XP, но и XP@.
-  instructions: ~
+  instructions: На месте XP находится слово или фраза (XP=phrase).
   exercise_type: text_input
   title_eng: Connect the phrases by choosing the matching continuation. What parts of speech fill the slot XP in the construction не только XP, но и XP 'not only... but also ...'?
   title_nor:  Fullfør setningene ved å velge delene som passer sammen. Hvilke ordklasser utgjør XP i konstruksjonen не только XP, но и XP 'ikke bare... men også ...'?
   comment: ~
   example: ~
   model: ~
-  image:
-    link: https://github.com/zojabutenko/zojabutenko.github.io/blob/main/images/1/1_1.png
+  image: ~
   task: ~
   answer_to_show: 1д, 2в, 3г, 4а, 5б
   answer_key: 1д, 2в, 3г, 4а, 5б
@@ -158,9 +157,9 @@
   lesson_id: 1
   ex_number: 7
   title: "Перед вами запись в дневнике. Соедините предложения с помощью конструкций<br>
-  ^к тому же XP/Cl@
-  ^плюс/вдобавок (ко всему/к тому/к этому), Cl@
-  ^(а) кроме того XP/Cl@"
+  — ^к тому же XP/Cl@<br>
+  — ^плюс/вдобавок (ко всему/к тому/к этому), Cl@<br>
+  — ^(а) кроме того XP/Cl@"
   instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент. На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
   exercise_type: ~
   title_eng: You see an entry in a diary. Connect the matching sentences by using the indicated constructions. In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
@@ -260,7 +259,7 @@
 10:
   lesson_id: 1
   ex_number: 10
-  title: "*Бонусное упражнение<br>
+  title: "Бонусное упражнение<br>
 Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть больше одного.<br>
 <ul><li>а. Кстати</li><li>б. Кроме того</li><li>в. К тому же</li></ul>"
   instructions: ~

@@ -71,7 +71,7 @@
 3:
   lesson_id: 2
   ex_number: 13
-  title: "*Бонусное упражнение. Соедините достопримечательности России (1-4) и факты о них (а-г) при помощи конструкции ^что касается NP-Gen, то Cl.@"
+  title: "Бонусное упражнение<br>Соедините достопримечательности России (1-4) и факты о них (а-г) при помощи конструкции ^что касается NP-Gen, то Cl.@"
   instructions: В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen= Genitive case). На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: ~
   title_eng: Bonus exercise. Connect the tourist attractions in Russia (1-4) with the facts about them (а-г). Use the construction ^что касается NP-Gen, то Cl@ 'concerning ..., ...'. In this construction, NP-Gen stands for a noun in the Genitive case (NP=noun phrase; Gen=Genitive case). We can put an entire sentence in the Cl slot (Cl=clause, sentence).

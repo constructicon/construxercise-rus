@@ -120,7 +120,7 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
 4:
   lesson_id: 4
   ex_number: 13
-  title: "Бонусное упражнение*<br>
+  title: "Бонусное упражнение<br>
 Закончите предложения (1-6), подобрав подходящий вариант (а-е). Используйте конструкцию ^XP, а именно XP.@"
   instructions: ~
   exercise_type: text_input
@@ -160,7 +160,7 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
 5:
   lesson_id: 4
   ex_number: 15
-  title: "Бонусное упражнение*.<br>
+  title: "Бонусное упражнение<br>
 Вы администратор в поликлинике. Объясните пациенту по телефону, как подготовиться к приему у врача. Используйте памятку внизу и конструкции ^XP, а именно XP@ и ^XP/Cl, то есть XP/Cl@."
   instructions: ~
   exercise_type: ~

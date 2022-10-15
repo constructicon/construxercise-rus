@@ -570,7 +570,7 @@
 15:
   lesson_id : 11
   ex_number: 15
-  title: Бонусное упражнение* Помогите выбрать подходящую одежду вашему другу или подруге.
+  title: Бонусное упражнение<br> Помогите выбрать подходящую одежду вашему другу или подруге.
   instructions: ~
   exercise_type: ~
   title_eng: Bonus exercise*. Help your friend choose the right clothes.

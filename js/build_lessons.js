@@ -129,7 +129,7 @@ function add_answer(answer_to_show, answer_key, input) {
     let button2 = document.createElement("button")
     button2.setAttribute("type", "button")
     button2.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
-    button2.innerHTML = "Answer"
+    button2.innerHTML = "Answer key"
 
     if (Boolean(input)) {
 
@@ -271,6 +271,10 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         task_title.innerHTML = annotate(`${data[exercise_id]["lesson_id"]}.${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`);
     }
 
+    // console.log(task_title.innerHTML.split(" "))
+    if (task_title.innerHTML.split(" ")[1] == "Бонусное"){
+        task_title.innerHTML = task_title.innerHTML.replace("Бонусное упражнение", "<span style='color: green'>Бонусное упражнение</span>")
+    }
     if (data[exercise_id]["instructions"] != null) {
         let instructions = document.createElement("h6");
         instructions.innerHTML = annotate(data[exercise_id]["instructions"]);
@@ -333,6 +337,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     if (data[exercise_id]["model"] != null) {
         let model = document.createElement("div");
         model.setAttribute("style", "margin-bottom: 20px")
+        model.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
         let ex_words = document.createElement("b")
         ex_words.innerHTML = "Модель"
         ex_words.appendChild(document.createElement("br"))
@@ -346,6 +351,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     if (data[exercise_id]["example"] != null) {
         let example = document.createElement("div")
         example.setAttribute("style", "margin-bottom: 20px")
+        example.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
         let ex_words = document.createElement("b")
         ex_words.innerHTML = "Образец"
         ex_words.appendChild(document.createElement("br"))
