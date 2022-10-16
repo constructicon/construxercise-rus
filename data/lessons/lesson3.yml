@@ -26,9 +26,9 @@
       4: "*уволиться — English: quit; Norwegian: å slutte"
     word2:
       1: "*работодатель — English: employer; Norwegian: arbeidsgiver"
-      2: "*устроиться на работу — English: to get a job; Norwegian: å få en jobb"
-      3: "*трудовая книжка — English: employment history; Norwegian: ansettelseshistorie (eller CV)"
-      4: "*опыт работы — English: work experience; Norwegian: arbeidserfaring"
+      2: "*опыт работы — English: work experience; Norwegian: arbeidserfaring"
+      3: "*устроиться на работу — English: to get a job; Norwegian: å få en jobb"
+      4: "*трудовая книжка — English: employment history; Norwegian: ansettelseshistorie (eller CV)"
   table: ~
 2:
   lesson_id: 3

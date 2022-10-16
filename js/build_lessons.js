@@ -43,6 +43,27 @@ function annotate(text) {
     }
     return text}
 
+function hover_diff_words(text, word) {
+    // console.log(0)
+    let matches = [...text.matchAll(/.+?\*/g)]
+    // console.log(0)
+    if (matches.length == 1) {
+        for (let match of matches) {
+            match = match[0].split(" ")[match[0].split(" ").length - 1]
+            text = text.replace(match, `<span title='${word}'>${match}</span>`)
+        }
+    } 
+    else {
+        for (let z = 0; z < matches.length; z++) {
+            let match = matches[z][0].split(" ")[matches[z][0].split(" ").length - 1]
+            console.log(match, word[z + 1])
+            text = text.replace(match, `<span title='${word[z + 1]}'>${match}</span>`)
+        }
+    }
+    return text
+
+}
+
 function show_item(x, item) {
     x.innerHTML = item;
     if (x.style.display === "block") {
@@ -396,6 +417,10 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 subtask.setAttribute("class", "shadow p-2 mb-3 rounded")
                 if (data[exercise_id]["task"][`task${i}`]["text"] != null) {
                     subtask.innerHTML = annotate(data[exercise_id]["task"][`task${i}`]["text"])
+                    if (data[exercise_id]["difficult_words"] != null) {
+                        let words = data[exercise_id]["difficult_words"][`word${i}`]
+                        subtask.innerHTML = hover_diff_words(subtask.innerHTML, words)
+                    }
 
                     // subtask.appendChild(document.createElement("br"))
                 }
@@ -419,17 +444,22 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     }
                 }
 
-                if (data[exercise_id]["difficult_words"] != null) {
-                    if (data[exercise_id]["difficult_words"][`word${i}`] != null) {
-                        let d_word = document.createElement("p");
-                        d_word.innerHTML = data[exercise_id]["difficult_words"][`word${i}`];
-                        task.appendChild(d_word);
-                    } else if (i == subtasks_amount & typeof data[exercise_id]["difficult_words"] != "object") {
-                        let d_word = document.createElement("p");
-                        d_word.innerHTML = data[exercise_id]["difficult_words"];
-                        task.appendChild(d_word);
-                    }
-                }
+                
+
+                // if (data[exercise_id]["difficult_words"] != null) {
+                //     if (data[exercise_id]["difficult_words"][`word${i}`] != null) {
+
+                //         hover_diff_words(data[exercise_id]["task"][`task${i}`]["text"], 
+                //                          data[exercise_id]["difficult_words"][`word${i}`])
+                //         let d_word = document.createElement("p");
+                //         d_word.innerHTML = data[exercise_id]["difficult_words"][`word${i}`];
+                //         task.appendChild(d_word);
+                //     } else if (i == subtasks_amount & typeof data[exercise_id]["difficult_words"] != "object") {
+                //         let d_word = document.createElement("p");
+                //         d_word.innerHTML = data[exercise_id]["difficult_words"];
+                //         task.appendChild(d_word);
+                //     }
+                // }
 
                 if (data[exercise_id]["exercise_type"] == "text_input") {
                     let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`]
@@ -452,9 +482,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             task.innerHTML = annotate(data[exercise_id]["task"]);
 
             if (data[exercise_id]["difficult_words"] != null) {
-                let d_word = document.createElement("p");
-                d_word.innerHTML = data[exercise_id]["difficult_words"];
-                task.appendChild(d_word);
+                let words = data[exercise_id]["difficult_words"]
+                task.innerHTML = hover_diff_words(task.innerHTML, words)
+                console.log(words)
             }
 
             if (data[exercise_id]["answer_to_show"] != null) {
