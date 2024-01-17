@@ -505,7 +505,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             };
         } else {
             task.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
-            task.innerHTML = annotate(data[exercise_id]["task"]["text"]);
+            task.innerHTML = annotate(data[exercise_id]["task"]);
 
             if (data[exercise_id]["task"]["audio"]) {
                 task.appendChild(add_audio(lesson_id, exercise_id, data[exercise_id]["task"]["audio"]))
