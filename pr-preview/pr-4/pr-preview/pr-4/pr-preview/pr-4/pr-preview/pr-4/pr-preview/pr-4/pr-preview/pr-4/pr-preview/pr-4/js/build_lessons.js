@@ -144,7 +144,7 @@ function add_audio(lesson_id, exercise_id, audio_id) {
     let audio_block = document.createElement("div")
     let audio = document.createElement("audio")
 
-    audio.setAttribute("controls")
+    audio.setAttribute("controls", "")
 
     const path = "voiceovers/" + lesson_id + "less" + lesson_id + "ex" + exercise_id + audio_id + ".wav"
 

@@ -2,8 +2,6 @@ const tree = document.createDocumentFragment();
 
 const lesson_id = document.title.split(" ")[1]
 
-console.log(document.title.split(" ")[0])
-
 if (document.title.split(" ")[0] == "Lesson") {
     var r = await axios.get(`https://raw.githubusercontent.com/constructicon/construxercise-rus/main/data/lessons/lesson${lesson_id}.yml`);
 } else {
@@ -506,6 +504,10 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         } else {
             console.log(data[exercise_id]["task"])
             task.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
+            if (data[exercise_id]["task"] != undefined){
+                task.innerHTML = annotate(data[exercise_id]["task"]);
+            }
+            
             task.innerHTML = annotate(data[exercise_id]["task"]);
 
             if (data[exercise_id]["task"]["audio"]) {
