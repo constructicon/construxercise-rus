@@ -504,6 +504,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
             };
         } else {
+            console.log(data[exercise_id]["task"])
             task.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
             task.innerHTML = annotate(data[exercise_id]["task"]);
 

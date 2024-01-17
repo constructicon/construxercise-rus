@@ -24,12 +24,14 @@
             — ^Ты не думаешь,@ что в кроссовках или кедах тебе будет удобнее? ^По-моему,@ сейчас модно носить кроссовки с платьем. Вы же будете много танцевать, ^не правда ли?@<br>
             Дочь:<br>
             — Ты права. Надену те белые кроссовки, которые ты мне подарила на Новый год. Спасибо за идею!"
+      audio: a
     task2:
       text: "<b>б.</b><br>
             — Ксюша сегодня очень хорошо выглядит, ^не правда ли?@<br>
             — ^По-твоему,@ ей идёт новая причёска?<br>
             — Очень идёт, ^а ты как думаешь?@<br>
             — Конечно! ^По-моему,@ чёлка* ей к лицу."
+      audio: b
   answer_to_show: ~
   answer_key: ~
   difficult_words: "чёлка* — English: bangs (of hair); Norwegian: pannelugg"
@@ -212,7 +214,9 @@
   example: — ^По-моему@, у Лёши карие глаза. — А ^по-моему@, зелёные.
   model: ~
   image: ~
-  task: ~
+  task: 
+    text: ""
+    audio: ""
   answer_to_show: "<b>Собеседник 1:</b><br>
                   1. — ^По-моему,@ Алёна выглядит устало.<br>
                      — А ^по-моему,@ бодро / не устало.<br>
@@ -303,6 +307,7 @@
     task1:
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/7_1.png"
+      audio: ""
     task2:
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/7_2.png"
@@ -352,6 +357,7 @@
       text: <b>а.</b>
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/8_1.jpg"
+      audio: ""
     task2:
       text: <b>б.</b>
       image:
