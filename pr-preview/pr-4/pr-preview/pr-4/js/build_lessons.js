@@ -146,7 +146,7 @@ function add_audio(lesson_id, exercise_id, audio_id) {
 
     audio.setAttribute("controls", "")
 
-    const path = "voiceovers/" + lesson_id + "/less" + lesson_id + "ex" + exercise_id + audio_id + ".wav"
+    const path = "https://github.com/constructicon/construxercise-rus/raw/main/voiceovers/" + lesson_id + "/less" + lesson_id + "ex" + exercise_id + audio_id + ".wav"
 
     audio.setAttribute("src", path)
 
