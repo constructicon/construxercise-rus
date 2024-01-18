@@ -15,6 +15,7 @@ jobs:
       - name: Deploy PR Preview
         uses: rossjrw/pr-preview-action@v1.4.3
         with:
+          force: false
           token: ${{ secrets.PR_preview }}
           preview-branch: main
           source-dir: .
