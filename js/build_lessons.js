@@ -140,12 +140,12 @@ function add_image(image_data) {
 
 function add_audio(lesson_id, exercise_id, audio_id) {
     let audio_block = document.createElement("div")
-    let audio = document.createElement("audio")
+    audio_block.setAttribute("class", "p5")
 
+    let audio = document.createElement("audio")
     audio.setAttribute("controls", "")
 
     const path = "https://github.com/constructicon/construxercise-rus/raw/main/voiceovers/" + lesson_id + "/less" + lesson_id + "ex" + exercise_id + audio_id + ".wav"
-
     audio.setAttribute("src", path)
 
     audio_block.appendChild(audio)
