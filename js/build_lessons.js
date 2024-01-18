@@ -2,8 +2,6 @@ const tree = document.createDocumentFragment();
 
 const lesson_id = document.title.split(" ")[1]
 
-console.log(document.title.split(" ")[0])
-
 if (document.title.split(" ")[0] == "Lesson") {
     var r = await axios.get(`https://raw.githubusercontent.com/constructicon/construxercise-rus/main/data/lessons/lesson${lesson_id}.yml`);
 } else {
@@ -138,6 +136,22 @@ function add_image(image_data) {
     image_block.appendChild(image)
     return image_block
 }
+
+
+function add_audio(lesson_id, exercise_id, audio_id) {
+    let audio_block = document.createElement("div")
+    audio_block.setAttribute("class", "p5")
+
+    let audio = document.createElement("audio")
+    audio.setAttribute("controls", "")
+
+    const path = "https://github.com/constructicon/construxercise-rus/raw/main/voiceovers/" + lesson_id + "/less" + lesson_id + "ex" + exercise_id + audio_id + ".wav"
+    audio.setAttribute("src", path)
+
+    audio_block.appendChild(audio)
+    return audio_block
+}
+
 
 function add_answer(answer_to_show, answer_key, input) {
 
@@ -410,27 +424,33 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
     var task = document.createElement("div")
     if (data[exercise_id]["task"] != null) {
-        if (typeof data[exercise_id]["task"] == "object") {
+        // Check if there are subtasks
+        if (typeof data[exercise_id]["task"]["task1"] == "object") {
+            // Get number of subtasks in the task
             var subtasks_amount = Object.keys(data[exercise_id]["task"]).length
             for (var i = 1; i <= subtasks_amount; i++) {
                 var subtask = document.createElement("div")
                 subtask.setAttribute("class", "shadow p-2 mb-3 rounded")
+
+                // Add text if available for subtask
                 if (data[exercise_id]["task"][`task${i}`]["text"] != null) {
                     subtask.innerHTML = annotate(data[exercise_id]["task"][`task${i}`]["text"])
                     if (data[exercise_id]["difficult_words"] != null) {
                         let words = data[exercise_id]["difficult_words"][`word${i}`]
-                        subtask.innerHTML = hover_diff_words(subtask.innerHTML, words)
+                        // FIXME: HOVER_DIFF_WORDS PRODUCING ERROR IN LESSON 8 (LINE 57 WORD NOT DEFINED)
+                        // subtask.innerHTML = hover_diff_words(subtask.innerHTML, words)
                     }
 
-                    // subtask.appendChild(document.createElement("br"))
                 }
                 
                 task.appendChild(subtask)
 
+                // Add table if available for subtask
                 if (data[exercise_id]["task"][`task${i}`]["table"] != null) {
                     add_table(subtask)
                 }
 
+                // Add image if available for subtask
                 if (data[exercise_id]["task"][`task${i}`]["image"] != null) {
                     if (typeof data[exercise_id]["task"][`task${i}`]["image"]["link"] != "undefined") {
                         subtask.appendChild(add_image(data[exercise_id]["task"][`task${i}`]["image"]))
@@ -442,6 +462,11 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                         }
                         subtask.appendChild(images)                        
                     }
+                }
+
+                // Add audio if available for subtask
+                if (data[exercise_id]["task"][`task${i}`]["audio"] != null) {
+                    subtask.appendChild(add_audio(lesson_id, exercise_id, data[exercise_id]["task"][`task${i}`]["audio"]))
                 }
 
                 
@@ -478,8 +503,15 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
             };
         } else {
+            // if no subtasks
             task.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
-            task.innerHTML = annotate(data[exercise_id]["task"]);
+            if (data[exercise_id]["task"]["text"] != null){
+                task.innerHTML = annotate(data[exercise_id]["task"]["text"]);
+            }
+            
+            if (data[exercise_id]["task"]["audio"] != null) {
+                task.appendChild(add_audio(lesson_id, exercise_id, data[exercise_id]["task"]["audio"]))
+            }
 
             if (data[exercise_id]["difficult_words"] != null) {
                 let words = data[exercise_id]["difficult_words"]
