@@ -427,7 +427,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     var task = document.createElement("div")
     if (data[exercise_id]["task"] != null) {
         // Check if there are subtasks
-        if (typeof data[exercise_id]["task"] == "object") {
+        if (typeof data[exercise_id]["task"]["task1"] == "object") {
             // Get number of subtasks in the task
             var subtasks_amount = Object.keys(data[exercise_id]["task"]).length
             for (var i = 1; i <= subtasks_amount; i++) {
@@ -505,7 +505,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             };
         } else {
             task.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
-            task.innerHTML = annotate(data[exercise_id]["task"]);
+            task.innerHTML = annotate(data[exercise_id]["task"]["text"]);
 
             if (data[exercise_id]["task"]["audio"]) {
                 task.appendChild(add_audio(lesson_id, exercise_id, data[exercise_id]["task"]["audio"]))
