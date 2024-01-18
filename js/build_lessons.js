@@ -44,7 +44,6 @@ function annotate(text) {
 function hover_diff_words(text, word) {
     // console.log(0)
     let matches = [...text.matchAll(/.+?\*/g)]
-    // console.log(0)
     if (matches.length == 1) {
         for (let match of matches) {
             match = match[0].split(" ")[match[0].split(" ").length - 1]
