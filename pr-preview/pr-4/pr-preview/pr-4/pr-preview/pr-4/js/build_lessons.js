@@ -437,7 +437,8 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     subtask.innerHTML = annotate(data[exercise_id]["task"][`task${i}`]["text"])
                     if (data[exercise_id]["difficult_words"] != null) {
                         let words = data[exercise_id]["difficult_words"][`word${i}`]
-                        subtask.innerHTML = hover_diff_words(subtask.innerHTML, words)
+                        // FIXME: HOVER_DIFF_WORDS PRODUCING ERROR IN LESSON 8 (LINE 57 WORD NOT DEFINED)
+                        // subtask.innerHTML = hover_diff_words(subtask.innerHTML, words)
                     }
 
                 }
@@ -502,7 +503,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
             };
         } else {
-            console.log(data[exercise_id]["task"])
+            // if no subtasks
             task.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
             if (data[exercise_id]["task"]["text"] != null){
                 task.innerHTML = annotate(data[exercise_id]["task"]["text"]);
