@@ -70,8 +70,7 @@ function show_item(x, item) {
         x.style.display = "block";
         x.appendChild(document.createElement("br"))
         x.appendChild(document.createElement("br"))
-        // x.appendChild(document.createElement("br"))
-        // x.appendChild(document.createElement("br"))
+
     }
 }
 
