@@ -45,53 +45,66 @@ function annotate(text) {
     return text}
 
 function construction_tables(subpart){
-    window.data = subpart
+    window.data = subpart;
 
-    const part_1 = document.createElement("div")
-    part_1.setAttribute("class", "container px-4")
+    const part_1 = document.createElement("div");
+    part_1.setAttribute("class", "container px-4");
 
-    const subpart_title = document.createElement("h3")
+    const subpart_title = document.createElement("h3");
     subpart_title.appendChild(document.createTextNode(data["subpart_name"]));
-    part_1.appendChild(subpart_title)
+    part_1.appendChild(subpart_title);
 
     if (data["construction_table_rows"] != null){
-        const constr_table = document.createElement("table")
-        constr_table.setAttribute("class", "table")
+        const constr_table = document.createElement("table");
+        constr_table.setAttribute("class", "table");
 
-        const thead = document.createElement("thead")
-        thead.setAttribute("class", "table-primary")
+        const thead = document.createElement("thead");
+        thead.setAttribute("class", "table-primary");
 
-        const tr_head = document.createElement("tr")
+        const tr_head = document.createElement("tr");
 
-        const table_header = ["ID", "Construction", "Illustration"]
-        for (var i = 0; i <=2; i++) {
-            var t = document.createElement("th")
-            t.setAttribute("scope", "col")
-            t.appendChild(document.createTextNode(table_header[i]))
-            tr_head.appendChild(t)
+        const table_header = ["Construction", "Illustration"];
+        // link to constructicon logo to be used as link to individual construction page
+        const link_image = "https://raw.githubusercontent.com/constructicon/russian/refs/heads/main/content/logo/constructicon-round.png";
+
+        for (var i = 0; i <=1; i++) {
+            var t = document.createElement("th");
+            t.setAttribute("scope", "col");
+            t.appendChild(document.createTextNode(table_header[i]));
+            tr_head.appendChild(t);
         }
 
-        constr_table.appendChild(thead)
-        thead.appendChild(tr_head)
+        constr_table.appendChild(thead);
+        thead.appendChild(tr_head);
 
-        const tbody = document.createElement("tbody")
-        constr_table.appendChild(tbody)
+        const tbody = document.createElement("tbody");
+        constr_table.appendChild(tbody);
+        // iterate over constructions for the lesson (usually 5)
         for (var i = 0; i < data["construction_table_rows"].length; i++) {
-            var tr = document.createElement("tr")
-
-            for (var k = 0; k <=2; k++) {
-                if (k == 0) {
-                    var t = document.createElement("th")
-                    t.setAttribute("scope", "row")
+            var tr = document.createElement("tr");
+            // iterate over elements in construction: ID, Construction, Illustration
+            // TODO: add English equivalent, Norwegian equivalent
+            for (var k = 1; k <=2; k++) {
+                var t = document.createElement("td");
+                var txt = document.createElement("p");
+                txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]));
+                if (k == 1) {
+                    // add link to the Constructicon
+                    const constr_id = data["construction_table_rows"][i][0];
+                    const constr_link = "https://constructicon.github.io/russian/#" + constr_id;
+                    const link = document.createElement("a");
+                    link.setAttribute("href", constr_link);
+                    link.setAttribute("target", "_blank"); // Open link in new tab
+                    link.innerHTML = annotate(String(data["construction_table_rows"][i][k])); // Add annotated content
+                    txt.appendChild(link); // Wrap link inside the paragraph
                 } else {
-                    var t = document.createElement("td")
+                    txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]));
                 }
-                var txt = document.createElement("p")
-                txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]))
-                t.appendChild(txt)
-                tr.appendChild(t)
+                t.appendChild(txt);
+                tr.appendChild(t);
             }
-            tbody.appendChild(tr)
+            
+            tbody.appendChild(tr);
         }
 
         const abbvs = document.createElement("p")
