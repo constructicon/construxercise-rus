@@ -137,12 +137,14 @@ function add_image(image_data) {
 
 
 function add_audio(lesson_id, exercise_id, audio_id) {
+    // function to insert an audio file with a voiceover of text in task if relevant
     let audio_block = document.createElement("div")
     audio_block.setAttribute("class", "p5")
 
     let audio = document.createElement("audio")
     audio.setAttribute("controls", "")
 
+    // find audiofile based on lesson and exercise number
     const path = "https://github.com/constructicon/construxercise-rus/raw/main/voiceovers/" + lesson_id + "/less" + lesson_id + "ex" + exercise_id + audio_id + ".wav"
     audio.setAttribute("src", path)
 
@@ -198,9 +200,6 @@ function add_table(subtask) {
     table.setAttribute("class", "table table-bordered")
     
     // console.log(table_data["vertical_align"])
-    
-
-    
     
 
     if (Boolean(subtask)) {

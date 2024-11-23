@@ -63,8 +63,9 @@ function construction_tables(subpart){
 
         const tr_head = document.createElement("tr")
 
-        const table_header = ["ID", "Construction", "Illustration"]
-        for (var i = 0; i <=2; i++) {
+        const table_header = ["Construction", "Illustration"]
+
+        for (var i = 0; i <=1; i++) {
             var t = document.createElement("th")
             t.setAttribute("scope", "col")
             t.appendChild(document.createTextNode(table_header[i]))
@@ -90,6 +91,7 @@ function construction_tables(subpart){
                 txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]))
                 t.appendChild(txt)
                 tr.appendChild(t)
+                // TODO: add equivalents 
             }
             tbody.appendChild(tr)
         }
