@@ -107,21 +107,22 @@ function construction_tables(subpart){
             tbody.appendChild(tr);
         }
 
-        const abbvs = document.createElement("p")
+        // redundant code: adds explanations of elements (XP, Cl, etc.) that've been removed
+        // const abbvs = document.createElement("p")
 
-        for (var i = 0; i < data["lesson_instructions"].length; i++) {
-            abbvs.appendChild(document.createTextNode(data["lesson_instructions"][i]))
-            abbvs.appendChild(document.createElement("br"))
-        }
-        const constr_link = document.createElement("a")
-        constr_link.setAttribute("href", "https://constructicon.github.io/russian/")
-        constr_link.setAttribute("target", "_blank")
-        constr_link.appendChild(document.createTextNode("Русский конструктикон"))
+        // for (var i = 0; i < data["lesson_instructions"].length; i++) {
+        //     abbvs.appendChild(document.createTextNode(data["lesson_instructions"][i]))
+        //     abbvs.appendChild(document.createElement("br"))
+        // }
+        // const constr_link = document.createElement("a")
+        // constr_link.setAttribute("href", "https://constructicon.github.io/russian/")
+        // constr_link.setAttribute("target", "_blank")
+        // constr_link.appendChild(document.createTextNode("Русский конструктикон"))
 
-        abbvs.appendChild(constr_link)
-        abbvs.appendChild(document.createTextNode(" содержит информацию обо всех конструкциях урока"))
-        part_1.appendChild(constr_table)
-        part_1.appendChild(abbvs)
+        // abbvs.appendChild(constr_link)
+        // abbvs.appendChild(document.createTextNode(" содержит информацию обо всех конструкциях урока"))
+        // part_1.appendChild(constr_table)
+        // part_1.appendChild(abbvs)
     }
 
     tree.appendChild(part_1)
