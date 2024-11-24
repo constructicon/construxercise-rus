@@ -16,7 +16,7 @@ jobs:
         uses: rossjrw/pr-preview-action@v1.4.3
         with:
           token: ${{ secrets.PR_preview }}
-          preview-branch: main
+          preview-branch: pr-preview
           source-dir: .
           umbrella-dir: pr-preview
           action: auto
