@@ -98,8 +98,11 @@ function construction_tables(subpart){
                     link.innerHTML = annotate(String(data["construction_table_rows"][i][k])); // Add annotated content
                     txt.appendChild(link); // Wrap link inside the paragraph
                 } else {
-                    txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]));
+                    if (k == 1 || k == 2) {
+                        txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]));
+                    }
                 }
+                
                 t.appendChild(txt);
                 tr.appendChild(t);
             }
