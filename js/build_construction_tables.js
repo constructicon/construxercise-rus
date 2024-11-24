@@ -65,55 +65,81 @@ thead.setAttribute("class", "table-primary")
 var tr_head = document.createElement("tr")
 
 var table_header = ["ID", "Construction", "Illustration"]
-for (var i = 0; i <=2; i++) {
+for (var i = 1; i <=2; i++) {
     var t = document.createElement("th")
     t.setAttribute("scope", "col")
     t.appendChild(document.createTextNode(table_header[i]))
     tr_head.appendChild(t)
 }
 
-constr_table.appendChild(thead)
-thead.appendChild(tr_head)
+constr_table.appendChild(thead);
+thead.appendChild(tr_head);
 
-var tbody = document.createElement("tbody")
-constr_table.appendChild(tbody)
+var tbody = document.createElement("tbody");
+constr_table.appendChild(tbody);
 
 for (var i = 0; i < data["construction_table_rows"].length; i++) {
-    var tr = document.createElement("tr")
+    var tr = document.createElement("tr");
     
-    for (var k = 0; k <=2; k++) {
-        if (k == 0) {
-            var t = document.createElement("th")
-            t.setAttribute("scope", "row")
-        } else {
-            var t = document.createElement("td")
+    for (var k = 1; k <= 2; k++) {
+        var t = document.createElement("td"); // Create a new <td> for each cell
+        var txt = document.createElement("span"); // Use <span> for inline formatting
+
+        if (k == 1) {
+            // Apply annotate to format the text
+            txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]));
+
+            // Add a small link icon next to the text
+            const constr_id = data["construction_table_rows"][i][0];
+            const constr_link = "https://constructicon.github.io/russian/#" + constr_id;
+
+            const link = document.createElement("a");
+            link.setAttribute("href", constr_link);
+            link.setAttribute("target", "_blank"); // Open link in a new tab
+            link.setAttribute("title", "View construction details"); // Tooltip on hover
+
+            const icon = document.createElement("i");
+            icon.setAttribute("class", "bi bi-box-arrow-up-right"); // Bootstrap icon class
+            icon.style.marginLeft = "5px"; // Add spacing between text and icon
+
+            link.appendChild(icon); // Add the icon to the link
+
+            // Append the annotated text and the link icon to the cell
+            t.appendChild(txt); // Add the formatted text
+            t.appendChild(link); // Add the link icon
+        } else if (k == 2) {
+            // Add plain text or other content for the second column
+            txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]));
+            t.appendChild(txt);
         }
-        var txt = document.createElement("p")
-        txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]))
-        t.appendChild(txt)
-        tr.appendChild(t)
+
+        tr.appendChild(t); // Append the <td> to the row
     }
-    tbody.appendChild(tr)
+
+    tbody.appendChild(tr); // Append the row to the table body
 }
 
-var abbvs = document.createElement("p")
 
-for (var i = 0; i < data["lesson_instructions"].length; i++) {
-    abbvs.appendChild(document.createTextNode(data["lesson_instructions"][i]))
-    abbvs.appendChild(document.createElement("br"))
-}
-var constr_link = document.createElement("a")
-constr_link.setAttribute("href", "https://constructicon.github.io/russian/")
-constr_link.setAttribute("target", "_blank")
-constr_link.appendChild(document.createTextNode("Русский конструктикон"))
 
-abbvs.appendChild(constr_link)
-abbvs.appendChild(document.createTextNode(" содержит информацию обо всех конструкциях урока"))
+
+// var abbvs = document.createElement("p")
+
+// for (var i = 0; i < data["lesson_instructions"].length; i++) {
+//     abbvs.appendChild(document.createTextNode(data["lesson_instructions"][i]))
+//     abbvs.appendChild(document.createElement("br"))
+// }
+// var constr_link = document.createElement("a")
+// constr_link.setAttribute("href", "https://constructicon.github.io/russian/")
+// constr_link.setAttribute("target", "_blank")
+// constr_link.appendChild(document.createTextNode("Русский конструктикон"))
+
+// abbvs.appendChild(constr_link)
+// abbvs.appendChild(document.createTextNode(" содержит информацию обо всех конструкциях урока"))
 
 
 
 part_1.appendChild(constr_table)
-part_1.appendChild(abbvs)
+// part_1.appendChild(abbvs)
 
 tree.appendChild(part_1)
 
