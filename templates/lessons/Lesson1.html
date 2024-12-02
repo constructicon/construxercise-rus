@@ -11,6 +11,7 @@
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@3.14.0/dist/js-yaml.min.js"
         integrity="sha256-8mtDTinb8+d2bC/9KhCJoCRBEylWUIV/3YEt5cSUvRk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js"></script>
+
 </head>
 
 <body>
@@ -104,11 +105,33 @@
     </nav>
 
     <section id="start_table" class="p-5">
+        <!-- Ensure jQuery is loaded first -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js" 
+                integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" 
+                crossorigin="anonymous">
+        </script>
+        
+        <!-- Custom script to build tables -->
         <script type="module" src="../../js/build_construction_tables.js"></script>
+    
+        <!-- jQuery Mouseover Script for Previews -->
+        <script>
+            $(document).ready(function() {
+                $(document).on("mouseover", ".tiptext", function () {
+                    console.log("Mouseover triggered");
+                    $(this).children(".description").show();
+                }).on("mouseout", ".tiptext", function () {
+                    console.log("Mouseout triggered");
+                    $(this).children(".description").hide();
+                });
+            });
+
+        </script>
     </section>
 
     <section id="content">
         <script type="module" src="../../js/build_lessons.js"></script>
+
     </section>
     <div>
         <nav aria-label="Page navigation example">
@@ -135,7 +158,6 @@
                     <a href="https://hkdir.no/norwegian-directorate-for-higher-education-and-skills" target="_blank"><img src="../../images/hkdir_alt.png" class="img-fluid" alt=""></a>
                 </div>
             </div>
-            <!--            <p class="text-center text-muted">© лицензия</p>-->
         </footer>
     </div>
 </body>

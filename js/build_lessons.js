@@ -307,12 +307,13 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     if (task_title.innerHTML.split(" ")[1] == "Бонусное"){
         task_title.innerHTML = task_title.innerHTML.replace("Бонусное упражнение", "<span style='color: green'>Бонусное упражнение</span>")
     }
-    if (data[exercise_id]["instructions"] != null) {
-        let instructions = document.createElement("h6");
-        instructions.innerHTML = annotate(data[exercise_id]["instructions"]);
-        instructions.setAttribute("style", "margin-top: 10px")
-        task_title.appendChild(instructions);
-    };
+    // instructions obsolete (construction formulas no longer contain glosses that need to be explained, like XP or Cl)
+    // if (data[exercise_id]["instructions"] != null) {
+    //     let instructions = document.createElement("h6");
+    //     instructions.innerHTML = annotate(data[exercise_id]["instructions"]);
+    //     instructions.setAttribute("style", "margin-top: 10px")
+    //     task_title.appendChild(instructions);
+    // };
     let task_buttons = document.createElement("div");
     task_buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end");
     task_buttons.setAttribute("style", "margin-top: 10px")
