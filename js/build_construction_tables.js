@@ -56,20 +56,21 @@ if (document.title.split(" ")[0] == "Lesson") {
     part_1.appendChild(constructions)
 }
 
-var constr_table = document.createElement("table")
-constr_table.setAttribute("class", "table")
+// Table creation code (from your previous script)
+var constr_table = document.createElement("table");
+constr_table.setAttribute("class", "table");
 
-var thead = document.createElement("thead")
-thead.setAttribute("class", "table-primary")
+var thead = document.createElement("thead");
+thead.setAttribute("class", "table-primary");
 
-var tr_head = document.createElement("tr")
+var tr_head = document.createElement("tr");
 
-var table_header = ["ID", "Construction", "Illustration"]
-for (var i = 1; i <=2; i++) {
-    var t = document.createElement("th")
-    t.setAttribute("scope", "col")
-    t.appendChild(document.createTextNode(table_header[i]))
-    tr_head.appendChild(t)
+var table_header = ["ID", "Construction", "Illustration"];
+for (var i = 1; i <= 2; i++) {
+    var t = document.createElement("th");
+    t.setAttribute("scope", "col");
+    t.appendChild(document.createTextNode(table_header[i]));
+    tr_head.appendChild(t);
 }
 
 constr_table.appendChild(thead);
@@ -80,7 +81,7 @@ constr_table.appendChild(tbody);
 
 for (var i = 0; i < data["construction_table_rows"].length; i++) {
     var tr = document.createElement("tr");
-    
+
     for (var k = 1; k <= 2; k++) {
         var t = document.createElement("td"); // Create a new <td> for each cell
         var txt = document.createElement("span"); // Use <span> for inline formatting
@@ -89,10 +90,14 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
             // Apply annotate to format the text
             txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]));
 
-            // Add a small link icon next to the text
+            // Add the annotated text
+            t.appendChild(txt); // Add the formatted text
+
+            // Create the link and icon
             const constr_id = data["construction_table_rows"][i][0];
             const constr_link = "https://constructicon.github.io/russian/#" + constr_id;
 
+            // Create the icon link
             const link = document.createElement("a");
             link.setAttribute("href", constr_link);
             link.setAttribute("target", "_blank"); // Open link in a new tab
@@ -104,9 +109,22 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
 
             link.appendChild(icon); // Add the icon to the link
 
-            // Append the annotated text and the link icon to the cell
-            t.appendChild(txt); // Add the formatted text
-            t.appendChild(link); // Add the link icon
+            // Create the iframe to show preview (initially hidden)
+            const iframe = document.createElement("iframe");
+            iframe.setAttribute("class", "description");
+            
+            iframe.setAttribute("src", constr_link);
+            iframe.style.display = "none"; // Initially hide the iframe
+
+            const iconWrapper = document.createElement("span");
+            iconWrapper.classList.add("tiptext");
+            
+            link.appendChild(icon);  // Append the icon to the link
+            iconWrapper.appendChild(link);  // Append the link to the wrapper
+            iconWrapper.appendChild(iframe);
+
+            t.appendChild(iconWrapper); // Add the wrapper to the cell
+
         } else if (k == 2) {
             // Add plain text or other content for the second column
             txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]));
@@ -118,8 +136,6 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
 
     tbody.appendChild(tr); // Append the row to the table body
 }
-
-
 
 
 // var abbvs = document.createElement("p")
@@ -140,6 +156,8 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
 
 part_1.appendChild(constr_table)
 // part_1.appendChild(abbvs)
+// Now, add the mouseover and mouseout event handlers
+
 
 tree.appendChild(part_1)
 

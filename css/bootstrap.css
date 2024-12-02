@@ -11890,3 +11890,26 @@ textarea.form-control-lg {
 .table_lesson {
   border: 1.5px solid black;
 }
+
+/* Initially hide the iframe preview */
+.description {
+  display: none; /* Initially hidden */
+  position: absolute;
+  border: 1px solid #000;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  z-index: 1000;
+}
+
+/* Tiptext class style */
+.tiptext {
+  position: relative; /* Make sure it has positioning for iframe */
+  display: inline-block;
+}
+
+/* Optional styling to make iframe more user-friendly */
+.description {
+  top: 20px; /* Adjust the position of the preview */
+  left: 20px;
+}
