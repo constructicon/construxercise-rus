@@ -78,7 +78,6 @@ thead.appendChild(tr_head);
 
 var tbody = document.createElement("tbody");
 constr_table.appendChild(tbody);
-
 for (var i = 0; i < data["construction_table_rows"].length; i++) {
     var tr = document.createElement("tr");
 
@@ -90,40 +89,97 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
             // Apply annotate to format the text
             txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]));
 
-            // Add the annotated text
-            t.appendChild(txt); // Add the formatted text
+            // Create a wrapper for the text and icon
+            const textIconWrapper = document.createElement("span");
+            textIconWrapper.setAttribute("class", "d-inline-flex align-items-center tiptext");
+            textIconWrapper.style.gap = "5px"; // Small gap between text and icon
 
             // Create the link and icon
             const constr_id = data["construction_table_rows"][i][0];
             const constr_link = "https://constructicon.github.io/russian/#" + constr_id;
 
-            // Create the icon link
             const link = document.createElement("a");
             link.setAttribute("href", constr_link);
             link.setAttribute("target", "_blank"); // Open link in a new tab
-            link.setAttribute("title", "View construction details"); // Tooltip on hover
+            link.setAttribute("title", "View construction details");
 
             const icon = document.createElement("i");
-            icon.setAttribute("class", "bi bi-box-arrow-up-right"); // Bootstrap icon class
-            icon.style.marginLeft = "5px"; // Add spacing between text and icon
+            icon.setAttribute("class", "bi bi-box-arrow-up-right");
 
-            link.appendChild(icon); // Add the icon to the link
+            link.appendChild(icon); // Add icon to link
+            textIconWrapper.appendChild(txt); // Add text to wrapper
+            textIconWrapper.appendChild(link); // Add link (icon) to wrapper
 
-            // Create the iframe to show preview (initially hidden)
+            // Add iframe for preview functionality (hidden by default)
             const iframe = document.createElement("iframe");
             iframe.setAttribute("class", "description");
-            
             iframe.setAttribute("src", constr_link);
-            iframe.style.display = "none"; // Initially hide the iframe
+            iframe.style.display = "none"; // Initially hidden
+            iframe.style.position = "absolute"; // Position it dynamically
+            iframe.style.zIndex = "10"; // Ensure it appears above other elements
+            iframe.style.width = "400px"; // Set preview width
+            iframe.style.height = "200px"; // Set preview height
 
-            const iconWrapper = document.createElement("span");
-            iconWrapper.classList.add("tiptext");
-            
-            link.appendChild(icon);  // Append the icon to the link
-            iconWrapper.appendChild(link);  // Append the link to the wrapper
-            iconWrapper.appendChild(iframe);
+            // Show preview on hover
+            textIconWrapper.onmouseenter = function () {
+                iframe.style.display = "block";
+            };
+            textIconWrapper.onmouseleave = function () {
+                iframe.style.display = "none";
+            };
 
-            t.appendChild(iconWrapper); // Add the wrapper to the cell
+            textIconWrapper.appendChild(iframe); // Add iframe to wrapper
+
+            // Wrapper for text, icon, and buttons
+            const textButtonWrapper = document.createElement("div");
+            textButtonWrapper.setAttribute("class", "d-flex align-items-center justify-content-between");
+            textButtonWrapper.style.gap = "10px"; // Add spacing between elements
+            textButtonWrapper.style.marginBottom = "5px"; // Ensure spacing for equivalents below
+            textButtonWrapper.appendChild(textIconWrapper); // Add text and icon to wrapper
+
+            // Add buttons for equivalents
+            const equivalentButtons = document.createElement("div");
+            equivalentButtons.setAttribute("class", "btn-group btn-group-sm");
+            equivalentButtons.setAttribute("role", "group");
+
+            const eng = document.createElement("button");
+            eng.setAttribute("type", "button");
+            eng.setAttribute("class", "btn btn-light");
+            eng.innerHTML = "EN";
+
+            const translation_text_eng = data["construction_table_rows"][i][3];
+            eng.onclick = function () {
+                engText.innerHTML = translation_text_eng;
+                engText.style.display = engText.style.display === "block" ? "none" : "block";
+            };
+
+            const norw = document.createElement("button");
+            norw.setAttribute("type", "button");
+            norw.setAttribute("class", "btn btn-light");
+            norw.innerHTML = "NO";
+
+            const translation_text_norw = "placeholder";
+            norw.onclick = function () {
+                norwText.innerHTML = translation_text_norw;
+                norwText.style.display = norwText.style.display === "block" ? "none" : "block";
+            };
+
+            equivalentButtons.appendChild(eng);
+            equivalentButtons.appendChild(norw);
+            textButtonWrapper.appendChild(equivalentButtons); // Add buttons to wrapper
+
+            // Equivalents (hidden by default)
+            const engText = document.createElement("p");
+            engText.setAttribute("class", "small font-weight-light text-muted");
+            engText.style.display = "none"; // Initially hidden
+
+            const norwText = document.createElement("p");
+            norwText.setAttribute("class", "small font-weight-light text-muted");
+            norwText.style.display = "none"; // Initially hidden
+
+            t.appendChild(textButtonWrapper); // Add wrapper to the cell
+            t.appendChild(engText); // Add English equivalent below
+            t.appendChild(norwText); // Add Norwegian equivalent below
 
         } else if (k == 2) {
             // Add plain text or other content for the second column
@@ -136,7 +192,6 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
 
     tbody.appendChild(tr); // Append the row to the table body
 }
-
 
 // var abbvs = document.createElement("p")
 
