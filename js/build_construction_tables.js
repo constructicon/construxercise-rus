@@ -81,17 +81,41 @@ constr_table.appendChild(tbody);
 for (var i = 0; i < data["construction_table_rows"].length; i++) {
     var tr = document.createElement("tr");
 
+    // Define row-level variables for equivalents
+    const engTextFormula = document.createElement("p");
+    engTextFormula.setAttribute("class", "small font-weight-light text-muted");
+    engTextFormula.style.display = "none"; // Initially hidden
+
+    const norwTextFormula = document.createElement("p");
+    norwTextFormula.setAttribute("class", "small font-weight-light text-muted");
+    norwTextFormula.style.display = "none"; // Initially hidden
+
+    const engText = document.createElement("p");
+    engText.setAttribute("class", "small font-weight-light text-muted");
+    engText.style.display = "none"; // Initially hidden
+
+    const norwText = document.createElement("p");
+    norwText.setAttribute("class", "small font-weight-light text-muted");
+    norwText.style.display = "none"; // Initially hidden
+    
+
     for (var k = 1; k <= 2; k++) {
         var t = document.createElement("td"); // Create a new <td> for each cell
         var txt = document.createElement("span"); // Use <span> for inline formatting
 
         if (k == 1) {
             // Apply annotate to format the text
+            const cellWrapper = document.createElement('div')
+            cellWrapper.setAttribute("class", "d-flex align-items-center justify-content-between");
+            cellWrapper.style.gap = "10px"; // Add spacing between elements
+            cellWrapper.style.paddingBottom = "2.2px"
+
+            cellWrapper.style.marginBottom = "5px"
             txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]));
 
             // Create a wrapper for the text and icon
             const textIconWrapper = document.createElement("span");
-            textIconWrapper.setAttribute("class", "d-inline-flex align-items-center tiptext");
+            textIconWrapper.setAttribute("class", "d-flex align-items-center tiptext");
             textIconWrapper.style.gap = "5px"; // Small gap between text and icon
 
             // Create the link and icon
@@ -109,89 +133,124 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
             link.appendChild(icon); // Add icon to link
             textIconWrapper.appendChild(txt); // Add text to wrapper
             textIconWrapper.appendChild(link); // Add link (icon) to wrapper
+            cellWrapper.appendChild(textIconWrapper)
 
-            // Add iframe for preview functionality (hidden by default)
-            // const iframe = document.createElement("iframe");
-            // iframe.setAttribute("class", "description");
-            // // for link to RusCon:
-            // // iframe.setAttribute("src", constr_link);
-            // iframe.style.display = "none"; // Initially hidden
-            // iframe.style.position = "absolute"; // Position it dynamically
-            // iframe.style.zIndex = "10"; // Ensure it appears above other elements
-            // iframe.style.width = "300px"; // Set preview width
-            // iframe.style.height = "100px"; // Set preview height
-            // iframe.style.background = "#f8f9fa"; // Light background
-            // iframe.style.border = "1px solid #ccc"; // Border to resemble an iframe
-            // iframe.style.borderRadius = "5px"; // Rounded corners
-            // iframe.style.padding = "10px"; // Padding for content
-            // iframe.innerHTML = "<p style='margin: 0; color: #555;'>Preview not available</p>";
-            
 
-            // // Show preview on hover
-            // textIconWrapper.onmouseenter = function () {
-            //     iframe.style.display = "block";
-            // };
-            // textIconWrapper.onmouseleave = function () {
-            //     iframe.style.display = "none";
-            // };
+            t.appendChild(cellWrapper)
+            t.appendChild(engTextFormula)
+            t.appendChild(norwTextFormula)
 
-            // textIconWrapper.appendChild(iframe); // Add iframe to wrapper
 
+        } else if (k == 2) {
+            // Add plain text or other content for the second column
+            txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]));
+            // t.appendChild(txt);
             // Wrapper for text, icon, and buttons
             const textButtonWrapper = document.createElement("div");
             textButtonWrapper.setAttribute("class", "d-flex align-items-center justify-content-between");
             textButtonWrapper.style.gap = "10px"; // Add spacing between elements
             textButtonWrapper.style.marginBottom = "5px"; // Ensure spacing for equivalents below
-            textButtonWrapper.appendChild(textIconWrapper); // Add text and icon to wrapper
-
+            // textButtonWrapper.appendChild(textIconWrapper); // Add text and icon to wrapper
             // Add buttons for equivalents
+            textButtonWrapper.appendChild(txt)
             const equivalentButtons = document.createElement("div");
             equivalentButtons.setAttribute("class", "btn-group btn-group-sm");
             equivalentButtons.setAttribute("role", "group");
 
             const eng = document.createElement("button");
             eng.setAttribute("type", "button");
-            eng.setAttribute("class", "btn btn-light");
+            eng.setAttribute("class", "btn btn-outline-secondary");
             eng.innerHTML = "EN";
 
             const translation_text_eng = data["construction_table_rows"][i][3];
+            const equivalent_text_eng = 'placeholder';
+
             eng.onclick = function () {
-                engText.innerHTML = translation_text_eng;
-                engText.style.display = engText.style.display === "block" ? "none" : "block";
+            // Clear existing content to avoid appending duplicates
+            engText.innerHTML = ""; 
+            engTextFormula.innerHTML = "";
+
+            // Populate English equivalents
+            if (Array.isArray(equivalent_text_eng)) {
+                equivalent_text_eng.forEach(text => {
+                    const line = document.createElement("p"); // Create a new paragraph for each string
+                    line.setAttribute("class", "mb-1"); // Optional: Add Bootstrap margin class for spacing
+                    line.textContent = text; // Set the text content
+                    engText.appendChild(line); // Append to the container
+                });
+            } else {
+                engText.textContent = equivalent_text_eng || ""; // Fallback for non-array values
+            }
+        
+            // Populate Illustration equivalents
+            if (Array.isArray(translation_text_eng)) {
+                translation_text_eng.forEach(text => {
+                    const line = document.createElement("p");
+                    line.setAttribute("class", "mb-1");
+                    line.textContent = text;
+                    engTextFormula.appendChild(line);
+                });
+            } else {
+                engTextFormula.textContent = translation_text_eng || "";
+            }
+        
+            // Toggle visibility
+            const isVisible = engText.style.display === "block";
+            engText.style.display = isVisible ? "none" : "block";
+            engTextFormula.style.display = isVisible ? "none" : "block";
             };
 
             const norw = document.createElement("button");
             norw.setAttribute("type", "button");
-            norw.setAttribute("class", "btn btn-light");
+            norw.setAttribute("class", "btn btn-outline-secondary");
             norw.innerHTML = "NO";
 
             const translation_text_norw = "placeholder";
+            const equivalent_text_norw = "placeholder illustration"
+
             norw.onclick = function () {
-                norwText.innerHTML = translation_text_norw;
-                norwText.style.display = norwText.style.display === "block" ? "none" : "block";
+                // Clear existing content
+                norwText.innerHTML = "";
+                norwTextFormula.innerHTML = "";
+            
+                // Populate Norwegian equivalents
+                if (Array.isArray(equivalent_text_norw)) {
+                    equivalent_text_norw.forEach(text => {
+                        const line = document.createElement("p");
+                        line.setAttribute("class", "mb-1");
+                        line.textContent = text;
+                        norwText.appendChild(line);
+                    });
+                } else {
+                    norwText.textContent = equivalent_text_norw || "";
+                }
+            
+                // Populate Illustration equivalents
+                if (Array.isArray(translation_text_norw)) {
+                    translation_text_norw.forEach(text => {
+                        const line = document.createElement("p");
+                        line.setAttribute("class", "mb-1");
+                        line.textContent = text;
+                        norwTextFormula.appendChild(line);
+                    });
+                } else {
+                    norwTextFormula.textContent = translation_text_norw || "";
+                }
+            
+                // Toggle visibility
+                const isVisible = norwText.style.display === "block";
+                norwText.style.display = isVisible ? "none" : "block";
+                norwTextFormula.style.display = isVisible ? "none" : "block";
             };
 
             equivalentButtons.appendChild(eng);
             equivalentButtons.appendChild(norw);
             textButtonWrapper.appendChild(equivalentButtons); // Add buttons to wrapper
 
-            // Equivalents (hidden by default)
-            const engText = document.createElement("p");
-            engText.setAttribute("class", "small font-weight-light text-muted");
-            engText.style.display = "none"; // Initially hidden
-
-            const norwText = document.createElement("p");
-            norwText.setAttribute("class", "small font-weight-light text-muted");
-            norwText.style.display = "none"; // Initially hidden
-
             t.appendChild(textButtonWrapper); // Add wrapper to the cell
             t.appendChild(engText); // Add English equivalent below
             t.appendChild(norwText); // Add Norwegian equivalent below
-
-        } else if (k == 2) {
-            // Add plain text or other content for the second column
-            txt.innerHTML = annotate(String(data["construction_table_rows"][i][k]));
-            t.appendChild(txt);
+            
         }
 
         tr.appendChild(t); // Append the <td> to the row
@@ -200,26 +259,8 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
     tbody.appendChild(tr); // Append the row to the table body
 }
 
-// var abbvs = document.createElement("p")
-
-// for (var i = 0; i < data["lesson_instructions"].length; i++) {
-//     abbvs.appendChild(document.createTextNode(data["lesson_instructions"][i]))
-//     abbvs.appendChild(document.createElement("br"))
-// }
-// var constr_link = document.createElement("a")
-// constr_link.setAttribute("href", "https://constructicon.github.io/russian/")
-// constr_link.setAttribute("target", "_blank")
-// constr_link.appendChild(document.createTextNode("Русский конструктикон"))
-
-// abbvs.appendChild(constr_link)
-// abbvs.appendChild(document.createTextNode(" содержит информацию обо всех конструкциях урока"))
-
-
 
 part_1.appendChild(constr_table)
-// part_1.appendChild(abbvs)
-// Now, add the mouseover and mouseout event handlers
-
 
 tree.appendChild(part_1)
 
