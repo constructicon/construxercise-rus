@@ -11,6 +11,17 @@
     <script src="https://cdn.jsdelivr.net/npm/js-yaml@3.14.0/dist/js-yaml.min.js"
         integrity="sha256-8mtDTinb8+d2bC/9KhCJoCRBEylWUIV/3YEt5cSUvRk=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous">
+    </script>
+    <script>
+        $(function(){
+            // $("#header").load("templates/header.html");
+            $("#footer").load("../footer.html");
+        });
+    </script>
 
 </head>
 
@@ -143,6 +154,8 @@
         </nav>
     </div>
     <div class="container-fluid" id="footer">
+
+    <!-- <div class="container-fluid" id="footer">
         <footer class="footer mt-auto py-3 my-4">
             <div class="row border-bottom align-items-center" style="height: 10px">
                 <div class="col p-3 w-30" >
@@ -159,7 +172,7 @@
                 </div>
             </div>
         </footer>
-    </div>
+    </div> -->
 </body>
 
 </html>
