@@ -111,31 +111,31 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
             textIconWrapper.appendChild(link); // Add link (icon) to wrapper
 
             // Add iframe for preview functionality (hidden by default)
-            const iframe = document.createElement("iframe");
-            iframe.setAttribute("class", "description");
-            // for link to RusCon:
-            // iframe.setAttribute("src", constr_link);
-            iframe.style.display = "none"; // Initially hidden
-            iframe.style.position = "absolute"; // Position it dynamically
-            iframe.style.zIndex = "10"; // Ensure it appears above other elements
-            iframe.style.width = "300px"; // Set preview width
-            iframe.style.height = "100px"; // Set preview height
-            iframe.style.background = "#f8f9fa"; // Light background
-            iframe.style.border = "1px solid #ccc"; // Border to resemble an iframe
-            iframe.style.borderRadius = "5px"; // Rounded corners
-            iframe.style.padding = "10px"; // Padding for content
-            iframe.innerHTML = "<p style='margin: 0; color: #555;'>Preview not available</p>";
+            // const iframe = document.createElement("iframe");
+            // iframe.setAttribute("class", "description");
+            // // for link to RusCon:
+            // // iframe.setAttribute("src", constr_link);
+            // iframe.style.display = "none"; // Initially hidden
+            // iframe.style.position = "absolute"; // Position it dynamically
+            // iframe.style.zIndex = "10"; // Ensure it appears above other elements
+            // iframe.style.width = "300px"; // Set preview width
+            // iframe.style.height = "100px"; // Set preview height
+            // iframe.style.background = "#f8f9fa"; // Light background
+            // iframe.style.border = "1px solid #ccc"; // Border to resemble an iframe
+            // iframe.style.borderRadius = "5px"; // Rounded corners
+            // iframe.style.padding = "10px"; // Padding for content
+            // iframe.innerHTML = "<p style='margin: 0; color: #555;'>Preview not available</p>";
             
 
-            // Show preview on hover
-            textIconWrapper.onmouseenter = function () {
-                iframe.style.display = "block";
-            };
-            textIconWrapper.onmouseleave = function () {
-                iframe.style.display = "none";
-            };
+            // // Show preview on hover
+            // textIconWrapper.onmouseenter = function () {
+            //     iframe.style.display = "block";
+            // };
+            // textIconWrapper.onmouseleave = function () {
+            //     iframe.style.display = "none";
+            // };
 
-            textIconWrapper.appendChild(iframe); // Add iframe to wrapper
+            // textIconWrapper.appendChild(iframe); // Add iframe to wrapper
 
             // Wrapper for text, icon, and buttons
             const textButtonWrapper = document.createElement("div");
