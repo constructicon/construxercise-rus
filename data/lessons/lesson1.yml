@@ -222,7 +222,7 @@
   <ul><li>а. кстати</li><li>б. и кстати</li><li>в. кстати говоря</li><li>г. и кстати говоря</li></ul><br>
   Обратите внимание, что варианты ^и кстати@ и ^и кстати говоря@ не используются в середине предложения. Учитывая это, заполните пропуски в предложениях максимальным количеством вариантов."
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence), a скобки () вокруг слова означают, что это факультативный элемент конструкции.
-  exercise_type: text_input
+  exercise_type: multichoice_multianswer
   title_eng: The construction ^(и) кстати (говоря), Cl@ has the four variants indicated in the table. Note that the variants ^и кстати@ and ^и кстати говоря@ do not appear in the middle of a sentence. With this in mind, fill in the blanks in each sentence with as many options as possible. We can put an entire sentence in the Cl slot (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
   title_nor: Tabellen viser de fire mulige variantene av konstruksjonen ^(и) кстати (говоря), Cl@. Legg merke til at ^и кстати@ og ^и кстати говоря@ aldri forekommer i midten av en setning. Fyll ut de tomme feltene med så mange varianter av disse konstruksjonene som mulig. I denne konstruksjonen fylles пlassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
   comment: ~
