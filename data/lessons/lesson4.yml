@@ -137,7 +137,7 @@
   ex_number: 4
   title: "Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть больше одного.<br><ul><li>а - ^другими словами@</li><li>б - ^то есть@</li><li>в - ^а именно@</li></ul>"
   instructions: ~
-  exercise_type: text_input
+  exercise_type: multichoice_multianswer
   title_eng: Fill in the blanks with the words from the list. Explain why certain options cannot be used. Note that there can be more than one correct answer.
   title_nor: Fyll ut de tomme feltene med ord fra listen. Forklar hvorfor noen varianter ikke passer. Legg merke til at flere enn et alternativ kan være riktig.
   comment: ~
@@ -183,6 +183,10 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
     answer2: a, б
     answer3: a, б
     answer4: в
+  answer options:
+   - a
+   - б
+   - в
   difficult_words: ~
   table: ~
 5:

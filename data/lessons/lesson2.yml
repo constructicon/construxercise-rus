@@ -258,7 +258,7 @@
   ex_number: 9
   title: Выберите подходящую конструкцию. Объясните свой выбор. В каждом случае одна конструкция вводит вывод, а другая добавляет информацию.
   instructions: ~
-  exercise_type: text_input
+  exercise_type: multichoice_singleanswer
   title_eng: Choose the appropriate construction. Explain your choice. In each case, make a choice between a construction that draws a conclusion and a construction that adds information.
   title_nor: Velg riktig konstruksjon. Forklar ditt valg. I hvert tilfelle skal du velge enten en konkluderende konstruksjon, eller en konstruksjon som brukes for å legge til informasjon.
   comment: ~
@@ -288,6 +288,9 @@
     answer3: В целом
     answer4: Кроме того
     answer5: В целом
+  answer_options:
+   - Кроме того
+   - В целом
   difficult_words: ~
   table: ~
 10:
