@@ -25,11 +25,10 @@
 2:
   lesson_id: 1
   ex_number: 2
-  title: Переформулируйте предложения, используя конструкцию ^не только XP, но и XP@. Любое ли предложение можно переделать? (Если нельзя, напишите <i>нельзя переделать</i>)
-  instructions: На месте XP находится слово или фраза (XP=phrase).
+  title: Переформулируйте предложения, используя конструкцию ^не только ..., но и ...@. Любое ли предложение можно переделать? (Если нельзя, напишите <i>нельзя переделать</i>)
   exercise_type: text_input
-  title_eng: Rephrase each sentence by using the construction ^не только XP, но и XP@ 'not only... but also ...'. Are there any sentences that cannot be rephrased? We can put a word or a phrase in the slot marked XP (XP=phrase).
-  title_nor: Omformuler hver setning ved å bruke konstruksjonen ^не только XP, но и XP@ 'ikke bare... men også ...'. Finnes det noen setninger som ikke kan omformuleres? Plassen XP kan fylles med et ord eller en frase (XP=frase).
+  title_eng: Rephrase each sentence by using the construction ^не только ..., но и ...@ 'not only... but also ...'. Are there any sentences that cannot be rephrased? We can put a word or a phrase in the slot.
+  title_nor: Omformuler hver setning ved å bruke konstruksjonen ^не только ..., но и ...@ 'ikke bare... men også ...'. Finnes det noen setninger som ikke kan omformuleres? Plassen kan fylles med et ord eller en frase.
   comment: ~
   example: ~
   model: ~
@@ -44,7 +43,7 @@
   answer_to_show:
     answer1: Роман ^не только@ хорошо играет в футбол, ^но и@ фотографирует.
     answer2: София ^не только@ красиво поëт, ^но и@ играет на пианино.
-    answer3: "Это предложение нельзя переформулировать. Конструкция ^не только XP, но и XP@ требует, чтобы ее части XP имели равный статус. Однако части предложения \"плохо видит\" и \"носит очки\" не равноправны по значению: они выражают причину и следствие.<br> = It is not possible to rephrase this sentence. The construction ^не только XP, но и XP@ 'not only... but also ...' requires that its components XP have equal status. However, in this case the elements \"плохо видит\" and \"носит очки\" are not equal semantically: the former is the cause, and the latter is the consequence.<br> = Det er ikke mulig å omformulere denne setningen. Konstruksjonen ^не только XP, но и XP@ 'ikke bare... men også ...' krever at begge delene XP er likeverdige. I dette tilfellet er imidlertid ikke delene \"плохо видит\" og \"носит очки\" likeverdige når det gjelder betydning: den første uttrykker årsak, mens den andre uttrykker virkning."
+    answer3: "Это предложение нельзя переформулировать. Конструкция ^не только ..., но и ...@ требует, чтобы ее части ... имели равный статус. Однако части предложения \"плохо видит\" и \"носит очки\" не равноправны по значению: они выражают причину и следствие.<br> = It is not possible to rephrase this sentence. The construction ^не только ..., но и ...@ 'not only... but also ...' requires that its components ... have equal status. However, in this case the elements \"плохо видит\" and \"носит очки\" are not equal semantically: the former is the cause, and the latter is the consequence.<br> = Det er ikke mulig å omformulere denne setningen. Konstruksjonen ^не только ..., но и ...@ 'ikke bare... men også ...' krever at begge delene ... er likeverdige. I dette tilfellet er imidlertid ikke delene \"плохо видит\" og \"носит очки\" likeverdige når det gjelder betydning: den første uttrykker årsak, mens den andre uttrykker virkning."
   answer_key:
     answer1: Роман не только хорошо играет в футбол, но и фотографирует.
     answer2: София не только красиво поëт, но и играет на пианино.
@@ -72,11 +71,10 @@
 4:
   lesson_id: 1
   ex_number: 4
-  title: Соедините части предложений, подобрав логичное продолжение. Назовите, слова каких частей речи стоят на месте XP в конструкции ^не только XP, но и XP@.
-  instructions: На месте XP находится слово или фраза (XP=phrase).
+  title: Соедините части предложений, подобрав логичное продолжение. Назовите, слова каких частей речи стоят на месте ... в конструкции ^не только ..., но и ...@.
   exercise_type: text_input
-  title_eng: Connect the phrases by choosing the matching continuation. What parts of speech fill the slot XP in the construction не только XP, но и XP 'not only... but also ...'?
-  title_nor:  Fullfør setningene ved å velge delene som passer sammen. Hvilke ordklasser utgjør XP i konstruksjonen не только XP, но и XP 'ikke bare... men også ...'?
+  title_eng: Connect the phrases by choosing the matching continuation. What parts of speech fill the slot ... in the construction не только ..., но и ... 'not only... but also ...'?
+  title_nor:  Fullfør setningene ved å velge delene som passer sammen. Hvilke ordklasser utgjør ... i konstruksjonen не только ..., но и ... 'ikke bare... men også ...'?
   comment: ~
   example: ~
   model: ~
@@ -108,11 +106,10 @@
 5:
   lesson_id: 1
   ex_number: 5
-  title: Переформулируйте предложения, используя конструкцию ^(а) кроме того XP/Cl@.
-  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент конструкции.
+  title: Переформулируйте предложения, используя конструкцию ^кроме того ...@.
   exercise_type: text_input
-  title_eng: Rephrase the sentences by using the construction ^(а) кроме того XP/Cl@. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
-  title_nor: Omformuler setningene ved å bruke konstruksjonen ^(а) кроме того XP/Cl@. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  title_eng: Rephrase the sentences by using the construction ^кроме того ...@. 
+  title_nor: Omformuler setningene ved å bruke konstruksjonen ^кроме того ...@. 
   comment: ~
   example: Иван пережил много невероятных приключений. Он мог увлекательно рассказать о них. <i><br> Иван пережил много невероятных приключений, ^а кроме того,@ он мог увлекательно рассказать о них</i>.
   model: ~
@@ -133,11 +130,10 @@
 6:
   lesson_id: 1
   ex_number: 6
-  title: Переформулируйте предложения, используя конструкцию ^(а) кроме того XP/Cl@. Замените союз и на слова а кроме того.
-  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент конструкции.
+  title: Переформулируйте предложения, используя конструкцию ^кроме того ...@. Замените союз и на слова а кроме того.
   exercise_type: text_input
-  title_eng: Rephrase the sentences by using the construction ^(а) кроме того XP/Cl@. Replace the conjunction и 'and' with the words ^а кроме того@. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
-  title_nor: Omformuler setningene ved å bruke konstruksjonen ^(а) кроме того XP/Cl@. Bytt ut konjunksjonen и 'og' med ordene ^а кроме того@. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  title_eng: Rephrase the sentences by using the construction ^кроме того ...@. Replace the conjunction и 'and' with the words ^а кроме того@.
+  title_nor: Omformuler setningene ved å bruke konstruksjonen ^кроме того ...@. Bytt ut konjunksjonen и 'og' med ordene ^а кроме того@. 
   comment: ~
   example: Вчера я решил убраться во всем доме и выбросить мусор.<br> <i>Вчера я решил убраться во всем доме, ^а кроме того,@ выбросить мусор.</i>
   model: ~
@@ -159,13 +155,12 @@
   lesson_id: 1
   ex_number: 7
   title: "Перед вами запись в дневнике. Соедините предложения с помощью конструкций<br>
-  — ^к тому же XP/Cl@<br>
-  — ^плюс/вдобавок (ко всему/к тому/к этому), Cl@<br>
-  — ^(а) кроме того XP/Cl@"
-  instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент. На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  — ^к тому же ...@<br>
+  — ^плюс ко всему, ...@<br>
+  — ^кроме того ...@"
   exercise_type: ~
-  title_eng: You see an entry in a diary. Connect the matching sentences by using the indicated constructions. In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
-  title_nor: Du leser et dagboksnotat. Koble sammen setningene ved hjelp av de foreslåtte konstruksjonene. I disse konstruksjonene fylles plassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning).
+  title_eng: You see an entry in a diary. Connect the matching sentences by using the indicated constructions. 
+  title_nor: Du leser et dagboksnotat. Koble sammen setningene ved hjelp av de foreslåtte konstruksjonene. 
   comment: ~
   example: ~
   model: ~
@@ -182,11 +177,10 @@
 8:
   lesson_id: 1
   ex_number: 8
-  title: Соедините части предложений, подобрав логичное продолжение. Обратите внимание, что конструкция ^(и) кстати (говоря), Cl@ вводит дополнительную информацию и обозначает отклонение от темы.
-  instructions: На месте Cl находится целое предложение (Cl=clause, sentence), a скобки () вокруг слова означают, что это факультативный элемент конструкции.
+  title: Соедините части предложений, подобрав логичное продолжение. Обратите внимание, что конструкция ^кстати, ...@ вводит дополнительную информацию и обозначает отклонение от темы.
   exercise_type: text_input
-  title_eng: Connect the phrases by choosing a matching continuation. Note that the construction ^(и) кстати (говоря), Cl@ introduces additional information and often denotes digression. We can put an entire sentence in the Cl slot (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
-  title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at konstruksjonen ^(и) кстати (говоря), Cl@ angir tilleggsinformasjon og ofte indikerer et avvik fra emnet. I denne konstruksjonen fylles пlassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  title_eng: Connect the phrases by choosing a matching continuation. Note that the construction ^кстати, ...@ introduces additional information and often denotes digression. We can put an entire sentence in the slot.
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at konstruksjonen ^кстати, ...@ angir tilleggsinformasjon og ofte indikerer et avvik fra emnet. I denne konstruksjonen fylles plassen med en hel setning.
   comment: ~
   example: ~
   model: ~
@@ -218,13 +212,12 @@
 9:
   lesson_id: 1
   ex_number: 9
-  title: "Конструкция (и) кстати (говоря), Cl имеет четыре варианта:<br>
+  title: "Конструкция кстати, ... имеет четыре варианта:<br>
   <ul><li>кстати</li><li>и кстати</li><li>кстати говоря</li><li>и кстати говоря</li></ul><br>
   Обратите внимание, что варианты ^и кстати@ и ^и кстати говоря@ не используются в середине предложения. Учитывая это, заполните пропуски в предложениях максимальным количеством вариантов."
-  instructions: На месте Cl находится целое предложение (Cl=clause, sentence), a скобки () вокруг слова означают, что это факультативный элемент конструкции.
   exercise_type: multichoice_multianswer
-  title_eng: The construction ^(и) кстати (говоря), Cl@ has the four variants indicated in the table. Note that the variants ^и кстати@ and ^и кстати говоря@ do not appear in the middle of a sentence. With this in mind, fill in the blanks in each sentence with as many options as possible. We can put an entire sentence in the Cl slot (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
-  title_nor: Tabellen viser de fire mulige variantene av konstruksjonen ^(и) кстати (говоря), Cl@. Legg merke til at ^и кстати@ og ^и кстати говоря@ aldri forekommer i midten av en setning. Fyll ut de tomme feltene med så mange varianter av disse konstruksjonene som mulig. I denne konstruksjonen fylles пlassen Cl med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  title_eng: The construction ^кстати, ...@ has the four variants indicated in the table. Note that the variants ^и кстати@ and ^и кстати говоря@ do not appear in the middle of a sentence. With this in mind, fill in the blanks in each sentence with as many options as possible. We can put an entire sentence in the slot.
+  title_nor: Tabellen viser de fire mulige variantene av konstruksjonen ^кстати, ...@. Legg merke til at ^и кстати@ og ^и кстати говоря@ aldri forekommer i midten av en setning. Fyll ut de tomme feltene med så mange varianter av disse konstruksjonene som mulig. I denne konstruksjonen fylles plassen med en hel setning.
   comment: ~
   example: ~
   model: ~
@@ -329,11 +322,10 @@
 11:
   lesson_id: 1
   ex_number: 11
-  title: "Обсудите с собеседником, чей лучший друг лучше: ваш или его. Приведите аргументы. Используйте конструкцию ^не только XP, но и XP.@"
-  instructions: На месте XP находится слово или фраза (XP=phrase).
+  title: "Обсудите с собеседником, чей лучший друг лучше: ваш или его. Приведите аргументы. Используйте конструкцию ^не только ..., но и ...@."
   exercise_type: ~
-  title_eng: "Discuss with your conversation partner whose best friend is better: yours or his/her. Give arguments to support your claims. Use the construction ^не только XP, но и XP@ 'not only... but also ...'. We can put a word or a phrase in the slot marked XP (XP=phrase)."
-  title_nor: "Diskuter med din samtalepartner om hvem som har den beste vennen. Argumenter for dine meninger. Bruk konstruksjonen ^не только XP, но и XP@ 'ikke bare... men også ... '. Plassen XP kan fylles med et ord eller en frase (XP=frase)."
+  title_eng: "Discuss with your conversation partner whose best friend is better: yours or his/her. Give arguments to support your claims. Use the construction ^не только ..., но и ...@ 'not only... but also ...'. We can put a word or a phrase in the slot."
+  title_nor: "Diskuter med din samtalepartner om hvem som har den beste vennen. Argumenter for dine meninger. Bruk konstruksjonen ^не только ..., но и ...@ 'ikke bare... men også ... '. Plassen kan fylles med et ord eller en frase."
   comment: "Формат задания: в парах. = Task format: in pairs."
   example: "— Мой друг веселый.<br>
 — А мой друг не только веселый, но и умный.<br>
@@ -349,11 +341,10 @@
   lesson_id: 1
   ex_number: 12
   title: "Расскажите, каким должен быть настоящий друг. Добавляйте информацию с помощью конструкций:<br>
-  <ul><li>(а) кроме того XP/Cl</li><li>не только XP, но и XP</li><li>(и) кстати (говоря), Cl</li><li>к тому же XP/Cl</li><li>плюс/вдобавок (ко всему/к тому/к этому), Cl</li></ul>"
-  instructions: В этих конструкциях XP — это слово или фраза (XP=phrase), Cl — это целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент. На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  <ul><li>кроме того ...</li><li>не только ..., но и ...</li><li>кстати, ...</li><li>к тому же ...</li><li>плюс ко всему, ...</li></ul>"
   exercise_type: ~
-  title_eng: Tell another person what a real friend should be like. Add information by using the constructions from this list. In these constructions, XP stands for a word or a phrase (XP=phrase), Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
-  title_nor: Fortell en annen person hvordan en riktig venn skal være. Bruk konstruksjonene i listen for å legge til informasjon. I disse konstruksjonene er XP et ord eller en frase (XP=frase) og Cl er en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning).
+  title_eng: Tell another person what a real friend should be like. Add information by using the constructions from this list.
+  title_nor: Fortell en annen person hvordan en riktig venn skal være. Bruk konstruksjonene i listen for å legge til informasjon. 
   comment: "Это упражнение хорошо делать с целой группой студентов. Формат задания: по цепочке. Каждый студент должен добавить к описанию идеального друга новую черту. Продолжаем по очереди, все предложения должны быть связаны друг с другом.<br>
 = This exercise is good to do with a group of students. Task format: have students answer one after another. Each student in their turn adds a new characteristic to the description of the ideal friend. All sentences should be connected to each other by the constructions."
   example: Настоящий друг добрый. ^Кроме того,@ настоящий друг всегда помогает...
@@ -368,11 +359,10 @@
   lesson_id: 1
   ex_number: 13
   title: "Вы встретили на улице знаменитость (известного человека). Объясните друзьям кто это, не называя его имени. Они должны отгадать, кто этот человек. После каждого неправильного предположения вы добавляете еще один факт, чтобы помочь им отгадать. Используйте конструкции:<br>
-  <ul><li>(а) кроме того XP/Cl</li><li>не только XP, но и XP</li><li>(и) кстати (говоря), Cl</li><li>к тому же XP/Cl</li><li>плюс/вдобавок (ко всему/к тому/к этому), Cl</li></ul>"
-  instructions: В этих конструкциях XP — это слово или фраза (XP=phrase), Cl — это целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент. На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  <ul><li>кроме того ...</li><li>не только ..., но и ...</li><li>кстати, ...</li><li>к тому же ...</li><li>плюс ко всему, ...</li></ul>"
   exercise_type: ~
-  title_eng: You have met a celebrity on the street. Explain to your friends who this person is without mentioning his or her name. Your friends should try to guess who this celebrity is. After each wrong guess, you add another fact to help your friends guess. Use the constructions from the list. In these constructions, XP stands for a word or a phrase (XP=phrase), Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
-  title_nor: Du har truffet en kjendis på gata. Forklar for vennene dine hvem det er, uten å nevne navnet til vedkommende. Dine venner må gjette hvem det er. Etter hvert feilaktig svar skal du legge til ytterligere informasjon for å hjelpe dem å gjette. Bruk konstruksjonene i listen. I disse konstruksjonene er XP et ord eller en frase (XP=frase) og Cl er en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning).
+  title_eng: You have met a celebrity on the street. Explain to your friends who this person is without mentioning his or her name. Your friends should try to guess who this celebrity is. After each wrong guess, you add another fact to help your friends guess. Use the constructions from the list.
+  title_nor: Du har truffet en kjendis på gata. Forklar for vennene dine hvem det er, uten å nevne navnet til vedkommende. Dine venner må gjette hvem det er. Etter hvert feilaktig svar skal du legge til ytterligere informasjon for å hjelpe dem å gjette. Bruk konstruksjonene i listen. 
   comment: "Каждый студент получает имя известного человека и должен объяснить, кто он (или она). Задача других студентов — отгадать, кто это. Кроме имени, студентам можно дать карточки с информацией об этих знаменитостях.<br>
 = Each student receives the name of a famous person and should explain who this person is. The task of the other students is to guess who this person is. In addition to the name, the students can also receive cards with information about these celebrities."
   example: Этот человек — мужчина. Он певец. Этот мужчина ^не только@ хорошо поет, ^но и@ отлично играет на скрипке. Он родился в Минске, но потом долго жил в Норвегии. ^Кстати говоря,@ этот норвежский певец выступал на Евровидении и победил! ^Кроме того,@ настоящий друг всегда помогает...
@@ -450,4 +440,3 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-
