@@ -265,7 +265,7 @@
 Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть больше одного.<br>
 <ul><li>а. Кстати</li><li>б. Кроме того</li><li>в. К тому же</li></ul>"
   instructions: ~
-  exercise_type: text_input
+  exercise_type: multichoice_multianswer
   title_eng: Bonus exercise. Fill in the blanks with the words from the list. Explain why certain options cannot be used. Note that there can be more than one correct answer.
   title_nor: Bonusoppgave. Fyll ut de tomme feltene med ord fra listen. Forklar hvorfor noen varianter ikke passer. Legg merke til at flere enn et alternativ kan være riktig.
   comment: ~
@@ -318,12 +318,16 @@
     = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^к тому же@ 'I tillegg' angir ofte et sterkere argument, og i dette tilfellet er fokus rettet mot det positive i situasjonen."
   answer_key:
     answer1: а
-    answer2: а, б, в
-    answer3: б, в
+    answer2: а; б; в
+    answer3: б; в
     answer4: а
-    answer5: б, в
-    answer6: б, в
-    answer7: б, в
+    answer5: б в
+    answer6: б; в
+    answer7: б; в
+  answer_options:
+    - а
+    - б
+    - в
   difficult_words: ~
   table: ~
 11:
