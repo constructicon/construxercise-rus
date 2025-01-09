@@ -546,6 +546,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     add_answer(answer_to_show, answer_key, create_input());
 
                 } else if (data[exercise_id]["exercise_type"] == "multichoice_multianswer") {
+                    const subtask_id = `${exercise_id}_${i}`
                     let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`];
                     
                     const answer_options = data[exercise_id]['answer_options'];
@@ -564,7 +565,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                         optionBox.setAttribute('type', 'checkbox');
                         optionBox.setAttribute('value', answer_options[k]);
                         optionBox.setAttribute('id', `option${k}`);
-                        optionBox.setAttribute('name', 'multichoice_options')
+                        optionBox.setAttribute('name', `multichoice_options${subtask_id}`)
 
                         var optionLabel = document.createElement('label');
                         optionLabel.setAttribute('class', 'form-check-label');
@@ -602,7 +603,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     button1.onclick = function () {
 
                         // select all checked boxes
-                        var checkedBoxes = document.querySelectorAll('input[name=multichoice_options]:checked');
+                        const search = `input[name=multichoice_options${subtask_id}]:checked`
+                        var checkedBoxes = document.querySelectorAll(search);
+
                         // get values of checked boxes
                         let checkedBoxesValues = []
                         for (var i=0; i<checkedBoxes.length; i++) {
@@ -629,7 +632,38 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
                 } else if (data[exercise_id]["exercise_type"] == "multichoice_singleanswer") {
                     // if task has one answer and requires radio buttons
-                    // TODO: add
+                    let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`];
+                    
+                    const answer_options = data[exercise_id]['answer_options'];
+
+                    var answer_key = data[exercise_id]["answer_key"][`answer${i}`];
+
+                    const answer_set = new Set(answer_key.split('; '))
+                    
+                    var formBox = document.createElement("div");
+                    formBox.setAttribute('class', 'form-check');
+
+
+                    // iterate over options and create radio
+                    for (var k = 0; k < answer_options.length; k++) {
+                        var optionBox = document.createElement('input');
+                        optionBox.setAttribute('class', 'form-check-input');
+                        optionBox.setAttribute('type', 'radio');
+                        optionBox.setAttribute('value', answer_options[k]);
+                        optionBox.setAttribute('id', `option${k}`);
+                        optionBox.setAttribute('name', 'multichoice_options')
+
+                        var optionLabel = document.createElement('label');
+                        optionLabel.setAttribute('class', 'form-check-label');
+                        optionLabel.setAttribute('for', `option${k}`);
+                        optionLabel.innerHTML = answer_options[k];
+                        formBox.appendChild(optionBox);
+                        formBox.appendChild(optionLabel);
+                        formBox.appendChild(document.createElement('br'))
+                    }
+                    subtask.appendChild(formBox);
+                    
+                    // TODO: finish
 
                 } else if ((typeof data[exercise_id]["answer_to_show"] == "object" & data[exercise_id]["answer_to_show"] != null)) {
                     
