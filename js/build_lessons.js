@@ -480,21 +480,21 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             // Get number of subtasks in the task
             var subtasks_amount = Object.keys(data[exercise_id]["task"]).length
             for (var i = 1; i <= subtasks_amount; i++) {
-                var subtask = document.createElement("div")
-                subtask.setAttribute("class", "shadow p-2 mb-3 rounded")
+                var subtask = document.createElement("div");
+                subtask.setAttribute("class", "shadow p-2 mb-3 rounded");
 
                 // Add text if available for subtask
                 if (data[exercise_id]["task"][`task${i}`]["text"] != null) {
-                    subtask.innerHTML = annotate(data[exercise_id]["task"][`task${i}`]["text"])
+                    subtask.innerHTML = annotate(data[exercise_id]["task"][`task${i}`]["text"]);
                     if (data[exercise_id]["difficult_words"] != null) {
-                        let words = data[exercise_id]["difficult_words"][`word${i}`]
+                        let words = data[exercise_id]["difficult_words"][`word${i}`];
                         // FIXME: HOVER_DIFF_WORDS PRODUCING ERROR IN LESSON 8 (LINE 57 WORD NOT DEFINED)
                         // subtask.innerHTML = hover_diff_words(subtask.innerHTML, words)
                     }
 
                 }
                 
-                task.appendChild(subtask)
+                task.appendChild(subtask);
 
                 // Add table if available for subtask
                 if (data[exercise_id]["task"][`task${i}`]["table"] != null) {
@@ -521,24 +521,6 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 }
 
                 
-
-                // if (data[exercise_id]["difficult_words"] != null) {
-                //     if (data[exercise_id]["difficult_words"][`word${i}`] != null) {
-
-                //         hover_diff_words(data[exercise_id]["task"][`task${i}`]["text"], 
-                //                          data[exercise_id]["difficult_words"][`word${i}`])
-                //         let d_word = document.createElement("p");
-                //         d_word.innerHTML = data[exercise_id]["difficult_words"][`word${i}`];
-                //         task.appendChild(d_word);
-                //     } else if (i == subtasks_amount & typeof data[exercise_id]["difficult_words"] != "object") {
-                //         let d_word = document.createElement("p");
-                //         d_word.innerHTML = data[exercise_id]["difficult_words"];
-                //         task.appendChild(d_word);
-                //     }
-                // }
-
-
-                
                 if (data[exercise_id]["exercise_type"] == "text_input") {
                     // if task requires text input form
                     let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`];
@@ -546,7 +528,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     add_answer(answer_to_show, answer_key, create_input());
 
                 } else if (data[exercise_id]["exercise_type"] == "multichoice_multianswer") {
-                    const subtask_id = `${exercise_id}_${i}`
+                    const subtask_id = `${exercise_id}_${i}`;
                     let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`];
                     
                     const answer_options = data[exercise_id]['answer_options'];
@@ -573,47 +555,123 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                         optionLabel.innerHTML = answer_options[k];
                         formBox.appendChild(optionBox);
                         formBox.appendChild(optionLabel);
-                        formBox.appendChild(document.createElement('br'))
+                        formBox.appendChild(document.createElement('br'));
                     }
                     subtask.appendChild(formBox);
 
 
                     // add button to check answer
                     let answer_text = document.createElement("p");
-                    answer_text.setAttribute('class', 'text-secondary')
+                    answer_text.setAttribute('class', 'text-secondary');
 
-                    let buttons = document.createElement("div")
-                    buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end")
-                    buttons.setAttribute("style", "margin-top: 10px")
+                    let buttons = document.createElement("div");
+                    buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end");
+                    buttons.setAttribute("style", "margin-top: 10px");
                 
-                    let button2 = document.createElement("button")
-                    button2.setAttribute("type", "button")
-                    button2.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
-                    button2.innerHTML = "Answer key"
+                    let button2 = document.createElement("button");
+                    button2.setAttribute("type", "button");
+                    button2.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
+                    button2.innerHTML = "Answer key";
                                 
                     let result_text = document.createElement("p");
-                    result_text.setAttribute("style", "display: inline-block")
+                    result_text.setAttribute("style", "display: inline-block");
                     
-                    let button1 = document.createElement("button")
-                    button1.setAttribute("type", "button")
-                    button1.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
-                    button1.innerHTML = "Check Answer"
+                    let button1 = document.createElement("button");
+                    button1.setAttribute("type", "button");
+                    button1.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
+                    button1.innerHTML = "Check Answer";
 
                     // add answer check
                     button1.onclick = function () {
 
                         // select all checked boxes
-                        const search = `input[name=multichoice_options${subtask_id}]:checked`
+                        const search = `input[name=multichoice_options${subtask_id}]:checked`;
                         var checkedBoxes = document.querySelectorAll(search);
 
                         // get values of checked boxes
-                        let checkedBoxesValues = []
+                        let checkedBoxesValues = [];
                         for (var i=0; i<checkedBoxes.length; i++) {
-                            checkedBoxesValues.push(checkedBoxes[i].value)
+                            checkedBoxesValues.push(checkedBoxes[i].value);
                         }
-                        let selected_answer = new Set(checkedBoxesValues)
+                        let selected_answer = new Set(checkedBoxesValues);
 
-                        check_answer_multichoice(selected_answer, result_text, answer_set)
+                        check_answer_multichoice(selected_answer, result_text, answer_set);
+
+                    }
+                    
+                    buttons.appendChild(button1);
+                    button2.onclick = function() {
+                        show_item(answer_text, annotate(String(answer_to_show)));
+                    }
+                    buttons.appendChild(button2);
+                    
+                    subtask.appendChild(buttons);
+                    task.appendChild(result_text);
+                    task.appendChild(answer_text);
+                    
+                } else if (data[exercise_id]["exercise_type"] == "multichoice_singleanswer") {
+                    // if task has one answer and requires radio buttons
+                    const subtask_id = `${exercise_id}_${i}`;
+
+                    let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`];
+                    
+                    const answer_options = data[exercise_id]['answer_options'];
+
+                    var answer_key = data[exercise_id]["answer_key"][`answer${i}`];
+                    
+                    var formBox = document.createElement("div");
+                    formBox.setAttribute('class', 'form-check');
+
+
+                    // iterate over options and create radio
+                    for (var k = 0; k < answer_options.length; k++) {
+                        var optionBox = document.createElement('input');
+                        optionBox.setAttribute('class', 'form-check-input');
+                        optionBox.setAttribute('type', 'radio');
+                        optionBox.setAttribute('value', answer_options[k]);
+                        optionBox.setAttribute('id', `option${k}`);
+                        optionBox.setAttribute('name', `singlechoice_options${subtask_id}`);
+
+                        var optionLabel = document.createElement('label');
+                        optionLabel.setAttribute('class', 'form-check-label');
+                        optionLabel.setAttribute('for', `option${k}`);
+                        optionLabel.innerHTML = answer_options[k];
+                        formBox.appendChild(optionBox);
+                        formBox.appendChild(optionLabel);
+                        formBox.appendChild(document.createElement('br'));
+                    }
+                    subtask.appendChild(formBox);
+
+                    
+                    // add button to check answer
+                    let answer_text = document.createElement("p");
+                    answer_text.setAttribute('class', 'text-secondary');
+
+                    let buttons = document.createElement("div");
+                    buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end");
+                    buttons.setAttribute("style", "margin-top: 10px");
+                
+                    let button2 = document.createElement("button");
+                    button2.setAttribute("type", "button");
+                    button2.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
+                    button2.innerHTML = "Answer key";
+                                
+                    let result_text = document.createElement("p");
+                    result_text.setAttribute("style", "display: inline-block");
+                    
+                    let button1 = document.createElement("button");
+                    button1.setAttribute("type", "button");
+                    button1.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
+                    button1.innerHTML = "Check Answer";
+
+                    // add answer check
+                    button1.onclick = function () {
+
+                        // find selected option
+                        const search = `input[name=singlechoice_options${subtask_id}]:checked`;
+                        var checkedBoxes = document.querySelectorAll(search);
+                        
+                        check_answer(checkedBoxes[0], result_text, answer_key);
 
                     }
                     
@@ -628,42 +686,6 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     task.appendChild(result_text)
                     task.appendChild(answer_text)
                     
-
-
-                } else if (data[exercise_id]["exercise_type"] == "multichoice_singleanswer") {
-                    // if task has one answer and requires radio buttons
-                    let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`];
-                    
-                    const answer_options = data[exercise_id]['answer_options'];
-
-                    var answer_key = data[exercise_id]["answer_key"][`answer${i}`];
-
-                    const answer_set = new Set(answer_key.split('; '))
-                    
-                    var formBox = document.createElement("div");
-                    formBox.setAttribute('class', 'form-check');
-
-
-                    // iterate over options and create radio
-                    for (var k = 0; k < answer_options.length; k++) {
-                        var optionBox = document.createElement('input');
-                        optionBox.setAttribute('class', 'form-check-input');
-                        optionBox.setAttribute('type', 'radio');
-                        optionBox.setAttribute('value', answer_options[k]);
-                        optionBox.setAttribute('id', `option${k}`);
-                        optionBox.setAttribute('name', 'multichoice_options')
-
-                        var optionLabel = document.createElement('label');
-                        optionLabel.setAttribute('class', 'form-check-label');
-                        optionLabel.setAttribute('for', `option${k}`);
-                        optionLabel.innerHTML = answer_options[k];
-                        formBox.appendChild(optionBox);
-                        formBox.appendChild(optionLabel);
-                        formBox.appendChild(document.createElement('br'))
-                    }
-                    subtask.appendChild(formBox);
-                    
-                    // TODO: finish
 
                 } else if ((typeof data[exercise_id]["answer_to_show"] == "object" & data[exercise_id]["answer_to_show"] != null)) {
                     
