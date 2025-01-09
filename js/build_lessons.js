@@ -69,7 +69,6 @@ function show_item(x, item) {
         x.style.display = "block";
         x.appendChild(document.createElement("br"))
         x.appendChild(document.createElement("br"))
-
     }
 }
 
@@ -84,6 +83,23 @@ function check_answer(x_input, x_result, answer_key) {
         x_result.style.backgroundColor = "#ee5151";
     };
     x_result.innerHTML = result;
+}
+
+function check_answer_multichoice(selected_answer, result_text, answer_set){
+    let result;
+                        
+    var areSetsEqual = (setA, setB) => setA.size === setB.size && [...setA].every(value => setB.has(value))
+
+    if (areSetsEqual(answer_set, selected_answer)) {
+        result = "Правильно";
+        result_text.style.backgroundColor = "#6ef184";
+    } else {
+        result = "Неправильно";
+        result_text.style.backgroundColor = "#ee5151";
+    };
+    // let textNode = document.createTextNode(result);
+    // result_text.appendChild(textNode)
+    result_text.innerHTML = result;
 }
 
 function create_input() {
@@ -193,6 +209,52 @@ function add_answer(answer_to_show, answer_key, input) {
     task.appendChild(answer_text);
 }
 
+// function add_answer_multichoice(answer_to_show, answer_set) {
+//     // add button to check answer
+//     let answer_text = document.createElement("p");
+//     let buttons = document.createElement("div")
+//     buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end")
+//     buttons.setAttribute("style", "margin-top: 10px")
+
+//     let button2 = document.createElement("button")
+//     button2.setAttribute("type", "button")
+//     button2.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
+//     button2.innerHTML = "Answer key"
+                
+//     var result_text = document.createElement("p");
+//     result_text.setAttribute("style", "display: inline-block")
+    
+//     let button1 = document.createElement("button")
+//     button1.setAttribute("type", "button")
+//     button1.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
+//     button1.innerHTML = "Check Answer"
+//     var result_text = document.createElement("p");
+//     result_text.setAttribute("style", "display: inline-block")
+//     // result_text.setAttribute('id', `answer${i}`)
+//     // add answer check
+//     button1.onclick = function () {
+//         // select all checked boxes
+//         var checkedBoxes = document.querySelectorAll('input[name=multichoice_options]:checked');
+//         // get values of checked boxes
+//         let checkedBoxesValues = []
+//         for (var i=0; i<checkedBoxes.length; i++) {
+//             checkedBoxesValues.push(checkedBoxes[i].value)
+//         }
+//         let selected_answer = new Set(checkedBoxesValues)
+//         console.log(answer_set)
+
+//         check_answer_multichoice(selected_answer, result_text, answer_set)
+//     }
+    
+//     buttons.appendChild(button1);
+//     button2.onclick = function () {
+//         show_item(answer_text, annotate(String(answer_to_show)));
+//     }
+//     buttons.appendChild(button2)
+//     subtask.appendChild(buttons)
+//     subtask.appendChild(result_text)
+// }
+
 function add_table(subtask) {
     let table = document.createElement("table")
 
@@ -290,37 +352,28 @@ function add_table(subtask) {
 
 for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     var all_exercise = document.createElement("div");
-    // if (exercise_id % 2 != 0) {
-    //     all_exercise.setAttribute("style", "background-color: #DDF1FE ");
-    // }
 
     var task_title = document.createElement("h3");
     task_title.setAttribute("style", "margin-top: 30px");
     
+    // get task title
     if (document.title.split(" ")[0] == "Lesson") {
         task_title.innerHTML = annotate(`${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`);
     } else {
         task_title.innerHTML = annotate(`${data[exercise_id]["lesson_id"]}.${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`);
     }
 
-    // console.log(task_title.innerHTML.split(" "))
+    // special formatting for bonus exercises
     if (task_title.innerHTML.split(" ")[1] == "Бонусное"){
         task_title.innerHTML = task_title.innerHTML.replace("Бонусное упражнение", "<span style='color: green'>Бонусное упражнение</span>")
     }
-    // instructions obsolete (construction formulas no longer contain glosses that need to be explained, like XP or Cl)
-    // if (data[exercise_id]["instructions"] != null) {
-    //     let instructions = document.createElement("h6");
-    //     instructions.innerHTML = annotate(data[exercise_id]["instructions"]);
-    //     instructions.setAttribute("style", "margin-top: 10px")
-    //     task_title.appendChild(instructions);
-    // };
+
+    // add buttons for translations to English and Norwegian
     let task_buttons = document.createElement("div");
     task_buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end");
     task_buttons.setAttribute("style", "margin-top: 10px")
     let eng_text = document.createElement("h6");
-    // eng_text.appendChild(document.createElement("br"))
     let norw_text = document.createElement("h6");
-    // norw_text.appendChild(document.createElement("br"))
     let eng = document.createElement("button");
     eng.setAttribute("type", "button");
     eng.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
@@ -347,7 +400,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     // all_exercise.appendChild(task_title)
     main_content.appendChild(task_title);
 
-
+    // add comment
     if (data[exercise_id]["comment"]) {
         let comment = document.createElement("h6");
 
@@ -484,22 +537,110 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 //     }
                 // }
 
+
+                
                 if (data[exercise_id]["exercise_type"] == "text_input") {
-                    let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`]
-                    let answer_key = data[exercise_id]["answer_key"][`answer${i}`]
+                    // if task requires text input form
+                    let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`];
+                    let answer_key = data[exercise_id]["answer_key"][`answer${i}`];
                     add_answer(answer_to_show, answer_key, create_input());
-                } else if ((typeof data[exercise_id]["answer_to_show"] == "object" & data[exercise_id]["answer_to_show"] != null)) {
-                    // console.log(exercise_id, i)
+
+                } else if (data[exercise_id]["exercise_type"] == "multichoice_multianswer") {
+                    let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`];
                     
-                    let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`]
-                    // console.log(answer_to_show)
+                    const answer_options = data[exercise_id]['answer_options'];
+
+                    var answer_key = data[exercise_id]["answer_key"][`answer${i}`];
+
+                    const answer_set = new Set(answer_key.split('; '))
+                    
+                    var formBox = document.createElement("div");
+                    formBox.setAttribute('class', 'form-check');
+                    
+                    // iterate over options and create checkboxes
+                    for (var k = 0; k < answer_options.length; k++) {
+                        var optionBox = document.createElement('input');
+                        optionBox.setAttribute('class', 'form-check-input');
+                        optionBox.setAttribute('type', 'checkbox');
+                        optionBox.setAttribute('value', answer_options[k]);
+                        optionBox.setAttribute('id', `option${k}`);
+                        optionBox.setAttribute('name', 'multichoice_options')
+
+                        var optionLabel = document.createElement('label');
+                        optionLabel.setAttribute('class', 'form-check-label');
+                        optionLabel.setAttribute('for', `option${k}`);
+                        optionLabel.innerHTML = answer_options[k];
+                        formBox.appendChild(optionBox);
+                        formBox.appendChild(optionLabel);
+                        formBox.appendChild(document.createElement('br'))
+                    }
+                    subtask.appendChild(formBox);
+
+
+                    // add button to check answer
+                    let answer_text = document.createElement("p");
+                    answer_text.setAttribute('class', 'text-secondary')
+
+                    let buttons = document.createElement("div")
+                    buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end")
+                    buttons.setAttribute("style", "margin-top: 10px")
+                
+                    let button2 = document.createElement("button")
+                    button2.setAttribute("type", "button")
+                    button2.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
+                    button2.innerHTML = "Answer key"
+                                
+                    let result_text = document.createElement("p");
+                    result_text.setAttribute("style", "display: inline-block")
+                    
+                    let button1 = document.createElement("button")
+                    button1.setAttribute("type", "button")
+                    button1.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
+                    button1.innerHTML = "Check Answer"
+
+                    // add answer check
+                    button1.onclick = function () {
+
+                        // select all checked boxes
+                        var checkedBoxes = document.querySelectorAll('input[name=multichoice_options]:checked');
+                        // get values of checked boxes
+                        let checkedBoxesValues = []
+                        for (var i=0; i<checkedBoxes.length; i++) {
+                            checkedBoxesValues.push(checkedBoxes[i].value)
+                        }
+                        let selected_answer = new Set(checkedBoxesValues)
+
+                        check_answer_multichoice(selected_answer, result_text, answer_set)
+
+                    }
+                    
+                    buttons.appendChild(button1);
+                    button2.onclick = function() {
+                        show_item(answer_text, annotate(String(answer_to_show)));
+                    }
+                    buttons.appendChild(button2)
+                    
+
+                    subtask.appendChild(buttons)
+                    task.appendChild(result_text)
+                    task.appendChild(answer_text)
+                    
+
+
+                } else if (data[exercise_id]["exercise_type"] == "multichoice_singleanswer") {
+                    // if task has one answer and requires radio buttons
+                    // TODO: add
+
+                } else if ((typeof data[exercise_id]["answer_to_show"] == "object" & data[exercise_id]["answer_to_show"] != null)) {
+                    
+                    let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`];
                     add_answer(answer_to_show);
                 } else if (typeof data[exercise_id]["answer_to_show"] == "string" & i == subtasks_amount) {
-                    let answer_to_show = data[exercise_id]["answer_to_show"]
-                    // console.log(answer_to_show)
+                    let answer_to_show = data[exercise_id]["answer_to_show"];
                     add_answer(answer_to_show);
                 }
             };
+
         } else {
             // if no subtasks
             task.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
@@ -508,17 +649,17 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             }
             
             if (data[exercise_id]["task"]["audio"] != null) {
-                task.appendChild(add_audio(lesson_id, exercise_id, data[exercise_id]["task"]["audio"]))
+                task.appendChild(add_audio(lesson_id, exercise_id, data[exercise_id]["task"]["audio"]));
             }
 
             if (data[exercise_id]["difficult_words"] != null) {
-                let words = data[exercise_id]["difficult_words"]
-                task.innerHTML = hover_diff_words(task.innerHTML, words)
-                console.log(words)
+                let words = data[exercise_id]["difficult_words"];
+                task.innerHTML = hover_diff_words(task.innerHTML, words);
+                console.log(words);
             }
 
             if (data[exercise_id]["answer_to_show"] != null) {
-                let answer_to_show = data[exercise_id]["answer_to_show"]
+                let answer_to_show = data[exercise_id]["answer_to_show"];
                 if (data[exercise_id]["exercise_type"] == "text_input") {
                     let answer_key = data[exercise_id]["answer_key"]
                     add_answer(answer_to_show, answer_key, create_input());
