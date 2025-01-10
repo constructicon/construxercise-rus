@@ -699,8 +699,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
         } else {
             // if no subtasks
-            task.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
+
             if (data[exercise_id]["task"]["text"] != null){
+                task.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
                 task.innerHTML = annotate(data[exercise_id]["task"]["text"]);
             }
             
