@@ -72,16 +72,42 @@
   lesson_id: 1
   ex_number: 4
   title: Соедините части предложений, подобрав логичное продолжение. Назовите, слова каких частей речи стоят на месте ... в конструкции ^не только ..., но и ...@.
-  exercise_type: text_input
+  exercise_type: multichoice_singleanswer
   title_eng: Connect the phrases by choosing the matching continuation. What parts of speech fill the slot ... in the construction не только ..., но и ... 'not only... but also ...'?
   title_nor:  Fullfør setningene ved å velge delene som passer sammen. Hvilke ordklasser utgjør ... i konstruksjonen не только ..., но и ... 'ikke bare... men også ...'?
   comment: ~
   example: ~
   model: ~
   image: ~
-  task: ~
-  answer_to_show: 1д, 2в, 3г, 4а, 5б
-  answer_key: 1д, 2в, 3г, 4а, 5б
+  task: 
+    task1: 
+      text: 1
+    task2: 
+      text: 2
+    task3: 
+      text: 3
+    task4: 
+      text: 4
+    task5: 
+      text: 5
+  answer_to_show:
+    answer1: д
+    answer2: в
+    answer3: г
+    answer4: а
+    answer5: б
+  answer_key: 
+    answer1: д
+    answer2: в
+    answer3: г
+    answer4: а
+    answer5: б
+  answer_options: 
+   - а
+   - б
+   - в
+   - г
+   - д
   difficult_words: ~
   table:
     vertical_align: +
@@ -185,9 +211,35 @@
   example: ~
   model: ~
   image: ~
-  task: ~
-  answer_to_show: 1в, 2а, 3г, 4д, 5б
-  answer_key: 1в, 2а, 3г, 4д, 5б
+  task: 
+    task1:
+      text: 1
+    task2:
+      text: 2
+    task3:
+      text: 3
+    task4: 
+      text: 4
+    task5:
+      text: 5
+  answer_to_show: 
+    answer1: в
+    answer2: а
+    answer3: г
+    answer4: д
+    answer5: б
+  answer_key: 
+    answer1: в
+    answer2: а
+    answer3: г
+    answer4: д
+    answer5: б
+  answer_options:
+    - а
+    - б
+    - в
+    - г
+    - д
   difficult_words: ~
   table:
     header: ~
@@ -263,7 +315,7 @@
   ex_number: 10
   title: "Бонусное упражнение<br>
 Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть больше одного.<br>
-<ul><li>а. Кстати</li><li>б. Кроме того</li><li>в. К тому же</li></ul>"
+<ul><li>Кстати</li><li>Кроме того</li><li>К тому же</li></ul>"
   instructions: ~
   exercise_type: multichoice_multianswer
   title_eng: Bonus exercise. Fill in the blanks with the words from the list. Explain why certain options cannot be used. Note that there can be more than one correct answer.
@@ -288,46 +340,46 @@
     task7:
       text: 7. Свадьба — это очень весело. ___ можно наконец увидеть всех своих родственников и друзей.
   answer_to_show:
-    answer1: "а<br>
+    answer1: "Кстати<br>
     ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ здесь не подходят, так как они не передают этого значения.<br>
     = The word ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' are not appropriate here, because they do not convey this meaning.<br>
     = Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men den kan avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' passer ikke i dette tilfellet fordi de formidler ikke en slik betydning."
-    answer2: "а, б, в<br>
+    answer2: "Кстати; Кроме того; К тому же<br>
     Здесь подходят все три конструкции, но они вносят разные нюансы. ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов.<br>
     = All three constructions can be used here. However, they have different nuances in meaning. ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning.<br>
     = Samtlige tre konstruksjoner kan brukes i dette tilfellet. Imidlertid kan de uttrykke nyanseforskjeller i sammenhengen. Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men samtidig kan den avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta."
-    answer3: "б, в<br>
+    answer3: "Кроме того; К тому же<br>
     Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Конструкция ^кстати@ здесь не подходит, так как она подчеркивает неожиданность дополнительной информации.<br>
     = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the word ^кстати@ 'by the way' cannot be used here, because it emphasizes that the added information is unexpected.<br>
     = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^кстати@ 'forresten' passer ikke i dette tilfellet, siden den uttrykker uventet tilleggsinformasjon."
-    answer4: "а<br>
+    answer4: "Кстати<br>
     ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ здесь не подходят, так как они не передают этого значения.<br>
     = The word ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' are not appropriate here, because they do not convey this meaning.<br>
     = Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men den kan avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' passer ikke i dette tilfellet fordi de formidler ikke en slik betydning."
-    answer5: "б, в<br>
+    answer5: "Кроме того; К тому же<br>
     Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Конструкция ^кстати@ здесь не подходит, так как она подчеркивает неожиданность дополнительной информации.<br>
     = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the word ^кстати@ 'by the way' cannot be used here, because it emphasizes that the added information is unexpected.<br>
     = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^кстати@ 'forresten' passer ikke i dette tilfellet, siden den uttrykker uventet tilleggsinformasjon."
-    answer6: "б, в<br>
+    answer6: "Кроме того; К тому же<br>
     Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Особенность конструкции ^к тому же@ в том, что часто она вводит более сильный аргумент, а в данном случае подчеркивает негативную сторону ситуации.<br>
     = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the words ^к тому же@ 'in addition' often introduces a stronger argument, and in this sentence it emphasizes the negative side of the situation.<br>
     = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^к тому же@ 'I tillegg' angir ofte et sterkere argument, og i dette tilfellet er fokus rettet mot det negative i situasjonen."
-    answer7: "б, в<br>
+    answer7: "Кроме того; К тому же<br>
     Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Особенность конструкции ^к тому же@ в том, что часто она вводит более сильный аргумент, а в данном случае подчеркивает позитивную сторону ситуации.<br>
     = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact in the line of reasoning. The construction with the words ^к тому же@ 'in addition' often introduces a stronger argument, and in this sentence it emphasizes the positive side of the situation.<br>
     = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^к тому же@ 'I tillegg' angir ofte et sterkere argument, og i dette tilfellet er fokus rettet mot det positive i situasjonen."
   answer_key:
-    answer1: а
-    answer2: а; б; в
-    answer3: б; в
-    answer4: а
-    answer5: б в
-    answer6: б; в
-    answer7: б; в
+    answer1: Кстати
+    answer2: Кстати; Кроме того; К тому же
+    answer3: Кроме того; К тому же
+    answer4: Кстати
+    answer5: Кроме того; К тому же
+    answer6: Кроме того; К тому же
+    answer7: Кроме того; К тому же
   answer_options:
-    - а
-    - б
-    - в
+    - Кстати
+    - Кроме того
+    - К тому же
   difficult_words: ~
   table: ~
 11:
