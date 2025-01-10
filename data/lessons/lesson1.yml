@@ -62,14 +62,18 @@
       text: б. София красиво поëт и играет на пианино.
     task3:
       text: в. Даниил плохо видит и носит очки.
+    task4:
+      text: г. Кристина свободно говорит на четырёх языках и отлично переводит с русского на китайский.
   answer_to_show:
     answer1: Роман ^не только@ хорошо играет в футбол, ^но и@ фотографирует.
     answer2: София ^не только@ красиво поëт, ^но и@ играет на пианино.
     answer3: "Это предложение нельзя переформулировать. Конструкция ^не только ..., но и ...@ требует, чтобы ее части ... имели равный статус. Однако части предложения \"плохо видит\" и \"носит очки\" не равноправны по значению: они выражают причину и следствие.<br> = It is not possible to rephrase this sentence. The construction ^не только ..., но и ...@ 'not only... but also ...' requires that its components ... have equal status. However, in this case the elements \"плохо видит\" and \"носит очки\" are not equal semantically: the former is the cause, and the latter is the consequence.<br> = Det er ikke mulig å omformulere denne setningen. Konstruksjonen ^не только ..., но и ...@ 'ikke bare... men også ...' krever at begge delene ... er likeverdige. I dette tilfellet er imidlertid ikke delene \"плохо видит\" og \"носит очки\" likeverdige når det gjelder betydning: den første uttrykker årsak, mens den andre uttrykker virkning."
+    answer4: Кристина ^не только@ свободно говорит на четырёх языках, ^но и@ отлично переводит с русского на китайский.
   answer_key:
     answer1: Роман не только хорошо играет в футбол, но и фотографирует.
     answer2: София не только красиво поëт, но и играет на пианино.
     answer3: нельзя переделать
+    answer4: Кристина не только свободно говорит на четырёх языках, но и отлично переводит с русского на китайский.
   difficult_words: ~
   table: ~
 4:
@@ -147,7 +151,7 @@
       - в. но и умным политиком.
     row4:
       - 4. Ксюша - самая красивая девочка не только в нашем классе,
-      - г. но и учителя выбежали на улицу играть в снежки.
+      - г. но и учителя выбежали на улицу.
     row5:
       - 5. Он не только отлично плавал,
       - д. но и фильмы о нём.
@@ -159,7 +163,7 @@
   title_eng: Rephrase the sentences by using the construction ^кроме того ...@. 
   title_nor: Omformuler setningene ved å bruke konstruksjonen ^кроме того ...@. 
   comment: ~
-  example: Иван пережил много невероятных приключений. Он мог увлекательно рассказать о них. <i><br> Иван пережил много невероятных приключений, ^а кроме того,@ он мог увлекательно рассказать о них</i>.
+  example: Мария отлично готовит. Ещё она прекрасно играет на пианино. <br><ul><li>Мария отлично готовит. ^Кроме того,@ она прекрасно играет на пианино.</li> <li>Мария отлично готовит, ^а кроме того,@ она прекрасно играет на пианино.</li></ul>
   model: ~
   image: ~
   task:
