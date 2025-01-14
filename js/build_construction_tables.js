@@ -163,7 +163,7 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
             eng.innerHTML = "EN";
 
             const translation_text_eng = data["construction_table_rows"][i][3];
-            const equivalent_text_eng = 'placeholder illustration';
+            const equivalent_text_eng = data["construction_table_rows"][i][4][0];
 
             eng.onclick = function () {
             // Clear existing content to avoid appending duplicates
@@ -206,7 +206,7 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
             norw.innerHTML = "NO";
 
             const translation_text_norw = data["construction_table_rows"][i][4];
-            const equivalent_text_norw = "placeholder illustrationnnn"
+            const equivalent_text_norw = data["construction_table_rows"][i][4][1];
 
             norw.onclick = function () {
                 // Clear existing content
