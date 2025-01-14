@@ -670,10 +670,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                         // find selected option
                         const search = `input[name=singlechoice_options${subtask_id}]:checked`;
                         var checkedBoxes = document.querySelectorAll(search);
-                        console.log(checkedBoxes[0].value)
-                        console.log(answer_key)
+                        const selected_box = checkedBoxes[0]
                         
-                        check_answer(checkedBoxes[0].value, result_text, answer_key);
+                        check_answer(selected_box, result_text, answer_key);
 
                     }
                     
