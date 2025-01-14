@@ -617,7 +617,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     
                     const answer_options = data[exercise_id]['answer_options'];
 
-                    var answer_key = data[exercise_id]["answer_key"][`answer${i}`];
+                    let answer_key = data[exercise_id]["answer_key"][`answer${i}`];
                     
                     var formBox = document.createElement("div");
                     formBox.setAttribute('class', 'form-check');
@@ -670,8 +670,10 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                         // find selected option
                         const search = `input[name=singlechoice_options${subtask_id}]:checked`;
                         var checkedBoxes = document.querySelectorAll(search);
+                        console.log(checkedBoxes[0].value)
+                        console.log(answer_key)
                         
-                        check_answer(checkedBoxes[0], result_text, answer_key);
+                        check_answer(checkedBoxes[0].value, result_text, answer_key);
 
                     }
                     

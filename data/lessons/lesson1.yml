@@ -230,7 +230,7 @@
   lesson_id: 1
   ex_number: 9
   title: Соедините части предложений, подобрав логичное продолжение. Обратите внимание, что конструкция ^кстати, ...@ вводит дополнительную информацию и обозначает отклонение от темы.
-  exercise_type: text_input
+  exercise_type: multichoice_singleanswer
   title_eng: Connect the phrases by choosing a matching continuation. Note that the construction ^кстати, ...@ introduces additional information and often denotes digression. We can put an entire sentence in the slot.
   title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at konstruksjonen ^кстати, ...@ angir tilleggsinformasjon og ofte indikerer et avvik fra emnet. I denne konstruksjonen fylles plassen med en hel setning.
   comment: ~
