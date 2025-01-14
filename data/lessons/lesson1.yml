@@ -107,15 +107,15 @@
   image: ~
   task: 
     task1: 
-      text: 1
+      text: "1"
     task2: 
-      text: 2
+      text: "2"
     task3: 
-      text: 3
+      text: "3"
     task4: 
-      text: 4
+      text: "4"
     task5: 
-      text: 5
+      text: "5"
   answer_to_show:
     answer1: д
     answer2: в
@@ -239,15 +239,15 @@
   image: ~
   task: 
     task1:
-      text: 1
+      text: "1"
     task2:
-      text: 2
+      text: "2"
     task3:
-      text: 3
+      text: "3"
     task4: 
-      text: 4
+      text: "4"
     task5:
-      text: 5
+      text: "5"
   answer_to_show: 
     answer1: в
     answer2: а
