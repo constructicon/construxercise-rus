@@ -3,7 +3,6 @@
   lesson_id: 1
   lesson_name: Урок 1. Знакомство
   lesson_name_eng: Introducing yourself
-  lesson_pdf_link: https://zojabutenko.github.io/files/Lesson%201.%20Download.pdf
   construction_table_rows:
     - - 170
       - кроме того ...
@@ -45,7 +44,6 @@
   lesson_id: 2
   lesson_name: Урок 2. Поездка за границу
   lesson_name_eng: Traveling abroad
-  lesson_pdf_link: ~
   construction_table_rows:
     - - 2273
       - Во-первых, ... Во-вторых, ... В-третьих, …
@@ -77,7 +75,6 @@
   lesson_id: 3
   lesson_name: Урок 3. Устройство на работу
   lesson_name_eng: Getting a job
-  lesson_pdf_link: https://constructicon.github.io/construxercise-rus/files/Lesson%203.%20Download.pdf
   construction_table_rows:
     - - 1840
       - к примеру, ...
@@ -108,7 +105,6 @@
   lesson_id: 4
   lesson_name: Урок 4. Поход к врачу
   lesson_name_eng: Going to the doctor
-  lesson_pdf_link: https://constructicon.github.io/construxercise-rus/files/Lesson%204.%20Download.pdf
   construction_table_rows:
     - - 1087
       - другими словами, ...
@@ -207,7 +203,6 @@
   lesson_id: 6
   lesson_name: Урок 6. Транспорт
   lesson_name_eng: Getting around
-  lesson_pdf_link: https://constructicon.github.io/construxercise-rus/files/Lesson%206.%20Download.pdf
   construction_table_rows:
     - - 2001
       - с точки зрения ..., …
@@ -252,7 +247,6 @@
   lesson_id: 7
   lesson_name: Урок 7. Праздники
   lesson_name_eng: Holiday celebrations
-  lesson_pdf_link: https://constructicon.github.io/construxercise-rus/files/Lesson%207.%20Download.pdf
   construction_table_rows:
     - - 1873
       - ..., заодно ...
@@ -295,7 +289,6 @@
   lesson_id: 8
   lesson_name: Урок 8. Еда
   lesson_name_eng: Cooking and eating
-  lesson_pdf_link: https://constructicon.github.io/construxercise-rus/files/Lesson%208.%20Download.pdf
   construction_table_rows:
     - - 107
       - Дело не в ... 
@@ -322,7 +315,6 @@
   lesson_id: 9
   lesson_name: Урок 9. Внешность
   lesson_name_eng: Personal appearance
-  lesson_pdf_link: https://constructicon.github.io/construxercise-rus/files/Lesson%209.%20Download.pdf
   construction_table_rows:
     - - 706
       - …, правда?
@@ -353,7 +345,6 @@
   lesson_id: 10
   lesson_name: Урок 10. Характер
   lesson_name_eng: Describing personality
-  lesson_pdf_link: https://constructicon.github.io/construxercise-rus/files/Lesson%2010.%20Download.pdf
   construction_table_rows:
     - - 1138
       - на первый взгляд, …
@@ -384,7 +375,6 @@
   lesson_id: 11
   lesson_name: Урок 11. Одежда
   lesson_name_eng: Getting dressed
-  lesson_pdf_link: https://constructicon.github.io/construxercise-rus/files/Lesson%2011.%20Download.pdf
   construction_table_rows:
     - - 759
       - В заключение …
