@@ -16,12 +16,12 @@
       text: "а. Познакомьтесь! Матвей Белов –  ___  медицинского факультета. ^Кроме того,@ Матвей занимается каратэ и  ___  плавает. Матвей ^не только@ учится, ^но и@  ___  санитаром в больнице. Это полезный опыт, ^к тому же@ неплохая зарплата. ^Кстати говоря,@ в этой больнице лежала  ___  тëтя. Она говорит, что Матвей – замечательный санитар и, ^плюс ко всему,@ у него  ___  хорошее чувство юмора."
       audio: a
       image: 
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/nurse.png"
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/nurse.jpg"
     task2:
       text: "б. Это Ирина.  ___  талантливая певица. Ирина ^не только@ отлично поет, ^но и@ прекрасно  ___  на гитаре. ^Кстати говоря,@  ___  Ирине подарил отец."
       audio: b
       image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/guitar.png"
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/guitar.jpg"
   answer_to_show: 
     answer1: студент, хорошо, работает, моя, очень
     answer2: Она, играет, гитару
@@ -63,19 +63,19 @@
     task1:
       text: а. Роман хорошо играет в футбол и фотографирует.
       image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/photographer.png"
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/photographer.jpg"
     task2:
       text: б. София красиво поëт и играет на пианино.
       image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/headphones.png"
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/headphones.jpg"
     task3:
       text: в. Даниил плохо видит и носит очки.
       image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/glasses.png"
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/glasses.jpg"
     task4:
       text: г. Кристина свободно говорит на четырёх языках и отлично переводит с русского на китайский.
       image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/languages.png"
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/languages.jpg"
   answer_to_show:
     answer1: Роман ^не только@ хорошо играет в футбол, ^но и@ фотографирует.
     answer2: София ^не только@ красиво поëт, ^но и@ играет на пианино.
@@ -189,7 +189,7 @@
   example: Мария отлично готовит. Ещё она прекрасно играет на пианино. <br><ul><li>Мария отлично готовит. ^Кроме того,@ она прекрасно играет на пианино.</li> <li>Мария отлично готовит, ^а кроме того,@ она прекрасно играет на пианино.</li></ul>
   model: ~
   image: 
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/kitchen.png"
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/kitchen.jpg"
   task:
     task1:
       text: 1. Я люблю фильмы про природу. Ещё мне нравится фантастика.
@@ -533,7 +533,7 @@
   example: Этот человек — мужчина. Он певец. Этот мужчина ^не только@ хорошо поет, ^но и@ отлично играет на скрипке. Он родился в Минске, но потом долго жил в Норвегии. ^Кстати говоря,@ этот норвежский певец выступал на Евровидении и победил! ^Кроме того,@ настоящий друг всегда помогает...
   model: ~
   image:
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/happy.png"
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/happy.jpg"
   task:
     task1:
       text: "<ul>
