@@ -62,12 +62,20 @@
   task:
     task1:
       text: а. Роман хорошо играет в футбол и фотографирует.
+      image:
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/photographer.png"
     task2:
       text: б. София красиво поëт и играет на пианино.
+      image:
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/headphones.png"
     task3:
       text: в. Даниил плохо видит и носит очки.
+      image:
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/glasses.png"
     task4:
       text: г. Кристина свободно говорит на четырёх языках и отлично переводит с русского на китайский.
+      image:
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/languages.png"
   answer_to_show:
     answer1: Роман ^не только@ хорошо играет в футбол, ^но и@ фотографирует.
     answer2: София ^не только@ красиво поëт, ^но и@ играет на пианино.
