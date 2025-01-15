@@ -188,7 +188,8 @@
   comment: ~
   example: Мария отлично готовит. Ещё она прекрасно играет на пианино. <br><ul><li>Мария отлично готовит. ^Кроме того,@ она прекрасно играет на пианино.</li> <li>Мария отлично готовит, ^а кроме того,@ она прекрасно играет на пианино.</li></ul>
   model: ~
-  image: ~
+  image: 
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/kitchen.png"
   task:
     task1:
       text: 1. Я люблю фильмы про природу. Ещё мне нравится фантастика.
@@ -531,7 +532,8 @@
 = Each student receives the name of a famous person and should explain who this person is. The task of the other students is to guess who this person is. In addition to the name, the students can also receive cards with information about these celebrities."
   example: Этот человек — мужчина. Он певец. Этот мужчина ^не только@ хорошо поет, ^но и@ отлично играет на скрипке. Он родился в Минске, но потом долго жил в Норвегии. ^Кстати говоря,@ этот норвежский певец выступал на Евровидении и победил! ^Кроме того,@ настоящий друг всегда помогает...
   model: ~
-  image: ~
+  image:
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/happy.png"
   task:
     task1:
       text: "<ul>
