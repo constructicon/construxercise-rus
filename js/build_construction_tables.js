@@ -56,7 +56,6 @@ if (document.title.split(" ")[0] == "Lesson") {
     part_1.appendChild(constructions)
 }
 
-// Table creation code (from your previous script)
 var constr_table = document.createElement("table");
 constr_table.setAttribute("class", "table");
 
@@ -105,6 +104,7 @@ for (var i = 0; i < data["construction_table_rows"].length; i++) {
 
         if (k == 1) {
             // Apply annotate to format the text
+            t.setAttribute("style", "width:1px; white-space:nowrap;")
             const cellWrapper = document.createElement('div')
             cellWrapper.setAttribute("class", "d-flex align-items-center justify-content-between");
             cellWrapper.style.gap = "10px"; // Add spacing between elements
