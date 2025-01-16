@@ -108,18 +108,19 @@
   image:
     link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/1_1.png"
   task: ~
-  answer_to_show: "а. Полине нравится не только готовить еду, но и придумывать свои рецепты.<br>
-Степан хочет не только изучать анатомию, но и стать кардиохирургом.<br>
-Стас планирует не только много путешествовать, но и снимать видеоблог.<br>
-Михаил мечтает не только работать переводчиком, но и написать свою книгу.<br><br>
-б. Инна не только умная, но и красивая.<br>
-Игорь не только весëлый, но и пунктуальный.<br>
-Валентина не только приятная, но и ответственная.<br>
-Максим не только добрый, но и вежливый.<br><br>
-в. Я много путешествовал не только в Америке, но и в Азии.<br>
-Сергей много знает не только о космосе, но и oб искусственном интеллекте.<br>
-Алина часто ходит не только на концерты, но и в кино.<br>
-Андрей Викторович много лет работал не только в банке, но и в консалтинговом агентстве.<br>"
+  answer_to_show: |
+    а. Полине нравится не только готовить еду, но и придумывать свои рецепты.<br>
+    Степан хочет не только изучать анатомию, но и стать кардиохирургом.<br>
+    Стас планирует не только много путешествовать, но и снимать видеоблог.<br>
+    Михаил мечтает не только работать переводчиком, но и написать свою книгу.<br><br>
+    б. Инна не только умная, но и красивая.<br>
+    Игорь не только весëлый, но и пунктуальный.<br>
+    Валентина не только приятная, но и ответственная.<br>
+    Максим не только добрый, но и вежливый.<br><br>
+    в. Я много путешествовал не только в Америке, но и в Азии.<br>
+    Сергей много знает не только о космосе, но и oб искусственном интеллекте.<br>
+    Алина часто ходит не только на концерты, но и в кино.<br>
+    Андрей Викторович много лет работал не только в банке, но и в консалтинговом агентстве.<br>
   answer_key: ~
   difficult_words: ~
   table: ~
@@ -192,10 +193,11 @@
   title_eng: Rephrase the sentences by using the construction ^кроме того ...@. 
   title_nor: Omformuler setningene ved å bruke konstruksjonen ^кроме того ...@. 
   comment: ~
-  constr_info: "Kонструкция ^кроме того, ...@ вводит дополнительную информацию. Часто
-перед этой конструкцией стоит союз «а» : ^а кроме того, ...@
-<ul><li> Я учусь в университете. ^Кроме того,@ я играю в футбол.</li>
- <li>Я учусь в университете, ^а кроме того,@ я играю в футбол.</li></ul>"
+  constr_info: |
+    Kонструкция ^кроме того, ...@ вводит дополнительную информацию. Часто
+    перед этой конструкцией стоит союз «а» : ^а кроме того, ...@
+    <ul><li> Я учусь в университете. ^Кроме того,@ я играю в футбол.</li>
+     <li>Я учусь в университете, ^а кроме того,@ я играю в футбол.</li></ul>
   example: Мария отлично готовит. Ещё она прекрасно играет на пианино. <br><ul><li>Мария отлично готовит. ^Кроме того,@ она прекрасно играет на пианино.</li> <li>Мария отлично готовит, ^а кроме того,@ она прекрасно играет на пианино.</li></ul>
   model: ~
   image: 
@@ -243,20 +245,21 @@
   title_eng: Rephrase the sentences by using the construction ^кроме того ...@. Replace the conjunction и 'and' with the words ^а кроме того@.
   title_nor: Omformuler setningene ved å bruke konstruksjonen ^кроме того ...@. Bytt ut konjunksjonen и 'og' med ordene ^а кроме того@. 
   comment: ~
-  constr_info: "Kонструкция ^к тому же ...@ вводит дополнительную информацию:
- Он талантливый музыкант, ^к тому же@ пишет свои песни.
-При этом конструкция ^к тому же ...@ часто вводит более сильный аргумент и
-может подчëркивать как позитивную, так и негативную сторону ситуации:
-<ul><li> Этот ресторан совсем недорогой, ^к тому же@ еда там очень вкусная.</li>
-<li> Я не хочу идти в кино, ^к тому же@ у меня много работы.</li></ul><br><br>
-Kонструкция ^плюс ко всему …@ тоже может вводить как позитивную, так и
-негативную информацию.<br>
-* Поэтому ^плюс ко всему …@ не всегда соответствует английскому On top of all,
-... и норвежскому På toppen av alt, которые добавляют именно негативный аргумент
-или событие к цепочке других негативных аргументов или событий.
-<ul><li> Максим отличный повар, добрый человек, и, плюс ко всему, у него хорошее
-чувство юмора.</li>
-<li> На улице было холодно и шëл дождь. Плюс ко всему, я забыл дома зонт.</li></ul>"
+  constr_info: |
+    Kонструкция ^к тому же ...@ вводит дополнительную информацию:
+     Он талантливый музыкант, ^к тому же@ пишет свои песни.
+    При этом конструкция ^к тому же ...@ часто вводит более сильный аргумент и
+    может подчëркивать как позитивную, так и негативную сторону ситуации:
+    <ul><li> Этот ресторан совсем недорогой, ^к тому же@ еда там очень вкусная.</li>
+    <li> Я не хочу идти в кино, ^к тому же@ у меня много работы.</li></ul><br><br>
+    Kонструкция ^плюс ко всему …@ тоже может вводить как позитивную, так и
+    негативную информацию.<br>
+    * Поэтому ^плюс ко всему …@ не всегда соответствует английскому On top of all,
+    ... и норвежскому På toppen av alt, которые добавляют именно негативный аргумент
+    или событие к цепочке других негативных аргументов или событий.
+    <ul><li> Максим отличный повар, добрый человек, и, плюс ко всему, у него хорошее
+    чувство юмора.</li>
+    <li> На улице было холодно и шëл дождь. Плюс ко всему, я забыл дома зонт.</li></ul>
   example: Вчера я решил убраться во всем доме и выбросить мусор.<br> <i>Вчера я решил убраться во всем доме, ^а кроме того,@ выбросить мусор.</i>
   model: ~
   image: ~
@@ -319,13 +322,14 @@ Kонструкция ^плюс ко всему …@ тоже может вво�
   example: ~
   model: ~
   image: ~
-  task: "Дорогой дневник, день сегодня просто отличный!<br>
-  Погода теплая и солнечная!<br>
-  <ul>
-  <li>По дороге на учебу встретил старого друга.</li>
-  <li>Я посмотрел новую серию моего любимого сериала.</li>
-  <li>Мы с отцом наконец выбрали машину, которую мы хотим купить.</li>
-  <li>Я пригласил Юлю в кино, и она согласилась!</li></ul>"
+  task: |
+    Дорогой дневник, день сегодня просто отличный!<br>
+    Погода теплая и солнечная!<br>
+    <ul>
+    <li>По дороге на учебу встретил старого друга.</li>
+    <li>Я посмотрел новую серию моего любимого сериала.</li>
+    <li>Мы с отцом наконец выбрали машину, которую мы хотим купить.</li>
+    <li>Я пригласил Юлю в кино, и она согласилась!</li></ul>
   difficult_words: ~
   table: ~
 9:
@@ -336,16 +340,17 @@ Kонструкция ^плюс ко всему …@ тоже может вво�
   title_eng: Connect the phrases by choosing a matching continuation. Note that the construction ^кстати, ...@ introduces additional information and often denotes digression. We can put an entire sentence in the slot.
   title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at konstruksjonen ^кстати, ...@ angir tilleggsinformasjon og ofte indikerer et avvik fra emnet. I denne konstruksjonen fylles plassen med en hel setning.
   comment: ~
-  constr_info: "Kонструкция ^кстати, ...@ вводит мысль, которая неожиданно появилась у
-говорящего в момент речи и немного отклоняется от этой темы разговора:
-– Я начал заниматься спортом и чувствую себя лучше.
-– Как хорошо! ^Кстати,@ ты слышал о новом спортзале на улице Чехова?
-У этой конструкции есть варианты:
-<ul><li> ^кстати, …@ </li>
-<li> ^и кстати, …@ </li>
-<li> ^кстати говоря, …@</li>
-<li> ^и кстати говоря, …@ </li></ul>
-Варианты ^и кстати@ и ^и кстати говоря@ не используются в середине предложения."
+  constr_info: |
+    Kонструкция ^кстати, ...@ вводит мысль, которая неожиданно появилась у
+    говорящего в момент речи и немного отклоняется от этой темы разговора:
+    – Я начал заниматься спортом и чувствую себя лучше.
+    – Как хорошо! ^Кстати,@ ты слышал о новом спортзале на улице Чехова?
+    У этой конструкции есть варианты:
+    <ul><li> ^кстати, …@ </li>
+    <li> ^и кстати, …@ </li>
+    <li> ^кстати говоря, …@</li>
+    <li> ^и кстати говоря, …@ </li></ul>
+    Варианты ^и кстати@ и ^и кстати говоря@ не используются в середине предложения.
   example: ~
   model: ~
   image: ~
@@ -478,34 +483,41 @@ Kонструкция ^плюс ко всему …@ тоже может вво�
     task7:
       text: 7. Свадьба — это очень весело. ___ можно наконец увидеть всех своих родственников и друзей.
   answer_to_show:
-    answer1: "Кстати<br>
-    ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ здесь не подходят, так как они не передают этого значения.<br>
-    = The word ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' are not appropriate here, because they do not convey this meaning.<br>
-    = Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men den kan avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' passer ikke i dette tilfellet fordi de formidler ikke en slik betydning."
-    answer2: "Кстати; Кроме того; К тому же<br>
-    Здесь подходят все три конструкции, но они вносят разные нюансы. ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов.<br>
-    = All three constructions can be used here. However, they have different nuances in meaning. ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning.<br>
-    = Samtlige tre konstruksjoner kan brukes i dette tilfellet. Imidlertid kan de uttrykke nyanseforskjeller i sammenhengen. Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men samtidig kan den avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta."
-    answer3: "Кроме того; К тому же<br>
-    Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Конструкция ^кстати@ здесь не подходит, так как она подчеркивает неожиданность дополнительной информации.<br>
-    = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the word ^кстати@ 'by the way' cannot be used here, because it emphasizes that the added information is unexpected.<br>
-    = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^кстати@ 'forresten' passer ikke i dette tilfellet, siden den uttrykker uventet tilleggsinformasjon."
-    answer4: "Кстати<br>
-    ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ здесь не подходят, так как они не передают этого значения.<br>
-    = The word ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' are not appropriate here, because they do not convey this meaning.<br>
-    = Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men den kan avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' passer ikke i dette tilfellet fordi de formidler ikke en slik betydning."
-    answer5: "Кроме того; К тому же<br>
-    Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Конструкция ^кстати@ здесь не подходит, так как она подчеркивает неожиданность дополнительной информации.<br>
-    = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the word ^кстати@ 'by the way' cannot be used here, because it emphasizes that the added information is unexpected.<br>
-    = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^кстати@ 'forresten' passer ikke i dette tilfellet, siden den uttrykker uventet tilleggsinformasjon."
-    answer6: "Кроме того; К тому же<br>
-    Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Особенность конструкции ^к тому же@ в том, что часто она вводит более сильный аргумент, а в данном случае подчеркивает негативную сторону ситуации.<br>
-    = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the words ^к тому же@ 'in addition' often introduces a stronger argument, and in this sentence it emphasizes the negative side of the situation.<br>
-    = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^к тому же@ 'I tillegg' angir ofte et sterkere argument, og i dette tilfellet er fokus rettet mot det negative i situasjonen."
-    answer7: "Кроме того; К тому же<br>
-    Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Особенность конструкции ^к тому же@ в том, что часто она вводит более сильный аргумент, а в данном случае подчеркивает позитивную сторону ситуации.<br>
-    = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact in the line of reasoning. The construction with the words ^к тому же@ 'in addition' often introduces a stronger argument, and in this sentence it emphasizes the positive side of the situation.<br>
-    = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^к тому же@ 'I tillegg' angir ofte et sterkere argument, og i dette tilfellet er fokus rettet mot det positive i situasjonen."
+    answer1: |
+      Кстати<br>
+      ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ здесь не подходят, так как они не передают этого значения.<br>
+      = The word ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' are not appropriate here, because they do not convey this meaning.<br>
+      = Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men den kan avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' passer ikke i dette tilfellet fordi de formidler ikke en slik betydning.
+    answer2: |
+      Кстати; Кроме того; К тому же<br>
+      Здесь подходят все три конструкции, но они вносят разные нюансы. ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов.<br>
+      = All three constructions can be used here. However, they have different nuances in meaning. ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning.<br>
+      = Samtlige tre konstruksjoner kan brukes i dette tilfellet. Imidlertid kan de uttrykke nyanseforskjeller i sammenhengen. Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men samtidig kan den avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta.
+    answer3: |
+      Кроме того; К тому же<br>
+      Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Конструкция ^кстати@ здесь не подходит, так как она подчеркивает неожиданность дополнительной информации.<br>
+      = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the word ^кстати@ 'by the way' cannot be used here, because it emphasizes that the added information is unexpected.<br>
+      = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^кстати@ 'forresten' passer ikke i dette tilfellet, siden den uttrykker uventet tilleggsinformasjon.
+    answer4: |
+      Кстати<br>
+      ^Кстати@ вводит мысль, которая неожиданно появилась у говорящего в момент речи. Как правило, это мысль по поводу темы разговора, но немного отклоняется от этой темы. Конструкции ^кроме того@ и ^к тому же@ здесь не подходят, так как они не передают этого значения.<br>
+      = The word ^Кстати@ 'by the way' introduces a thought that suddenly came to the speaker's mind at the moment of speech. This thought is usually related to the topic of the conversation but slightly deviates from this topic. The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' are not appropriate here, because they do not convey this meaning.<br>
+      = Ordet ^Кстати@ 'forresten' indikerer at taleren plutselig fikk en tanke midt i samtalen. Ofte er denne tanken relatert til samtaleemnet, men den kan avvike noe fra emnet. Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' passer ikke i dette tilfellet fordi de formidler ikke en slik betydning.
+    answer5: |
+      Кроме того; К тому же<br>
+      Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Конструкция ^кстати@ здесь не подходит, так как она подчеркивает неожиданность дополнительной информации.<br>
+      = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the word ^кстати@ 'by the way' cannot be used here, because it emphasizes that the added information is unexpected.<br>
+      = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^кстати@ 'forresten' passer ikke i dette tilfellet, siden den uttrykker uventet tilleggsinformasjon.
+    answer6: |
+      Кроме того; К тому же<br>
+      Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Особенность конструкции ^к тому же@ в том, что часто она вводит более сильный аргумент, а в данном случае подчеркивает негативную сторону ситуации.<br>
+      = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact to the line of reasoning. The construction with the words ^к тому же@ 'in addition' often introduces a stronger argument, and in this sentence it emphasizes the negative side of the situation.<br>
+      = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^к тому же@ 'I tillegg' angir ofte et sterkere argument, og i dette tilfellet er fokus rettet mot det negative i situasjonen.
+    answer7: |
+      Кроме того; К тому же<br>
+      Конструкции ^кроме того@ и ^к тому же@ вводят дополнительную информацию по теме разговора, прибавляя еще один факт в цепочке аргументов. Особенность конструкции ^к тому же@ в том, что часто она вводит более сильный аргумент, а в данном случае подчеркивает позитивную сторону ситуации.<br>
+      = The constructions with the words ^кроме того@ 'besides' and ^к тому же@ 'in addition' introduce additional information on the topic of the conversation, adding one more fact in the line of reasoning. The construction with the words ^к тому же@ 'in addition' often introduces a stronger argument, and in this sentence it emphasizes the positive side of the situation.<br>
+      = Konstruksjonene ^кроме того@ 'dessuten' og ^к тому же@ 'i tillegg' gir tilleggsinformasjon til samtaleemnet ved å tilføre resonnementet ytterligere fakta. Konstruksjonen ^к тому же@ 'I tillegg' angir ofte et sterkere argument, og i dette tilfellet er fokus rettet mot det positive i situasjonen.
   answer_key:
     answer1: Кстати
     answer2: Кстати; Кроме того; К тому же
