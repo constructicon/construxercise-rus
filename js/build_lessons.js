@@ -397,8 +397,37 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     task_title.appendChild(task_buttons);
     task_title.appendChild(eng_text)
     task_title.appendChild(norw_text)
-    // all_exercise.appendChild(task_title)
     main_content.appendChild(task_title);
+
+    // add construction information if relevant
+    if (data[exercise_id]["constr_info"]) {
+        let info = document.createElement("div");
+        info.setAttribute("style", "margin-bottom: 20px")
+        info.setAttribute("style", "background-color:rgb(250,226,213)")
+        info.setAttribute("class", "shadow p-3 mb-3 rounded")
+
+        // Create a wrapper for the text and icon
+        const textIconWrapper = document.createElement("span");
+        textIconWrapper.setAttribute("class", "m-3 d-flex align-items-center tiptext");
+        textIconWrapper.style.gap = "5px"; // Small gap between text and icon
+
+        let info_title = document.createElement("p")
+        const icon = document.createElement("i");
+        icon.setAttribute("class", "bi bi-info-square");
+        info_title.setAttribute('class', 'm-2 fw-bold')
+        // info.appendChild(icon)
+        info_title.innerHTML = "Информация о конструкции"
+        // info.appendChild(info_title)
+        textIconWrapper.appendChild(icon)
+        textIconWrapper.appendChild(info_title)
+        info.appendChild(textIconWrapper)
+
+        let constr_info = document.createElement('p')
+        constr_info.innerHTML = annotate(data[exercise_id]["constr_info"]);
+        // info.innerHTML = annotate(data[exercise_id]["constr_info"]);
+        info.appendChild(constr_info)
+        all_exercise.appendChild(info);
+    }
 
     // add comment
     if (data[exercise_id]["comment"]) {
