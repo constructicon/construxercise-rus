@@ -17,6 +17,7 @@
       audio: a
       image: 
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/nurse.jpg"
+        width: "50"
     task2:
       text: "б. Это Ирина.  ___  талантливая певица. Ирина ^не только@ отлично поет, ^но и@ прекрасно  ___  на гитаре. ^Кстати говоря,@  ___  Ирине подарил отец."
       audio: b
