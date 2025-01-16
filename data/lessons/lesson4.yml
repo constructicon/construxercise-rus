@@ -183,7 +183,7 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
     answer2: a, б
     answer3: a, б
     answer4: в
-  answer options:
+  answer_options:
    - a
    - б
    - в
