@@ -23,6 +23,7 @@
       audio: b
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/guitar.jpg"
+        width: "400"
   answer_to_show: 
     answer1: студент, хорошо, работает, моя, очень
     answer2: Она, играет, гитару
@@ -65,18 +66,22 @@
       text: а. Роман хорошо играет в футбол и фотографирует.
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/photographer.jpg"
+        width: "400"
     task2:
       text: б. София красиво поëт и играет на пианино.
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/headphones.jpg"
+        width: "400"
     task3:
       text: в. Даниил плохо видит и носит очки.
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/glasses.jpg"
+        width: "400"
     task4:
       text: г. Кристина свободно говорит на четырёх языках и отлично переводит с русского на китайский.
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/languages.jpg"
+        width: "400"
   answer_to_show:
     answer1: Роман ^не только@ хорошо играет в футбол, ^но и@ фотографирует.
     answer2: София ^не только@ красиво поëт, ^но и@ играет на пианино.
@@ -191,6 +196,7 @@
   model: ~
   image: 
     link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/kitchen.jpg"
+    width: "400"
   task:
     task1:
       text: 1. Я люблю фильмы про природу. Ещё мне нравится фантастика.
