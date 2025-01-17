@@ -150,7 +150,7 @@
           row3:
             - { text: "Максим" }
             - { text: ""}
-            - { text: "<ul><li>веселый</li><li>пунктуальный</li></ul>" }
+            - { text: "<ul><li>весёлый</li><li>пунктуальный</li></ul>" }
           row4:
             - { text: "Валентина" }
             - { text: ""}
@@ -177,7 +177,7 @@
           row4:
             - { text: "Андрей Викторович много лет работал" }
             - { text: ""}
-            - { text: "<ul><li>в банке</li><li>в консалтинговом агенстве</li></ul>" }
+            - { text: "<ul><li>в банке</li><li>в консалтинговом агентстве</li></ul>" }
 
   answer_to_show: 
     answer1: |
@@ -201,10 +201,10 @@
 5:
   lesson_id: 1
   ex_number: 5
-  title: Соедините части предложений, подобрав логичное продолжение. Назовите, слова каких частей речи стоят на месте ... в конструкции ^не только ..., но и ...@.
+  title: Соедините части предложений, подобрав логичное продолжение.
   exercise_type: multichoice_singleanswer
-  title_eng: Connect the phrases by choosing the matching continuation. What parts of speech fill the slot ... in the construction не только ..., но и ... 'not only... but also ...'?
-  title_nor:  Fullfør setningene ved å velge delene som passer sammen. Hvilke ordklasser utgjør ... i konstruksjonen не только ..., но и ... 'ikke bare... men også ...'?
+  title_eng: Connect the phrases by choosing the matching continuation.
+  title_nor:  Fullfør setningene ved å velge delene som passer sammen.
   comment: ~
   example: ~
   model: ~
@@ -342,10 +342,10 @@
 7:
   lesson_id: 1
   ex_number: 7
-  title: Заполните пропуски, используя конструкции ^к тому же ...@ и ^плюс ко всему …@
+  title: Заполните пропуски, используя конструкции ^к тому же ...@ и ^плюс ко всему ...@
   exercise_type: text_input
-  title_eng: Rephrase the sentences by using the construction ^кроме того ...@. Replace the conjunction и 'and' with the words ^а кроме того@.
-  title_nor: Omformuler setningene ved å bruke konstruksjonen ^кроме того ...@. Bytt ut konjunksjonen и 'og' med ordene ^а кроме того@. 
+  title_eng: Fill in the blanks using the constructions ^к тому же ...@ and ^плюс ко всему...@.
+  title_nor: Fyll ut de tomme feltene med ^к тому же ...@ og ^плюс ко всему...@.
   comment: ~
   constr_info: |
     Kонструкция ^к тому же ...@ вводит дополнительную информацию:
