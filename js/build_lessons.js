@@ -119,7 +119,7 @@ function create_input() {
 }
 
 function add_image(image_data) {
-    let image_block = document.createElement("div")
+    // let image_block = document.createElement("div")
     let image = document.createElement("img")
     // if (Boolean(subtask)) {
     //     var image_data = data[exercise_id]["task"][`task${i}`]["image"]
@@ -144,18 +144,19 @@ function add_image(image_data) {
     if (image_data["text"] != null) {
         let image_text = document.createElement("div")
         image_text.innerHTML = image_data["text"]
-        image_block.appendChild(image_text)
+        // image_block.appendChild(image_text)
 
     }
-    image_block.appendChild(image)
-    return image_block
+    // image_block.appendChild(image)
+    // return image_block
+    return image
 }
 
 
 function add_audio(lesson_id, exercise_id, audio_id) {
     // function to insert an audio file with a voiceover of text in task if relevant
     let audio_block = document.createElement("div")
-    audio_block.setAttribute("class", "p5")
+    audio_block.setAttribute("class", "m-3 align-bottom")
 
     let audio = document.createElement("audio")
     audio.setAttribute("controls", "")
@@ -503,6 +504,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
    
 
     var task = document.createElement("div")
+    task.setAttribute('class', 'container')
     if (data[exercise_id]["task"] != null) {
         // Check if there are subtasks
         if (typeof data[exercise_id]["task"]["task1"] == "object") {
@@ -510,11 +512,38 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             var subtasks_amount = Object.keys(data[exercise_id]["task"]).length
             for (var i = 1; i <= subtasks_amount; i++) {
                 var subtask = document.createElement("div");
-                subtask.setAttribute("class", "shadow p-2 mb-3 rounded");
+                subtask.setAttribute("class", "row shadow p-3 mb-3 rounded overflow-auto");
+                var subtask_col = document.createElement("col");
+                subtask.appendChild(subtask_col)
+                // Add image if available for subtask
+                if (data[exercise_id]["task"][`task${i}`]["image"] != null) {
+                    if (typeof data[exercise_id]["task"][`task${i}`]["image"]["link"] != "undefined") {
+                        // subtask.appendChild(add_image(data[exercise_id]["task"][`task${i}`]["image"]))
+                        // let picture_block = document.createElement('figure')
+                        // picture_block.setAttribute('class', 'figure float-end m-3')
+                        let image_block = add_image(data[exercise_id]["task"][`task${i}`]["image"])
+                        image_block.setAttribute("class", "figure-img img-fluid float-end")
+                        // picture_block.appendChild(image_block)
+                        subtask_col.appendChild(image_block)
 
+
+                    } else {
+                        var images_amount = Object.keys(data[exercise_id]["task"][`task${i}`]["image"]).length
+                        var images = document.createElement("div")
+                        for (let e = 1; e <= images_amount; e++) {
+                            images.appendChild(add_image(data[exercise_id]["task"][`task${i}`]["image"][`image${e}`]))
+                        }
+                        subtask.appendChild(images)                        
+                    }
+                }
                 // Add text if available for subtask
                 if (data[exercise_id]["task"][`task${i}`]["text"] != null) {
-                    subtask.innerHTML = annotate(data[exercise_id]["task"][`task${i}`]["text"]);
+                    let subtask_text = document.createElement('p')
+                    subtask_text.innerHTML = annotate(data[exercise_id]["task"][`task${i}`]["text"]);
+
+                    subtask_col.appendChild(subtask_text)
+
+                    // subtask.innerHTML = annotate(data[exercise_id]["task"][`task${i}`]["text"]);
                     if (data[exercise_id]["difficult_words"] != null) {
                         let words = data[exercise_id]["difficult_words"][`word${i}`];
                         // FIXME: HOVER_DIFF_WORDS PRODUCING ERROR IN LESSON 8 (LINE 57 WORD NOT DEFINED)
@@ -530,19 +559,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     add_table(subtask)
                 }
 
-                // Add image if available for subtask
-                if (data[exercise_id]["task"][`task${i}`]["image"] != null) {
-                    if (typeof data[exercise_id]["task"][`task${i}`]["image"]["link"] != "undefined") {
-                        subtask.appendChild(add_image(data[exercise_id]["task"][`task${i}`]["image"]))
-                    } else {
-                        var images_amount = Object.keys(data[exercise_id]["task"][`task${i}`]["image"]).length
-                        var images = document.createElement("div")
-                        for (let e = 1; e <= images_amount; e++) {
-                            images.appendChild(add_image(data[exercise_id]["task"][`task${i}`]["image"][`image${e}`]))
-                        }
-                        subtask.appendChild(images)                        
-                    }
-                }
+
 
                 // Add audio if available for subtask
                 if (data[exercise_id]["task"][`task${i}`]["audio"] != null) {
