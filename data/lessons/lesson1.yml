@@ -5,8 +5,8 @@
   title: Послушайте тексты и заполните пропуски. Запишите ответы через запятую.
   instructions: ~
   exercise_type: text_input
-  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
-  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  title_eng: Listen to the texts and fill in the blanks. Write the answers using commas to separate words.
+  title_nor: Lytt til tekstene og fyll inn de tomme feltene. Skriv svarene og bruk komma for å skille ordene.
   comment: ~
   example: ~
   model: ~
@@ -38,8 +38,8 @@
   title: Прочитайте эти тексты сами. Скажите, для чего нужны конструкции, выделенные в тексте?
   instructions: ~
   exercise_type: ~
-  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
-  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  title_eng: Read the texts in the exercise 1. What is the purpose of the constructions highlighted in the text?
+  title_nor: Les tekstene i øvelse 1. Hva er hensikten med de uthevede konstruksjonene i teksten?
   comment: ~
   example: ~
   model: ~
