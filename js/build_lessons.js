@@ -74,6 +74,7 @@ function show_item(x, item) {
 
 function check_answer(x_input, x_result, answer_key) {
     let result;
+    x_result.setAttribute('class', 'px-2 py-1 m-1 rounded')
 
     if (Array.isArray(answer_key)) {
 
@@ -82,10 +83,14 @@ function check_answer(x_input, x_result, answer_key) {
             // answer is correct
             result = "Правильно";
             x_result.style.backgroundColor = "#6ef184";
+            // result_wrapper.setAttribute('class', 'p-1 mb-2 bg-success text-white')
+
         } else {
             // answer is incorrect
             result = "Неправильно";
             x_result.style.backgroundColor = "#ee5151";
+            // result_wrapper.setAttribute('class', 'p-1 mb-2 bg-danger text-white')
+
         };
     } else {
         // if the answer is a string there is only one possible answer, check that it matches the input
@@ -93,12 +98,17 @@ function check_answer(x_input, x_result, answer_key) {
         if (x_input.value.toLowerCase() == answer_key || x_input.value.toLowerCase() == answer_key.slice(0, -1)) {
             result = "Правильно";
             x_result.style.backgroundColor = "#6ef184";
+            // result_wrapper.setAttribute('class', 'p-1 mb-2 bg-success text-white')
+
         } else {
             result = "Неправильно";
             x_result.style.backgroundColor = "#ee5151";
+            // result_wrapper.setAttribute('class', 'p-1 mb-2 bg-danger text-white')
+
         };
     };
-
+    // result_wrapper.innerHTML = result;
+    // x_result.appendChild(result_wrapper);
     x_result.innerHTML = result;
 }
 
