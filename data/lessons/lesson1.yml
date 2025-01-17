@@ -389,16 +389,16 @@
     task10:
       text: 10. Вика замужем, у неё двое детей, она много путешествует и, _______________, успешно совмещает семью и карьеру.
   answer_to_show:
-    answer1: Кирилл увлекается фотографией, играет в университетской футбольной команде, и, ^плюс ко всему@ / ^к тому же@, изучает графический дизайн.
+    answer1: Кирилл увлекается фотографией, играет в университетской футбольной команде, и, ^плюс ко всему@ / ^к тому же,@ изучает графический дизайн.
     answer2: Люба изучает иностранные языки, ^к тому же увлекается рисованием.@
-    answer3: Полина занимается йогой, любит читать фантастику, и, ^плюс ко всему@ / ^к тому же@, активно участвует в экологических акциях.
+    answer3: Полина занимается йогой, любит читать фантастику, и, ^плюс ко всему@ / ^к тому же,@ активно участвует в экологических акциях.
     answer4: В этом городе легко найти работу, ^к тому же@ климат здесь намного лучше.
     answer5: Артём интересуется программированием, играет на гитаре, и, ^плюс ко всему@ / ^к тому же,@ ведёт свой подкаст о технологиях.
     answer6: Егор изучает математику, ^к тому же@ интересуется астрономией.
     answer7: Лидия играет на скрипке, ^к тому же@ увлекается танцами.
-    answer8: Никита холост, работает инженером, и, ^плюс ко всему@ / ^к тому же@, активно занимается спортом.
+    answer8: Никита холост, работает инженером, и, ^плюс ко всему@ / ^к тому же,@ активно занимается спортом.
     answer9: Агата выбрала этот университет, потому что здесь отличные программы по её специальности, ^к тому же@ кампус находится в красивом месте.
-    answer10: Вика замужем, у неё двое детей, она много путешествует и, ^плюс ко всему@ / ^к тому же@, успешно совмещает семью и карьеру.
+    answer10: Вика замужем, у неё двое детей, она много путешествует и, ^плюс ко всему@ / ^к тому же,@ успешно совмещает семью и карьеру.
   answer_key:
     answer1: 
       - Кирилл увлекается фотографией, играет в университетской футбольной команде, и, плюс ко всему, изучает графический дизайн.
@@ -450,16 +450,16 @@
 9:
   lesson_id: 1
   ex_number: 9
-  title: Соедините части предложений, подобрав логичное продолжение. Обратите внимание, что конструкция ^кстати, ...@ вводит дополнительную информацию и обозначает отклонение от темы.
+  title: Соедините части предложений, подобрав логичное продолжение.
   exercise_type: multichoice_singleanswer
-  title_eng: Connect the phrases by choosing a matching continuation. Note that the construction ^кстати, ...@ introduces additional information and often denotes digression. We can put an entire sentence in the slot.
-  title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at konstruksjonen ^кстати, ...@ angir tilleggsinformasjon og ofte indikerer et avvik fra emnet. I denne konstruksjonen fylles plassen med en hel setning.
+  title_eng: Connect the phrases by choosing a matching continuation. Note that the construction ^кстати, ...@ introduces additional information and often denotes digression.
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at konstruksjonen ^кстати, ...@ angir tilleggsinformasjon og ofte indikerer et avvik fra emnet.
   comment: ~
   constr_info: |
     Kонструкция ^кстати, ...@ вводит мысль, которая неожиданно появилась у
-    говорящего в момент речи и немного отклоняется от этой темы разговора:
-    – Я начал заниматься спортом и чувствую себя лучше.
-    – Как хорошо! ^Кстати,@ ты слышал о новом спортзале на улице Чехова?
+    говорящего в момент речи и немного отклоняется от этой темы разговора:<br>
+    – Я начал заниматься спортом и чувствую себя лучше.<br>
+    – Как хорошо! ^Кстати,@ ты слышал о новом спортзале на улице Чехова?<br>
     У этой конструкции есть варианты:
     <ul><li> ^кстати, …@ </li>
     <li> ^и кстати, …@ </li>
@@ -505,7 +505,7 @@
     horizontal_align: ~
     width: ~
     row1:
-      - 1. К нам в гости пришла тетя Клава, наша соседка.
+      - 1. К нам в гости пришла тëтя Клава, наша соседка.
       - а. Кирилл, ^кстати,@ до сих пор не вернул Пете наушники.
     row2:
       - 2. Петя опять поругался со своим братом Кириллом.
@@ -515,20 +515,17 @@
       - в. Она, ^кстати говоря,@ недавно сломала руку.
     row4:
       - 4. Знаете ли вы, что стены и башни московского Кремля спроектировал архитектор из Италии?
-      - г. ^И кстати говоря, мы едем не в ту сторону!@
+      - г. ^И кстати говоря,@ мы едем не в ту сторону!
     row5:
-      - 5. Я купил билеты в кино, пойдешь со мной?
+      - 5. Я купил билеты в кино, пойдëшь со мной?
       - д. ^И кстати,@ раньше стены были белого цвета, а не красного, как сегодня.
 10:
   lesson_id: 1
   ex_number: 10
-  title: |
-    Конструкция кстати, ... имеет четыре варианта:<br>
-    <ul><li>кстати</li><li>и кстати</li><li>кстати говоря</li><li>и кстати говоря</li></ul><br>
-    Обратите внимание, что варианты ^и кстати@ и ^и кстати говоря@ не используются в середине предложения. Учитывая это, заполните пропуски в предложениях максимальным количеством вариантов.
+  title: Заполните пропуски максимальным количеством вариантов конструкции ^кстати, ...@.
   exercise_type: multichoice_multianswer
-  title_eng: The construction ^кстати, ...@ has the four variants indicated in the table. Note that the variants ^и кстати@ and ^и кстати говоря@ do not appear in the middle of a sentence. With this in mind, fill in the blanks in each sentence with as many options as possible. We can put an entire sentence in the slot.
-  title_nor: Tabellen viser de fire mulige variantene av konstruksjonen ^кстати, ...@. Legg merke til at ^и кстати@ og ^и кстати говоря@ aldri forekommer i midten av en setning. Fyll ut de tomme feltene med så mange varianter av disse konstruksjonene som mulig. I denne konstruksjonen fylles plassen med en hel setning.
+  title_eng: Fill in the blanks with as many variants of the construction ^кстати, ...@ as possible. 
+  title_nor: Fyll ut de tomme feltene med så mange varianter av konstruksjonen ^кстати, ...@ som mulig.
   comment: ~
   example: ~
   model: ~
@@ -586,7 +583,7 @@
   image: ~
   task:
     task1:
-      text: 1. Ты так красиво поешь! ________________ ты никогда не думала стать певицей?
+      text: 1. Ты так красиво поëшь! ________________ ты никогда не думала стать певицей?
     task2:
       text: 2. Я снимаю влоги, чтобы показать свои путешествия друзьям и родственникам. ________________ это приносит небольшой доход.
     task3:
@@ -654,11 +651,11 @@
   ex_number: 12
   title: "Обсудите с собеседником, чей лучший друг лучше: ваш или его. Приведите аргументы. Используйте конструкцию ^не только ..., но и ...@."
   exercise_type: ~
-  title_eng: "Discuss with your conversation partner whose best friend is better: yours or his/her. Give arguments to support your claims. Use the construction ^не только ..., но и ...@ 'not only... but also ...'. We can put a word or a phrase in the slot."
-  title_nor: "Diskuter med din samtalepartner om hvem som har den beste vennen. Argumenter for dine meninger. Bruk konstruksjonen ^не только ..., но и ...@ 'ikke bare... men også ... '. Plassen kan fylles med et ord eller en frase."
+  title_eng: "Discuss with your conversation partner whose best friend is better: yours or his/her. Give arguments to support your claims. Use the construction ^не только ..., но и ...@."
+  title_nor: "Diskuter med din samtalepartner om hvem som har den beste vennen. Argumenter for dine meninger. Bruk konstruksjonen ^не только ..., но и ...@."
   comment: "Формат задания: в парах. = Task format: in pairs."
-  example: "— Мой друг веселый.<br>
-— А мой друг не только веселый, но и умный.<br>
+  example: "— Мой друг весëлый.<br>
+— А мой друг не только весëлый, но и умный.<br>
 — А мой друг не только умный, но и добрый."
   model: ~
   image: ~
@@ -672,8 +669,8 @@
   ex_number: 13
   title: "Расскажите, каким должен быть настоящий друг. Используйте все конструкции урока."
   exercise_type: ~
-  title_eng: Tell another person what a real friend should be like. Add information by using the constructions from this list.
-  title_nor: Fortell en annen person hvordan en riktig venn skal være. Bruk konstruksjonene i listen for å legge til informasjon. 
+  title_eng: Tell another person what a real friend should be like. Use all five new constructions.
+  title_nor: Fortell en annen person hvordan en riktig venn skal være. Bruk alle de fem nye konstruksjonene.
   comment: "Это упражнение хорошо делать с целой группой студентов. Формат задания: по цепочке. Каждый студент должен добавить к описанию идеального друга новую черту. Продолжаем по очереди, все предложения должны быть связаны друг с другом.<br>
 = This exercise is good to do with a group of students. Task format: have students answer one after another. Each student in their turn adds a new characteristic to the description of the ideal friend. All sentences should be connected to each other by the constructions."
   example: Настоящий друг добрый. ^Кроме того,@ настоящий друг всегда помогает...
@@ -688,14 +685,13 @@
   lesson_id: 1
   ex_number: 14
   title: |
-    Вы встретили на улице знаменитость (известного человека). Объясните друзьям кто это, не называя его имени. Они должны отгадать, кто этот человек. После каждого неправильного предположения вы добавляете еще один факт, чтобы помочь им отгадать. Используйте конструкции:<br>
-    <ul><li>кроме того ...</li><li>не только ..., но и ...</li><li>кстати, ...</li><li>к тому же ...</li><li>плюс ко всему, ...</li></ul>
+    Вы встретили на улице знаменитость. Объясните друзьям кто это, не называя имени. Они должны отгадать, кто этот человек. Используйте все конструкции урока.
   exercise_type: ~
-  title_eng: You have met a celebrity on the street. Explain to your friends who this person is without mentioning his or her name. Your friends should try to guess who this celebrity is. After each wrong guess, you add another fact to help your friends guess. Use the constructions from the list.
-  title_nor: Du har truffet en kjendis på gata. Forklar for vennene dine hvem det er, uten å nevne navnet til vedkommende. Dine venner må gjette hvem det er. Etter hvert feilaktig svar skal du legge til ytterligere informasjon for å hjelpe dem å gjette. Bruk konstruksjonene i listen. 
+  title_eng: You have met a celebrity on the street. Explain to your friends who this person is without mentioning his or her name. Your friends should try to guess who this celebrity is. Use all five new constructions. 
+  title_nor: Du har truffet en kjendis på gata. Forklar for vennene dine hvem det er, uten å nevne navnet til vedkommende. Dine venner må gjette hvem det er. Bruk alle de fem nye konstruksjonene.
   comment: "Каждый студент получает имя известного человека и должен объяснить, кто он (или она). Задача других студентов — отгадать, кто это. Кроме имени, студентам можно дать карточки с информацией об этих знаменитостях.<br>
 = Each student receives the name of a famous person and should explain who this person is. The task of the other students is to guess who this person is. In addition to the name, the students can also receive cards with information about these celebrities."
-  example: Этот человек — мужчина. Он певец. Этот мужчина ^не только@ хорошо поет, ^но и@ отлично играет на скрипке. Он родился в Минске, но потом долго жил в Норвегии. ^Кстати говоря,@ этот норвежский певец выступал на Евровидении и победил! ^Кроме того,@ настоящий друг всегда помогает...
+  example: Этот человек — мужчина. Он певец. Этот мужчина ^не только@ хорошо поëт, ^но и@ отлично играет на скрипке. Он родился в Минске, но потом долго жил в Норвегии. ^Кстати говоря,@ этот норвежский певец выступал на Евровидении и победил!
   model: ~
   image:
     link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/happy.jpg"
@@ -735,7 +731,7 @@
         <ul><li>норвежец</li>
         <li>родился 16 марта 1959 года в Осло</li>
         <li>политик</li>
-        <li>раньше он был премьер-министром</li>
+        <li>раньше он был премьер-министром Норвегии</li>
         <li>работал генеральным секретарём НАТО (2014 – 2024)</li></ul>
     task7:
       text: |
