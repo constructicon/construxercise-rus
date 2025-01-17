@@ -234,98 +234,101 @@ function add_answer(answer_to_show, answer_key, input) {
 }
 
 
-function add_table(subtask) {
-    let table = document.createElement("table")
+function add_table(subtask, taskKey) {
+    let table = document.createElement("table");
+    table.setAttribute("class", "table table-bordered");
+    // console.log(taskKey)
+    // console.log(data[exercise_id])
 
-
-    table.setAttribute("class", "table table-bordered")
-    
-    // console.log(table_data["vertical_align"])
-    
+    let table_data = Boolean(subtask)
+        ? data[exercise_id]['task'][taskKey]["table"]
+        : data[exercise_id]["table"];
 
     if (Boolean(subtask)) {
-        var table_data = data[exercise_id][subtask]["table"]
-        subtask.appendChild(table)
+        subtask.appendChild(table);
     } else {
-        var table_data = data[exercise_id]["table"]
-        all_exercise.appendChild(table)
+        all_exercise.appendChild(table);
         main_content.appendChild(all_exercise);
     }
 
-    if (table_data["vertical_align"] == "+") {
-        table.setAttribute("style", "vertical-align: middle;")
+    if (table_data["vertical_align"] === "+") {
+        table.setAttribute("style", "vertical-align: middle;");
     }
 
-    
-
     if (table_data["width"] != null) {
-        table.setAttribute("style", `width: ${table_data["width"]}px`)
+        table.setAttribute("style", `width: ${table_data["width"]}px`);
     }
 
     if (table_data["header"] != null) {
+        let thead = document.createElement("thead");
+        let tr_head = document.createElement("tr");
 
-        let thead = document.createElement("thead")
-        // thead.setAttribute("class", "table-primary")
-
-        let tr_head = document.createElement("tr")
-        
-        let table_header = table_data["header"]
-        for (var i = 0; i < table_header.length; i++) {
-            var t = document.createElement("th")
-            t.setAttribute("scope", "col")
-            t.innerHTML = annotate(String(table_header[i]))
-            tr_head.appendChild(t)
+        let table_header = table_data["header"];
+        for (let i = 0; i < table_header.length; i++) {
+            let th = document.createElement("th");
+            th.setAttribute("scope", "col");
+            th.innerHTML = annotate(String(table_header[i]));
+            tr_head.appendChild(th);
         }
 
-        thead.appendChild(tr_head)
-        table.appendChild(thead)
+        thead.appendChild(tr_head);
+        table.appendChild(thead);
     }
-
 
     let tbody = document.createElement("tbody");
+    let rows_amount = Object.keys(table_data).filter(key => key.startsWith("row")).length;
 
-    var rows_amount = 0;
-    for (let z = 0; z < Object.keys(table_data).length; z++) {
-        if (Object.keys(table_data)[z].startsWith("row")) {
-            rows_amount++;
-        };
-    };
+    // Track cells to skip due to rowspan
+    let skipCells = {};
 
     for (let i = 1; i <= rows_amount; i++) {
-        var tr = document.createElement("tr")
-        // console.log(table_data["horizontal_align"] == "+")
-        // console.log(table_data["vertical_align"] == "+")
-        if (table_data["horizontal_align"] == "+") {
-            tr.setAttribute("style", "text-align: center;")
+        let tr = document.createElement("tr");
+
+        if (table_data["horizontal_align"] === "+") {
+            tr.setAttribute("style", "text-align: center;");
         }
-        // if (table_data["vertical_align"] == "+") {
-        //     tr.setAttribute("style", "vertical-align: middle;")
-        // }
-        
-        let row_length = table_data[`row${i}`].length
-        for (let k = 0; k < row_length; k++) {
-            var t = document.createElement("td")
-            // t.setAttribute("style", "border: 0.5px outset black")
-            if (typeof table_data[`row${i}`][k] == "object") {
-                let length = table_data[`row${i}`][k].length
-                for (let s = 0; s < length; s++) {
-                    var txt = document.createElement("p")
-                    txt.innerHTML = annotate(String(table_data[`row${i}`][k][s]))
-                    // t.appendChild(document.createTextNode(table_data[`row${i}`][k][s]))
-                    t.appendChild(txt)
-                    // t.appendChild(document.createElement("br"))
+
+        let row_data = table_data[`row${i}`];
+
+        for (let k = 0; k < row_data.length; k++) {
+            // Skip cells covered by a previous rowspan
+            if (skipCells[`${i}-${k}`]) {
+                console.log(i, k)
+                continue;
+            }
+            // console.log(skipCells)
+
+            let cell_data = row_data[k];
+            let td = document.createElement("td");
+
+            if (typeof cell_data === "object") {
+                if (cell_data.text) {
+                    td.innerHTML = annotate(String(cell_data.text));
+                    console.log(cell_data.text)
+                };
+                if (cell_data.rowspan) {
+                    td.setAttribute("rowspan", cell_data.rowspan);
+                    for (let r = 1; r < cell_data.rowspan; r++) {
+                        skipCells[`${i + r}-${k}`] = true; // Mark cells to be skipped
+                    }
+                }
+                if (cell_data.colspan) {
+                    td.setAttribute("colspan", cell_data.colspan);
                 }
             } else {
-                t.innerHTML = annotate(String(table_data[`row${i}`][k]));
+                // if there is now vertical cell merging (regular table)
+                td.innerHTML = annotate(String(cell_data));
             }
-            tr.appendChild(t)
+
+            tr.appendChild(td);
         }
-        tbody.appendChild(tr)
+
+        tbody.appendChild(tr);
     }
-    table.appendChild(tbody)
-        // main_content.appendChild(table)
-    
+
+    table.appendChild(tbody);
 }
+
 
 
 
@@ -540,7 +543,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
                 // Add table if available for subtask
                 if (data[exercise_id]["task"][`task${i}`]["table"] != null) {
-                    add_table(subtask)
+                    add_table(subtask, `task${i}`)
                 }
 
 
