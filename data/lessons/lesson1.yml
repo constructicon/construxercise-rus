@@ -105,9 +105,34 @@
   comment: ~
   example: Егор любит ^не только@ играть на компьютере, ^но и@ придумывать свои игры.
   model: ~
-  image:
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/1_1.png"
-  task: ~
+  image: ~
+  task: 
+    task1:
+      table: 
+          heading: ~
+          vertical_align: ~
+          horizontal_align: ~
+          width: ~
+          row1:
+            - { text: "Егор любит" }
+            - { text: "не только V, но и V", rowspan: 5 }
+            - { text: "<ul><li>играть на компьютере</li><li>придумывать свои игры</li></ul>" }
+          row2:
+            - { text: "Полине нравится" }
+            - { text: "<ul><li>готовить еду</li><li>придумывать свои рецепты</li></ul>" }
+          row3:
+            - { text: "Степан хочет" }
+            - { text: "<ul><li>много путешествовать</li><li>снимать видеоблог</li></ul>" }
+          row4:
+            - { text: "Стас планирует" }
+            - { text: "<ul><li>изучать анатомию</li><li>стать кардиохирургом</li></ul>" }
+          row5:
+            - { text: "Михаил мечтает" }
+            - { text: "<ul><li>Работать переводчиком</li><li>написать свою книгу</li></ul>" }
+    task2:
+      table: ~
+    task3:
+      table: ~
   answer_to_show: |
     а. Полине нравится не только готовить еду, но и придумывать свои рецепты.<br>
     Степан хочет не только изучать анатомию, но и стать кардиохирургом.<br>
