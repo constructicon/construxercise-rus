@@ -365,7 +365,7 @@
   example: Вчера я решил убраться во всем доме и выбросить мусор.<br> <i>Вчера я решил убраться во всем доме, ^а кроме того,@ выбросить мусор.</i>
   model: ~
   image: 
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/1_1.jpeg"
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/1_1.png"
 
   task:
     task1:

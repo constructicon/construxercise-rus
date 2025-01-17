@@ -157,7 +157,6 @@ function add_image(image_data) {
     // image.setAttribute("style", "margin: 50px")
 
     if (image_data["width"] != null) {
-        // console.log(`width: ${image_data["width"]}px`)
         image.setAttribute("style", `width: ${image_data["width"]}px`)
     } else if (image_data["height"] != null) {
         image.setAttribute("style", `height: ${image_data["height"]}px`)
@@ -237,8 +236,6 @@ function add_answer(answer_to_show, answer_key, input) {
 function add_table(subtask, taskKey) {
     let table = document.createElement("table");
     table.setAttribute("class", "table table-bordered");
-    // console.log(taskKey)
-    // console.log(data[exercise_id])
 
     let table_data = Boolean(subtask)
         ? data[exercise_id]['task'][taskKey]["table"]
@@ -293,10 +290,8 @@ function add_table(subtask, taskKey) {
         for (let k = 0; k < row_data.length; k++) {
             // Skip cells covered by a previous rowspan
             if (skipCells[`${i}-${k}`]) {
-                console.log(i, k)
                 continue;
             }
-            // console.log(skipCells)
 
             let cell_data = row_data[k];
             let td = document.createElement("td");
@@ -304,7 +299,6 @@ function add_table(subtask, taskKey) {
             if (typeof cell_data === "object") {
                 if (cell_data.text) {
                     td.innerHTML = annotate(String(cell_data.text));
-                    console.log(cell_data.text)
                 };
                 if (cell_data.rowspan) {
                     td.setAttribute("rowspan", cell_data.rowspan);
@@ -465,7 +459,6 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     if (data[exercise_id]["image"] != null) {
         
         if (data[exercise_id]["image"]["link"] != undefined) {
-            // console.log(exercise_id)
             let image_wrapper = document.createElement('div')
             image_wrapper.setAttribute('class', 'p-2 m-2')
             image_wrapper.appendChild(add_image(data[exercise_id]["image"]))
@@ -763,7 +756,6 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         main_content.appendChild(all_exercise);
         // main_content.appendChild(task);
     } else {
-        // console.log(exercise_id)
         if (data[exercise_id]["difficult_words"] != null) {
             let d_word = document.createElement("p");
             d_word.innerHTML = data[exercise_id]["difficult_words"];
