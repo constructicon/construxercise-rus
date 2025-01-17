@@ -130,9 +130,45 @@
             - { text: "Михаил мечтает" }
             - { text: "<ul><li>Работать переводчиком</li><li>написать свою книгу</li></ul>" }
     task2:
-      table: ~
+      table: 
+          heading: ~
+          vertical_align: ~
+          horizontal_align: ~
+          width: ~
+          row1:
+            - { text: "Инна" }
+            - { text: "не только Adj, но и Adj", rowspan: 4 }
+            - { text: "<ul><li>умная</li><li>красивая</li></ul>" }
+          row2:
+            - { text: "Игорь" }
+            - { text: "<ul><li>добрый</li><li>вежливый</li></ul>" }
+          row3:
+            - { text: "Максим" }
+            - { text: "<ul><li>веселый</li><li>пунктуальный</li></ul>" }
+          row4:
+            - { text: "Валентина" }
+            - { text: "<ul><li>приятная</li><li>ответственная</li></ul>" }
+
     task3:
-      table: ~
+      table: 
+          heading: ~
+          vertical_align: ~
+          horizontal_align: ~
+          width: ~
+          row1:
+            - { text: "Я много путешествовал" }
+            - { text: "не только Prep+N, но и Prep+N", rowspan: 4 }
+            - { text: "<ul><li>в Америке</li><li>в Азии</li></ul>" }
+          row2:
+            - { text: "Сергей много знает" }
+            - { text: "<ul><li>о космосе</li><li>об искуственном интеллекте</li></ul>" }
+          row3:
+            - { text: "Алина часто ходит" }
+            - { text: "<ul><li>на концерты</li><li>в кино</li></ul>" }
+          row4:
+            - { text: "Андрей Викторович много лет работал" }
+            - { text: "<ul><li>в банке</li><li>в консалтинговом агенстве</li></ul>" }
+
   answer_to_show: |
     а. Полине нравится не только готовить еду, но и придумывать свои рецепты.<br>
     Степан хочет не только изучать анатомию, но и стать кардиохирургом.<br>
