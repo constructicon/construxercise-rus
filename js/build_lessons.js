@@ -74,14 +74,32 @@ function show_item(x, item) {
 
 function check_answer(x_input, x_result, answer_key) {
     let result;
-    answer_key = answer_key.toLowerCase()
-    if (x_input.value.toLowerCase() == answer_key || x_input.value.toLowerCase() == answer_key.slice(0, -1)) {
-        result = "Правильно";
-        x_result.style.backgroundColor = "#6ef184";
+
+    if (Array.isArray(answer_key)) {
+        // console.log(answer_key)
+        // console.log(x_input.value)
+        // if there are multiple answers that could be considered correct, check if input in that set
+        if (answer_key.includes(x_input.value)) {
+            // answer is correct
+            result = "Правильно";
+            x_result.style.backgroundColor = "#6ef184";
+        } else {
+            // answer is incorrect
+            result = "Неправильно";
+            x_result.style.backgroundColor = "#ee5151";
+        };
     } else {
-        result = "Неправильно";
-        x_result.style.backgroundColor = "#ee5151";
+        // if the answer is a string there is only one possible answer, check that it matches the input
+        answer_key = answer_key.toLowerCase()
+        if (x_input.value.toLowerCase() == answer_key || x_input.value.toLowerCase() == answer_key.slice(0, -1)) {
+            result = "Правильно";
+            x_result.style.backgroundColor = "#6ef184";
+        } else {
+            result = "Неправильно";
+            x_result.style.backgroundColor = "#ee5151";
+        };
     };
+
     x_result.innerHTML = result;
 }
 
@@ -210,51 +228,6 @@ function add_answer(answer_to_show, answer_key, input) {
     task.appendChild(answer_text);
 }
 
-// function add_answer_multichoice(answer_to_show, answer_set) {
-//     // add button to check answer
-//     let answer_text = document.createElement("p");
-//     let buttons = document.createElement("div")
-//     buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end")
-//     buttons.setAttribute("style", "margin-top: 10px")
-
-//     let button2 = document.createElement("button")
-//     button2.setAttribute("type", "button")
-//     button2.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
-//     button2.innerHTML = "Answer key"
-                
-//     var result_text = document.createElement("p");
-//     result_text.setAttribute("style", "display: inline-block")
-    
-//     let button1 = document.createElement("button")
-//     button1.setAttribute("type", "button")
-//     button1.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
-//     button1.innerHTML = "Check Answer"
-//     var result_text = document.createElement("p");
-//     result_text.setAttribute("style", "display: inline-block")
-//     // result_text.setAttribute('id', `answer${i}`)
-//     // add answer check
-//     button1.onclick = function () {
-//         // select all checked boxes
-//         var checkedBoxes = document.querySelectorAll('input[name=multichoice_options]:checked');
-//         // get values of checked boxes
-//         let checkedBoxesValues = []
-//         for (var i=0; i<checkedBoxes.length; i++) {
-//             checkedBoxesValues.push(checkedBoxes[i].value)
-//         }
-//         let selected_answer = new Set(checkedBoxesValues)
-//         console.log(answer_set)
-
-//         check_answer_multichoice(selected_answer, result_text, answer_set)
-//     }
-    
-//     buttons.appendChild(button1);
-//     button2.onclick = function () {
-//         show_item(answer_text, annotate(String(answer_to_show)));
-//     }
-//     buttons.appendChild(button2)
-//     subtask.appendChild(buttons)
-//     subtask.appendChild(result_text)
-// }
 
 function add_table(subtask) {
     let table = document.createElement("table")
