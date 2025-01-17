@@ -485,13 +485,19 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         
         if (data[exercise_id]["image"]["link"] != undefined) {
             // console.log(exercise_id)
-            all_exercise.appendChild(add_image(data[exercise_id]["image"]))
+            let image_wrapper = document.createElement('div')
+            image_wrapper.setAttribute('class', 'p-2 m-2')
+            image_wrapper.appendChild(add_image(data[exercise_id]["image"]))
+            all_exercise.appendChild(image_wrapper)
         } else {
             var images_amount = data[exercise_id]["image"].length
             var images = document.createElement("div")
+            let image_wrapper = document.createElement('div')
+            image_wrapper.setAttribute('class', 'p-2 m-2')
             for (let e = 1; e <= images_amount; e++) {
-                images.appendChild(add_image(data[exercise_id]["image"][`image${e}`]))
+                image_wrapper.appendChild(add_image(data[exercise_id]["image"][`image${e}`]))
             }
+            images.appendChild(image_wrapper)
             all_exercise.appendChild(images)
         }
         main_content.appendChild(all_exercise)
