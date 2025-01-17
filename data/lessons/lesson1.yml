@@ -111,7 +111,7 @@
       table: 
           heading: ~
           vertical_align: +
-          horizontal_align: ~
+          horizontal_align: +
           width: ~
           row1:
             - { text: "Егор любит" }
@@ -137,7 +137,7 @@
       table: 
           heading: ~
           vertical_align: +
-          horizontal_align: ~
+          horizontal_align: +
           width: ~
           row1:
             - { text: "Инна" }
@@ -160,7 +160,7 @@
       table: 
           heading: ~
           vertical_align: +
-          horizontal_align: ~
+          horizontal_align: +
           width: ~
           row1:
             - { text: "Я много путешествовал" }
