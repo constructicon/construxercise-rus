@@ -83,13 +83,11 @@ function check_answer(x_input, x_result, answer_key) {
             // answer is correct
             result = "Правильно";
             x_result.style.backgroundColor = "#6ef184";
-            // result_wrapper.setAttribute('class', 'p-1 mb-2 bg-success text-white')
 
         } else {
             // answer is incorrect
             result = "Неправильно";
             x_result.style.backgroundColor = "#ee5151";
-            // result_wrapper.setAttribute('class', 'p-1 mb-2 bg-danger text-white')
 
         };
     } else {
@@ -98,22 +96,21 @@ function check_answer(x_input, x_result, answer_key) {
         if (x_input.value.toLowerCase() == answer_key || x_input.value.toLowerCase() == answer_key.slice(0, -1)) {
             result = "Правильно";
             x_result.style.backgroundColor = "#6ef184";
-            // result_wrapper.setAttribute('class', 'p-1 mb-2 bg-success text-white')
 
         } else {
             result = "Неправильно";
             x_result.style.backgroundColor = "#ee5151";
-            // result_wrapper.setAttribute('class', 'p-1 mb-2 bg-danger text-white')
 
         };
     };
-    // result_wrapper.innerHTML = result;
-    // x_result.appendChild(result_wrapper);
+
     x_result.innerHTML = result;
 }
 
 function check_answer_multichoice(selected_answer, result_text, answer_set){
     let result;
+    result_text.setAttribute('class', 'px-2 py-1 m-1 rounded')
+
                         
     var areSetsEqual = (setA, setB) => setA.size === setB.size && [...setA].every(value => setB.has(value))
 
@@ -124,8 +121,7 @@ function check_answer_multichoice(selected_answer, result_text, answer_set){
         result = "Неправильно";
         result_text.style.backgroundColor = "#ee5151";
     };
-    // let textNode = document.createTextNode(result);
-    // result_text.appendChild(textNode)
+
     result_text.innerHTML = result;
 }
 
