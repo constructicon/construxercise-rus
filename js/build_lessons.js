@@ -76,8 +76,7 @@ function check_answer(x_input, x_result, answer_key) {
     let result;
 
     if (Array.isArray(answer_key)) {
-        // console.log(answer_key)
-        // console.log(x_input.value)
+
         // if there are multiple answers that could be considered correct, check if input in that set
         if (answer_key.includes(x_input.value)) {
             // answer is correct
