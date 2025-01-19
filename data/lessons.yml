@@ -88,29 +88,39 @@
   construction_table_rows:
     - - 1840
       - к примеру, ...
-      - Вот, ^к примеру,@ мне нравится Мерилин Монро.
+      - На собеседовании могут спросить о ваших достижениях, ^к примеру,@ о проектах, которые вы успешно завершили.
       - - For example, ...
       - - For eksempel, ...
+      - - In a job interview, you may be asked about your achievements, for example, projects you have successfully completed.
+        - På et jobbintervju kan du bli spurt om dine prestasjoner, for eksempel om prosjekter du har gjennomført vellykket.
     - - 2350
       - Tак, ...
-      - Кошки намного хуже нас видят цвета. ^Так,@ красный цвет им недоступен.
+      - Разные профессии требуют специфических навыков. ^Так,@ для программиста важно знание языков программирования.
       - - For example, ...
       - - For eksempel, ...
+      - - Various professions require specific skills. For example, for a programmer, knowledge of programming languages is important.
+        - Ulike yrker krever spesifikke ferdigheter. For eksempel er kunnskap om programmeringsspråk viktig for en programmerer.
     - - 6
       - Что насчёт ...?
       - ^Что насчёт@ пятницы? Какие у тебя планы?
       - - How about ...?
       - - Hva med ...?
+      - - What about Friday? Do you have any plans?
+        - Hva med fredag? Har du noen planer?
     - - 365
       - что касается ..., то ...
-      - ^Что касается спорта, то@ я никогда не любил бегать.
+      - ^Что касается@ опыта работы ^, то@ я был стажёром в банке.
       - - As far as ... is concerned, …
       - - når det gjelder ..., ...
+      - - As far as work experience is concerned, I was an intern at a bank.
+        - Når det gjelder arbeidserfaring, var jeg intern i en bank.
     - - 2222
       - честно говоря, ...
       - ^Честно говоря,@ я с вами не согласен.
       - - Frankly speaking, ...
       - - Ærlig talt, ...
+      - - Frankly speaking, I disagree with you.
+        - Ærlig talt, jeg er ikke enig med deg.
 4:
   lesson_id: 4
   lesson_name: Урок 4. Поход к врачу
