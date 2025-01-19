@@ -19,7 +19,7 @@
       text: "Программа обмена доступна* многим студентам. Для неё вам необходимо подготовить небольшой пакет документов. ^Во-первых,@ вам нужна копия паспорта. ^Во-вторых,@ справка о знании английского языка. ^В-третьих,@ рекомендательное письмо от одного преподавателя. Кроме того, вам надо написать короткое эссе. ^С одной стороны,@ это очень легко сделать. ^С другой стороны,@ только 10% студентов решают попробовать."
       audio: b
     task3:
-      text: "Привет, Мартин! Спасибо тебе за приглашение в Норвегию на Пасху! Я очень хочу поехать, но боюсь, что не успею собрать документы. ^Во-первых,@ у меня нет загранпаспорта. ^С одной стороны,@ его очень просто сделать, а ^с другой стороны,@ это может занять* три месяца. ^Что касается@ других справок и сертификатов, то в целом, их выдают быстро. ^Таким образом,@ когда я получу загранпаспорт, мне можно будет подавать документы на визу. ^Как бы то ни было,@ я надеюсь, что всё сделаю вовремя и приеду в Норвегию! Твоя подруга Саша."
+      text: "Привет, Мартин! Спасибо тебе за приглашение в Норвегию на Пасху! Я очень хочу поехать, но боюсь, что не успею собрать документы. ^Во-первых,@ у меня нет загранпаспорта. ^С одной стороны,@ его очень просто сделать, а ^с другой стороны,@ это может занять* три месяца. ^Что касается@ других справок и сертификатов, то в целом, их выдают быстро. ^Таким образом,@ когда я получу загранпаспорт, мне можно будет подавать документы на визу. Как бы то ни было, я надеюсь, что всё сделаю вовремя и приеду в Норвегию! Твоя подруга Саша."
       audio: v
   answer_to_show: ~
   answer_key: ~
@@ -31,11 +31,11 @@
 2:
   lesson_id: 2
   ex_number: 2
-  title: Составьте текст, используя конструкцию ^в-NumOrd-ых, XP/Cl@. В этой конструкции NumOrd — это порядковое числительное (ordinal numeral), которое образует слова ^во-первых, во-вторых, в-третьих, в-четвёртых...@ .
-  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  title: Составьте текст, используя конструкцию ^Во-первых, ... Во-вторых, ... В-третьих, ...@
+  instructions: На месте ... находится фраза (phrase) или целое предложение (sentence).
   exercise_type: ~
-  title_eng: Compose a text, using the construction ^в-NumOrd-ых, XP/Cl@. In this construction, NumOrd stands for an ordinal numeral that forms the words ^во-первых@ 'firstly', ^во-вторых@ 'secondly', ^в-третьих@ 'thirdly', ^в-четвёртых@ 'fourthly'. In the slot XP/Cl we can place a phrase or an entire sentence.
-  title_nor: Lag en tekst ved å bruke konstruksjonen ^в-NumOrd-ых, XP/Cl@. I denne konstruksjonen betyr NumOrd ordenstall som brukes for å danne uttrykkene ^во-первых@ 'for det første', ^во-вторых@ 'for det andre', ^в-третьих@ 'for det tredje', ^в-четвёртых@ 'for det fjerde'. Etter ordenstallet følger enten en frase (XP=frase) eller en hel setning (Cl=setning).
+  title_eng: Compose a text, using the construction ^Во-первых, ... Во-вторых, ... В-третьих, ...@.
+  title_nor: Lag en tekst ved å bruke konstruksjonen ^Во-первых, ... Во-вторых, ... В-третьих, ...@.
   comment: ~
   example: ~
   model: ~
@@ -69,11 +69,11 @@
 3:
   lesson_id: 2
   ex_number: 3
-  title: Перепишите информационное письмо из визового центра, используя конструкцию ^в-NumOrd-ых, XP/Cl@. В этой конструкции NumOrd — это порядковое числительное (ordinal numeral), которое образует слова ^во-первых, во-вторых, в-третьих, в-четвёртых...@ .
-  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  title: Перепишите информационное письмо из визового центра, используя конструкцию ^Во-первых, ... Во-вторых, ... В-третьих, ...@.
+  instructions: На месте ... находится фраза (phrase) или целое предложение (sentence).
   exercise_type: ~
-  title_eng: Rewrite the information letter from a visa application center using the construction ^в-NumOrd-ых, XP/Cl@. In this construction, NumOrd stands for an ordinal numeral that forms the words ^во-первых@ 'firstly', ^во-вторых@ 'secondly', ^в-третьих@ 'thirdly', ^в-четвёртых@ 'fourthly'. In the place of XP/Cl we locate a phrase (XP) or an entire sentence (Cl=clause).
-  title_nor: Omskriv informasjonsbrevet fra visumsenteret ved å bruke konstruksjonen ^в-NumOrd-ых, XP/Cl@. I denne konstruksjonen betyr NumOrd ordenstall som brukes for å danne uttrykkene ^во-первых@ 'for det første', ^во-вторых@ 'for det andre', ^в-третьих@ 'for det tredje', ^в-четвёртых@ 'for det fjerde'. Etter ordenstallet følger enten en frase (XP=frase) eller en hel setning (Cl=setning).
+  title_eng: Rewrite the information letter from a visa application center using the construction ^Во-первых, ... Во-вторых, ... В-третьих, ...@.
+  title_nor: Omskriv informasjonsbrevet fra visumsenteret ved å bruke konstruksjonen ^Во-первых, ... Во-вторых, ... В-третьих, ...@.
   comment: ~
   example: ~
   model: ~
@@ -96,11 +96,11 @@
 4:
   lesson_id: 2
   ex_number: 4
-  title: Вы сотрудник посольства. Расскажите туристу, который хочет поехать в Россию, что ему нужно сделать, чтобы получить визу. Используйте схему, слова «надо», «нужно» и «необходимо», а также конструкцию ^в-NumOrd-ых, XP/Cl@.
+  title: Вы сотрудник посольства. Расскажите туристу, который хочет поехать в Россию, что ему нужно сделать, чтобы получить визу. Используйте схему, слова «надо», «нужно» и «необходимо», а также конструкцию ^Во-первых, ... Во-вторых, ... В-третьих, ...@.
   instructions: ~
   exercise_type: ~
-  title_eng: You are an employee of the embassy. Tell a tourist who wants to go to Russia what he needs to do to get a visa. Use the figure below, the words «надо», «нужно» and «необходимо» all meaning 'necessary' and the construction ^в-NumOrd-ых, XP/Cl@.
-  title_nor: Du er ansatt på ambassaden. Forklar for en turist som ønsker å besøke Russland, hva han (eller hun) må gjøre for å få visum. Se på skjemaet nedenfor, og bruk ordene «надо», «нужно» og «необходимо», som alle betyr 'nødvendig'. Bruk også konstruksjonen ^в-NumOrd-ых, XP/Cl@.
+  title_eng: You are an employee of the embassy. Tell a tourist who wants to go to Russia what he needs to do to get a visa. Use the figure below, the words «надо», «нужно» and «необходимо» all meaning 'necessary' and the construction ^Во-первых, ... Во-вторых, ... В-третьих, ...@.
+  title_nor: Du er ansatt på ambassaden. Forklar for en turist som ønsker å besøke Russland, hva han (eller hun) må gjøre for å få visum. Se på skjemaet nedenfor, og bruk ordene «надо», «нужно» og «необходимо», som alle betyr 'nødvendig'. Bruk også konstruksjonen ^Во-первых, ... Во-вторых, ... В-третьих, ...@.
   comment: ~
   example: ~
   model: ~
@@ -114,11 +114,11 @@
 5:
   lesson_id: 2
   ex_number: 5
-  title: Соедините части предложений, подобрав логичное продолжение. Используйте конструкцию ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@. Слово «стороны» во второй части конструкции часто опускается, поэтому в формуле конструкции оно указано в скобках ().
-  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence)
+  title: Соедините части предложений, подобрав логичное продолжение. Используйте конструкцию ^С одной стороны, ..., с другой стороны, ...@.
+  instructions: На месте ... находится фраза (phrase) или целое предложение (sentence).
   exercise_type: text_input
-  title_eng: Connect the phrases by choosing the matching continuation. Use the construction ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@ 'On the one hand, ... On the other hand, ...'. The word «стороны» in the second part of this construction is often omitted, therefore in the formula of this construction this word is placed in parentheses (). We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
-  title_nor: Fullfør setningene ved å velge delene som passer sammen. Bruk konstruksjonen ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@ 'På den ene siden, ... På den andre siden, ...'. I denne konstruksjonens andre halvdel er ofte ordet «стороны» utelatt, derfor står den i parenteser i formelen. Plassen XP/Cl kan fylles med en frase eller en hel setning (XP=frase, Cl=setning).
+  title_eng: Connect the phrases by choosing the matching continuation. Use the construction ^С одной стороны, ..., с другой стороны, ...@.
+  title_nor: Fullfør setningene ved å velge delene som passer sammen. Bruk konstruksjonen ^С одной стороны, ..., с другой стороны, ...@.
   comment: ~
   example: ~
   model: ~
@@ -156,11 +156,11 @@
 6:
   lesson_id: 2
   ex_number: 6
-  title: Антон отдыхал в Греции и после поездки решил написать отзыв на сайте отеля. Что-то ему понравилось, а что-то не понравилось. Антон сделал заметки. Помогите ему написать отзыв, соединив предложения. Используйте конструкцию ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@.
+  title: Антон отдыхал в Греции и после поездки решил написать отзыв на сайте отеля. Что-то ему понравилось, а что-то не понравилось. Антон сделал заметки. Помогите ему написать отзыв, соединив предложения. Используйте конструкцию ^С одной стороны, ..., с другой стороны, ...@.
   instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence)
   exercise_type: text_input
-  title_eng: Anton went to Greece on vacation. After the trip, he decided to write a review on the website of the hotel. He liked some things, but disliked other things. Anton made some notes. Help him to write the review by connecting the phrases. Use the construction ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@ 'On the one hand, ... On the other hand, ...'. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
-  title_nor: Anton har vært på ferie i Hellas. Etter reisen bestemte han seg for å skrive en anmeldelse på hotellets hjemmeside. Han likte noen ting, mens noen ting likte han ikke. Anton tok noen notater. Hjelp ham å skrive anmeldelsen ved å koble sammen setningene. Bruk konstruksjonen ^С одной стороны, XP/Cl. С другой (стороны), XP/Cl@ 'På den ene siden, ... På den andre siden, ...'. Plassen XP/Cl kan fylles med en frase eller en hel setning (XP=frase, Cl=setning).
+  title_eng: Anton went to Greece on vacation. After the trip, he decided to write a review on the website of the hotel. He liked some things, but disliked other things. Anton made some notes. Help him to write the review by connecting the phrases. Use the construction ^С одной стороны, ..., с другой стороны, ...@.
+  title_nor: Anton har vært på ferie i Hellas. Etter reisen bestemte han seg for å skrive en anmeldelse på hotellets hjemmeside. Han likte noen ting, mens noen ting likte han ikke. Anton tok noen notater. Hjelp ham å skrive anmeldelsen ved å koble sammen setningene. Bruk konstruksjonen ^С одной стороны, ..., с другой стороны, ...@.
   comment: ~
   example: ~
   model: ~
@@ -189,11 +189,11 @@
 7:
   lesson_id: 2
   ex_number: 7
-  title: Соедините два предложения в одно, используя конструкцию ^что касается NP-Gen, то Cl@.
+  title: Соедините два предложения в одно, используя конструкцию ^что касается ..., то ...@.
   instructions: В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen). На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: text_input
-  title_eng: Connect two sentences by using the construction ^что касается NP-Gen, то Cl@ 'as for ..., ...'. In this construction, NP-Gen strands for a noun in the Genitive case (NP=noun phrase). Cl is a slot where we can place an entire sentence (Cl= clause, sentence).
-  title_nor: Koble sammen og lag en setning av to, ved å bruke konstruksjonen ^что касается NP-Gen, то Cl@ 'når det gjelder ..., ...'. I denne konstruksjonen står NP-Gen for et substantiv (NP=nominalfrase) i genitiv kasus. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  title_eng: Connect two sentences by using the construction ^что касается ..., то ...@
+  title_nor: Koble sammen og lag en setning av to, ved å bruke konstruksjonen ^что касается ..., то ...@
   comment: ~
   example: "Отель мне ещё нужно забронировать. Билеты я купил уже давно.<br>&#10132; Отель мне ещё нужно забронировать. ^Что касается билетов,@ то я купил их уже давно."
   model: ~
@@ -223,11 +223,11 @@
 8:
   lesson_id: 2
   ex_number: 8
-  title: Составьте короткий рассказ об одном дне из жизни друзей. Оцените, как прошёл их день, используя конструкцию ^в целом Cl@.
-  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  title: Составьте короткий рассказ об одном дне из жизни друзей. Оцените, как прошёл их день, используя конструкцию ^в целом ...@.
+  instructions: На месте ... находится целое предложение (sentence).
   exercise_type: ~
-  title_eng: Make a short story about how each of the following friends spent their day. Evaluate whether the day went well by using the construction ^в целом Cl@ 'overall, ...'. We can put an entire sentence in the Cl slot (Cl=clause, sentence).
-  title_nor: Lag en kort fortelling om en dag i livet til en av vennene. Beskriv hvordan dagen var ved hjelp av konstruksjonen ^в целом Cl@ 'alt i alt, ...'. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  title_eng: Make a short story about how each of the following friends spent their day. Evaluate whether the day went well by using the construction ^в целом ...@ 'overall, ...'. We can put an entire sentence in the ... slot.
+  title_nor: Lag en kort fortelling om en dag i livet til en av vennene. Beskriv hvordan dagen var ved hjelp av konstruksjonen ^в целом ...@ 'alt i alt, ...'. Plassen ... kan fylles med en hel setning.
   comment: ~
   example: Леонид выспался, сходил на море и на футбольный матч. ^В целом@ день прошёл хорошо.
   model: ~
@@ -296,11 +296,11 @@
 10:
   lesson_id: 2
   ex_number: 10
-  title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию ^таким образом, Cl@.
-  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию ^таким образом, ...@.
+  instructions: На месте ... находится целое предложение (sentence).
   exercise_type: text_input
-  title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^таким образом, Cl@ meaning ‘So, ...’. In the slot Cl we can place an entire sentence (Cl=clause, sentence).
-  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^таким образом, Cl@ som betyr omtrent ‘Dermed, ...’. Plassen Cl kan fylles med en hel setning.
+  title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^таким образом, ...@ meaning ‘So, ...’. In the slot ... we can place an entire sentence.
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^таким образом, ...@ som betyr omtrent ‘Dermed, ...’. Plassen ... kan fylles med en hel setning.
   comment: ~
   example: ~
   model: ~
@@ -432,3 +432,8 @@
   answer_key: ~
   difficult_words: ~
   table: ~
+  <li>Факты:</li>
+  <li>а. Раньше это была резиденция российского императора, а сейчас в этом здании находится музей «Государственный Эрмитаж».</li>
+  <li>б. Этот огромный колокол весит 202 тонны и был поврежден во время большого пожара в Москве в 1737 году.</li>
+  <li>в. Это главная площадь Москвы, которая расположена рядом с Московским Кремлём на берегу Москвы-реки.</li>
+  <li>г. Это самый крупный православный храм Санкт-Петербурга, который сейчас является музеем и одним из символов города.</li>
