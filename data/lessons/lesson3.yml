@@ -35,11 +35,11 @@
 2:
   lesson_id: 3
   ex_number: 2
-  title: Соедините части предложений. Используйте конструкцию ^что касается NP-Gen, то Cl@.
+  title: Соедините части предложений. Используйте конструкцию ^что касается ..., то ...@.
   instructions: В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case). На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: text_input
-  title_eng: Connect parts of the sentences. Use the construction ^что касается NP-Gen, то Cl@ ‘As far as ... is concerned, ...’. In this construction, NP-Gen stands for a noun in the Genitive case (NP=noun phrase; Gen= Genitive case). In the place of Cl we locate an entire sentence (Cl=clause, sentence).
-  title_nor: Koble sammen setningsdelene ved å bruke konstruksjonen ^что касается NP-Gen, то Cl@ ‘når det gjelder ..., ... ’. I denne konstruksjonen står NP-Gen for et substantiv (NP=nominalfrase) i genitiv kasus. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  title_eng: Connect parts of the sentences. Use the construction ^что касается ..., то ...@
+  title_nor: Koble sammen setningsdelene ved å bruke konstruksjonen ^что касается ..., то ...@
   comment: ~
   example: ~
   model: ~
@@ -72,11 +72,11 @@
 3:
   lesson_id: 3
   ex_number: 3
-  title: Заполните пропуски, используя конструкцию ^(а/так) что насчёт XP?@ и слова скобках.
+  title: Заполните пропуски, используя конструкцию ^Что насчёт ...?@ и слова скобках.
   instructions: На месте XP могут быть слова разных частей речи. Если это существительное или прилагательное, то в этой конструкции оно стоит в генитиве. Если это наречие или глагол в инфинитиве, эти слова изменять не надо.
   exercise_type: text_input
-  title_eng: Fill in the blanks by using the construction ^(а/так) что насчёт XP?@ ‘(And) what about ...?’ and the words given in parentheses. In the place of XP we can use various parts of speech. Nouns and adjectives should be used here in the Genitive case. Adverbs and verbs in the infinitive do not change their form.
-  title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonen ^(а/так) что насчёт XP?@ ‘(Og) hva med ...?’ og ordene i parentes. Ved XP er mange forskjellige ordklasser mulige. Substantiv og adjektiv skal bøyes i genitiv, mens adverb og verb i infinitiv ikke skal bøyes.
+  title_eng: Fill in the blanks by using the construction ^Что насчёт ...?@
+  title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonen ^Что насчёт ...?@
   comment: ~
   example: ~
   model: ~
@@ -124,11 +124,11 @@
 4:
   lesson_id: 3
   ex_number: 4
-  title: Прочитайте вопросы и найдите подходящие ответы. Что обозначает конструкция ^Честно говоря, Cl@?
+  title: Прочитайте вопросы и найдите подходящие ответы. Что обозначает конструкция ^Честно говоря, ...@?
   instructions: ~
   exercise_type: text_input
-  title_eng: Read the questions and find appropriate answers. What does the construction ^Честно говоря, Cl mean@?
-  title_nor: Les teksten og finn de riktige svarene. Hva betyr konstruksjonen ^Честно говоря, Cl@?
+  title_eng: Read the questions and find appropriate answers. What does the construction ^Честно говоря, ...@ mean?
+  title_nor: Les teksten og finn de riktige svarene. Hva betyr konstruksjonen ^Честно говоря, ...@?
   comment: ~
   example: ~
   model: ~
@@ -164,11 +164,11 @@
 5:
   lesson_id: 3
   ex_number: 5
-  title: Посмотрите на таблицу в упражнении 4. Обсудите с собеседником, насколько удачны эти ответы на реальном собеседовании. Предложите свои варианты, используя конструкцию ^Честно говоря, Cl@.
+  title: Посмотрите на таблицу в упражнении 4. Обсудите с собеседником, насколько удачны эти ответы на реальном собеседовании. Предложите свои варианты, используя конструкцию ^Честно говоря, ...@.
   instructions: ~
   exercise_type: ~
-  title_eng: Use the table in exercise 4. Discuss with your conversation partner whether it is wise to use these answers in a real job interview. Suggest your own answers to these questions. Use the construction ^Честно говоря, Cl@ ‘Frankly speaking / To tell the truth, ...’. In this construction we insert an entire sentence in the place of Cl (Cl = Clause, sentence).
-  title_nor: Bruk tabellen til øvelse 4. Diskuter med din samtalepartner om det er lurt å bruke disse svarene i et virkelig jobbintervju. Lag dine egne svar ved å bruke konstruksjonen ^Честно говоря, Cl@ ‘Ærlig talt, ...’. I denne konstruksjonen skal plassen Cl fylles med en hel setning (Cl=setning).
+  title_eng: Use the table in exercise 4. Discuss with your conversation partner whether it is wise to use these answers in a real job interview. Suggest your own answers to these questions. Use the construction ^Честно говоря, ...@
+  title_nor: Bruk tabellen til øvelse 4. Diskuter med din samtalepartner om det er lurt å bruke disse svarene i et virkelig jobbintervju. Lag dine egne svar ved å bruke konstruksjonen ^Честно говоря, ...@
   comment: "Формат задания: в парах. <br>= Task format: in pairs."
   example: ~
   model: ~
@@ -181,11 +181,11 @@
 6:
   lesson_id: 3
   ex_number: 6
-  title: Расскажите собеседнику о себе. В каждой паре предложений выберите то начало, которое вам подходит. Продолжите предложения, используя конструкции ^К примеру, Cl/XP@ и ^Так, Cl@.
+  title: Расскажите собеседнику о себе. В каждой паре предложений выберите то начало, которое вам подходит. Продолжите предложения, используя конструкции ^К примеру, ...@ и ^Так, ...@.
   instructions: ~
   exercise_type: ~
-  title_eng: Tell your conversation partner about yourself. In each pair of sentences, choose the sentence that describes you best. Complete the sentences by using the constructions ^К примеру, Cl/XP@ and ^Так, Cl@, both meaning ‘For example, ...’. In these constructions, XP is a phrase, and Cl is an entire sentence (Cl=clause, sentence).
-  title_nor: Fortell din samtalepartner om deg selv. Velg den setningen som passer best. Fullfør setningene ved å bruke konstruksjonene ^К примеру, Cl/XP@ og ^Так, Cl@. Begge betyr ‘For eksempel, ...’. I disse konstruksjonene står XP for en frase, mens Cl er en hel setning (Cl=setning).
+  title_eng: Tell your conversation partner about yourself. In each pair of sentences, choose the sentence that describes you best. Complete the sentences by using the constructions ^К примеру, ...@ and ^Так, ...@
+  title_nor: Fortell din samtalepartner om deg selv. Velg den setningen som passer best. Fullfør setningene ved å bruke konstruksjonene ^К примеру, ...@ og ^Так, ...@
   comment: "Формат задания: в парах. <br>= Task format: in pairs."
   example: Я обожаю домашних животных. ^Так,@ у меня дома живут кот, черепаха и рыбки.
   model: ~
@@ -214,11 +214,11 @@
 7:
   lesson_id: 3
   ex_number: 7
-  title: Задавая вопрос, люди часто сначала отвечают на него сами. Продолжите предложения, используйте конструкции ^К примеру,@ и ^Что касается NP-Gen, то Cl@.
+  title: Задавая вопрос, люди часто сначала отвечают на него сами. Продолжите предложения, используйте конструкции ^К примеру,...@ и ^Что касается ..., то ...@.
   instructions: ~
   exercise_type: ~
-  title_eng: When one asks a question, it is common to first provide one’s own answer. Use this strategy and complete the sentences by using the constructions ^К примеру, Cl/XP@ ‘For example, ...’ and ^что касается NP-Gen, то Cl@ ‘As far as ... is concerned, ...’. In these constructions, NP-Gen stands for a noun in the Genitive case (NP=noun phrase; Gen= Genitive case), XP is a phrase, and Cl is an entire sentence (Cl=clause, sentence).
-  title_nor: Når man stiller et spørsmål om noe, er det ganske vanlig å først uttrykke sin egen mening. Fullfør setningene ved å bruke konstruksjonene ^К примеру, Cl/XP@ ‘For eksempel, ...’ and ^что касается NP-Gen, то Cl@ ‘Når det gjelder, ...’. I disse konstruksjonene betyr NP-Gen et substantiv i genitiv kasus (NP=nominalfrase; Gen= genitiv), XP er en frase, og Cl er en hel setning (Cl=setning).
+  title_eng: When one asks a question, it is common to first provide one’s own answer. Use this strategy and complete the sentences by using the constructions ^К примеру, ...@ and ^что касается ..., то ...@
+  title_nor: Når man stiller et spørsmål om noe, er det ganske vanlig å først uttrykke sin egen mening. Fullfør setningene ved å bruke konstruksjonene ^К примеру, ...@ og ^что касается ..., то ...@
   comment: "Формат задания: в парах. <br>= Task format: in pairs."
   example: ~
   model: ~
@@ -260,11 +260,11 @@
   lesson_id: 3
   ex_number: 8
   title: "Заполните пропуски словами из списка: <br>
-  <ul><li>Так,</li>
-<li>К примеру</li>
-<li>Честно говоря</li>
-<li>Что касается</li>
-<li>то</li></ul>"
+  <ul><li>^Так,@</li>
+<li>^К примеру@</li>
+<li>^Честно говоря@</li>
+<li>^Что касается@</li>
+<li>^то@</li></ul>"
   instructions: ~
   exercise_type: ~
   title_eng: Fill in the blanks with the words from the list.
@@ -282,11 +282,11 @@
   lesson_id: 3
   ex_number: 9
   title: "Сегодня три компании проводят собеседования. В зависимости от вашей роли, проведите или пройдите собеседование. Описание каждой роли предложено ниже (3 варианта вакансий и 3 варианта кандидатов). Используйте конструкции:
-  <ul><li>Что касается</li>
-<li>К примеру</li>
-<li>Так,</li>
-<li>Честно говоря</li>
-<li>(а/так) что насчёт XP?</li></ul>"
+  <ul><li>^Что касается ..., ...@</li>
+<li>^К примеру, ...@</li>
+<li>^Так, ...@</li>
+<li>^Честно говоря, ...@</li>
+<li>^Что насчёт ...?@</li></ul>"
   instructions: "<b>Возможные вопросы:</b><br><ol>
 <li>Какие у вас сильные и слабые стороны?</li>
 <li>Какие языки вы знаете?</li>
