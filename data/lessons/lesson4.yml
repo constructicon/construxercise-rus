@@ -70,11 +70,11 @@
 2:
   lesson_id: 4
   ex_number: 2
-  title: Закончите предложения (1-3), подобрав подходящий вариант (а-в). Используйте конструкции ^иными/другими словами, XP/Cl@ и ^XP/Cl, то есть XP/Cl@. Эти конструкции выполняют одну и ту же функцию и в этих предложениях являются взаимозаменяемыми.
-  instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
+  title: Закончите предложения (1-3), подобрав подходящий вариант (а-в). Используйте конструкции ^другими словами, ...@ и ^..., то есть ...@. Эти конструкции выполняют одну и ту же функцию и в этих предложениях являются взаимозаменяемыми.
+  instructions: На месте ... находится фраза или целое предложение (sentence).
   exercise_type: text_input
-  title_eng: Complete the sentences (1-3) by choosing a matching continuation (a-в). Use the construction ^иными/другими словами, XP/Cl@ meaning ‘in other words / to put it differently, ...’ and the construction ^XP/Cl, то есть XP/Cl@ meaning ‘..., that is ... ’. These constructions serve the same function, and in these sentences either of them can be used. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
-  title_nor: Fullfør setningene (1-3) ved å velge en passende fortsettelse (а-в). Bruk konstruksjonen ^иными/другими словами, XP/Cl@ som betyr omtrent ‘med andre ord, ...’ og konstruksjonen ^XP/Cl, то есть XP/Cl@ som betyr ‘..., det vil si ... ’. Disse konstruksjonene har lik betydning, og i disse setningene kan de brukes om hverandre. Plassen XP/Cl kan fylles med en frase eller med en hel setning (XP=frase, Cl=setning).
+  title_eng: Complete the sentences (1-3) by choosing a matching continuation (a-в). Use the constructions ^другими словами, ...@ and ^..., то есть ...@. These constructions serve the same function, and in these sentences either of them can be used.
+  title_nor: Fullfør setningene (1-3) ved å velge en passende fortsettelse (а-в). Bruk konstruksjonen ^другими словами, ...@ og konstruksjonen ^..., то есть ...@. Disse konstruksjonene har lik betydning, og i disse setningene kan de brukes om hverandre.
   comment: ~
   example: ~
   model: ~
@@ -103,11 +103,11 @@
 3:
   lesson_id: 4
   ex_number: 3
-  title: Закончите предложения (1-3), подобрав подходящий вариант (а-в). Используйте конструкцию ^XP, а именно XP@.
+  title: Закончите предложения (1-3), подобрав подходящий вариант (а-в). Используйте конструкцию ^..., а именно ...@.
   instructions: На месте XP находится слово или фраза (XP=phrase).
   exercise_type: text_input
-  title_eng: Complete the sentences (1-3) by choosing a matching continuation (a-в). Use the construction ^XP, а именно XP@ meaning ‘..., specifically, ...’ or ‘..., to be exact, ...’. We can put a word or a phrase in the slot marked XP (XP=phrase).
-  title_nor: Fullfør setningene (1-3) ved å velge en passende fortsettelse (а-в). Bruk konstruksjonen ^XP, а именно XP@ som betyr omtrent ‘..., eller mer spesifikt, ...’ og ‘..., det vil si, ...’. Plassen XP kan fylles med et ord eller en frase (XP=frase).
+  title_eng: Complete the sentences (1-3) by choosing a matching continuation (a-в). Use the construction ^..., а именно ...@ meaning ‘..., specifically, ...’ or ‘..., to be exact, ...’.
+  title_nor: Fullfør setningene (1-3) ved å velge en passende fortsettelse (а-в). Bruk konstruksjonen ^XP, а именно XP@ som betyr omtrent ‘..., eller mer spesifikt, ...’ og ‘..., det vil si, ...’.
   comment: ~
   example: ~
   model: ~
@@ -135,7 +135,7 @@
 4:
   lesson_id: 4
   ex_number: 4
-  title: "Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть больше одного.<br><ul><li>а - ^другими словами@</li><li>б - ^то есть@</li><li>в - ^а именно@</li></ul>"
+  title: "Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть несколько.<br><ul><li>а - ^другими словами@</li><li>б - ^то есть@</li><li>в - ^а именно@</li></ul>"
   instructions: ~
   exercise_type: multichoice_multianswer
   title_eng: Fill in the blanks with the words from the list. Explain why certain options cannot be used. Note that there can be more than one correct answer.
@@ -155,29 +155,29 @@
       text: "4. При коронавирусе бывают разные симптомы, ____________ насморк, температура, кашель, диарея."
   answer_to_show:
     answer1: "в<br>
-    Конструкция ^XP, а именно XP@ уточняет более общее понятие (документы) через более частное (паспорт, медицинский полис). Конструкция ^иными/другими словами, XP/Cl@ и конструкция ^XP/Cl, то есть XP/Cl@ это значение не передают.<br>
+    Конструкция ^..., а именно ...@ уточняет более общее понятие (документы) через более частное (паспорт, медицинский полис). Конструкция ^другими словами, ...@ и конструкция ^..., то есть ...@ это значение не передают.<br>
 
-The construction ^XP, а именно XP@ ‘..., specifically, ...’ explains a more general concept (here: <i>документы</i>) by using more specific ones (here: <i>паспорт, медицинский полис</i>). The construction ^иными/другими словами, XP/Cl@ ‘in other words, ...’ and the construction ^XP/Cl, то есть XP/Cl@ ‘..., that is ... ’ do not convey this meaning.<br>
+The construction ^..., а именно ...@ ‘..., specifically, ...’ explains a more general concept (here: <i>документы</i>) by using more specific ones (here: <i>паспорт, медицинский полис</i>). The construction ^другими словами, ...@ ‘in other words, ...’ and the construction ^..., то есть ...@ ‘..., that is ... ’ do not convey this meaning.<br>
 
-Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ beskriver et mer generelt begrep (i dette tilfellet: <i>документы</i>) ved å referere til spesifikke eksempler (her: <i>паспорт, медицинский полис</i>). Konstruksjonen ^иными/другими словами, XP/Cl@ ‘med andre ord, ...’ og konstruksjonen ^XP/Cl, то есть XP/Cl@ ‘..., det vil si ... ’ formidler ikke en slik betydning."
+Konstruksjonen ^..., а именно ...@ ‘..., eller mer spesifikt, ...’ beskriver et mer generelt begrep (i dette tilfellet: <i>документы</i>) ved å referere til spesifikke eksempler (her: <i>паспорт, медицинский полис</i>). Konstruksjonen ^другими словами, ...@ ‘med andre ord, ...’ og konstruksjonen ^..., то есть ...@ ‘..., det vil si ... ’ formidler ikke en slik betydning."
     answer2: "a, б<br>
-    Конструкция ^иными/другими словами, XP/Cl@ и ^конструкция XP/Cl, то есть XP/Cl@ поясняют одну, менее понятную формулировку (<i>Я реагирую на кошек и собак</i>) с помощью другой, более понятной формулировки (<i>У меня на них аллергия</i>). Это пояснение не является переходом от общего к частному, поэтому конструкция ^XP, а именно XP@ здесь не подходит.<br>
+    Конструкция ^другими словами, ...@ и конструкция ^..., то есть ...@ поясняют одну, менее понятную формулировку (<i>Я реагирую на кошек и собак</i>) с помощью другой, более понятной формулировки (<i>У меня на них аллергия</i>). Это пояснение не является переходом от общего к частному, поэтому конструкция ^..., а именно ...@ здесь не подходит.<br>
 
-The construction ^иными/другими словами, XP/Cl@ ‘in other words, ...’ and the construction X^P/Cl, то есть XP/Cl@ ‘..., that is ... ’ is used to explain a less clear phrasing (<i>Я реагирую на кошек и собак</i> ‘I react to cats and dogs’) with a more comprehensible one (<i>У меня на них аллергия</i> ‘I’m allergic to them’). This explanation however does not contain the transition from a more general to a more specific concept, therefore the construction ^XP, а именно XP@ ‘..., specifically, ...’ is not appropriate here.<br>
+The construction ^другими словами, ...@ ‘in other words, ...’ and the construction ^..., то есть ...@ ‘..., that is ... ’ is used to explain a less clear phrasing (<i>Я реагирую на кошек и собак</i> ‘I react to cats and dogs’) with a more comprehensible one (<i>У меня на них аллергия</i> ‘I’m allergic to them’). This explanation however does not contain the transition from a more general to a more specific concept, therefore the construction ^..., а именно ...@ ‘..., specifically, ...’ is not appropriate here.<br>
 
-Konstruksjonen ^иными/другими словами, XP/Cl@ ‘med andre ord, ...’ og konstruksjonen ^XP/Cl, то есть XP/Cl@ ‘..., det vil si ... ’ forklarer et noe utydelig utsagn (<i>Я реагирую на кошек и собак</i> ‘Jeg reagerer på katter og hunder’) ved hjelp av et tydeligere formulert utsagn (<i>У меня на них аллергия</i> ‘Jeg er allergisk mot dem’). Denne konstruksjonen formidler imidlertid ikke en overgang fra et allment til et mer spesifikt begrep, derfor passer ikke konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ i dette tilfellet."
+Konstruksjonen ^другими словами, ...@ ‘med andre ord, ...’ og konstruksjonen ^..., то есть ...@ ‘..., det vil si ... ’ forklarer et noe utydelig utsagn (<i>Я реагирую на кошек и собак</i> ‘Jeg reagerer på katter og hunder’) ved hjelp av et tydeligere formulert utsagn (<i>У меня на них аллергия</i> ‘Jeg er allergisk mot dem’). Denne konstruksjonen formidler imidlertid ikke en overgang fra et allment til et mer spesifikt begrep, derfor passer ikke konstruksjonen ^..., а именно ...@ ‘..., eller mer spesifikt, ...’ i dette tilfellet."
     answer3: "a, б<br>
-    В этом предложении пояснение содержится два раза: 1) одна формулировка (<i>Томас постоянно играет в компьютерные игры</i>) поясняется с помощью другой, более понятной формулировки (<i>у него игромания</i>), 2) вторая формулировка содержит термин, который поясняется с помощью третьей формулировки (<i>игровая зависимость</i>). В обоих случаях подходит и конструкция ^иными/другими словами, XP/Cl@, и конструкция ^XP/Cl, то есть XP/Cl@, потому что обе конструкции выполняют функцию пояснения. Первый пропуск можно заполнить словами ^другими словами@, а второй пропуск словами ^то есть@ или наоборот. Заполнить оба пропуска одинаково нельзя. Так как пояснение не является переходом от общего к частному, конструкция ^XP, а именно XP@ здесь не подходит.<br>
+    В этом предложении пояснение содержится два раза: 1) одна формулировка (<i>Томас постоянно играет в компьютерные игры</i>) поясняется с помощью другой, более понятной формулировки (<i>у него игромания</i>), 2) вторая формулировка содержит термин, который поясняется с помощью третьей формулировки (<i>игровая зависимость</i>). В обоих случаях подходит и конструкция ^другими словами, ...@, и конструкция ^..., то есть ...@, потому что обе конструкции выполняют функцию пояснения. Первый пропуск можно заполнить словами ^другими словами@, а второй пропуск словами ^то есть@ или наоборот. Заполнить оба пропуска одинаково нельзя. Так как пояснение не является переходом от общего к частному, конструкция ^..., а именно ...@ здесь не подходит.<br>
 
-This sentence contains clarifications in two places. First, the phrase <i>Томас постоянно играет в компьютерные игры</i> ‘Thomas is constantly playing videogames’ is explained with another, more comprehensible phrase (<i>у него игромания</i> ‘Thomas has a gaming addiction’). Then, the term in the second phrase is explained by means of the third phrase (<i>игровая зависимость</i> ‘gaming addiction’). In both cases, either the construction ^иными/другими словами, XP/Cl@ ‘in other words, ...’ or the construction ^XP/Cl, то есть XP/Cl@ ‘..., that is ... ’ can be used, because these constructions serve the same function: they clarify one’s statement. We can fill in the first blank with the words ^другими словами@, and the second blank can be filled in with the words ^то есть@, or the other way around. However, avoid filling in both blanks with the same construction. The construction ^XP, а именно XP@ ‘..., specifically, ...’ is not appropriate here, because this clarification does not contain a transition from a more general to a more specific concept.<br>
+This sentence contains clarifications in two places. First, the phrase <i>Томас постоянно играет в компьютерные игры</i> ‘Thomas is constantly playing videogames’ is explained with another, more comprehensible phrase (<i>у него игромания</i> ‘Thomas has a gaming addiction’). Then, the term in the second phrase is explained by means of the third phrase (<i>игровая зависимость</i> ‘gaming addiction’). In both cases, either the construction ^другими словами, ...@ ‘in other words, ...’ or the construction ^..., то есть ...@ ‘..., that is ... ’ can be used, because these constructions serve the same function: they clarify one’s statement. We can fill in the first blank with the words ^другими словами@, and the second blank can be filled in with the words ^то есть@, or the other way around. However, avoid filling in both blanks with the same construction. The construction ^..., а именно ...@ ‘..., specifically, ...’ is not appropriate here, because this clarification does not contain a transition from a more general to a more specific concept.<br>
 
-I denne setningen forekommer det tydeliggjøring to ganger. Først forklares et utsagn (<i>Томас постоянно играет в компьютерные игры</i> ‘Tomas spiller dataspill hele tiden’) ved hjelp av et tydeligere formulert utsagn (<i>у него игромания</i> ‘Tomas er dataspillavhengig’). Dessuten inneholder det andre utsagnet et uttrykk som forklares ved hjelp av et tredje utsagn (<i>игровая зависимость</i> ‘dataspillavhengighet’). I begge tilfellene passer konstruksjonene ^иными/другими словами, XP/Cl@ ‘med andre ord, ...’ og ^XP/Cl, то есть XP/Cl@ ‘..., det vil si ... ’ like godt, fordi de fyller samme funksjon: å tydeliggjøre et utsagn. Det første og det andre tomme feltet kan begge fylles med enten ^другими словами@ eller ^то есть@. Unngå å fylle begge feltene med den samme konstruksjonen. I dette tilfellet formidles ikke en overgang fra et allment til et mer spesifikt begrep, derfor passer ikke konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’."
+I denne setningen forekommer det tydeliggjøring to ganger. Først forklares et utsagn (<i>Томас постоянно играет в компьютерные игры</i> ‘Tomas spiller dataspill hele tiden’) ved hjelp av et tydeligere formulert utsagn (<i>у него игромания</i> ‘Tomas er dataspillavhengig’). Dessuten inneholder det andre utsagnet et uttrykk som forklares ved hjelp av et tredje utsagn (<i>игровая зависимость</i> ‘dataspillavhengighet’). I begge tilfellene passer konstruksjonene ^другими словами, ...@ ‘med andre ord, ...’ og ^..., то есть ...@ ‘..., det vil si ... ’ like godt, fordi de fyller samme funksjon: å tydeliggjøre et utsagn. Det første og det andre tomme feltet kan begge fylles med enten ^другими словами@ eller ^то есть@. Unngå å fylle begge feltene med den samme konstruksjonen. I dette tilfellet formidles ikke en overgang fra et allment til et mer spesifikt begrep, derfor passer ikke konstruksjonen ^..., а именно ...@ ‘..., eller mer spesifikt, ...’."
     answer4: "в<br>
-    Конструкция ^XP, а именно XP@ уточняет более общее понятие (<i>разные симптомы</i>) через более частное (<i>насморк, температура, кашель, диарея</i>). Конструкция ^иными/другими словами, XP/Cl@ и конструкция ^XP/Cl, то есть XP/Cl@ это значение не передают.<br>
+    Конструкция ^..., а именно ...@ уточняет более общее понятие (<i>разные симптомы</i>) через более частное (<i>насморк, температура, кашель, диарея</i>). Конструкция ^другими словами, ...@ и конструкция ^..., то есть ...@ это значение не передают.<br>
 
-The construction ^XP, а именно XP@ ‘..., specifically, ...’ explains a more general concept (here: <i>разные симптомы</i> ‘various symptoms’) by using more specific ones (here: <i>насморк</i> ‘runny nose’, <i>температура</i> ‘fever’, <i>кашель</i> ‘cough’, <i>диарея</i> ‘diarrhea’). The construction ^иными/другими словами, XP/Cl@ ‘in other words, ...’ and the construction ^XP/Cl, то есть XP/Cl@ ‘..., that is ... ’ do not convey this meaning.<br>
+The construction ^..., а именно ...@ ‘..., specifically, ...’ explains a more general concept (here: <i>разные симптомы</i> ‘various symptoms’) by using more specific ones (here: <i>насморк</i> ‘runny nose’, <i>температура</i> ‘fever’, <i>кашель</i> ‘cough’, <i>диарея</i> ‘diarrhea’). The construction ^другими словами, ...@ ‘in other words, ...’ and the construction ^..., то есть ...@ ‘..., that is ... ’ do not convey this meaning.<br>
 
-Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ beskriver et mer generelt begrep (i dette tilfellet: ^разные симптомы@ ‘forskjellige symptomer’) ved å referere til spesifikke eksempler (i dette tilfellet: <i>насморк</i> ‘rennende nese’, <i>температура</i> ‘feber’, <i>кашель</i> ‘hoste’, <i>диарея</i> ‘diaré’). Konstruksjonen ^иными/другими словами, XP/Cl@ ‘med andre ord, ...’ og konstruksjonen ^XP/Cl, то есть XP/Cl@ ‘..., det vil si ... ’ formidler ikke en slik betydning."
+Konstruksjonen ^..., а именно ...@ ‘..., eller mer spesifikt, ...’ beskriver et mer generelt begrep (i dette tilfellet: ^разные симптомы@ ‘forskjellige symptomer’) ved å referere til spesifikke eksempler (i dette tilfellet: <i>насморк</i> ‘rennende nese’, <i>температура</i> ‘feber’, <i>кашель</i> ‘hoste’, <i>диарея</i> ‘diaré’). Konstruksjonen ^другими словами, ...@ ‘med andre ord, ...’ og konstruksjonen ^..., то есть ...@ ‘..., det vil si ... ’ formidler ikke en slik betydning."
   answer_key:
     answer1: в
     answer2: a, б
@@ -192,11 +192,11 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
 5:
   lesson_id: 4
   ex_number: 5
-  title: Проанализируйте схему. Чем отличаются конструкции ^(Так) мало того – Cl@ и ^ко всему прочему, Cl@?
+  title: Проанализируйте схему. Чем отличаются конструкции ^Мало того, ...@ и ^Ко всему прочему, ...@?
   instructions: ~
   exercise_type: ~
-  title_eng: Analyze the diagram below. How are the two constructions ^(Так) мало того – Cl@ ‘and what is more...’ and ^ко всему прочему, Cl@ ‘on top of all of this ...’ different?
-  title_nor: Analyser diagrammet nedenfor. Hvordan er konstruksjonene ^(Так) мало того – Cl@ som betyr omtrent ‘Ikke nok med det ... / Dessuten ...’ og konstruksjonen ^ко всему прочему, Cl@ som betyr ‘På toppen av alt, ... ’, forskjellige?
+  title_eng: Analyze the diagram below. How are the two constructions ^Мало того, ...@ and ^Ко всему прочему, ...@ different?
+  title_nor: Analyser diagrammet nedenfor. Hvordan er konstruksjonene ^Мало того, ...@ og ^Ко всему прочему, ...@ forskjellige?
   comment: ~
   example: ~
   model: ~
@@ -212,14 +212,14 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
   ex_number: 6
   title: "Заполните пропуски, используя конструкции<br>
 <br>
-а. ^(Так) мало того – Cl@<br>
-б. ^ко всему прочему, Cl.@<br>
+а. ^Мало того, ...@<br>
+б. ^Ко всему прочему, ...@<br>
 <br>
 В некоторых случаях обе конструкции подходят."
   instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence) ), а скобки () обозначают факультативный элемент.
   exercise_type: text_input
-  title_eng: Fill in the blanks by using constructions from the list. Note that in some cases either of these constructions can be used. In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
-  title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonene i listen. Legg merke til at i noen tilfeller kan begge konstruksjonene passe. I disse konstruksjonene betyr Cl en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  title_eng: Fill in the blanks by using constructions from the list. Note that in some cases either of these constructions can be used.
+  title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonene i listen. Legg merke til at i noen tilfeller kan begge konstruksjonene passe.
   comment: ~
   example: ~
   model: ~
@@ -248,11 +248,11 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
 7:
   lesson_id: 4
   ex_number: 7
-  title: Составьте предложения, соединив жалобы по модели с помощью конструкций ^(Так) мало того – Cl@ и ^ко всему прочему, Cl@.
+  title: Составьте предложения, соединив жалобы по модели с помощью конструкций ^Мало того, ...@ и ^Ко всему прочему, ...@.
   instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence) ), а скобки () обозначают факультативный элемент.
   exercise_type: text_input
-  title_eng: Build sentences from the available parts. Connect complaints by using the pattern below and the constructions ^(Так) мало того – Cl@ meaning ‘and what is more...’ and ^ко всему прочему, Cl@ meaning ‘on top of all of this ...’. In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
-  title_nor: Lag setninger og uttrykk relaterte til helse og sykdom med utgangspunkt i eksemplene nedenfor. Bruk konstruksjonene ^(Так) мало того – Cl@ ‘ikke nok med det, dessuten ...’ og ^ко всему прочему, Cl@ ‘dessuten ...’, ‘på toppen av X ...’. I disse konstruksjonene betyr Cl en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  title_eng: Build sentences from the available parts. Connect complaints by using the pattern below and the constructions ^Мало того, ...@ and ^Ко всему прочему, ...@
+  title_nor: Lag setninger og uttrykk relaterte til helse og sykdom med utgangspunkt i eksemplene nedenfor. Bruk konstruksjonene ^Мало того, ...@ og ^Ко всему прочему, ...@
   comment: ~
   example: "болит голова + насморк + кашель<br>
 &#10132; У меня болит голова. ^Mало того,@ у меня насморк и, ^ко всему прочему,@ кашель."
@@ -281,11 +281,11 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
 8:
   lesson_id: 4
   ex_number: 8
-  title: Соедините части предложений с помощью конструкции ^(да) и вообще, Cl@.
+  title: Соедините части предложений с помощью конструкции ^И вообще, ...@.
   instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence), а скобки () обозначают факультативный элемент.
   exercise_type: text_input
-  title_eng: Connect the phrases by means of the construction ^(да) и вообще, Cl@ meaning ‘for that matter, ...’. In this construction, we can put an entire sentence in the Cl slot (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
-  title_nor: Koble sammen setningene ved å bruke konstruksjonen (да) и вообще, Cl som betyr omtrent ‘generelt, ...’ eller ‘i det hele tatt, ...’ (det er vanskelig å finne et godt tilsvarende uttrykk på norsk). Plassen Cl kan fylles med en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+  title_eng: Connect the phrases by means of the construction ^И вообще, ...@ meaning ‘for that matter, ...’. 
+  title_nor: Koble sammen setningene ved å bruke konstruksjonen ^И вообще, ...@ som betyr omtrent ‘generelt, ...’ eller ‘i det hele tatt, ...’ (det er vanskelig å finne et godt tilsvarende uttrykk på norsk).
   comment: ~
   example: ~
   model: ~
@@ -392,12 +392,12 @@ Konstruksjonen ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’ besk
   lesson_id: 4
   ex_number: 11
   title: "Вы пациент, а ваш собеседник – врач. Расскажите, что у вас болит. Используйте конструкции<br><ul>
-<li>^(Так) мало того – Cl@</li>
-<li>^ко всему прочему, Cl@</li>
-<li>^(да) и вообще, Cl@</li>
-<li>^иными/другими словами, XP/Cl@</li>
-<li>^XP/Cl, то есть XP/Cl@</li>
-<li>^XP, а именно XP@</li></ul>"
+<li>^Мало того, ...@</li>
+<li>^Ко всему прочему, ...@</li>
+<li>^И вообще, ...@</li>
+<li>^другими словами, ...@</li>
+<li>^..., то есть ...@</li>
+<li>^..., а именно ...</li></ul>"
   instructions: ~
   exercise_type: ~
   title_eng: You are a patient, and your interlocutor is a doctor. Tell the doctor where in your body it hurts (where you have a problem). Use the constructions from the list.
@@ -452,11 +452,11 @@ Comment for language teachers. Task format: in pairs. After one dialogue, the st
   lesson_id: 4
   ex_number: 13
   title: "Бонусное упражнение<br>
-Закончите предложения (1-6), подобрав подходящий вариант (а-е). Используйте конструкцию ^XP, а именно XP.@"
+Закончите предложения (1-6), подобрав подходящий вариант (а-е). Используйте конструкцию ^..., а именно ...@"
   instructions: ~
   exercise_type: text_input
-  title_eng: Bonus exercise. Connect the phrases by choosing the matching continuation. Use the construction ^XP, а именно XP@ meaning ‘..., specifically, ...’ or ‘..., to be exact, ...’.
-  title_nor: Bonusoppgave. Koble sammen setningene ved å velge en passende fortsettelse. Bruk konstruksjonen ^XP, а именно XP@ som betyr ‘..., eller mer spesifikt, ...’ eller ‘..., det vil si, ...’.
+  title_eng: Bonus exercise. Connect the phrases by choosing the matching continuation. Use the construction ^..., а именно ...@
+  title_nor: Bonusoppgave. Koble sammen setningene ved å velge en passende fortsettelse. Bruk konstruksjonen ^..., а именно ...@
   comment: ~
   example: ~
   model: ~
@@ -509,11 +509,11 @@ Comment for language teachers. Task format: in pairs. After one dialogue, the st
   lesson_id: 4
   ex_number: 15
   title: "Бонусное упражнение<br>
-Вы администратор в поликлинике. Объясните пациенту по телефону, как подготовиться к приему у врача. Используйте памятку внизу и конструкции ^XP, а именно XP@ и ^XP/Cl, то есть XP/Cl@."
+Вы администратор в поликлинике. Объясните пациенту по телефону, как подготовиться к приему у врача. Используйте памятку внизу и конструкции ^..., а именно ...@ и ^..., то есть ...@"
   instructions: ~
   exercise_type: ~
-  title_eng: "Bonus exercise. You are an administrator at a clinic. Explain to a patient over the phone how to prepare for their doctor’s appointment. Use the checklist (memo) below, the construction ^XP, а именно XP@ ‘..., specifically, ...’ or ‘..., to be exact, ...’ and the construction ^XP/Cl, то есть XP/Cl@ ‘..., that is, ...’. In these constructions, XP is a phrase (XP=phrase) and Cl is a whole sentence (Cl=clause, sentence)."
-  title_nor: "Bonusoppgave. Du jobber som administrator ved en klinikk. Forklar for en pasient på telefon hvordan forberede seg til legetimen. Bruk huskelisten nedenfor og konstruksjonene ^XP, а именно XP@ ‘..., eller mer spesifikt, ...’, ‘..., det vil si, ...’ ^XP/Cl, то есть XP/Cl@ ‘..., det vil si, ...’. I disse konstruksjonene er XP en frase (XP=frase) and Cl er en hel setning (Cl=setning)."
+  title_eng: "Bonus exercise. You are an administrator at a clinic. Explain to a patient over the phone how to prepare for their doctor’s appointment. Use the checklist (memo) below, the construction ^..., а именно ...@, and the construction ^..., то есть ...@."
+  title_nor: "Bonusoppgave. Du jobber som administrator ved en klinikk. Forklar for en pasient på telefon hvordan forberede seg til legetimen. Bruk huskelisten nedenfor og konstruksjonene ^..., а именно ...@ og ^..., то есть ...@."
   comment: ~
   example: ~
   model: ~
