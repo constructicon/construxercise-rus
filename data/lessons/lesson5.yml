@@ -278,19 +278,21 @@ Comment for language teachers. Task format: snowball. The text is generated join
 — ^Что касается NP-Gen, то@ ..."
     model: ~
     image: ~
-    task: "<b>Товары на выбор:</b><br><ul>
-<li>телефон</li>
-<li>телевизор</li>
-<li>наушники</li>
-<li>электрочайник</li>
-<li>умные часы</li></ul><br>
-<b>Обсудить:</b><ul>
-<li>Технические характеристики</li>
-<li>Фирма</li>
-<li>Цена</li>
-<li>Страна-производитель</li>
-<li>Гарантия</li>
-<li>Страховка, сервис</li></ul>"
+    task: 
+      text: |
+        <b>Товары на выбор:</b><br><ul>
+        <li>телефон</li>
+        <li>телевизор</li>
+        <li>наушники</li>
+        <li>электрочайник</li>
+        <li>умные часы</li></ul><br>
+        <b>Обсудить:</b><ul>
+        <li>Технические характеристики</li>
+        <li>Фирма</li>
+        <li>Цена</li>
+        <li>Страна-производитель</li>
+        <li>Гарантия</li>
+        <li>Страховка, сервис</li></ul>
     answer_to_show: ~
     answer_key: ~
     difficult_words: ~
@@ -307,19 +309,21 @@ Comment for language teachers. Task format: snowball. The text is generated join
     example: ~
     model: ~
     image: ~
-    task: "<b>План</b><br><br> 1. — Как вы в целом оцениваете ситуацию?<br><ul>
-<li>^в целом@ всё хорошо</li>
-<li>^в целом@ всё плохо</li>
-<li>^в целом@ остаётся опасность для здоровья людей</li>
-<li>^в целом@ опасности больше нет</li></ul><br>
-2. — Почему Вы так считаете?<br><ul>
-<li>^во-первых,@ ...; ^во-вторых,@ ....</li>
-<li>^кроме того,@ ...</li>
-<li>^да и вообще,@ ... (в конце)</li></ul><br>
-3. — По Вашим оценкам, что будет в будущем?<br><ul>
-<li>^Kак бы то ни было,@ ...</li></ul><br>
-4. Подведите итог<br><ul>
-<li>^Tаким образом,@ ...</li></ul>"
+    task: 
+      text: |
+        <b>План</b><br><br> 1. — Как вы в целом оцениваете ситуацию?<br><ul>
+        <li>^в целом@ всё хорошо</li>
+        <li>^в целом@ всё плохо</li>
+        <li>^в целом@ остаётся опасность для здоровья людей</li>
+        <li>^в целом@ опасности больше нет</li></ul><br>
+        2. — Почему Вы так считаете?<br><ul>
+        <li>^во-первых,@ ...; ^во-вторых,@ ....</li>
+        <li>^кроме того,@ ...</li>
+        <li>^да и вообще,@ ... (в конце)</li></ul><br>
+        3. — По Вашим оценкам, что будет в будущем?<br><ul>
+        <li>^Kак бы то ни было,@ ...</li></ul><br>
+        4. Подведите итог<br><ul>
+        <li>^Tаким образом,@ ...</li></ul>
     answer_to_show: "^В целом,@ ситуация с коронавирусом в России остается тяжёлой. ^Во-первых,@ каждый день ковидом заражаются тысячи людей. ^Кроме того,@ многих из них отправляют в больницу. ^Да и вообще,@ теперь коронавирусом болеют не только взрослые, но и дети. ^Kак бы то ни было,@ я верю, что скоро пандемия закончится, потому что сейчас многие люди делают прививки. ^Таким образом,@ сейчас всё непросто, но мы справимся."
     answer_key: ~
     difficult_words: ~
@@ -336,10 +340,12 @@ Comment for language teachers. Task format: snowball. The text is generated join
     example: ~
     model: ~
     image: ~
-    task: "<b>Функции:</b><br> а. ввести пример (English: give an example; Norwegian: introdusere et eksempel)<br>
-б. сделать вывод (English: draw a conclusion; Norwegian: oppsummere)<br>
-в. ввести тему (English: introduce a topic; Norwegian: introdusere et tema)<br>
-г. добавить информацию (English: add information; Norwegian: legge til informasjon)"
+    task: 
+      text: |
+        <b>Функции:</b><br> а. ввести пример (English: give an example; Norwegian: introdusere et eksempel)<br>
+        б. сделать вывод (English: draw a conclusion; Norwegian: oppsummere)<br>
+        в. ввести тему (English: introduce a topic; Norwegian: introdusere et tema)<br>
+        г. добавить информацию (English: add information; Norwegian: legge til informasjon)
     answer_to_show: "1. 1, 2, г<br>
 <b>2.</b> 1, 3, б<br>
 <b>3.</b> 1, 2, в<br>
