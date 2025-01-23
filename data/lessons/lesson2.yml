@@ -28,15 +28,37 @@
     word2: "*доступна — English: available; Norwegian: tilgjengelig"
     word3: "*занять — English: it takes (about time); Norwegian: det kan ta (om tid)"
   table: ~
-2:
+  2:
   lesson_id: 2
   ex_number: 2
+  title: Прочитайте эти тексты сами. Скажите, для чего нужны конструкции, выделенные в тексте?
+  exercise_type: ~
+  title_eng: Read the texts in the exercise 1. What is the purpose of the constructions highlighted in the text?
+  title_nor: Les tekstene i øvelse 1. Hva er hensikten med de uthevede konstruksjonene i teksten?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~ 
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+3:
+  lesson_id: 2
+  ex_number: 3
   title: Составьте текст, используя конструкцию ^Во-первых, ... Во-вторых, ... В-третьих, ...@
   instructions: На месте ... находится фраза (phrase) или целое предложение (sentence).
   exercise_type: ~
   title_eng: Compose a text, using the construction ^Во-первых, ... Во-вторых, ... В-третьих, ...@.
   title_nor: Lag en tekst ved å bruke konstruksjonen ^Во-первых, ... Во-вторых, ... В-третьих, ...@.
   comment: ~
+  constr_info: |
+    Kонструкция ^к тому же ...@ вводит дополнительную информацию:
+    <uL><li>Он талантливый музыкант, ^к тому же@ пишет свои песни.</li></ul><br>
+    При этом конструкция ^к тому же ...@ часто вводит более сильный аргумент и может подчëркивать как позитивную, так и негативную сторону ситуации:
+    <uL><li>Этот ресторан совсем недорогой, к тому же еда там очень вкусная.</li>
+    <li>Я не хочу идти в кино, к тому же у меня много работы.</li><ul>
   example: ~
   model: ~
   image: ~
@@ -66,9 +88,9 @@
   difficult_words:
     word3: "*сокращённый — English: shortened; Norwegian: forkortet"
   table: ~
-3:
+4:
   lesson_id: 2
-  ex_number: 3
+  ex_number: 4
   title: Перепишите информационное письмо из визового центра, используя конструкцию ^Во-первых, ... Во-вторых, ... В-третьих, ...@.
   instructions: На месте ... находится фраза (phrase) или целое предложение (sentence).
   exercise_type: ~
@@ -96,9 +118,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-4:
+5:
   lesson_id: 2
-  ex_number: 4
+  ex_number: 5
   title: Вы сотрудник посольства. Расскажите туристу, который хочет поехать в Россию, что ему нужно сделать, чтобы получить визу. Используйте схему, слова «надо», «нужно» и «необходимо», а также конструкцию ^Во-первых, ... Во-вторых, ... В-третьих, ...@.
   instructions: ~
   exercise_type: ~
@@ -114,9 +136,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-5:
+6:
   lesson_id: 2
-  ex_number: 5
+  ex_number: 6
   title: Соедините части предложений, подобрав логичное продолжение. Используйте конструкцию ^С одной стороны, ..., с другой стороны, ...@.
   instructions: На месте ... находится фраза (phrase) или целое предложение (sentence).
   exercise_type: multichoice_singleanswer
@@ -176,9 +198,9 @@
     row5:
       - 5. Смотреть сериалы весело
       - д. для путешествий нужно много времени и денег
-6:
+7:
   lesson_id: 2
-  ex_number: 6
+  ex_number: 7
   title: Антон отдыхал в Греции и после поездки решил написать отзыв на сайте отеля. Что-то ему понравилось, а что-то не понравилось. Антон сделал заметки. Помогите ему написать отзыв, соединив предложения. Используйте конструкцию ^С одной стороны, ..., с другой стороны, ...@.
   instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence)
   exercise_type: text_input
@@ -217,9 +239,9 @@
       - С одной стороны, находиться в отеле было приятно, с другой, иногда некомфортно.
   difficult_words: ~
   table: ~
-7:
+8:
   lesson_id: 2
-  ex_number: 7
+  ex_number: 8
   title: Соедините два предложения в одно, используя конструкцию ^что касается ..., то ...@.
   instructions: В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen). На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: text_input
@@ -251,9 +273,9 @@
   difficult_words:
     word1: "* Учебный офис может также называться «деканат»."
   table: ~
-8:
+9:
   lesson_id: 2
-  ex_number: 8
+  ex_number: 9
   title: Составьте короткий рассказ об одном дне из жизни друзей. Оцените, как прошёл их день, используя конструкцию ^в целом ...@.
   instructions: На месте ... находится целое предложение (sentence).
   exercise_type: ~
@@ -321,9 +343,9 @@
       - Леонид
       - <ul><li>выспался</li><li>сходил на море</li><li>сходил на футбольный матч</li></ul>
 
-9:
+10:
   lesson_id: 2
-  ex_number: 9
+  ex_number: 10
   title: Выберите подходящую конструкцию. Объясните свой выбор. В каждом случае одна конструкция вводит вывод, а другая добавляет информацию.
   instructions: ~
   exercise_type: multichoice_singleanswer
@@ -361,9 +383,9 @@
    - В целом
   difficult_words: ~
   table: ~
-10:
+11:
   lesson_id: 2
-  ex_number: 10
+  ex_number: 11
   title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию ^таким образом, ...@.
   instructions: На месте ... находится целое предложение (sentence).
   exercise_type: multichoice_singleanswer
@@ -415,9 +437,9 @@
     row4:
       - 4. Я потеряла паспорт, а Соня не смогла улететь домой, потому что её рейс отменили.
       - г. В Норвегию русские туристы приезжают нечасто.
-11:
+12:
   lesson_id: 2
-  ex_number: 11
+  ex_number: 12
   title: Вы с другом собираете чемодан в поездку. Перед вами список вещей. Чемодан маленький, поэтому взять нужно только самое необходимое. Обсудите с другом, что из списка вы возьмёте. В таблице даны 4 варианта поездки. Обсудите каждый вариант отдельно.
   instructions: ~
   exercise_type: ~
@@ -482,9 +504,9 @@
       - 5 дней
       - В гости к другу
       - Март
-12:
+13:
   lesson_id: 2
-  ex_number: 12
+  ex_number: 13
   title: Расскажите вашим друзьям о своей поездке. Расскажите о том, что вам понравилось и что не понравилось. Следуйте плану.
   instructions: ~
   exercise_type: ~
@@ -505,9 +527,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-13:
+14:
   lesson_id: 2
-  ex_number: 13
+  ex_number: 14
   title: "Бонусное упражнение<br> Соедините достопримечательности России (1-4) и факты о них (а-г) при помощи конструкции ^что касается NP-Gen, то Cl.@"
   instructions: В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen= Genitive case). На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: ~
