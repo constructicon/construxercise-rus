@@ -262,28 +262,65 @@
   comment: ~
   example: Леонид выспался, сходил на море и на футбольный матч. ^В целом@ день прошёл хорошо.
   model: ~
-  image:
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/2_2.png"
+  image: ~
   task:
     task1:
       text: a
-      image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/2_3.png"
+      table: 
+        vertical_align: ~
+        horizontal_align: ~
+        width: ~
+        header: ~
+        row1:
+          - Кто?
+          - Что делал?
+        row2:
+          - Евгения
+          - <ul><li>отдохнула</li><li>сходила в спа</li><li>посмотрела фильм</li></ul>
     task2:
       text: б
-      image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/2_4.png"
+      table: 
+        vertical_align: ~
+        horizontal_align: ~
+        width: ~
+        header: ~
+        row1:
+          - Кто?
+          - Что делал?
+        row2:
+          - Наташа и Андрей
+          - <ul><li>потеряли ключи от квартиры</li><li>опоздали на поезд</li><li>замёрзли на прогулке</li></ul>
     task3:
       text: в
-      image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/2_5.png"
+      table: 
+        vertical_align: ~
+        horizontal_align: ~
+        width: ~
+        header: ~
+        row1:
+          - Кто?
+          - Что делал?
+        row2:
+          - Дима
+          - <ul><li>приготовил вкусный ужин</li><li>посмотрел новый фильм</li><li>купил новый диван</li></ul>
   answer_to_show:
     answer1: Евгения отдохнула, сходила в спа и посмотрела фильм. ^В целом,@ день прошёл хорошо.
     answer2: Наташа и Андрей потеряли ключи от квартиры, опоздали на поезд и замёрзли на прогулке. ^В целом,@ день прошёл плохо.
     answer3: Дима приготовил вкусный ужин, посмотрел новый фильм и купил новый диван. ^В целом,@ день прошёл хорошо.
   answer_key: ~
   difficult_words: ~
-  table: ~
+  table: 
+    vertical_align: ~
+    horizontal_align: ~
+    width: ~
+    header: ~
+    row1:
+      - Кто?
+      - Что делал?
+    row2:
+      - Леонид
+      - <ul><li>выспался</li><li>сходил на море</li><li>сходил на футбольный матч</li></ul>
+
 9:
   lesson_id: 2
   ex_number: 9
