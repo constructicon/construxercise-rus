@@ -39,7 +39,6 @@ function annotate(text) {
 }
 
 
-
 function hover_diff_words(text, word) {
     // console.log(0)
     let matches = [...text.matchAll(/.+?\*/g)]
