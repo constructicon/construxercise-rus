@@ -22,24 +22,23 @@ main_content.setAttribute("class", "container px-4")
 
 const exercises_amount = Object.keys(data).length
 
-
 function annotate(text) {
-    // finds constructions between special symbols and changes their color
-    let matches = text.match(/\^.+?@/g);
-    if (matches){
+    let matches = text.match(/(?:<br\s*\/?>\s*)?\^.+?@/g); // Matches ^...@ and accounts for <br> before ^
+    if (matches) {
         for (let substring of matches) {
-            text = text.replace(substring, '<b><span style="color: #5980B9">' + substring + '</span></b>');
-        }
-        let rem_matches = text.match(/\^/g);
-        for (let rm of rem_matches){
-            text = text.replace(rm, "")
-        }
-        let rem_matches2 = text.match(/@/g);
-        for (let rm of rem_matches2){
-            text = text.replace(rm, "")
+            // Remove ^ and @ from the substring
+            let cleanSubstring = substring.replace(/(?:<br\s*\/?>\s*)?\^|@$/g, "").trim(); // Remove ^, @, and spaces
+            let styledSubstring = `<b><span style="color: #5980B9">${cleanSubstring}</span></b>`;
+            // Preserve <br> if it exists, otherwise just replace normally
+            text = text.replace(substring, substring.startsWith('<br') 
+                ? `<br>${styledSubstring}` 
+                : styledSubstring);
         }
     }
-    return text}
+    return text;
+}
+
+
 
 function hover_diff_words(text, word) {
     // console.log(0)
