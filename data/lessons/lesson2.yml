@@ -145,6 +145,8 @@
   title_eng: Connect the phrases by choosing the matching continuation. Use the construction ^С одной стороны, ..., с другой стороны, ...@.
   title_nor: Fullfør setningene ved å velge delene som passer sammen. Bruk konstruksjonen ^С одной стороны, ..., с другой стороны, ...@.
   comment: ~
+  constr_info: |
+    В конструкции С одной стороны, … с другой стороны, ... на месте ... может быть фраза или целое предложение. Слово «стороны» во второй части конструкции часто опускается.
   example: ~
   model: ~
   image: ~
