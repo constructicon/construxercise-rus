@@ -200,7 +200,7 @@ function add_answer(answer_to_show, answer_key, input) {
 
     let button2 = document.createElement("button")
     button2.setAttribute("type", "button")
-    button2.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
+    button2.setAttribute("class", "btn btn-outline-info float-end btn-sm")
     button2.innerHTML = "Answer key"
 
     if (Boolean(input)) {
@@ -210,7 +210,7 @@ function add_answer(answer_to_show, answer_key, input) {
 
         let button1 = document.createElement("button")
         button1.setAttribute("type", "button")
-        button1.setAttribute("class", "btn btn-outline-primary float-end btn-sm")
+        button1.setAttribute("class", "btn btn-outline-info float-end btn-sm")
         button1.innerHTML = "Check Answer"
 
         button1.onclick = function () {
@@ -416,7 +416,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
         let comment_button = document.createElement("button");
         comment_button.setAttribute("type", "button");
-        comment_button.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
+        comment_button.setAttribute("class", "btn btn-outline-secondary float-end btn-sm");
         comment_button.innerHTML = "Comment for language teachers";
 
         let comment_text = data[exercise_id]["comment"]
@@ -424,7 +424,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             show_item(comment, comment_text)
         }
 
-        task_buttons.append(comment_button);
+        task_title.append(comment_button);
         task_title.appendChild(comment);
 
     }
@@ -609,7 +609,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 
                     let button2 = document.createElement("button");
                     button2.setAttribute("type", "button");
-                    button2.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
+                    button2.setAttribute("class", "btn btn-outline-info float-end btn-sm");
                     button2.innerHTML = "Answer key";
                                 
                     let result_text = document.createElement("p");
@@ -617,7 +617,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     
                     let button1 = document.createElement("button");
                     button1.setAttribute("type", "button");
-                    button1.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
+                    button1.setAttribute("class", "btn btn-outline-info float-end btn-sm");
                     button1.innerHTML = "Check Answer";
 
                     // add answer check
@@ -692,7 +692,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 
                     let button2 = document.createElement("button");
                     button2.setAttribute("type", "button");
-                    button2.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
+                    button2.setAttribute("class", "btn btn-outline-info float-end btn-sm");
                     button2.innerHTML = "Answer key";
                                 
                     let result_text = document.createElement("p");
@@ -700,7 +700,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     
                     let button1 = document.createElement("button");
                     button1.setAttribute("type", "button");
-                    button1.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
+                    button1.setAttribute("class", "btn btn-outline-info float-end btn-sm");
                     button1.innerHTML = "Check Answer";
 
                     // add answer check
