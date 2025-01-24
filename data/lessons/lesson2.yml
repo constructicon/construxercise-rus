@@ -2,11 +2,11 @@
 1:
   lesson_id: 2
   ex_number: 1
-  title: Послушайте тексты и заполните пропуски. Запишите ответы через запятую. Прочитайте эти тексты сами. Скажите, для чего нужны конструкции, выделенные в тексте?
+  title: Послушайте тексты и заполните пропуски. Запишите ответы через запятую.
   instructions: ~
   exercise_type: ~
-  title_eng: Listen to the texts and fill in the blanks. Write the answers using commas to separate words. Read the texts. What is the purpose of the constructions highlighted in the text?
-  title_nor: Lytt til tekstene og fyll inn de tomme feltene. Skriv svarene og bruk komma for å skille ordene. Les tekstene. Hva er hensikten med de uthevede konstruksjonene i teksten?
+  title_eng: Listen to the texts and fill in the blanks. Write the answers using commas to separate words.
+  title_nor: Lytt til tekstene og fyll inn de tomme feltene. Skriv svarene og bruk komma for å skille ordene.
   comment: ~
   example: ~
   model: ~
