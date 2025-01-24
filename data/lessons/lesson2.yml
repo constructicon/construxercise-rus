@@ -33,9 +33,9 @@
   answer_to_show: ~
   answer_key: ~
   difficult_words:
-    word1: "*терпение — English: patience; Norwegian: tålmodighet"
-    word2: "*доступна — English: available; Norwegian: tilgjengelig"
-    word3: "*занять — English: it takes (about time); Norwegian: det kan ta (om tid)"
+    word1: "*терпение — EN: patience; NO: tålmodighet"
+    word2: "*доступна — EN: available; NO: tilgjengelig"
+    word3: "*занять — EN: it takes (about time); NO: det kan ta (om tid)"
   table: ~
 2:
   lesson_id: 2
@@ -96,7 +96,7 @@
     answer3: "У имени Александр есть много вариантов. ^Во-первых,@ обычно используют сокращённый вариант этого имени, Саша. ^Во-вторых,@ есть ещё другие варианты имени Александр — Шура, Саня, Алик. ^В-третьих,@ Саша — это не только мужское, но и женское имя (Александра)."
   answer_key: ~
   difficult_words:
-    word3: "*сокращённый — English: shortened; Norwegian: forkortet"
+    word3: "*сокращённый — EN: shortened; NO: forkortet"
   table: ~
 4:
   lesson_id: 2
