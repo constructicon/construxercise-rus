@@ -343,23 +343,29 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     }
 
     // add buttons for translations to English and Norwegian
+    let buttonWrapper = document.createElement('div')
+    buttonWrapper.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end ")
+    buttonWrapper.setAttribute("style", "margin-top: 10px")
+
     let task_buttons = document.createElement("div");
-    task_buttons.setAttribute("class", "d-grid gap-2 d-md-flex justify-content-md-end");
-    task_buttons.setAttribute("style", "margin-top: 10px")
+    task_buttons.setAttribute("class", "btn-group btn-group-sm");
+
+    task_buttons.setAttribute("role", "group");
+
     let eng_text = document.createElement("h6");
     let norw_text = document.createElement("h6");
     let eng = document.createElement("button");
     eng.setAttribute("type", "button");
-    eng.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
-    eng.innerHTML = "English";
+    eng.setAttribute("class", "btn btn-outline-secondary float-end btn-sm");
+    eng.innerHTML = "EN";
     let translation_text_eng = annotate(data[exercise_id]["title_eng"])
     eng.onclick = function () {
         show_item(eng_text, translation_text_eng)
     }
     let norw = document.createElement("button");
     norw.setAttribute("type", "button");
-    norw.setAttribute("class", "btn btn-outline-primary float-end btn-sm");
-    norw.innerHTML = "Norwegian";
+    norw.setAttribute("class", "btn btn-outline-secondary float-end btn-sm");
+    norw.innerHTML = "NO";
     let translation_text_norw = annotate(data[exercise_id]["title_nor"])
     norw.onclick = function () {
         show_item(norw_text, translation_text_norw)
@@ -367,8 +373,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
     task_buttons.appendChild(eng);
     task_buttons.appendChild(norw);
+    buttonWrapper.appendChild(task_buttons)
 
-    task_title.appendChild(task_buttons);
+    task_title.appendChild(buttonWrapper);
     task_title.appendChild(eng_text)
     task_title.appendChild(norw_text)
     main_content.appendChild(task_title);
@@ -522,8 +529,16 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     subtask_col.appendChild(subtask_text)
 
                     // subtask.innerHTML = annotate(data[exercise_id]["task"][`task${i}`]["text"]);
-                    if (data[exercise_id]["difficult_words"] != null) {
-                        let words = data[exercise_id]["difficult_words"][`word${i}`];
+                    if (data[exercise_id]["difficult_words"]) {
+                        if (data[exercise_id]["difficult_words"][`word${i}`]){
+                            let words = data[exercise_id]["difficult_words"][`word${i}`];
+                            let diff_words_cont = document.createElement('p')
+                            diff_words_cont.setAttribute('class', 'p-2 m-2 fw-light text-muted')
+                            show_item(diff_words_cont, words)
+                            subtask_text.appendChild(diff_words_cont)
+                        }
+
+
                         // FIXME: HOVER_DIFF_WORDS PRODUCING ERROR IN LESSON 8 (LINE 57 WORD NOT DEFINED)
                         // subtask.innerHTML = hover_diff_words(subtask.innerHTML, words)
                     }
