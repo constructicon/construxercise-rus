@@ -741,7 +741,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             // if no subtasks
 
             if (data[exercise_id]["task"]["text"] != null){
-                task.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
+                task.setAttribute("class", "shadow p-4 mb-3 bg-body rounded")
                 task.innerHTML = annotate(data[exercise_id]["task"]["text"]);
             }
             
