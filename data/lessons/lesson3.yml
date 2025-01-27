@@ -21,16 +21,16 @@
   answer_to_show: ~
   answer_key: ~
   difficult_words:
-    word1:
-      1: "*ответственность — English: responsibility; Norwegian: ansvar"
-      2: "*начальник — English: boss; Norwegian: sjef, arbeidsgiver"
-      3: "*общаться — English: communicate; Norwegian: å kommunisere"
-      4: "*уволиться — English: quit; Norwegian: å slutte"
-    word2:
-      1: "*работодатель — English: employer; Norwegian: arbeidsgiver"
-      2: "*опыт работы — English: work experience; Norwegian: arbeidserfaring"
-      3: "*устроиться на работу — English: to get a job; Norwegian: å få en jobb"
-      4: "*трудовая книжка — English: employment history; Norwegian: ansettelseshistorie (eller CV)"
+    word1: |
+      *ответственность — English: responsibility; Norwegian: ansvar<br>
+      *начальник — English: boss; Norwegian: sjef, arbeidsgiver<br>
+      *общаться — English: communicate; Norwegian: å kommunisere<br>
+      *уволиться — English: quit; Norwegian: å slutte<br>
+    word2: |
+      *работодатель — English: employer; Norwegian: arbeidsgiver<br>
+      *опыт работы — English: work experience; Norwegian: arbeidserfaring<br>
+      *устроиться на работу — English: to get a job; Norwegian: å få en jobb<br>
+      *трудовая книжка — English: employment history; Norwegian: ansettelseshistorie (eller CV)<br>
   table: ~
 2:
   lesson_id: 3
