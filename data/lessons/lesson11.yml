@@ -28,6 +28,23 @@
 2:
   lesson_id: 11
   ex_number: 2
+  title: "Прочитайте эти тексты сами. Скажите, для чего нужны конструкции, выделенные в тексте?"
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the texts in the exercise 1. What is the purpose of the constructions highlighted in the text?
+  title_nor: Les tekstene i øvelse 1. Hva er hensikten med de uthevede konstruksjonene i teksten?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+3:
+  lesson_id: 11
+  ex_number: 3
   title: Вы владелец модного бренда и получаете престижную награду за свою работу. На церемонии награждения вы произносите речь, в конце которой используете конструкцию ^в заключение Cl@.
   instructions: В этой конструкции слот Cl заполняется целым предложением (Cl=clause, sentence). Составьте предложения из частей, предложенных в таблице.
   exercise_type: ~
@@ -59,9 +76,9 @@
         - мы продолжим радовать вас нашими платьями.
         - эта награда  — результат отличной работы всех наших сотрудников.
         - наш бренд молодой и эта награда  — только начало большого пути.
-3:
+4:
   lesson_id: 11
-  ex_number: 3
+  ex_number: 4
   title: Вы стилист и ведёте блог о моде. Расскажите своим подписчикам в социальных сетях, что будут носить люди весной и летом этого года. Используйте фото ниже. Подведите итог своему рассказу, используя конструкцию ^Итак, Cl@.
   instructions: В этой конструкции слот Cl заполняется целым предложением (Cl=clause, sentence). Составьте предложения из частей, предложенных в таблице.
   exercise_type: ~
@@ -106,9 +123,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-4:
+5:
   lesson_id: 11
-  ex_number: 4
+  ex_number: 5
   title: "Составьте предложения с перечислением объектов. В конце предложения используйте конструкции:<br>
           — ^XP/Cl, XP/Cl и так далее/и т. д.@<br>
           — ^NP, NP и тому подобное/и т. п.@"
@@ -145,9 +162,9 @@
   difficult_words:
     word3: "звёзды* — English: celebrities; Norwegian: kjendiser"
   table: ~
-5:
+6:
   lesson_id: 11
-  ex_number: 5
+  ex_number: 6
   title: "Составьте предложения, подобрав логичное продолжение. В конце предложения используйте конструкции:<br>
           — ^XP/Cl, XP/Cl и так далее/и т. д.@<br>
           — ^NP, NP и тому подобное/и т. п.@"
@@ -179,9 +196,9 @@
       - 
         - и так далее.
         - и тому подобное.
-6:
+7:
   lesson_id: 11
-  ex_number: 6
+  ex_number: 7
   title: Заполните пропуски в предложениях, используя конструкции ^в частности, XP/Cl@ и ^скажем, XP/Cl@. Прочитайте информацию в таблице, чтобы понять, чем похожи и чем отличаются эти конструкции.
   instructions: В этих конструкциях слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence).
   exercise_type: text_input
@@ -237,9 +254,9 @@
         - Конструкция ^скажем, XP/Cl@ часто вводит пример как гипотетически возможный.
         - The construction ^скажем, Cl/XP@ often presents an example as hypothetically possible.
         - Konstruksjonen ^скажем, Cl/XP@ presenterer ofte eksempelet som noe hypotetisk mulig.
-7:
+8:
   lesson_id: 11
-  ex_number: 7
+  ex_number: 8
   title: Составьте предложения. Используйте конструкцию ^скажем, XP/Cl@.
   instructions: В этой конструкции слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence).
   exercise_type: ~
@@ -317,9 +334,9 @@
         - шляпа
         - кепка
         - бейсболка
-8:
+9:
   lesson_id: 11
-  ex_number: 8
+  ex_number: 9
   title: Соедините предложения или части предложений, подобрав логичное продолжение.
   instructions: Конструкция ^в частности, XP/Cl@ может присоединять целое предложение (Cl) или только часть предложения, фразу (XP).
   exercise_type: text_input
@@ -349,9 +366,9 @@
     row5:
       - Шик может быть выражен аксессуарами,
       - д. в частности, дорогим галстуком, часами или очками.
-9:
+10:
   lesson_id: 11
-  ex_number: 9
+  ex_number: 10
   title: Продолжите предложения, используя конструкцию ^в частности, XP/Cl@.
   instructions: В этой конструкции слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence).
   exercise_type: ~
@@ -373,9 +390,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-10:
+11:
   lesson_id: 11
-  ex_number: 10
+  ex_number: 11
   title: Продолжите предложения, используя конструкцию ^скажем, XP/Cl@.
   instructions: В этой конструкции слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence). Обратите внимание на падеж в скобках (), который требуется в предложении.
   exercise_type: ~
@@ -398,9 +415,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-11:
+12:
   lesson_id: 11
-  ex_number: 11
+  ex_number: 12
   title: Заполните пропуски, используя слова<br>
           — ^Итак,@<br>
           — ^в частности@<br>
@@ -427,9 +444,9 @@
   difficult_words: "*уместные — English: appropriate; Norwegian: passende<br>
                     * судить «по одёжке» — English: first impressions count; judge someone by their clothes; Norwegian: dømme noen etter utseendet"
   table: ~
-12:
+13:
   lesson_id: 11
-  ex_number: 12
+  ex_number: 13
   title: Как одевались люди в разные времена? Выберите изображение и опишите его по плану.
   instructions: ~
   exercise_type: ~
@@ -490,9 +507,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-13:
+14:
   lesson_id: 11
-  ex_number: 13
+  ex_number: 14
   title: Прочитайте текст о том, что такое цветотип. Заполните пропуски, используя слова<br>
         — ^и так далее@<br>
         — ^грубо говоря@<br>
@@ -523,9 +540,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-14:
+15:
   lesson_id: 11
-  ex_number: 14
+  ex_number: 15
   title: Вы стилист. Помогите клиенту подобрать одежду. Какой цветотип у вашего клиента? Напишите короткий текст для вашего клиента с вашими советами. Используйте информацию о цветотипах из упражнения 13 и конструкции<br>
         — ^в заключение VP/Cl@<br>
         — ^Итак, Cl@<br>
@@ -570,9 +587,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-15:
+16:
   lesson_id : 11
-  ex_number: 15
+  ex_number: 16
   title: Бонусное упражнение<br> Помогите выбрать подходящую одежду вашему другу или подруге.
   instructions: ~
   exercise_type: ~

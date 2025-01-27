@@ -2,11 +2,11 @@
 1:
   lesson_id: 3
   ex_number: 1
-  title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+  title: Послушайте тексты и заполните пропуски. Запишите ответы через запятую. 
   instructions: ~
   exercise_type: ~
-  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
-  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  title_eng: Listen to the texts and fill in the blanks. Write the answers using commas to separate words.
+  title_nor: Lytt til tekstene og fyll inn de tomme feltene. Skriv svarene og bruk komma for å skille ordene.
   comment: ~
   example: ~
   model: ~
@@ -35,6 +35,23 @@
 2:
   lesson_id: 3
   ex_number: 2
+  title: "Прочитайте эти тексты сами. Скажите, для чего нужны конструкции, выделенные в тексте?"
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the texts in the exercise 1. What is the purpose of the constructions highlighted in the text?
+  title_nor: Les tekstene i øvelse 1. Hva er hensikten med de uthevede konstruksjonene i teksten?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+3:
+  lesson_id: 3
+  ex_number: 3
   title: Соедините части предложений. Используйте конструкцию ^что касается ..., то ...@.
   instructions: В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case). На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: text_input
@@ -69,9 +86,9 @@
     answer5: Что касается личных качеств, то я коммуникабельный и умею работать в команде.
   difficult_words: ~
   table: ~
-3:
+4:
   lesson_id: 3
-  ex_number: 3
+  ex_number: 4
   title: Заполните пропуски, используя конструкцию ^Что насчёт ...?@ и слова скобках.
   instructions: На месте XP могут быть слова разных частей речи. Если это существительное или прилагательное, то в этой конструкции оно стоит в генитиве. Если это наречие или глагол в инфинитиве, эти слова изменять не надо.
   exercise_type: text_input
@@ -121,9 +138,9 @@
     answer5: Что насчёт завтра?
   difficult_words: ~
   table: ~
-4:
+5:
   lesson_id: 3
-  ex_number: 4
+  ex_number: 5
   title: Прочитайте вопросы и найдите подходящие ответы. Что обозначает конструкция ^Честно говоря, ...@?
   instructions: ~
   exercise_type: text_input
@@ -161,9 +178,9 @@
     row5:
       - 5. Каким животным вы бы хотели быть?
       - д. Честно говоря, я давно чувствовала себя не на своём месте*. Думаю, мне больше подходит* работа с людьми.
-5:
+6:
   lesson_id: 3
-  ex_number: 5
+  ex_number: 6
   title: Посмотрите на таблицу в упражнении 4. Обсудите с собеседником, насколько удачны эти ответы на реальном собеседовании. Предложите свои варианты, используя конструкцию ^Честно говоря, ...@.
   instructions: ~
   exercise_type: ~
@@ -178,9 +195,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-6:
+7:
   lesson_id: 3
-  ex_number: 6
+  ex_number: 7
   title: Расскажите собеседнику о себе. В каждой паре предложений выберите то начало, которое вам подходит. Продолжите предложения, используя конструкции ^К примеру, ...@ и ^Так, ...@.
   instructions: ~
   exercise_type: ~
@@ -211,9 +228,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-7:
+8:
   lesson_id: 3
-  ex_number: 7
+  ex_number: 8
   title: Задавая вопрос, люди часто сначала отвечают на него сами. Продолжите предложения, используйте конструкции ^К примеру,...@ и ^Что касается ..., то ...@.
   instructions: ~
   exercise_type: ~
@@ -256,9 +273,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-8:
+9:
   lesson_id: 3
-  ex_number: 8
+  ex_number: 9
   title: "Заполните пропуски словами из списка: <br>
   <ul><li>^Так,@</li>
 <li>^К примеру@</li>
@@ -279,9 +296,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-9:
+10:
   lesson_id: 3
-  ex_number: 9
+  ex_number: 10
   title: "Сегодня три компании проводят собеседования. В зависимости от вашей роли, проведите или пройдите собеседование. Описание каждой роли предложено ниже (3 варианта вакансий и 3 варианта кандидатов). Используйте конструкции:
   <ul><li>^Что касается ..., ...@</li>
 <li>^К примеру, ...@</li>
@@ -365,9 +382,9 @@ Task format: in pairs. The task contains 6 cards with roles: each of the three i
   answer_key: ~
   difficult_words: ~
   table: ~
-10:
+11:
   lesson_id: 3
-  ex_number: 10
+  ex_number: 11
   title: Составьте краткий текст (питч) из 6 предложений. Ваша задача — прорекламировать себя за короткое время, убедить работодателя в том, что вы идеальный кандидат на должность. Выберите один вариант вакансии или придумайте свой
   instructions: "<ul>
 <li>менеджер по инновациям в компании по производству мобильных телефонов</li>

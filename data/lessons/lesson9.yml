@@ -39,6 +39,23 @@
 2:
   lesson_id: 9
   ex_number: 2
+  title: "Прочитайте эти тексты сами. Скажите, для чего нужны конструкции, выделенные в тексте?"
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the texts in the exercise 1. What is the purpose of the constructions highlighted in the text?
+  title_nor: Les tekstene i øvelse 1. Hva er hensikten med de uthevede konstruksjonene i teksten?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+3:
+  lesson_id: 9
+  ex_number: 3
   title: Заполните пропуски. Используйте конструкции ^Cl, а NP-Nom как думать-Prs?@ и ^а NP-Nom не думать-Prs, что Cl?@
   instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), NP-Nom — это существительное (NP=noun phrase) в номинативе (Nom=Nominative case), Prs — это настоящее время глагола (Prs= present tense).<br>
                 На месте NP-Nom часто бывает местоимение (ты, вы, он, она и др.).<br>
@@ -97,20 +114,23 @@
     row4:
       - Når vi spør etter samtalepartnerens mening
       - Formelt sett spør vi etter samtalepartnerens mening, men egentlig ønsker vi å underbygge vår eget resonnement med ytterligere et argument. Ordet не ‘ikke’ er ikke nektende!
-3:
+4:
   lesson_id: 9
-  ex_number: 3
-  title: Допишите предложения, используя слова в скобках и конструкцию ^а NP-Nom не думать-Prs, что Cl?@
+  ex_number: 4
+  title: "Допишите предложения, используя слова в скобках и конструкцию ^а NP-Nom не думать-Prs, что Cl?@"
   instructions: В этой конструкции NP-Nom — это существительное (NP=noun phrase) в номинативе (Nom=Nominative case), Prs — это настоящее время глагола (Prs= present tense), Cl — это целое предложение (Cl=clause, sentence). На месте NP-Nom используйте то местоимение, которое указано в скобках.
   exercise_type: text_input
-  title_eng: Complete the sentences by using the words in parentheses and the construction ^а NP-Nom не думать-Prs, что Cl?@ ‘Don’t you think that ...?’.<br>
-              In this construction, NP-Nom stands for a noun in the Nominative case (NP=noun phrase, Nom= Nominative case), Prs stands for the present tense of the verb (Prs= present tense), and Cl means an entire sentence (Cl=clause, sentence). In the slot NP-Nom use the pronoun given in the parentheses (ты, вы, он, она, etc.).
-  title_nor: Fullfør setningene ved å bruke ordene i parentes og konstruksjonen ^а NP-Nom не думать-Prs, что Cl?@ ‘Tror du ikke at ...?’.<br>
-              I denne konstruksjonen står NP-Nom for et substantiv i nominativ kasus (NP=nominalfrase, Nom=nominativ kasus), Prs betyr verb i presens (Prs=presens), og Cl betyr en hel setning (Cl=setning). Ved plassen NP-Nom, bruk pronomen i parentes (ты, вы, он, она, etc.).
+  title_eng: |
+    Complete the sentences by using the words in parentheses and the construction ^а NP-Nom не думать-Prs, что Cl?@ ‘Don’t you think that ...?’.<br>
+    In this construction, NP-Nom stands for a noun in the Nominative case (NP=noun phrase, Nom= Nominative case), Prs stands for the present tense of the verb (Prs= present tense), and Cl means an entire sentence (Cl=clause, sentence). In the slot NP-Nom use the pronoun given in the parentheses (ты, вы, он, она, etc.).
+  title_nor: | 
+    Fullfør setningene ved å bruke ordene i parentes og konstruksjonen ^а NP-Nom не думать-Prs, что Cl?@ ‘Tror du ikke at ...?’.<br>
+    I denne konstruksjonen står NP-Nom for et substantiv i nominativ kasus (NP=nominalfrase, Nom=nominativ kasus), Prs betyr verb i presens (Prs=presens), og Cl betyr en hel setning (Cl=setning). Ved plassen NP-Nom, bruk pronomen i parentes (ты, вы, он, она, etc.).
   comment: ~
-  example: Странно, что ты хочешь идти на стрижку к новому парикмахеру. ______________ (ты / результат может тебе не понравиться)?<br>
+  example: |
+    Странно, что ты хочешь идти на стрижку к новому парикмахеру. ______________ (ты / результат может тебе не понравиться)?<br>
     &#10132;<br>
-            ^А ты не думаешь, что@ результат может тебе не понравиться?
+    ^А ты не думаешь, что@ результат может тебе не понравиться?
   model: ~
   image: ~
   task:
@@ -135,24 +155,28 @@
     answer4: а они не думают, что они могут заболеть?
   difficult_words: ~
   table: ~
-4:
+5:
   lesson_id: 9
-  ex_number: 4
-  title: Переделайте утверждения в вопросы, используя конструкции<br>
-          — ^Аdj-Nom Cop NP-Nom, правда (ведь)?@<br>
-          — ^Cl, не правда ли?@
+  ex_number: 5
+  title: |
+    Переделайте утверждения в вопросы, используя конструкции<br>
+    — ^Аdj-Nom Cop NP-Nom, правда (ведь)?@<br>
+    — ^Cl, не правда ли?@
   instructions: В этих конструкциях Аdj-Nom — это прилагательное (Аdj = adjective) в номинативе (Nom=Nominative case), Cop — это связочный глагол быть (Cop =copula verb), NP-Nom — это существительное (NP=noun phrase) в номинативе (Nom=Nominative case), Cl — это целое предложение (Cl=clause, sentence). Конструкции очень похожи по значению. Обе конструкции значат, что говорящий ждёт от собеседника согласия. Частица "не" не передает отрицание!
   exercise_type: text_input
-  title_eng: Rephrase these statements as questions by using the construction ^Аdj-Nom Cop NP-Nom, правда (ведь)?@ meaning ‘X is Y, isn’t it?’ and the construction ^Cl, не правда ли?@ meaning ‘..., isn’t that right?’. These Russian constructions are used similarly to tag questions in English (e.g. She is beautiful, isn’t she?).<br>
-              In these constructions, Аdj-Nom means an adjective in the Nominative case (Adj=adjective, Nom=Nominative case), Cop is a copula verb быть (Cop=copula verb), NP-Nom stands for a noun in the Nominative case (NP=noun phrase, Nom=Nominative case), and Cl means an entire sentence (Cl=clause, sentence). The two constructions are very similar in meaning. Both constructions mean that the speaker expects that the interlocutor to agree with him or her. The word не does not convey negation!
-  title_nor: Lag spørsmål av disse utsagnene ved å bruke konstruksjonen ^Аdj-Nom Cop NP-Nom, правда (ведь)?@ som betyr ‘…, ikke sant?’ og konstruksjonen ^Cl, не правда ли?@ som også betyr ‘..., ikke sant?’.<br>
-              I disse konstruksjonene står Adj-Nom for et adjektiv i nominativ kasus (Adj=adjektiv, Nom=nominativ kasus), Cop er kopula-verbet быть (Cop=kopula-verb), NP-Nom betyr substantiv i nominativ kasus (NP=nominalfrase, Nom=nominativ kasus), og Cl betyr en hel setning (Cl=setning). Disse to konstruksjonene har veldig lik betydning. Begge konstruksjonene betyr at taleren forventer at samtalepartneren er enig. Ordet не ‘ikke’ er ikke nektende!
+  title_eng: |
+    Rephrase these statements as questions by using the construction ^Аdj-Nom Cop NP-Nom, правда (ведь)?@ meaning ‘X is Y, isn’t it?’ and the construction ^Cl, не правда ли?@ meaning ‘..., isn’t that right?’. These Russian constructions are used similarly to tag questions in English (e.g. She is beautiful, isn’t she?).<br>
+    In these constructions, Аdj-Nom means an adjective in the Nominative case (Adj=adjective, Nom=Nominative case), Cop is a copula verb быть (Cop=copula verb), NP-Nom stands for a noun in the Nominative case (NP=noun phrase, Nom=Nominative case), and Cl means an entire sentence (Cl=clause, sentence). The two constructions are very similar in meaning. Both constructions mean that the speaker expects that the interlocutor to agree with him or her. The word не does not convey negation!
+  title_nor: |
+    Lag spørsmål av disse utsagnene ved å bruke konstruksjonen ^Аdj-Nom Cop NP-Nom, правда (ведь)?@ som betyr ‘…, ikke sant?’ og konstruksjonen ^Cl, не правда ли?@ som også betyr ‘..., ikke sant?’.<br>
+    I disse konstruksjonene står Adj-Nom for et adjektiv i nominativ kasus (Adj=adjektiv, Nom=nominativ kasus), Cop er kopula-verbet быть (Cop=kopula-verb), NP-Nom betyr substantiv i nominativ kasus (NP=nominalfrase, Nom=nominativ kasus), og Cl betyr en hel setning (Cl=setning). Disse to konstruksjonene har veldig lik betydning. Begge konstruksjonene betyr at taleren forventer at samtalepartneren er enig. Ordet не ‘ikke’ er ikke nektende!
   comment: ~
-  example: У Алины весёлая улыбка.<br>
+  example: |
+    У Алины весёлая улыбка.<br>
     &#10132;<br>
-            У Алины весёлая улыбка, ^правда?@<br>
-            У Алины весёлая улыбка, ^правда ведь?@<br>
-            У Алины весёлая улыбка, ^не правда ли?@
+    У Алины весёлая улыбка, ^правда?@<br>
+    У Алины весёлая улыбка, ^правда ведь?@<br>
+    У Алины весёлая улыбка, ^не правда ли?@
   model: ~
   image: ~
   task:
@@ -202,9 +226,9 @@
     answer7: Алексей выглядит моложе своих лет, правда?
   difficult_words: ~
   table: ~
-5:
+6:
   lesson_id: 9
-  ex_number: 5
+  ex_number: 6
   title: Выразите своё несогласие с утверждением собеседника. Используйте конструкцию ^по-моему, Cl@.
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: ~
@@ -259,9 +283,9 @@
         - 3. У Гены крупный нос.
         - 4. У Лиды круглое лицо.
         - 5. У Аллы густые волосы.
-6:
+7:
   lesson_id: 9
-  ex_number: 6
+  ex_number: 7
   title: У многих людей до сих пор есть стереотипы насчёт внешности. Помогите развеять их, подобрав подходящий ответ на каждый из стереотипов.
   instructions: ~
   exercise_type: text_input
@@ -289,9 +313,9 @@
         - в. ^По-вашему,@ худые не любят вкусно поесть?
         - г. ^По-вашему,@ девочка должна быть в платье?
         - д. ^По-твоему,@ волосы обязательно красить?
-7:
+8:
   lesson_id: 9
-  ex_number: 7
+  ex_number: 8
   title: Обсудите сходства и различия во внешности людей на фотографиях (Жанна и Ира; Дэвид и Алекс; Лина и Маргарита; Амрит и Николай). Один человек указывает на сходства, другой на различия. Узнайте мнение собеседника и выразите собственное. Используйте предложенные варианты конструкций (см. таблицу).
   instructions: ~
   exercise_type: ~
@@ -336,9 +360,9 @@
     row6: 
       - по-моему, Cl
       - ^По-моему, ...@
-8:
+9:
   lesson_id: 9
-  ex_number: 8
+  ex_number: 9
   title: Обсудите людей на фотографии. Как вы думаете, кто они? Используйте предложенные варианты конструкций (см. таблицу).
   instructions: ~
   exercise_type: ~
@@ -403,9 +427,9 @@
     row6: 
       - по-моему, Cl
       - ^По-моему, ...@
-9:
+10:
   lesson_id: 9
-  ex_number: 9
+  ex_number: 10
   title: Бонусное упражнение<br>
         Вы — сценарист и кастинг-директор в студии по производству фильмов. Ваша студия хочет создать новые экранизации известных литературных произведений. Обсудите подбор актёров на разные роли с точки зрения внешности актёров и ваших представлений о роли. Используйте конструкции из таблицы.
   instructions: "<b>Роли:</b><br>
@@ -457,9 +481,9 @@
         - ^(как) по мне, (так) Cl@
         - ^на PronPoss-Acc взгляд, Cl@
         - ^честно говоря, Cl@
-10:
+11:
   lesson_id: 9
-  ex_number: 10
+  ex_number: 11
   title: Ваша подруга Алла собирается на свидание. Она хочет выглядеть очень нарядно, а вы спорите с ней, потому что считаете, что нет ничего лучше естественности. Дополните диалог своими репликами.
   instructions: ~
   exercise_type: ~
@@ -488,9 +512,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-11:
+12:
   lesson_id: 9
-  ex_number: 11
+  ex_number: 12
   title: Перед вами разговор двух подруг. Реплики в разговоре перепутались местами. Восстановите порядок реплик, чтобы получился связный текст. Обсудите в парах, с чьей позицией вы скорее согласны и почему.
   instructions: ~
   exercise_type: text_input

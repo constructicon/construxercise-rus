@@ -21,6 +21,23 @@
 2:
   lesson_id: 10
   ex_number: 2
+  title: "Прочитайте эти тексты сами. Скажите, для чего нужны конструкции, выделенные в тексте?"
+  instructions: ~
+  exercise_type: ~
+  title_eng: Read the texts in the exercise 1. What is the purpose of the constructions highlighted in the text?
+  title_nor: Les tekstene i øvelse 1. Hva er hensikten med de uthevede konstruksjonene i teksten?
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+3:
+  lesson_id: 10
+  ex_number: 3
   title: "Опишите ваши первые впечатления от знакомства с одногруппниками и преподавателями и то, как эти впечатления изменились со временем. Используйте предложения (1-6) и конструкции:<br>
           — ^На первый взгляд, Cl@<br>
           — ^На самом деле Cl@"
@@ -85,9 +102,9 @@
     row4:
       - Konstruksjonen betegner en <b>første, ofte overflatisk og subjektiv vurdering</b> av et objekt eller en deltaker, en vurdering som ikke samsvarer helt med virkeligheten og i det følgende kan bli endret.
       - Konstruksjonen angir en <b>objektiv evaluering</b> av et objekt eller en deltaker, eller kommuniserer informasjon som samsvarer med virkeligheten. Ofte blir denne informasjonen kontrastert med annen, mindre nøyaktig informasjon.
-3:
+4:
   lesson_id : 10
-  ex_number: 3
+  ex_number: 4
   title: Обсудите с собеседником, что вы думаете о человеке на фото. Какой он или она по характеру? Используйте конструкцию ^На первый взгляд, Cl@.
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: ~
@@ -103,9 +120,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-4:
+5:
   lesson_id: 10
-  ex_number: 4
+  ex_number: 5
   title: Прочитайте информацию в таблице. Чем похожи и чем отличаются конструкции ^мягко говоря, Cl@ и ^грубо говоря, Cl@?
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: ~
@@ -143,16 +160,17 @@
     row4:
       - Konstruksjonen introduserer еn evaluerende <b>formulering, som er mer nøytral eller høflig</b> enn en kunne ha vært i denne situasjonen. Taleren gjør det klart at <b>formuleringen hans er mykere enn det han egentlig tror</b>. Taleren unngår bevisst harde eller frekke uttrykk.
       - Konstruksjonen introduserer en <b>formulering som er mindre presis</b> enn den kunne ha vært i denne situasjonen. Taleren formidler den <b>generelle ideen og unngår detaljer</b>.
-5:
+6:
   lesson_id: 10
-  ex_number: 5
+  ex_number: 6
   title: Замените подчёркнутые слова на менее эмоциональные и резкие. Используйте конструкцию ^мягко говоря, Cl@.
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence). Слова ^мягко говоря@ могут находиться в начале, в конце или в середине предложения. Лучше всего помещать слова ^мягко говоря@ непосредственно перед фразой, которая используется как менее категоричная.
   exercise_type: text_input
   title_eng: Replace the underlined words with other words that are less emotional and harsh. Use the construction ^мягко говоря, Cl@ meaning ‘Mildly speaking / To put it mildly, ...’. We can place an entire sentence in the Cl slot (Cl=clause, sentence). The words ^мягко говоря@ can be placed in the beginning, at the end, or in the middle of a sentence. The best strategy is to place the words ^мягко говоря@ right before the hedging phrase.
   title_nor: Erstatt de understrekete ordene med andre ord som ikke er like følelsesladde og skarpe. Bruk konstruksjonen ^мягко говоря, Cl@ ‘mildt sagt, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning). Ordene ^мягко говоря@ kan være enten i begynnelsen, i slutten, eller i midten av en setning. Den beste måten er imidlertid å plassere ordene ^мягко говоря@ direkte foran den formildende frasen.
   comment: ~
-  example: Соседи <b>были шокированы</b>, когда увидели вора у себя дома.<br>
+  example: |
+    Соседи <b>были шокированы</b>, когда увидели вора у себя дома.<br>
     &#10132; Соседи, ^мягко говоря,@ удивились, когда увидели вора у себя дома.
   model: ~
   image: ~
@@ -177,18 +195,19 @@
     answer4: Я, мягко говоря, удивлён.
   difficult_words: ~
   table: ~
-6:
+7:
   lesson_id: 10
-  ex_number: 6
+  ex_number: 7
   title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию ^грубо говоря, Cl@.
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
   exercise_type: text_input
   title_eng: Connect the sentences by choosing a matching continuation. Use the construction ^грубо говоря, Cl@ meaning ‘Roughly, ...’. We can place an entire sentence in the Cl slot (Cl=clause, sentence).
   title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^грубо говоря, Cl@ som betyr omtrent ‘grovt sett, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
   comment: ~
-  example: "Мой кот боится всего: шума на улице, гостей, яркого света и даже мух.	Он очень трусливый.<br>
-            &#10132;<br>
-            Мой кот боится всего: шума на улице, гостей, яркого света и даже мух. ^Грубо говоря,@ он очень трусливый."
+  example: |
+    Мой кот боится всего: шума на улице, гостей, яркого света и даже мух.	Он очень трусливый.<br>
+    &#10132;<br>
+    Мой кот боится всего: шума на улице, гостей, яркого света и даже мух. ^Грубо говоря,@ он очень трусливый.
   model: ~
   image: ~
   task: ~
@@ -208,9 +227,9 @@
     row4:
       - 4. Нина никогда не помогает нам делать уборку или готовить ужин.
       - г. Она очень ленивая.
-7:
+8:
   lesson_id: 10
-  ex_number: 7
+  ex_number: 8
   title: Проанализируйте схему. Чем отличаются конструкции ^(на)вряд ли XP/Cl@ и ^Не факт, что Cl@?
   instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
   exercise_type: ~
@@ -256,9 +275,9 @@
       - Taleren tviler på om en gitt hendelse vil inntreffe.
       - Taleren tviler om tilstrekkeligheten til noen evaluering eller informasjon.<br>
         Konstruksjonen uttrykker ofte talerens skepsis basert på hans kunnskap om situasjonen.
-8:
+9:
   lesson_id : 10
-  ex_number: 8
+  ex_number: 9
   title: Составьте предложения, используя конструкцию ^(на)вряд ли XP/Cl@. Обратите внимание, что ^навряд ли@ более разговорный вариант, чем ^вряд ли@.
   instructions: На месте XP/Cl находится фраза (XP=phrase) или целое предложение (Cl=clause, sentence).
   exercise_type: ~
@@ -317,9 +336,9 @@
         - работать одному (одной)
         - прыгнуть с парашютом
         - отправиться в кругосветное путешествие
-9:
+10:
   lesson_id : 10
-  ex_number: 9
+  ex_number: 10
   title: Составьте как можно больше предложений по моделям 1 и 2. Используйте конструкцию ^Не факт, что Cl@.
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence).<br>
               Обратите внимание, что в модели 1 используется глагол в форме инфинитива, а в модели 2 используется союз чтобы с зависимым предложением. В каждой модели второе предложение должно по смыслу противоречить первому.
@@ -356,9 +375,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-10:
+11:
   lesson_id : 10
-  ex_number: 10
+  ex_number: 11
   title: Бонусное упражнение<br>
           Одни и те же качества могут быть полезными и вредными для разных целей. Oбсудите, какие традиционно отрицательные качества могут быть полезными, а какие традиционно положительные качества могут быть вредными (см. таблицу). Используйте конструкцию ^Не факт, что Cl@. Некоторые качества, тем не менее, скорее однозначно плохие или хорошие. Назовите их, используя конструкцию ^(на)вряд ли XP/Cl@. Объясните свою позицию.
   instructions: В этих конструкциях XP — это фраза (XP=phrase), а Cl — целое предложение (Cl=clause, sentence).
@@ -447,9 +466,9 @@
         - лень
         - медлительность
         - глупость
-11:
+12:
   lesson_id : 10
-  ex_number: 11
+  ex_number: 12
   title: "Обсудите с собеседником, какими вы видите идеального а) начальника, б) подчинённого, в) друга, г) партнёра, д) родителя, е) однокурсника. Используйте конструкции:<br>
           — ^на первый взгляд, Cl@<br>
           — ^на самом деле, Cl@<br>
@@ -470,9 +489,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-12:
+13:
   lesson_id : 10
-  ex_number: 12
+  ex_number: 13
   title: "Вы с другом должны были подготовить проект, но не успели сдать его до дедлайна. Обсудите, что делать дальше: как лучше сказать преподавателю, что вы не готовы? Kак он отреагирует: накажет вас или разрешит сдать проект позже? Используйте конструкции:<br>
           — ^на первый взгляд, Cl@<br>
           — ^на самом деле, Cl@<br>
@@ -493,9 +512,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-13:
+14:
   lesson_id : 10
-  ex_number: 13
+  ex_number: 14
   title: "Вы с соседом на время взяли любимую кружку третьего соседа и случайно сломали её. Что делать? Обсудите, как отреагирует ваш сосед и что вам нужно сделать, чтобы он не обиделся. Используйте конструкции:<br>
           — ^на первый взгляд, Cl@<br>
           — ^на самом деле, Cl@<br>
@@ -516,9 +535,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-14:
+15:
   lesson_id : 10
-  ex_number: 14
+  ex_number: 15
   title: "Вы влюбились в парня или девушку из вашей группы. Обсудите с лучшим другом или подругой, что вас беспокоит: есть ли у вас шансы? Как вы познакомились? Что предпринимать дальше? Используйте конструкции:<br>
           — ^на первый взгляд, Cl@<br>
           — ^на самом деле, Cl@<br>
@@ -539,9 +558,9 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-15:
+16:
   lesson_id : 10
-  ex_number: 15
+  ex_number: 16
   title: Составьте короткий текст (6-10 предложений). Опишите характер одного персонажа из любимого фильма или книги. Используйте все конструкции этого урока.
   instructions: ~
   exercise_type: ~
