@@ -35,7 +35,7 @@
   difficult_words:
     word1: "*терпение — EN: patience; NO: tålmodighet"
     word2: "*доступна — EN: available; NO: tilgjengelig"
-    word3: "*занять — EN: it takes (about time); NO: det kan ta (om tid)"
+    word3: "*занять — EN: it takes (about time); NO: det kan ta (om tid)<br>*как бы то ни было — EN: anyway; NO: i alle fall; uansett<br>*вовремя — EN: on time; NO: i tide"
   table: ~
 2:
   lesson_id: 2
