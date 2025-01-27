@@ -533,7 +533,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                         if (data[exercise_id]["difficult_words"][`word${i}`]){
                             let words = data[exercise_id]["difficult_words"][`word${i}`];
                             let diff_words_cont = document.createElement('p')
-                            diff_words_cont.setAttribute('class', 'p-2 m-2 fw-light text-muted')
+                            diff_words_cont.setAttribute('class', 'px-2 mx-2 fw-light text-muted')
                             show_item(diff_words_cont, words)
                             subtask_text.appendChild(diff_words_cont)
                         }
