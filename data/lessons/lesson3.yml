@@ -62,6 +62,15 @@
   title_eng: Connect parts of the sentences. Use the construction ^что касается ..., то ...@
   title_nor: Koble sammen setningsdelene ved å bruke konstruksjonen ^что касается ..., то ...@
   comment: ~
+  constr_info: |
+    В конструкции ^что касается …, то …@ на месте первого слота ... стоит
+    существительное (noun) в генитиве (Gen), а на месте второго слота ... стоит
+    целое предложение.<br>
+    Слово в генитиве обычно обозначает домен или тему, а во втором слоте … дается
+    информация о нем.<br>
+    <ul><li>^Что касается погоды,@ то нам повезло: было солнечно и тепло почти
+    каждый день.</li>
+    <li>^Что касается багажа,@ то можно было взять один чемодан весом 20 кг.</li></ul>
   example: ~
   model: ~
   image: ~
@@ -99,6 +108,15 @@
   title_eng: Fill in the blanks by using the construction ^Что насчёт ...?@
   title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonen ^Что насчёт ...?@
   comment: ~
+  constr_info: |
+    В конструкции ^что касается …, то …@ на месте первого слота ... стоит
+    существительное (noun) в генитиве (Gen), а на месте второго слота ... стоит
+    целое предложение.<br>
+    Слово в генитиве обычно обозначает домен или тему, а во втором слоте … дается
+    информация о нем.<br>
+    <ul><li>^Что касается погоды,@ то нам повезло: было солнечно и тепло почти
+    каждый день.</li>
+    <li>^Что касается багажа,@ то можно было взять один чемодан весом 20 кг.</li></ul>
   example: ~
   model: ~
   image: ~
@@ -151,6 +169,15 @@
   title_eng: Read the questions and find appropriate answers. What does the construction ^Честно говоря, ...@ mean?
   title_nor: Les teksten og finn de riktige svarene. Hva betyr konstruksjonen ^Честно говоря, ...@?
   comment: ~
+  constr_info: |
+    В конструкции ^что касается …, то …@ на месте первого слота ... стоит
+    существительное (noun) в генитиве (Gen), а на месте второго слота ... стоит
+    целое предложение.<br>
+    Слово в генитиве обычно обозначает домен или тему, а во втором слоте … дается
+    информация о нем.<br>
+    <ul><li>^Что касается погоды,@ то нам повезло: было солнечно и тепло почти
+    каждый день.</li>
+    <li>^Что касается багажа,@ то можно было взять один чемодан весом 20 кг.</li></ul>
   example: ~
   model: ~
   image: ~
@@ -208,6 +235,15 @@
   title_eng: Tell your conversation partner about yourself. In each pair of sentences, choose the sentence that describes you best. Complete the sentences by using the constructions ^К примеру, ...@ and ^Так, ...@
   title_nor: Fortell din samtalepartner om deg selv. Velg den setningen som passer best. Fullfør setningene ved å bruke konstruksjonene ^К примеру, ...@ og ^Так, ...@
   comment: "Формат задания: в парах. <br>= Task format: in pairs."
+  constr_info: |
+    В конструкции ^что касается …, то …@ на месте первого слота ... стоит
+    существительное (noun) в генитиве (Gen), а на месте второго слота ... стоит
+    целое предложение.<br>
+    Слово в генитиве обычно обозначает домен или тему, а во втором слоте … дается
+    информация о нем.<br>
+    <ul><li>^Что касается погоды,@ то нам повезло: было солнечно и тепло почти
+    каждый день.</li>
+    <li>^Что касается багажа,@ то можно было взять один чемодан весом 20 кг.</li></ul>
   example: Я обожаю домашних животных. ^Так,@ у меня дома живут кот, черепаха и рыбки.
   model: ~
   image: ~
