@@ -165,7 +165,7 @@
   ex_number: 5
   title: Прочитайте вопросы и найдите подходящие ответы. Что обозначает конструкция ^Честно говоря, ...@?
   instructions: ~
-  exercise_type: text_input
+  exercise_type: multichoice_singleanswer
   title_eng: Read the questions and find appropriate answers. What does the construction ^Честно говоря, ...@ mean?
   title_nor: Les teksten og finn de riktige svarene. Hva betyr konstruksjonen ^Честно говоря, ...@?
   comment: ~
@@ -181,14 +181,36 @@
   example: ~
   model: ~
   image: ~
-  task: ~
-  answer_to_show: 1г, 2в, 3а, 4д, 5б
-  answer_key: 1г, 2в, 3а, 4д, 5б
-  difficult_words: "* руководитель отдела — English: department head; Norwegian: avdelingsleder<br>
-* неожиданный — English: unexpected; Norwegian: uventet<br>
-* сменить работу — English: change jobs; Norwegian: bytte jobb<br>
-* чувствовала себя не на своём месте — English: felt out of place; Norw.: føltes malplassert<br>
-* мне подходит — English: suits me, works for me; Norwegian: det passer meg"
+  task: 
+    task1: "1"
+    task2: "2"
+    task3: "3"
+    task4: "4"
+    task5: "5"
+  answer_to_show: 
+    answer1: "г"
+    answer2: "в"
+    answer3: "а"
+    answer4: "д"
+    answer5: "б"
+  answer_key: 
+    answer1: "г"
+    answer2: "в"
+    answer3: "а"
+    answer4: "д"
+    answer5: "б"
+  difficult_words: |
+    * руководитель отдела — English: department head; Norwegian: avdelingsleder<br>
+    * неожиданный — English: unexpected; Norwegian: uventet<br>
+    * сменить работу — English: change jobs; Norwegian: bytte jobb<br>
+    * чувствовала себя не на своём месте — English: felt out of place; Norw.: føltes malplassert<br>
+    * мне подходит — English: suits me, works for me; Norwegian: det passer meg
+  answer_options: 
+    - "а"
+    - "б"
+    - "в"
+    - "г"
+    - "д"
   table:
     heading: ~
     vertical_align: ~
