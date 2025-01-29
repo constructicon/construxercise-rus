@@ -493,6 +493,17 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         if (typeof data[exercise_id]["task"]["task1"] == "object") {
             // Get number of subtasks in the task
             var subtasks_amount = Object.keys(data[exercise_id]["task"]).length
+
+            // add difficult words 
+            if (data[exercise_id]["difficult_words"]) {
+                if (!data[exercise_id]["difficult_words"][`word1`]){
+                    let words = data[exercise_id]["difficult_words"];
+                    let diff_words_cont = document.createElement('p')
+                    diff_words_cont.setAttribute('class', 'px-2 pt-2 mx-2 mt-2 fw-light text-muted')
+                    show_item(diff_words_cont, words)
+                    task.appendChild(diff_words_cont)
+                }
+            }
             for (var i = 1; i <= subtasks_amount; i++) {
                 var subtask = document.createElement("div");
                 subtask.setAttribute("class", "row shadow p-3 mb-3 rounded overflow-auto");
@@ -531,7 +542,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                         if (data[exercise_id]["difficult_words"][`word${i}`]){
                             let words = data[exercise_id]["difficult_words"][`word${i}`];
                             let diff_words_cont = document.createElement('p')
-                            diff_words_cont.setAttribute('class', 'px-2 mx-2 fw-light text-muted')
+                            diff_words_cont.setAttribute('class', 'px-2 pt-2 mx-2 mt-2 fw-light text-muted')
                             show_item(diff_words_cont, words)
                             subtask_text.appendChild(diff_words_cont)
                         }
@@ -734,6 +745,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     add_answer(answer_to_show);
                 }
             };
+            
 
         } else {
             // if no subtasks
@@ -750,7 +762,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             if (data[exercise_id]["difficult_words"]) {
                 let words = data[exercise_id]["difficult_words"];
                 let diff_words_cont = document.createElement('p')
-                diff_words_cont.setAttribute('class', 'px-2 mx-2 fw-light text-muted')
+                diff_words_cont.setAttribute('class', 'px-2 pt-2 mx-2 mt-2 fw-light text-muted')
                 show_item(diff_words_cont, words)
                 task.appendChild(diff_words_cont)
             }
@@ -770,10 +782,11 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         // main_content.appendChild(task);
     } else {
         // if no task text
-        if (data[exercise_id]["difficult_words"] != null) {
+        if (data[exercise_id]["difficult_words"]) {
+            console.log('no task but diff words')
             let words = data[exercise_id]["difficult_words"];
             let diff_words_cont = document.createElement('p')
-            diff_words_cont.setAttribute('class', 'px-2 mx-2 fw-light text-muted')
+            diff_words_cont.setAttribute('class', 'px-2 pt-2 mx-2 mt-2 fw-light text-muted')
             show_item(diff_words_cont, words)
             task.appendChild(diff_words_cont)
         }
