@@ -32,15 +32,15 @@
     answer2: стресс, на, нужен, минимум, нужно
   difficult_words:
     word1: |
-      *ответственность — English: responsibility; Norwegian: ansvar<br>
-      *начальник — English: boss; Norwegian: sjef, arbeidsgiver<br>
-      *общаться — English: communicate; Norwegian: å kommunisere<br>
-      *уволиться — English: quit; Norwegian: å slutte<br>
+      *ответственность — EN: responsibility; NO: ansvar<br>
+      *начальник — EN: boss; NO: sjef, arbeidsgiver<br>
+      *общаться — EN: communicate; NO: å kommunisere<br>
+      *уволиться — EN: quit; NO: å slutte<br>
     word2: |
-      *работодатель — English: employer; Norwegian: arbeidsgiver<br>
-      *опыт работы — English: work experience; Norwegian: arbeidserfaring<br>
-      *устроиться на работу — English: to get a job; Norwegian: å få en jobb<br>
-      *трудовая книжка — English: employment history; Norwegian: ansettelseshistorie (eller CV)<br>
+      *работодатель — EN: employer; NO: arbeidsgiver<br>
+      *опыт работы — EN: work experience; NO: arbeidserfaring<br>
+      *устроиться на работу — EN: to get a job; NO: å få en jobb<br>
+      *трудовая книжка — EN: employment history; NO: ansettelseshistorie (eller CV)<br>
   table: ~
 2:
   lesson_id: 3
@@ -216,11 +216,11 @@
     answer4: "д"
     answer5: "б"
   difficult_words: |
-    * руководитель отдела — English: department head; Norwegian: avdelingsleder<br>
-    * неожиданный — English: unexpected; Norwegian: uventet<br>
-    * сменить работу — English: change jobs; Norwegian: bytte jobb<br>
-    * чувствовала себя не на своём месте — English: felt out of place; Norw.: føltes malplassert<br>
-    * мне подходит — English: suits me, works for me; Norwegian: det passer meg
+    * руководитель отдела — EN: department head; NO: avdelingsleder<br>
+    * неожиданный — EN: unexpected; NO: uventet<br>
+    * сменить работу — EN: change jobs; NO: bytte jobb<br>
+    * чувствовала себя не на своём месте — EN: felt out of place; NO: føltes malplassert<br>
+    * мне подходит — EN: suits me, works for me; NO: det passer meg
   answer_options: 
     - "а"
     - "б"
