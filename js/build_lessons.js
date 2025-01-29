@@ -380,6 +380,24 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     task_title.appendChild(norw_text)
     main_content.appendChild(task_title);
 
+    // add comment
+    if (data[exercise_id]["comment"]) {
+        let comment = document.createElement("h6");
+
+        let comment_button = document.createElement("button");
+        comment_button.setAttribute("type", "button");
+        comment_button.setAttribute("class", "btn btn-outline-secondary float-end btn-sm");
+        comment_button.innerHTML = "Comment for language teachers";
+
+        let comment_text = data[exercise_id]["comment"]
+        comment_button.onclick = function () {
+            show_item(comment, comment_text)
+        }
+        buttonWrapper.appendChild(comment_button)
+        task_title.appendChild(comment)
+
+    }
+
     // add construction information if relevant
     if (data[exercise_id]["constr_info"]) {
         let info = document.createElement("div");
@@ -409,26 +427,6 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         info.appendChild(constr_info)
         all_exercise.appendChild(info);
     }
-
-    // add comment
-    if (data[exercise_id]["comment"]) {
-        let comment = document.createElement("h6");
-
-        let comment_button = document.createElement("button");
-        comment_button.setAttribute("type", "button");
-        comment_button.setAttribute("class", "btn btn-outline-secondary float-end btn-sm");
-        comment_button.innerHTML = "Comment for language teachers";
-
-        let comment_text = data[exercise_id]["comment"]
-        comment_button.onclick = function () {
-            show_item(comment, comment_text)
-        }
-
-        task_title.append(comment_button);
-        task_title.appendChild(comment);
-
-    }
-
 
     if (data[exercise_id]["model"] != null) {
         let model = document.createElement("div");
