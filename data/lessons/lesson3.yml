@@ -4,7 +4,7 @@
   ex_number: 1
   title: Послушайте тексты и заполните пропуски. Запишите ответы через запятую. 
   instructions: ~
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: Listen to the texts and fill in the blanks. Write the answers using commas to separate words.
   title_nor: Lytt til tekstene og fyll inn de tomme feltene. Skriv svarene og bruk komma for å skille ordene.
   comment: ~
@@ -18,8 +18,12 @@
     task2:
       text: "Искать работу — большой ________________. ^Так,@ многие работодатели* требуют большой опыт работы* по специальности. ^К примеру,@ чтобы тебя взяли ________________ работу, ________________ опыт, ________________ три года. А чтобы получить этот опыт, ________________ сначала устроиться* на работу. ^Что касается@ фриланса, ^то@ он не считается опытом работы, потому что не указан в трудовой книжке*. ^Честно говоря,@ это совсем нелогично."
       audio: b
-  answer_to_show: ~
-  answer_key: ~
+  answer_to_show: 
+    answer1: денег, мало, имя, коллег, обедаю, хочу
+    answer2: стресс, на, нужен, минимум, нужно
+  answer_key: 
+    answer1: денег, мало, имя, коллег, обедаю, хочу
+    answer2: стресс, на, нужен, минимум, нужно
   difficult_words:
     word1: |
       *ответственность — English: responsibility; Norwegian: ansvar<br>
