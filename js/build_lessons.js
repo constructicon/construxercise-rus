@@ -747,10 +747,12 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 task.appendChild(add_audio(lesson_id, exercise_id, data[exercise_id]["task"]["audio"]));
             }
 
-            if (data[exercise_id]["difficult_words"] != null) {
+            if (data[exercise_id]["difficult_words"]) {
                 let words = data[exercise_id]["difficult_words"];
-                task.innerHTML = hover_diff_words(task.innerHTML, words);
-                console.log(words);
+                let diff_words_cont = document.createElement('p')
+                diff_words_cont.setAttribute('class', 'px-2 mx-2 fw-light text-muted')
+                show_item(diff_words_cont, words)
+                task.appendChild(diff_words_cont)
             }
 
             if (data[exercise_id]["answer_to_show"] != null) {
@@ -767,10 +769,13 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         main_content.appendChild(all_exercise);
         // main_content.appendChild(task);
     } else {
+        // if no task text
         if (data[exercise_id]["difficult_words"] != null) {
-            let d_word = document.createElement("p");
-            d_word.innerHTML = data[exercise_id]["difficult_words"];
-            task.appendChild(d_word);
+            let words = data[exercise_id]["difficult_words"];
+            let diff_words_cont = document.createElement('p')
+            diff_words_cont.setAttribute('class', 'px-2 mx-2 fw-light text-muted')
+            show_item(diff_words_cont, words)
+            task.appendChild(diff_words_cont)
         }
         if (data[exercise_id]["answer_to_show"] != null) {
             let answer_to_show = data[exercise_id]["answer_to_show"]
