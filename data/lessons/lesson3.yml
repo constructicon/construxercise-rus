@@ -367,22 +367,23 @@
 <li>^Так, ...@</li>
 <li>^Честно говоря, ...@</li>
 <li>^Что насчёт ...?@</li></ul>"
-  instructions: "<b>Возможные вопросы:</b><br><ol>
-<li>Какие у вас сильные и слабые стороны?</li>
-<li>Какие языки вы знаете?</li>
-<li>Какой график работы вам подходит?</li>
-<li>Есть ли у вас опыт работы в этой области?</li>
-<li>Какую зарплату вы ожидаете?</li>
-<li>Какое у вас образование?</li>
-<li>Кем вы видите себя через 5 лет?</li>
-<li>Почему вы ушли с прошлой работы?</li></ol>"
+  instructions: ""
   exercise_type: ~
   title_eng: Today, three companies are holding job interviews for vacant positions. Depending on the role you receive (interviewer or interviewee), conduct or undergo an interview. The description of each role is provided below (three job positions and three candidate options). Use the constructions from the list.
   title_nor: I dag er det jobbintervjuer ved tre selskaper som har utlyst ledige stillinger. Avhengig av din rolle, skal du enten intervjue eller bli intervjuet. Beskrivelse av hver rolle finnes nedenfor (tre stillinger og tre kandidater). Bruk konstruksjonene i listen.
   comment: "Формат задания: в парах. В задании предложено 6 карточек с ролями: 3 сотрудника HR получают карточки с описанием вакансии, на которую им нужно найти сотрудника; 3 кандидата получают карточки со своей биографией и хотят найти работу. Сотрудники HR сидят на своих местах и проводят собеседование с каждым кандидатом по очереди. Кандидаты ходят по собеседованиям.<br>
 Task format: in pairs. The task contains 6 cards with roles: each of the three interviewers receives a card describing a vacant position for which they need to find an employee, and each of the three job candidates receives a card describing their biography. The interviewers are placed at their desks and interview each candidate in their turn. Candidates come to the interviewers and are interviewed for the various vacant positions one after another."
   example: ~
-  model: ~
+  model: |
+    <b>Возможные вопросы:</b><br><ol>
+    <li>Какие у вас сильные и слабые стороны?</li>
+    <li>Какие языки вы знаете?</li>
+    <li>Какой график работы вам подходит?</li>
+    <li>Есть ли у вас опыт работы в этой области?</li>
+    <li>Какую зарплату вы ожидаете?</li>
+    <li>Какое у вас образование?</li>
+    <li>Кем вы видите себя через 5 лет?</li>
+    <li>Почему вы ушли с прошлой работы?</li></ol>
   image: ~
   task:
     task1:
