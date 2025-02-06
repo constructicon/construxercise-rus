@@ -388,8 +388,9 @@
   title_eng: You have met a friend. Tell your friend how you are doing. Use the answer options provided in the table or come up with your own examples. When used in the order in the table, the constructions indicate a «scale» of problems.
   title_nor: Du har truffet en venn. Fortell din venn om hvordan du har det. Bruk svarsalternativene i tabellen, eller finn på egne eksempler. Rekken av konstruksjoner i tabellen danner en slags «skale» for å beskrive problemer.
   comment: ~
-  example: "― Как у тебя дела? У меня ...<br>
-― А у тебя как дела? У меня ..."
+  example: |
+    ― Как у тебя дела? У меня ...<br>
+    ― А у тебя как дела? У меня ...
   model: ~
   image: ~
   task: ~
@@ -408,23 +409,23 @@
       - Ко всему прочему, ...
       - И вообще, ...
     row2:
-      -
-        - часто болит голова
-        - много работы
-        - скоро экзамен по русскому языку
-      -
-        - проблемы на работе
-        - много дел
-        - я недавно болел гриппом
-      -
-        - приехал друг
-        - сломалась машина
-        - нужно переезжать в другую квартиру
-      -
-        - всë плохо!
-        - всë сложно!
-        - много сюрпризов!
-        - хорошего мало, но всë будет хорошо!
+      - |
+          - часто болит голова
+          - много работы
+          - скоро экзамен по русскому языку
+      - |
+          - проблемы на работе
+          - много дел
+          - я недавно болел гриппом
+      - |
+          - приехал друг
+          - сломалась машина
+          - нужно переезжать в другую квартиру
+      - |
+          - всë плохо!
+          - всë сложно!
+          - много сюрпризов!
+          - хорошего мало, но всë будет хорошо!
 11:
   lesson_id: 4
   ex_number: 11
