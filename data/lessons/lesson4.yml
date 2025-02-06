@@ -22,8 +22,8 @@
     horizontal_align: +
     width: ~
     row1:
-      - "<b>Функция: пояснить</b><br>English: to clarify your point<br>Norwegian: å tydeliggjøre et utsagn"
-      - "<b>Функция: добавить информацию</b><br>English: to add information<br>Norwegian: å legge til informasjon"
+      - "<b>Функция: пояснить</b><br>EN: to clarify your point<br>NO: å tydeliggjøre et utsagn"
+      - "<b>Функция: добавить информацию</b><br>EN: to add information<br>NO: å legge til informasjon"
     row2:
       - "^иными/другими словами, XP/Cl@<br>
          English: ‘in other words, ...’<br>
@@ -111,7 +111,7 @@
     answer1: "б"
     answer2: "в"
     answer3: "а"
-  difficult_words: "*перелом — Engish: fracture; Norwegian: brudd, beinbrudd, fraktur"
+  difficult_words: "*перелом — EN: fracture; NO: brudd, beinbrudd, fraktur"
   answer_options:
     - а
     - б
@@ -319,9 +319,9 @@
     answer2: У меня низкое давление. Mало того, у меня слабость, ко всему прочему, я упал в обморок.
     answer3: У меня болит рука. Mало того, у меня болят ноги и, ко всему прочему, высокое давление.
   difficult_words:
-    word1: "*озноб — English: chills; Norwegian: frysninger"
-    word2: "*низкое давление — English: low blood pressure; Norwegian: lavt blodtrykk"
-    word3: "высокое давление — English: high blood pressure; Norwegian: høyt blodtrykk"
+    word1: "*озноб — EN: chills; NO: frysninger"
+    word2: "*низкое давление — EN: low blood pressure; NO: lavt blodtrykk"
+    word3: "высокое давление — EN: high blood pressure; NO: høyt blodtrykk"
   table: ~
 9:
   lesson_id: 4
@@ -361,7 +361,7 @@
     answer3: "^И вообще,@ я уже не помню.."
     answer4: "^И вообще,@ у меня всё болит."
   difficult_words:
-    word2: "*заедать стресс ― English: eat in response to stress; Norwegian: trøstespise"
+    word2: "*заедать стресс ― EN: eat in response to stress; NO: trøstespise"
   table: ~
 10:
   lesson_id: 4
@@ -487,14 +487,15 @@ Comment for language teachers. Task format: in pairs. After one dialogue, the st
   model: ~
   image: ~
   task: "В понедельник у меня начал болеть зуб, и _________________, поднялась температура. Я сразу же пошел к врачу, _________________ к стоматологу. Он сказал, что у меня кариес и сильное воспаление*, _________________ надо лечиться. Я не люблю ходить к стоматологам, _________________ я не люблю лечить зубы. Обычно это очень неприятно. _________________ — дорого. _________________ всегда лучше следить за гигиеной, чем потом ходить по врачам."
-  answer_to_show: "1. ^мало того@<br>
-2. ^а именно@<br>
-3. ^иными словами@ / ^то есть@ (оба варианта возможны)<br>
-4. ^то есть@<br>
-5. ^мало того@ / ^ко всему прочему,@ (оба варианта возможны)<br>
-6. ^иными словами,@ / ^да и вообще,@ (оба варианта возможны, но вариант с ^иными словами@ означает пояснение (English: clarification, rephrasing; Norwegian: omformulering), a вариант с ^да и вообще@ означает подведение итога, вывод (English: drawing a conclusion; Norwegian konklusjon)."
+  answer_to_show: |
+    1. ^мало того@<br>
+    2. ^а именно@<br>
+    3. ^иными словами@ / ^то есть@ (оба варианта возможны)<br>
+    4. ^то есть@<br>
+    5. ^мало того@ / ^ко всему прочему,@ (оба варианта возможны)<br>
+    6. ^иными словами,@ / ^да и вообще,@ (оба варианта возможны, но вариант с ^иными словами@ означает пояснение (EN: clarification, rephrasing; NO: omformulering), a вариант с ^да и вообще@ означает подведение итога, вывод (EN: drawing a conclusion; NO: konklusjon)."
   answer_key: ~
-  difficult_words: "*воспаление – English: painful swelling, inflammation; Norwegian: betennelse"
+  difficult_words: "*воспаление – EN: painful swelling, inflammation; NO: betennelse"
   table: ~
 14:
   lesson_id: 4
