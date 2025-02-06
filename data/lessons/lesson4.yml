@@ -185,7 +185,7 @@
 5:
   lesson_id: 4
   ex_number: 5
-  title: "Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть несколько.<br><ul><li>а - ^другими словами@</li><li>б - ^то есть@</li><li>в - ^а именно@</li></ul>"
+  title: "Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть несколько."
   instructions: ~
   exercise_type: multichoice_multianswer
   title_eng: Fill in the blanks with the words from the list. Explain why certain options cannot be used. Note that there can be more than one correct answer.
@@ -225,14 +225,14 @@
       The construction ^..., а именно ...@ ‘..., specifically, ...’ explains a more general concept (here: <i>разные симптомы</i> ‘various symptoms’) by using more specific ones (here: <i>насморк</i> ‘runny nose’, <i>температура</i> ‘fever’, <i>кашель</i> ‘cough’, <i>диарея</i> ‘diarrhea’). The construction ^другими словами, ...@ ‘in other words, ...’ and the construction ^..., то есть ...@ ‘..., that is ... ’ do not convey this meaning.<br>
       Konstruksjonen ^..., а именно ...@ ‘..., eller mer spesifikt, ...’ beskriver et mer generelt begrep (i dette tilfellet: ^разные симптомы@ ‘forskjellige symptomer’) ved å referere til spesifikke eksempler (i dette tilfellet: <i>насморк</i> ‘rennende nese’, <i>температура</i> ‘feber’, <i>кашель</i> ‘hoste’, <i>диарея</i> ‘diaré’). Konstruksjonen ^другими словами, ...@ ‘med andre ord, ...’ og konstruksjonen ^..., то есть ...@ ‘..., det vil si ... ’ formidler ikke en slik betydning.
   answer_key:
-    answer1: в
-    answer2: a, б
-    answer3: a, б
-    answer4: в
+    answer1: а именно
+    answer2: другими словами; то есть
+    answer3: другими словами; то есть
+    answer4: а именно
   answer_options:
-   - a
-   - б
-   - в
+   - другими словами
+   - то есть
+   - а именно
   difficult_words: 
     word3: "*spilleavhengighet"
   table: ~
