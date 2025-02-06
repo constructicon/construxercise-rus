@@ -138,16 +138,32 @@
   ex_number: 4
   title: Закончите предложения (1-3), подобрав подходящий вариант (а-в). Используйте конструкцию ^..., а именно ...@.
   instructions: На месте XP находится слово или фраза (XP=phrase).
-  exercise_type: text_input
+  exercise_type: multichoice_singleanswer
   title_eng: Complete the sentences (1-3) by choosing a matching continuation (a-в). Use the construction ^..., а именно ...@ meaning ‘..., specifically, ...’ or ‘..., to be exact, ...’.
   title_nor: Fullfør setningene (1-3) ved å velge en passende fortsettelse (а-в). Bruk konstruksjonen ^XP, а именно XP@ som betyr omtrent ‘..., eller mer spesifikt, ...’ og ‘..., det vil si, ...’.
   comment: ~
   example: ~
   model: ~
   image: ~
-  task: ~
-  answer_to_show: 1б, 2a, 3в
-  answer_key: 1б, 2a, 3в
+  task: 
+    task1:
+      text: "1"
+    task2:
+      text: "2"
+    task3:
+      text: "3"
+  answer_to_show: 
+    answer1: "У Михаила часто болит голова. Ему нужен врач, ^а именно@ невропатолог."
+    answer2: "У тëти глубокая депрессия. Ей нужен специалист, ^а именно@ психотерапевт."
+    answer3: "У дедушки сломался зуб. Ему нужен стоматолог, ^а именно@ стоматолог-ортопед."
+  answer_key: 
+    answer1: б
+    answer2: a
+    answer3: в
+  answer_options:
+    - a
+    - б
+    - в
   difficult_words: ~
   table:
     heading: ~
@@ -155,15 +171,17 @@
     horizontal_align: +
     width: ~
     row1:
-      - 1. У Михаила часто болит голова. Ему нужен врач,
-      - 2. У тëти глубокая депрессия. Ей нужен специалист,
-      - 3. У дедушки сломался зуб. Ему нужен стоматолог,
+      - { text: "1. У Михаила часто болит голова. Ему нужен врач," }
+      - { text: "^а именно@", rowspan: 3 }
+      - { text: "а. психотерапевт" }
     row2:
-      - { text: "^а именно@", colspan: 3 }
+      - { text: "2. У тëти глубокая депрессия. Ей нужен специалист," }
+      - { text: ""}
+      - { text: "б. невропатолог" }
     row3:
-      - а. психотерапевт
-      - б. невропатолог
-      - в. стоматолог-ортопед
+      - { text: "3. У дедушки сломался зуб. Ему нужен стоматолог," }
+      - { text: ""}
+      - { text: "в. стоматолог-ортопед" }
 5:
   lesson_id: 4
   ex_number: 5
