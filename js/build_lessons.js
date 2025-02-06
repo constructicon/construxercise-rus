@@ -496,7 +496,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
             // add difficult words 
             if (data[exercise_id]["difficult_words"]) {
-                if (!data[exercise_id]["difficult_words"][`word1`]){
+                if (typeof data[exercise_id]["difficult_words"] === 'string' || data[exercise_id]["difficult_words"] instanceof String){
                     let words = data[exercise_id]["difficult_words"];
                     let diff_words_cont = document.createElement('p')
                     diff_words_cont.setAttribute('class', 'px-2 pt-2 mx-2 mt-2 fw-light text-muted')
