@@ -356,7 +356,7 @@ Konstruksjonen ^..., а именно ...@ ‘..., eller mer spesifikt, ...’ be
     vertical_align: +
     horizontal_align: ~
     width: ~
-    header:
+    heading:
       - Шкала проблем
     row1:
       - У меня ...
@@ -487,7 +487,7 @@ Comment for language teachers. Task format: in pairs. After one dialogue, the st
   difficult_words: ~
   table:
     width: ~
-    header: ~
+    heading: ~
     horizontal_align: ~
     vertical_align: +
     row1:

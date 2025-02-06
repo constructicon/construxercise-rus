@@ -251,7 +251,9 @@
     - "г"
     - "д"
   table:
-    heading: ~
+    heading: 
+      - Вопрос
+      - Ответ
     vertical_align: ~
     horizontal_align: ~
     width: ~

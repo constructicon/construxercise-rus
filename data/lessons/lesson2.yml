@@ -317,7 +317,7 @@
         vertical_align: ~
         horizontal_align: ~
         width: ~
-        header: ~
+        heading: ~
         row1:
           - Кто?
           - Что делал?
@@ -330,7 +330,7 @@
         vertical_align: ~
         horizontal_align: ~
         width: ~
-        header: ~
+        heading: ~
         row1:
           - Кто?
           - Что делал?
@@ -343,7 +343,7 @@
         vertical_align: ~
         horizontal_align: ~
         width: ~
-        header: ~
+        heading: ~
         row1:
           - Кто?
           - Что делал?
@@ -360,7 +360,7 @@
     vertical_align: ~
     horizontal_align: ~
     width: ~
-    header: ~
+    heading: ~
     row1:
       - Кто?
       - Что делал?

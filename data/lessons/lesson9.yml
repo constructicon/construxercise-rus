@@ -267,7 +267,7 @@
   difficult_words: ~
   table:
     vertical_align: ~
-    header:
+    heading:
       - "Собеседник 1:"
       - "Собеседник 2:"
     row1:
@@ -339,7 +339,7 @@
   answer_key: ~
   difficult_words: ~
   table:
-    header:
+    heading:
       - Конструкция
       - Вариант конструкции
     row1:
@@ -406,7 +406,7 @@
   answer_key: ~
   difficult_words: ~
   table:
-    header:
+    heading:
       - Конструкция
       - Вариант конструкции
     row1:
@@ -467,7 +467,7 @@
   answer_key: ~
   difficult_words: ~
   table:
-    header:
+    heading:
       - Узнать мнение
       - Выразить своё мнение
     row1:

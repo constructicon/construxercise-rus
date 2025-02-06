@@ -413,7 +413,7 @@
   answer_key: ~
   difficult_words: ~
   table:
-    header:
+    heading:
       - 1. День рождения
       - 2. Новоселье
       - 3. Романтический ужин
@@ -463,7 +463,7 @@
   table:
     vertical_align: +
     horizontal_align: +
-    header:
+    heading:
       - "Ингредиенты:"
       - "Что купил друг:"
     row1:

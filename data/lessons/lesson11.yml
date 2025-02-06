@@ -233,7 +233,7 @@
     answer4: в частности
   difficult_words: ~
   table:
-    header:
+    heading:
       - ^в частности, XP/Cl@
       - ^скажем, XP/Cl@
     row1:

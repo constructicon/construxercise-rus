@@ -150,7 +150,7 @@
   difficult_words: ~
   table:
     vertical_align: +
-    header:
+    heading:
       - Информация о Саше
     row1:
       -
@@ -259,7 +259,7 @@
   difficult_words: ~
   table:
     vertical_align: +
-    header:
+    heading:
       - <b>Кого поздравить:</b>
     row1:
       - 

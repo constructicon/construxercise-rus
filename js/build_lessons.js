@@ -254,11 +254,11 @@ function add_table(subtask, taskKey) {
         table.setAttribute("style", `width: ${table_data["width"]}px`);
     }
 
-    if (table_data["header"] != null) {
+    if (table_data["heading"] != null) {
         let thead = document.createElement("thead");
         let tr_head = document.createElement("tr");
 
-        let table_header = table_data["header"];
+        let table_header = table_data["heading"];
         for (let i = 0; i < table_header.length; i++) {
             let th = document.createElement("th");
             th.setAttribute("scope", "col");
