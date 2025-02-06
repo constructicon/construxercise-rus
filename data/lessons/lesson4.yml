@@ -257,14 +257,9 @@
 7:
   lesson_id: 4
   ex_number: 7
-  title: "Заполните пропуски, используя конструкции<br>
-<br>
-а. ^Мало того, ...@<br>
-б. ^Ко всему прочему, ...@<br>
-<br>
-В некоторых случаях обе конструкции подходят."
+  title: "Заполните пропуски, используя конструкции. В некоторых случаях обе конструкции подходят."
   instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence) ), а скобки () обозначают факультативный элемент.
-  exercise_type: text_input
+  exercise_type: multichoice_multianswer
   title_eng: Fill in the blanks by using constructions from the list. Note that in some cases either of these constructions can be used.
   title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonene i listen. Legg merke til at i noen tilfeller kan begge konstruksjonene passe.
   comment: ~
@@ -281,15 +276,18 @@
     task4:
       text: 4. Я плохо себя чувствовала всю неделю, у меня болела голова, ________________, вчера заболел мой сын.
   answer_to_show:
-    answer1: а
-    answer2: а
-    answer3: а, б
-    answer4: а, б
+    answer1: ^Мало того@
+    answer2: ^Мало того@
+    answer3: ^Мало того@; ^Ко всему прочему@
+    answer4: ^Мало того@; ^Ко всему прочему@
   answer_key:
-    answer1: а
-    answer2: а
-    answer3: а, б
-    answer4: а, б
+    answer1: Мало того
+    answer2: Мало того
+    answer3: Мало того; Ко всему прочему
+    answer4: Мало того; Ко всему прочему
+  answer_options:
+    - Мало того
+    - Ко всему прочему
   difficult_words: ~
   table: ~
 8:
