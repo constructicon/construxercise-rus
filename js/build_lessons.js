@@ -512,9 +512,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 // Add image if available for subtask
                 if (data[exercise_id]["task"][`task${i}`]["image"] != null) {
                     if (typeof data[exercise_id]["task"][`task${i}`]["image"]["link"] != "undefined") {
-                        // subtask.appendChild(add_image(data[exercise_id]["task"][`task${i}`]["image"]))
-                        // let picture_block = document.createElement('figure')
-                        // picture_block.setAttribute('class', 'figure float-end m-3')
+
                         let image_block = add_image(data[exercise_id]["task"][`task${i}`]["image"])
                         image_block.setAttribute("class", "figure-img img-fluid float-end")
                         // picture_block.appendChild(image_block)
