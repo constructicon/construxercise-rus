@@ -249,7 +249,7 @@
   table: ~
 8:
   lesson_id: 5
-  ex_number: 1
+  ex_number: 8
   title: Часть 3. Конструкции, которые подводят итог
   instructions: ~
   exercise_type: ~
@@ -323,7 +323,6 @@
   ex_number: 10
   title: Часть 4. Соединяем конструкции из разных групп
   title_eng: Generate a text about your hobbies or interests by using the set of constructions below.
-
 11:
   lesson_id: 5
   ex_number: 11
