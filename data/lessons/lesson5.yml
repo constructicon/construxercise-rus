@@ -5,8 +5,8 @@
   title: Часть 1. Конструкции, которые вводят дополнительную информацию
   instructions: ~
   exercise_type: ~
-  title_eng: ~
-  title_nor: ~
+  title_eng: Part 1. Constructions that introduce additional information
+  title_nor: "Del 1. Konstruksjoner som introduserer tilleggsinformasjon"
   comment: ~
   example: ~
   model: ~
@@ -101,7 +101,7 @@
   instructions: ~
   exercise_type: ~
   title_eng: Part 2. Constructions used to present an example
-  title_nor: ~
+  title_nor: "Del 2. Konstruksjoner som presenterer et eksempel"
   comment: ~
   example: ~
   model: ~
@@ -259,7 +259,7 @@
   instructions: ~
   exercise_type: ~
   title_eng: Part 3. Constructions that draw a conclusion
-  title_nor: ~
+  title_nor: "Del 3. Konstruksjoner som oppsummerer"
   comment: ~
   example: ~
   model: ~
@@ -327,7 +327,8 @@
   lesson_id: 5
   ex_number: 10
   title: Часть 4. Соединяем конструкции из разных групп
-  title_eng: Generate a text about your hobbies or interests by using the set of constructions below.
+  title_eng: "Part 4. Combining constructions from different groups"
+  title_nor: "Del 4. Kombinerer konstruksjoner fra ulike grupper"
 11:
   lesson_id: 5
   ex_number: 11
