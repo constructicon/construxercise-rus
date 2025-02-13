@@ -394,7 +394,7 @@
     — Чем я могу помочь?<br>
     — Мне нужен …<br>
     ...<br>
-    — ^Что насчёт ...@?<br>
+    — ^Что насчёт ...?@<br>
     — ^Что касается ..., то ...@
   model: ~
   image: ~
@@ -462,10 +462,10 @@
   image: ~
   task: 
     text: |
-      <b>Функции:</b><br> а. ввести пример (English: give an example; Norwegian: introdusere et eksempel)<br>
-      б. сделать вывод (English: draw a conclusion; Norwegian: oppsummere)<br>
-      в. ввести тему (English: introduce a topic; Norwegian: introdusere et tema)<br>
-      г. добавить информацию (English: add information; Norwegian: legge til informasjon)
+      <b>Функции:</b><br> а. ввести пример (EN: give an example; NO: introdusere et eksempel)<br>
+      б. сделать вывод (EN: draw a conclusion; NO: oppsummere)<br>
+      в. ввести тему (EN: introduce a topic; NO: introdusere et tema)<br>
+      г. добавить информацию (EN: add information; NO: legge til informasjon)
   answer_to_show: |
     <b>1.</b> 1, 2, г<br>
     <b>2.</b> 1, 3, б<br>
