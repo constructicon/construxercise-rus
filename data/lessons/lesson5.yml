@@ -86,6 +86,8 @@
   title_eng: Fill in the blanks. In each case, choose one appropriate construction from the two available options.
   title_nor: Fyll ut de tomme feltene. I hvert tilfelle skal du velge en av de to foreslåtte konstruksjonene. En av disse er riktig.
   comment: ~
+  constr_info: |
+    Слова ^к примеру@ и ^например@ могут быть в начале, середине или конце предложения, а слово ^Так@ только в начале предложения.<br>
   example: ~
   model: ~
   image: ~
