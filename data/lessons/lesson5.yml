@@ -298,7 +298,7 @@
     <li>а. ^В целом@</li>
     <li>б. ^Таким образом@</li>
     <li>в. ^Как бы то ни было@</li>
-    <li>г. ^Да и вообще@</li></ul>"
+    <li>г. ^И вообще@</li></ul>
   instructions: ~
   exercise_type: text_input
   title_eng: Fill in the blanks with the words from the list.
