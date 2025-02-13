@@ -25,11 +25,11 @@
 2:
   lesson_id: 6
   ex_number: 2
-  title: "Прочитайте эти тексты сами. Скажите, для чего нужны конструкции, выделенные в тексте?"
+  title: "Прочитайте этот текст сами. Скажите, для чего нужны конструкции, выделенные в тексте?"
   instructions: ~
   exercise_type: ~
-  title_eng: Read the texts in the exercise 1. What is the purpose of the constructions highlighted in the text?
-  title_nor: Les tekstene i øvelse 1. Hva er hensikten med de uthevede konstruksjonene i teksten?
+  title_eng: Read the text in the exercise 1. What is the purpose of the constructions highlighted in the text?
+  title_nor: Les teksten i øvelse 1. Hva er hensikten med de uthevede konstruksjonene i teksten?
   comment: ~
   example: ~
   model: ~
@@ -42,11 +42,11 @@
 3:
   lesson_id: 6
   ex_number: 3
-  title: Сравните транспортные средства по разным параметрам. Составьте предложения, используя предложенную модель и конструкцию с точки зрения NP-Gen, Cl.
-  instructions: В этой конструкции NP — это существительное в генитиве (NP=noun phrase, Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence). Обратите внимание на значение конструкции, представленное на схеме ниже.
+  title: Сравните транспортные средства по разным параметрам. Составьте предложения, используя предложенную модель и конструкцию ^с точки зрения ..., ...@.
+  instructions: В этой конструкции в первом слоте ... стоит существительное в генитиве (noun in the genitive case), а vo vtorom slote ... — это целое предложение (sentence). Обратите внимание на значение конструкции, представленное на схеме ниже.
   exercise_type: ~
-  title_eng:  Compare various means of transport in terms of various parameters. Build sentences by using the model below and the construction с точки зрения NP-Gen, Cl meaning ‘With regard to X, ...’ or ‘In terms of X, ...’. In this construction, NP-Gen is a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), and Cl is a sentence (Cl=clause, sentence). Pay attention to the meaning of this construction visualized in the diagram below.
-  title_nor: Bruk forskjellige parametere for å sammenligne og beskrive ulike typer av transportmidler. Lag setninger ved å bruke malen nedenfor, sammen med konstruksjonen с точки зрения NP-Gen, Cl som betyr omtrent ‘fra X synspunkt, ...’, ‘med hensyn til, ...’. I denne konstruksjonen står NP-Gen for et substantiv i genitiv kasus, (NP=nominalfrase, Gen=genitiv kasus), Cl er en setning (Cl=setning). Legg merke til diagrammet nedenfor som beskriver betydningen av denne konstruksjonen.
+  title_eng:  Compare various means of transport in terms of various parameters. Build sentences by using the model below and the construction ^с точки зрения ..., ...@ meaning ‘With regard to X, ...’ or ‘In terms of X, ...’. In this construction, NP-Gen is a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), and Cl is a sentence (Cl=clause, sentence). Pay attention to the meaning of this construction visualized in the diagram below.
+  title_nor: Bruk forskjellige parametere for å sammenligne og beskrive ulike typer av transportmidler. Lag setninger ved å bruke malen nedenfor, sammen med konstruksjonen ^с точки зрения ..., ...@ som betyr omtrent ‘fra X synspunkt, ...’, ‘med hensyn til, ...’. I denne konstruksjonen står NP-Gen for et substantiv i genitiv kasus, (NP=nominalfrase, Gen=genitiv kasus), Cl er en setning (Cl=setning). Legg merke til diagrammet nedenfor som beskriver betydningen av denne konstruksjonen.
   comment: "Формат задания: в парах. = Task format: in pairs."
   example: С точки зрения комфорта, яхта лучше поезда.
   model: С точки зрения ________ , ________ лучше/хуже ________
@@ -96,11 +96,11 @@
 4:
   lesson_id: 6
   ex_number: 4
-  title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию впрочем, Cl. На месте Cl находится целое предложение (Cl=clause, sentence). Обратите внимание на значение конструкции, представленное на схеме ниже.
+  title: Соедините предложения, подобрав логичное продолжение. Используйте конструкцию ^впрочем, ...@. На месте ... находится целое предложение (sentence). Обратите внимание на значение конструкции, представленное на схеме ниже.
   instructions: ~
   exercise_type: text_input
-  title_eng: Connect the sentences by choosing a matching continuation. Use the construction впрочем, Cl meaning ‘However, ...’. We can put an entire sentence in the Cl slot (Cl=clause, sentence). Pay attention to the meaning of this construction visualized in the diagram below.
-  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen впрочем, Cl som betyr omtrent ‘for resten / ellers / for øvrig ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning). Legg merke til hvordan diagrammet nedenfor beskriver betydningen av denne konstruksjonen.
+  title_eng: Connect the sentences by choosing a matching continuation. Use the construction ^впрочем, ...@ meaning ‘However, ...’. We can put an entire sentence in the ... slot. Pay attention to the meaning of this construction visualized in the diagram below.
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^впрочем, ...@ som betyr omtrent ‘for resten / ellers / for øvrig ... ’. Plassen ... kan fylles med en hel setning. Legg merke til hvordan diagrammet nedenfor beskriver betydningen av denne konstruksjonen.
   comment: ~
   example: ~
   model: ~
@@ -155,8 +155,8 @@
 5:
   lesson_id: 6
   ex_number: 5
-  title: Перед вами фрагмент схемы московского метро. Один из вас — турист, а другой — москвич. Турист хочет узнать, как ему доехать на метро от одной станции до другой. Москвич объясняет и называет два способа, как доехать до нужной станции. Используйте модель диалога, предложенную ниже, и конструкцию впрочем, Cl.
-  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).<br>
+  title: Перед вами фрагмент схемы московского метро. Один из вас — турист, а другой — москвич. Турист хочет узнать, как ему доехать на метро от одной станции до другой. Москвич объясняет и называет два способа, как доехать до нужной станции. Используйте модель диалога, предложенную ниже, и конструкцию ^впрочем, ...@.
+  instructions: На месте ... находится целое предложение (sentence).<br>
                 Откройте схему московского метро по <a href="https://yandex.ru/metro/moscow?scheme_id=sc3497401" target="_blank">ссылке</a>.<br>*5 — Кольцевая ветка (название дано не по цвету).
   exercise_type: ~
   title_eng: Here is a portion of the Moscow subway map. One of you is a tourist, and the other is a resident of Moscow. The tourist needs to find out how to get from one subway station to a different one. The Moscow resident gives instructions and describes two ways how to get to the destination. Use the dialogue structure provided below. Use the construction впрочем, Cl meaning ‘However, ...’. We can put an entire sentence in the Cl slot (Cl=clause, sentence).
@@ -244,18 +244,18 @@
 6:
   lesson_id: 6
   ex_number: 6
-  title: Вы с друзьями собираетесь в поездку и вам нужно выбрать транспорт. В парах обсудите плюсы и минусы самолёта, поезда, автобуса и личного автомобиля, используя конструкции Cl, не так ли? и на PronPoss-Acc взгляд, Cl.
-  instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а PronPoss-Acc — это притяжательное местоимение в аккузативе (PronPoss = possessive pronoun, Acc = Accusative case), например мой, наш.<br>
-                Слова на мой взгляд и на наш взгляд могут находиться в начале, в конце или в середине предложения.
+  title: Вы с друзьями собираетесь в поездку и вам нужно выбрать транспорт. В парах обсудите плюсы и минусы самолёта, поезда, автобуса и личного автомобиля, используя конструкции ^..., не так ли?@ и ^на мой взгляд, ...@.
+  instructions: В этих конструкциях ... — это целое предложение (sentence).<br>
+                Слова ^на мой взгляд@ могут быть в начале, в конце или в середине предложения.
   exercise_type: text_input
   title_eng: You and your friends are going on a trip, and you need to decide how you will travel. In pairs, discuss the pros and cons of traveling by plane, train, bus, and private car. Use the constructions Cl, не так ли? ‘..., isn’t it?’ or ‘..., right?’ and на PronPoss-Acc взгляд, Cl ‘In my opinion, ...’.<br>
-            In these constructions, Cl is a whole sentence (Cl=clause, sentence), and PronPoss-Acc is a possessive pronoun in the accusative case (PronPoss = possessive pronoun, Acc = Accusative case), for example мой ‘mine’ and наш ‘ours’. The words на мой взгляд and на наш взгляд can be placed at the beginning, at the end or in the middle of a sentence.
-  title_nor: Du planlegger en reise sammen med noen venner og trenger å velge transportmiddel. Diskuter i par om fordeler og ulemper med fly, tog, bus og egen bil. Bruk konstruksjonen Cl, не так ли? ‘..., ikke sant?’ og на PronPoss-Acc взгляд, Cl ‘Etter X syn / Etter min mening, ...’<br>
-            I disse konstruksjonene er Cl en hel setning (Cl=setning) og PronPoss-Acc er et possessivt pronomen i akkusativ kasus (PronPoss=possessivt pronomen, Acc=akkusativ kasus), for eksempel мой ‘min’ and наш ‘vår’. Ordene на мой взгляд og на наш взгляд kan plasseres i begynnelsen, i slutten eller i midten av en setning.
+            In these constructions, ... is a whole sentence. The words ^на мой взгляд@ can be placed at the beginning, at the end or in the middle of a sentence.
+  title_nor: Du planlegger en reise sammen med noen venner og trenger å velge transportmiddel. Diskuter i par om fordeler og ulemper med fly, tog, bus og egen bil. Bruk konstruksjonen ^..., не так ли?@ ‘..., ikke sant?’ og ^на мой взгляд, ...@ ‘Etter X syn / Etter min mening, ...’<br>
+            I disse konstruksjonene er ... en hel setning. Ordene ^на мой взгляд@ kan plasseres i begynnelsen, i slutten eller i midten av en setning.
   comment: ~
-  example: "А: — На самолёте мы долетим намного быстрее, не так ли?<br>
-            Б: — Да, но на мой взгляд, мы больше времени потратим в аэропорту. Поезд намного экологичнее, не так ли?<br>
-            А: — Да, но он дороже, чем автобус, на мой взгляд. Автобусы ходят очень часто, мы можем выбрать самый удобный рейс, не так ли?"
+  example: "А: — На самолёте мы долетим намного быстрее^, не так ли?@<br>
+            Б: — Да, но на мой взгляд, мы больше времени потратим в аэропорту. Поезд намного экологичнее^, не так ли?@<br>
+            А: — Да, но он дороже, чем автобус, на мой взгляд. Автобусы ходят очень часто, мы можем выбрать самый удобный рейс^, не так ли?@"
   model: ~
   image: ~
   task: ~
@@ -306,12 +306,11 @@
 7:
   lesson_id: 6
   ex_number: 7
-  title: Вы приехали в Москву, и вас уже принимают за местного. Помогите туристам найти дорогу. Используйте конструкцию насколько PronPers-1 понимать, Cl.
-  instructions: "В этой конструкции PronPers-1 — это личное местоимение 1 лица я, мы (PronPers=personal pronoun), а Cl — это целое предложение (Cl=clause, sentence).<br>
-                  Глагол понимать согласуется с местоимением: я понимаю, мы понимаем."
+  title: Вы приехали в Москву, и вас уже принимают за местного. Помогите туристам найти дорогу. Используйте конструкцию ^Насколько я понимаю, ...@.
+  instructions: "В этой конструкции ... — это целое предложение (sentence).<br>"
   exercise_type: text_input
-  title_eng: "You have arrived in Moscow, and people there mistake you for someone local. Help the tourists find their way. Use the construction насколько PronPers-1 понимать, Cl meaning ‘As far as I understand, ...’. In this construction, PronPers-1 stands for a personal pronoun like я, мы (PronPers=personal pronoun), аnd Cl is a sentence (Cl=clause, sentence). The verb понимать ‘understand’ agrees with the pronoun: я понимаю ‘I understand’, мы понимаем ‘We understand’."
-  title_nor: "Du har reist til Moskva, og folk tror allerede at du kommer derfra. Hjelp turistene å finne frem. Bruk konstruksjonen насколько PronPers-1 понимать, Cl som betyr ‘etter hva jeg vet ... / så vidt X forstår, ...’. I denne konstruksjonen betyr PronPers-1 personlig pronomen, for eksempel я, мы (PronPers=personlig pronomen), og Cl er en setning (Cl=setning). Verbet понимать ‘å forstå’ bøyes etter pronomenet: я понимаю ‘jeg forstår’, мы понимаем ‘vi forstår’."
+  title_eng: "You have arrived in Moscow, and people there mistake you for someone local. Help the tourists find their way. Use the construction ^Насколько я понимаю, ...@ meaning ‘As far as I understand, ...’. In this construction, ... is a sentence."
+  title_nor: "Du har reist til Moskva, og folk tror allerede at du kommer derfra. Hjelp turistene å finne frem. Bruk konstruksjonen ^Насколько я понимаю, ...@ som betyr ‘etter hva jeg vet ... / så vidt X forstår, ...’. I denne konstruksjonen er ... en setning."
   comment: ~
   example: "Вопрос туриста: — Как доехать от станции метро Театральная до Охотного ряда?<br>
           (Это одна станция. Перейдите с зелёной ветки на красную.)<br>
@@ -356,8 +355,8 @@
 8:
   lesson_id: 6
   ex_number: 8
-  title: Посоветуйте людям, названным в предложениях, другой способ передвижения. Используйте конструкцию на PronPoss-Loc месте/на месте NP-Gen Cl бы.
-  instructions: В этой конструкции PronPoss-Loc — это притяжательное местоимение в локативе (PronPoss=possessive pronoun, Loc=Locative case), NP-Gen — это существительное в генитиве (NP=noun phrase, Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence). Глагол после частицы бы используется в форме прошедшего времени и мужского или женского рода в зависимости от пола говорящего.
+  title: Посоветуйте людям, названным в предложениях, другой способ передвижения. Используйте конструкцию ^на твоём месте я бы ...@
+  instructions: В этой конструкции ... — это целое предложение (sentence). Глагол после частицы бы используется в форме прошедшего времени и мужского или женского рода в зависимости от пола говорящего.
   exercise_type: text_input
   title_eng: Give advice to the people named in the sentences by suggesting an alternative means of transportation. Use the construction на PronPoss-Loc месте/на месте NP-Gen Cl бы meaning ‘If I were X, I would... / If I were in X’s shoes, ...’.<br>
               In this construction, ronPoss-Loc is a possessive pronoun in the Locative PronPoss=possessive pronoun, Loc=Locative case), NP-Gen is a noun in the Genitive (NP=noun phrase, Gen=Genitive case), and Cl is a sentence (Cl=clause, sentence). The verb that follows the particle бы is used in the past tense and either masculine or feminine form depending on the sex of the speaker.
@@ -479,11 +478,11 @@
 10:
   lesson_id: 6
   ex_number: 10
-  title: Придумайте свои советы для людей из упражнения 8. Используйте конструкцию на PronPoss-Loc месте/на месте NP-Gen Cl бы.
+  title: Придумайте свои советы для людей из упражнения 8. Используйте конструкцию ^на твоём месте я бы ...@
   instructions: ~
   exercise_type: ~
-  title_eng: Come up with your own advice for the people in exercise 8. Use the construction на PronPoss-Loc месте/на месте NP-Gen Cl бы meaning ‘If I were X, I would... / If I were in X’s shoes, ...’.
-  title_nor: Gi dine egne råd til personene i oppgave 8. Bruk konstruksjonen на PronPoss-Loc месте/на месте NP-Gen Cl бы som betyr omtrent ‘hvis X var i Y sitt sted, ... / hvis X var Y, ... ’, f.eks. ‘hvis var jeg deg, .../ hvis jeg var i dine sko ...’.
+  title_eng: Come up with your own advice for the people in exercise 8. Use the construction ^на твоём месте я бы ...@ meaning ‘If I were X, I would... / If I were in X’s shoes, ...’.
+  title_nor: Gi dine egne råd til personene i oppgave 8. Bruk konstruksjonen ^на твоём месте я бы ...@ som betyr omtrent ‘hvis X var i Y sitt sted, ... / hvis X var Y, ... ’, f.eks. ‘hvis var jeg deg, .../ hvis jeg var i dine sko ...’.
   comment: ~
   example: ~
   model: ~
@@ -497,12 +496,12 @@
   lesson_id: 6
   ex_number: 11
   title: Турист пришёл в турагентство. В зависимости от вашей роли, купите или продайте турпутёвку. Описание каждой роли предложено ниже (турист и турагент). Используйте конструкции<br>
-          — с точки зрения NP-Gen, Cl<br>
-          — впрочем, Cl<br>
-          — Cl, не так ли?<br>
-          — на PronPoss-Acc взгляд, Cl<br>
-          — насколько PronPers-1 понимать, Cl<br>
-          — на PronPoss-Loc месте/на месте NP-Gen Cl бы<br>
+          — с точки зрения ..., ...<br>
+          — впрочем, ...<br>
+          — ..., не так ли?<br>
+          — на мой взгляд, ...<br>
+          — Насколько я понимаю, ...<br>
+          — на твоём месте я бы ...<br>
           Задача туриста — выбрать самую привлекательную турпутёвку из тех, которые предлагает турагент. Для этого турист должен описать турагенту своё идеальное путешествие. Задача турагента — продать одну из трёх турпутёвок. Для этого турагент должен убедить туриста выбрать одну из них.
   instructions: ~
   exercise_type: ~
@@ -545,12 +544,12 @@
           — Комфорт<br>
           — Погода<br>
           Используйте конструкции:<br>
-          — с точки зрения NP-Gen, Cl<br>
-          — впрочем, Cl<br>
-          — Cl, не так ли?<br>
-          — на PronPoss-Acc взгляд, Cl<br>
-          — насколько PronPers-1 понимать, Cl<br>
-          — на PronPoss-Loc месте/на месте NP-Gen Cl бы"
+          — с точки зрения ..., ...<br>
+          — впрочем, ...<br>
+          — ..., не так ли?<br>
+          — на мой взгляд, ...<br>
+          — насколько я понимаю, ...<br>
+          — на твоём месте я бы ..."
   instructions: ~
   exercise_type: ~
   title_eng: "You and your friend are discussing the route to get from the place where you are to your destination. Here are maps from the Google Maps app. Discuss all the route options and choose the most optimal one. Consider various factors that can affect your itinerary: price, traffic jams, time, comfort, weather. Use the constructions from the list."
