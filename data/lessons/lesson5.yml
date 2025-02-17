@@ -194,7 +194,7 @@
   ex_number: 6
   title: Заполните пропуски, выбрав подходящую конструкцию из списка.
   instructions: ~
-  exercise_type: text_input
+  exercise_type: multichoice_singleanswer
   title_eng: Fill in the blanks by choosing the appropriate construction from the list.
   title_nor: Fyll ut de tomme feltene ved å velge riktig konstruksjon fra listen.
   comment: ~
@@ -216,24 +216,28 @@
         <li>а. ^к тому же ...@ </li><li>б. ^так, ...@ </li><li>в. ^честно говоря, ...@</li></ul>
     task4:
       text: |
-        В России многие организации* работают по субботам. __________ , банки.<br><ul>
+        4. В России многие организации* работают по субботам. __________ , банки.<br><ul>
         <li>а. ^например, ...@</li> <li>б. ^в целом ...@</li> <li>в. ^честно говоря, ...@</li></ul>
     task5:
       text: |
         5. У вас с собой есть документы? __________ , паспорт или водительские права.<br><ul>
         <li>а. ^к примеру, ...@</li><li>б. ^кроме того ...@ </li><li>в. ^таким образом, ...@ </li></ul>
   answer_to_show:
-    answer1: в
-    answer2: б
-    answer3: б
-    answer4: а
-    answer5: а
+    answer1: Нашей компании нужны новые сотрудники, а именно, программисты и веб-дизайнеры.
+    answer2: Кристина хочет выучить какой-нибудь новый язык, например, испанский. 
+    answer3: Число людей с высшим образованием разное в разных регионах России. Так, в Москве высшее образование получили 80% жителей.
+    answer4: В России многие организации* работают по субботам. Например, банки.
+    answer5: У вас с собой есть документы? К примеру, паспорт или водительские права.
   answer_key:
     answer1: в
     answer2: б
     answer3: б
     answer4: а
     answer5: а
+  answer_options:
+    - а
+    - б
+    - в
   difficult_words:
     word1: ~
     word2: ~
