@@ -514,7 +514,12 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     if (typeof data[exercise_id]["task"][`task${i}`]["image"]["link"] != "undefined") {
 
                         let image_block = add_image(data[exercise_id]["task"][`task${i}`]["image"])
-                        image_block.setAttribute("class", "figure-img img-fluid float-end")
+                        if (data[exercise_id]["task"][`task${i}`]["text"] != null) {
+
+                            image_block.setAttribute("class", "figure-img img-fluid float-end")
+                        } else {
+                            image_block.setAttribute("class", "figure-img img-fluid")
+                        }
                         // picture_block.appendChild(image_block)
                         subtask_col.appendChild(image_block)
 
