@@ -77,7 +77,7 @@
   title: |
     Заполните пропуски. В каждом случае выберите подходящую конструкцию из двух предложенных.
   instructions: ~
-  exercise_type: text_input
+  exercise_type: multichoice_singleanswer
   title_eng: Fill in the blanks. In each case, choose one appropriate construction from the two available options.
   title_nor: Fyll ut de tomme feltene. I hvert tilfelle skal du velge en av de to foreslåtte konstruksjonene. En av disse er riktig.
   comment: ~
@@ -88,15 +88,15 @@
   image: ~
   task: 
     task1:
-      text: "1<br>а. к тому же б. а именно"
+      text: "1<br><ul><li>а. к тому же</li> <li>б. а именно</li></ul>"
     task2:
-      text: "2<br>а. Например б. Кроме того"
+      text: "2<br><ul><li>а. Например </li> <li>б. Кроме того</li></ul>"
     task3:
-      text: "3<br>a. Мало того б. Другими словами"
+      text: "3<br><ul><li>a. Мало того </li> <li>б. Другими словами</li></ul>"
     task4:
-      text: "4<br>a. В целом б. Ко всему прочему"
+      text: "4<br><ul><li>a. В целом </li> <li>б. Ко всему прочему</li></ul>"
     task5:
-      text: "5<br>a. Таким образом б. Плюс ко всему"
+      text: "5<br><ul><li>a. Таким образом </li> <li>б. Плюс ко всему</li></ul>"
   answer_to_show: 
     answer1: "a"
     answer2: "б"
@@ -109,6 +109,9 @@
     answer3: "a"
     answer4: "б"
     answer5: "б"   
+  answer_options:
+    - а
+    - б
   difficult_words: ~
   table: ~
 4:
