@@ -98,15 +98,15 @@
     task5:
       text: "5<br><ul><li>a. Таким образом </li> <li>б. Плюс ко всему</li></ul>"
   answer_to_show: 
-    answer1: "a"
+    answer1: "а"
     answer2: "б"
-    answer3: "a"
+    answer3: "а"
     answer4: "б"
     answer5: "б"
   answer_key: 
-    answer1: "a"
+    answer1: "а"
     answer2: "б"
-    answer3: "a"
+    answer3: "а"
     answer4: "б"
     answer5: "б"   
   answer_options:
