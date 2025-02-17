@@ -4,7 +4,7 @@
   ex_number: 1
   title: Послушайте текст и заполните пропуски.
   instructions: ~
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
   title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
   comment: ~
@@ -16,7 +16,7 @@
     audio: ""
     image:
       link: "https://github.com/constructicon/construxercise-rus/raw/main/images/7/stapler.jpg"
-  answer_to_show: ~
+  answer_to_show: праздники, праздновал, рождения, важные, день
   answer_key: праздники, праздновал, рождения, важные, день
   difficult_words: ~
   table: ~
