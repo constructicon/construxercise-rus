@@ -264,7 +264,7 @@
   difficult_words: ~
   table:
     vertical_align: +
-    horizontal_align: +
+    horizontal_align: ~
     width: 950
     heading: ~
     row1:
