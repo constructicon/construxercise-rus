@@ -317,13 +317,9 @@
   lesson_id: 5
   ex_number: 9
   title: |
-    Заполните пропуски словами из списка:<br><ul>
-    <li>а. ^В целом@</li>
-    <li>б. ^Таким образом@</li>
-    <li>в. ^Как бы то ни было@</li>
-    <li>г. ^И вообще@</li></ul>
+    Заполните пропуски словами из списка.
   instructions: ~
-  exercise_type: text_input
+  exercise_type: multichoice_singleanswer
   title_eng: Fill in the blanks with the words from the list.
   title_nor: Fyll ut de tomme feltene med ord fra listen.
   comment: ~
@@ -343,15 +339,20 @@
     task4:
       text: 4. Сейчас болеют очень много людей. Власти говорят, что ______________ ситуация под контролем, но все равно нам нужно быть осторожными.
   answer_to_show:
-    answer1: в
-    answer2: г
-    answer3: б
-    answer4: а
+    answer1: Как бы то ни было
+    answer2: И вообще
+    answer3: Таким образом
+    answer4: В целом
   answer_key:
-    answer1: в
-    answer2: г
-    answer3: б
-    answer4: а
+    answer1: Как бы то ни было
+    answer2: И вообще
+    answer3: Таким образом
+    answer4: В целом
+  answer_options:
+    - В целом
+    - Таким образом
+    - Как бы то ни было
+    - И вообще
   difficult_words: ~
   table: ~
 10:
