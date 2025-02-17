@@ -480,12 +480,10 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         main_content.appendChild(all_exercise)
     }
 
-
     if (data[exercise_id]["table"] != null) {
         add_table()
     }
    
-
     var task = document.createElement("div")
     task.setAttribute('class', 'container')
     if (data[exercise_id]["task"] != null) {
@@ -564,14 +562,11 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                     add_table(subtask, `task${i}`)
                 }
 
-
-
                 // Add audio if available for subtask
                 if (data[exercise_id]["task"][`task${i}`]["audio"] != null) {
                     subtask.appendChild(add_audio(lesson_id, exercise_id, data[exercise_id]["task"][`task${i}`]["audio"]))
                 }
 
-                
                 if (data[exercise_id]["exercise_type"] == "text_input") {
                     // if task requires text input form
                     let answer_to_show = data[exercise_id]["answer_to_show"][`answer${i}`];
@@ -754,8 +749,10 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             // if no subtasks
 
             if (data[exercise_id]["task"]["text"] != null){
-                task.setAttribute("class", "shadow p-4 mb-3 bg-body rounded")
-                task.innerHTML = annotate(data[exercise_id]["task"]["text"]);
+                let task_text = document.createElement('div');
+                task_text.setAttribute("class", "shadow p-4 mb-3 bg-body rounded");
+                task_text.innerHTML = annotate(data[exercise_id]["task"]["text"]);
+                task.appendChild(task_text);
             }
             
             if (data[exercise_id]["task"]["audio"] != null) {
