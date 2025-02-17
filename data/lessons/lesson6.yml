@@ -60,7 +60,7 @@
   difficult_words: ~
   table:
     vertical_align: +
-    horizontal_align: +
+    horizontal_align: ~
     width: ~
     heading: ~
     row1:
