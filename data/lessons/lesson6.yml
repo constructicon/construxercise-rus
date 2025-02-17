@@ -538,19 +538,20 @@
 12:
   lesson_id: 6
   ex_number: 12
-  title: "Вы с другом или подругой обсуждаете маршрут, как добраться из места, где вы находитесь, до места, куда вам нужно. Перед вами карты из приложения Google Карты (Google Maps). Обсудите все варианты и выберите оптимальный. Учитывайте разные факторы, которые влияют на ваш маршрут:<br>
+  title: |
+    Вы с другом или подругой обсуждаете маршрут, как добраться из места, где вы находитесь, до места, куда вам нужно. Перед вами карты из приложения Google Карты (Google Maps). Обсудите все варианты и выберите оптимальный. Учитывайте разные факторы, которые влияют на ваш маршрут:<br>
           — Цена<br>
           — Пробки<br>
           — Время<br>
           — Комфорт<br>
           — Погода<br>
-          Используйте конструкции:<br>
-          — с точки зрения ..., ...<br>
-          — впрочем, ...<br>
-          — ..., не так ли?<br>
-          — на мой взгляд, ...<br>
-          — насколько я понимаю, ...<br>
-          — на твоём месте я бы ..."
+          <br>Используйте конструкции:<br>
+          — ^с точки зрения ..., ...@<br>
+          — ^впрочем, ...@<br>
+          — ^..., не так ли?@<br>
+          — ^на мой взгляд, ...@<br>
+          — ^насколько я понимаю, ...@<br>
+          — ^на твоём месте я бы ...@
   instructions: ~
   exercise_type: ~
   title_eng: "You and your friend are discussing the route to get from the place where you are to your destination. Here are maps from the Google Maps app. Discuss all the route options and choose the most optimal one. Consider various factors that can affect your itinerary: price, traffic jams, time, comfort, weather. Use the constructions from the list."
