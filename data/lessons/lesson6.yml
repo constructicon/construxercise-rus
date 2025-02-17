@@ -602,11 +602,18 @@
 13:
   lesson_id: 6
   ex_number: 13
-  title: К вам скоро приедет друг или подруга. Объясните ему или ей, как добраться из а) аэропорта, б) из центра вашего города или в) из университета до вашего дома. Предложите два варианта, как добраться. Составьте диалог, как в упражнении 1. Используйте конструкции этого урока.
+  title: |
+    К вам скоро приедет друг или подруга. Объясните ему или ей, как добраться из
+    <ol>
+    <li>аэропорта, </li>
+    <li>из центра вашего города или </li>
+    <li>из университета до вашего дома. </li>
+    </ol>
+    Предложите два варианта, как добраться. Составьте диалог, как в упражнении 1. Используйте конструкции этого урока.
   instructions: ~
   exercise_type: ~
-  title_eng: Your friend is going to visit you. Explain to your friend how to get from a) the airport, 2) city center, 3) the university to your home. Offer two options for how to get to your place. Make a dialogue as in exercise 1. Use the constructions you learned in this lesson.
-  title_nor: Om ikke lenge kommer en av vennene dine på besøk. Forklar hvordan vennen kan ta seg fra a) flyplassen, 2) sentrum, 3) universitetet, og hjem til deg. Foreslå to mulige måter å ta seg hjem til deg. Lag en dialog på samme måte som i oppgave 1. Bruk alle konstruksjonene du har lært i denne leksjonen.
+  title_eng: Your friend is going to visit you. Explain to your friend how to get from 1) the airport, 2) city center, 3) the university to your home. Offer two options for how to get to your place. Make a dialogue as in exercise 1. Use the constructions you learned in this lesson.
+  title_nor: Om ikke lenge kommer en av vennene dine på besøk. Forklar hvordan vennen kan ta seg fra 1) flyplassen, 2) sentrum, 3) universitetet, og hjem til deg. Foreslå to mulige måter å ta seg hjem til deg. Lag en dialog på samme måte som i oppgave 1. Bruk alle konstruksjonene du har lært i denne leksjonen.
   comment: ~
   example: ~
   model: ~
