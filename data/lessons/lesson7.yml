@@ -12,12 +12,12 @@
   model: ~
   image: ~
   task: 
-    text: "Я очень люблю ________________. ^Будь моя воля,@ я бы ________________ что-нибудь каждый день. Например, 3 марта — День писателя, 4 марта — День ________________ микрофона, а 5 марта — День рождения степлера. ^Как по мне,@ все эти праздники очень ________________. ^Сами подумайте,@ я пишу этот текст, значит, я писатель. Вы пользуетесь степлером, ^так?@ Значит, надо отмечать 5 марта. ^Словом,@ надо жить так, чтобы каждый ________________ был как праздник!"
+    text: "Я очень люблю ________________. ^Будь моя воля, я бы@ ________________ что-нибудь каждый день. Например, 3 марта — День писателя, 4 марта — День ________________ микрофона, а 5 марта — День рождения степлера. ^Как по мне,@ все эти праздники очень ________________. ^Сами подумайте,@ я пишу этот текст, значит, я писатель. Вы пользуетесь степлером, ^так?@ Значит, надо отмечать 5 марта. ^Словом,@ надо жить так, чтобы каждый ________________ был как праздник!"
     audio: ""
     image:
       link: "https://github.com/constructicon/construxercise-rus/raw/main/images/7/stapler.jpg"
   answer_to_show: ~
-  answer_key: ~
+  answer_key: праздники, праздновал, рождения, важные, день
   difficult_words: ~
   table: ~
 2:
@@ -45,6 +45,12 @@
   title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^... заодно ...@ meaning ‘while X is at it ...’ or ‘..., meanwhile ...’.
   title_nor: Koble sammen frasene ved å velge en passende fortsettelse. Bruk konstruksjonen ^..., заодно ...@ ‘..., samtidig, i tillegg ...’.
   comment: ~
+  constr_info: |
+    В конструкции ..., заодно ..., на месте каждого слота ... стоит глагол (verb):<br>
+    <ul>
+      <li>Пример 1</li>
+      <li>Пример 2</li>
+    </ul>
   example: Я вчера сделала уборку дома, ^заодно@ нашла старые фотографии бабушки с дедушкой.
   model: ~
   image: ~
@@ -83,6 +89,12 @@
             I disse konstruksjonene står Cl for en hel setning (Cl=setning), og подумать-Imp som er imperativformen av verbet подумать ‘å tenke’ (Imp = imperativ), det vil si подумай (entall) og подумайте (flertall). Legg merke til at pronomenet сам ‘selv’ skal bøyes i overensstemmelse med samtalepartnerens kjønn. Bruk сам for å tiltale en mann, сама for å tiltale en kvinne. Imperativformen подумай er ikke avhengig av samtalepartnerens kjønn."
   comment: "Формат задания: в парах. После каждого диалога студенты меняются ролями.<br>
             Comment for language teachers. Task format: in pairs. After each dialogue, the students switch roles."
+  constr_info: |
+    В конструкции ..., заодно ..., на месте каждого слота ... стоит глагол (verb):<br>
+    <ul>
+      <li>Пример 1</li>
+      <li>Пример 2</li>
+    </ul>  
   example: ~
   model: ~
   image:
@@ -133,15 +145,13 @@
   lesson_id: 7
   ex_number: 5
   title: У вашей подруги Саши скоро День Рождения. Вы с другом пришли в магазин и пытаетесь выбрать подарок, но Саше сложно угодить. Обсудите с другом, какой подарок вы купите. Используйте конструкции ^..., так ведь?@ и ^Сам/сама подумай, ...@.
-  instructions: "В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а подумать-Imp — это форма императива от глагола <i>подумать</i> (Imp = imperative), то есть <i>подумай</i> (в единственном числе) и <i>подумайте</i> (во множественном числе). Обратите внимание на то, что форма местоимения <i>сам</i> зависит от пола собеседника: <i>сам</i> при обращении к мужчине и <i>сама</i> при обращении к женщине. При этом форма императива <i>подумай</i> не меняется."
   exercise_type: ~
   title_eng: |
     Your friend Sasha has a birthday soon. You and a friend of yours are at a store and are trying to choose a gift for Sasha, but Sasha is hard to please. Discuss with your friend what gift you will buy. Use the constructions ^..., так ведь?@ ‘..., isn’t it?’ and ^Сам/сама подумай, ...@ ‘Think about it, ...’.<br>
-    In these constructions, Cl means an entire sentence (Cl=clause, sentence), and подумать-Imp is an imperative form of the verb подумать ‘think’ (Imp = imperative), that is подумай (in singular) и подумайте (in plural).<br>
-    Note that the form of the pronoun сам ‘self’ depends on the sex of the speaker: use сам when addressing a man, but сама when addressing a woman. The form of the imperative подумай does not change in this regard.
+    Note that the form of the pronoun сам ‘self’ depends on the sex of the speaker: use ^сам@ when addressing a man, but ^сама@ when addressing a woman. The form of the imperative ^подумай@ does not change in this regard.
   title_nor: |
     Din venninne Sasja har snart bursdag. Du og en venn har tatt turen til en butikk og prøver å velge ut en gave til Sasja, men det er ikke lett å gjøre Sasja fornøyd. Diskuter med din venn om hvilken gave dere skal kjøpe. Bruk konstruksjonene ^..., так ведь?@ som betyr omtrent ‘..., ikke sant’ og ^Сам/сама подумай, ...@ som betyr omtrent ‘Tenk på det, Tenk på at, Husk at ...’.<br>
-    I disse konstruksjonene står Cl for en hel setning (Cl=setning), og подумать-Imp som er imperativformen av verbet подумать ‘å tenke’ (Imp = imperativ), det vil si подумай (entall) og подумайте (flertall). Legg merke til at pronomenet сам ‘selv’ skal bøyes i overensstemmelse med samtalepartnerens kjønn. Bruk сам for å tiltale en mann, сама for å tiltale en kvinne. Imperativformen подумай er ikke avhengig av samtalepartnerens kjønn.
+    Legg merke til at pronomenet сам ‘selv’ skal bøyes i overensstemmelse med samtalepartnerens kjønn. Bruk ^сам@ for å tiltale en mann, ^сама@ for å tiltale en kvinne. Imperativformen ^подумай@ er ikke avhengig av samtalepartnerens kjønn.
   comment: ~
   example: ~
   model: ~
@@ -165,6 +175,7 @@
           - у неё есть собака Буян <br>
           - любит яркий макияж <br>
           - не любит кошек <br>
+          - не любит оранжевый и зеленый цвет
 6:
   lesson_id: 7
   ex_number: 6
@@ -176,6 +187,12 @@
   title_nor: "Fortell om hva i verden du ville forbedret hvis du hadde mulighet. Bruk konstruksjonen ^будь моя воля, я бы...@ som betyr omtrent ‘Om det var opp til meg, ...’ eller ‘Var det opp til meg, ...’ eller ‘Hvis det var opp til meg, ...’<br>
               I denne konstruksjonen står Cl for en hel setning (Cl=setning). Verbet etter partikkelen бы brukes i forttidsform, og skal bøyes i overenstemmelse med talerens kjønn."
   comment: ~
+  constr_info: |
+    В конструкции ^будь моя воля, я бы...@ на месте слота ... стоит целое предложение (sentence). Глагол после частицы <i>бы</i> используется в форме прошедшего времени и мужского или женского рода в зависимости от пола говорящего (см. образец).<br>
+    <ul>
+      <li>Пример 1</li>
+      <li>Пример 2</li>
+    </ul>
   example: ~
   model: ~
   image:
@@ -189,14 +206,11 @@
   lesson_id: 7
   ex_number: 7
   title: Обсудите с собеседником ваше отношение к праздникам, которые отмечают в России и в вашей стране. Используйте конструкцию ^как по мне, ...@.
-  instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence), а скобки () вокруг слова означают, что это факультативный элемент конструкции.
   exercise_type: ~
   title_eng: |
     Discuss with your interlocutor how you feel about the holidays that are celebrated in Russia and in your country of origin. Use the construction ^как по мне, ...@ meaning ‘as for me, ...’ or ‘in my opinion, ...’.<br>
-    In this construction, Cl stands for an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
   title_nor: |
     Diskuter med din samtalepartner om ditt forhold til helligdagene som feires i Russland og i ditt hjemland. Bruk konstruksjonen ^как по мне, ...@ som betyr omtrent ‘Jeg tror, ... ’ eller ‘Etter min mening, ...’ eller ‘For meg ...’<br>
-    I denne konstruksjonen står Cl for en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
   comment: ~
   example: |
     Праздник: 8 марта<br>
@@ -248,15 +262,18 @@
   lesson_id: 7
   ex_number: 8
   title: Подпишите открытки, адресованные разным людям. В каждой открытке напишите поздравление с помощью «конструктора поздравлений». Обратите внимание, что поздравления разным людям отличаются друг от друга. Каждое поздравление заканчивайте, используя конструкцию ^Словом, ...@.
-  instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence).
   exercise_type: ~
   title_eng: |
     Sign postcards addressed to different people. In each card, write a congratulation using the congratulations constructor. Note that congratulations for different people differ from each other. At the end of each congratulation, use the construction ^Словом, ...@ meaning ‘In a nutshell, ... ’ or ‘to make a long story short, ...’.<br>
-    In this construction Cl stands for an entire sentence (Cl=clause, sentence).
   title_nor: |
     Signer postkortene adresserte til forskjellige folk. Skriv gratulasjoner i hvert postkort ved hjelp av «gratulasjonsgeneratoren». Legg merke til at det er forskjell på gratulasjoner til forskjellige folk. Avslutt hver gratulasjon med konstruksjonen ^Словом, ...@ som betyr ‘alt i alt / generelt / kort sagt / fortalt ...’.<br>
-    I denne konstruksjonen står Cl for en hel setning (Cl=setning).
   comment: ~
+  constr_info: |
+    В конструкции ^Словом, ...@ на месте слота ... стоит целое предложение (sentence).<br>
+    <ul>
+      <li>Пример 1</li>
+      <li>Пример 2</li>
+    </ul>
   example: ~
   model: ~
   image:
@@ -290,7 +307,6 @@
     — ^сама подумай@<br>
     — ^словом@<br>
     — ^так ведь@
-  instructions: В этой конструкции Cl — это целое предложение (Cl=clause, sentence).
   exercise_type: text_input
   title_eng: Here is a conversation between Lisa and Olya. Fill in the blanks with words from the list.
   title_nor: Se på samtalen mellom Lisa og Olja. Fyll ut de tomme feltene med ord fra listen.
@@ -310,6 +326,23 @@
 10:
   lesson_id: 7
   ex_number: 10
+  title: "Продолжите предложения."
+  instructions: ~
+  exercise_type: ~
+  title_eng: "Complete the sentences."
+  title_nor: "Fullfør setningene."
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
+11:
+  lesson_id: 7
+  ex_number: 11
   title: Напишите короткий текст (5-6 предложений) о том, какой праздник вы бы ввели или упразднили. Используйте новые конструкции этого урока.
   instructions: ~
   exercise_type: ~
