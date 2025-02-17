@@ -72,14 +72,14 @@
 4:
   lesson_id: 7
   ex_number: 4
-  title: Иностранные студенты обсуждают русские праздники. Заполните пропуски, используя конструкцию ^Cl, так (ведь)?@ в вопросах и конструкцию ^Сам подумать-Imp, Cl@ в ответах.
+  title: Иностранные студенты обсуждают русские праздники. Заполните пропуски, используя конструкцию ^..., так ведь?@ в вопросах и конструкцию ^Сам/сама подумай, ...@ в ответах.
   instructions: "В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), а подумать-Imp — это форма императива от глагола <i>подумать</i> (Imp = imperative), то есть <i>подумай</i> (в единственном числе) и <i>подумайте</i> (во множественном числе).<br>
                 Обратите внимание на то, что форма местоимения <i>сам</i> зависит от пола собеседника: <i>сам</i> при обращении к мужчине и <i>сама</i> при обращении к женщине (см. образец). При этом форма императива <i>подумай</i> не меняется."
   exercise_type: text_input
-  title_eng: "Foreign students are discussing Russian holidays. Fill in the blanks. Use the construction ^Cl, так (ведь)?@ ‘..., isn’t it?’ in questions and the construction ^Сам подумать-Imp, Cl@ ‘Think about it, ...’ in responses.<br>
+  title_eng: "Foreign students are discussing Russian holidays. Fill in the blanks. Use the construction ^..., так ведь?@ ‘..., isn’t it?’ in questions and the construction ^Сам/сама подумай, ...@ ‘Think about it, ...’ in responses.<br>
             In these constructions, Cl means an entire sentence (Cl=clause, sentence), and подумать-Imp is an imperative form of the verb подумать ‘think’ (Imp = imperative), that is подумай (in singular) and подумайте (in plural).<br>
             Note that the form of the pronoun сам ‘self’ depends on the sex of the speaker: use сам when addressing a man, but сама when addressing a woman. The form of the imperative подумай does not change in this regard."
-  title_nor: "Utenlandske studenter diskuterer russiske helligdager. Fyll ut de tomme feltene. Bruk konstruksjonen ^Cl, так (ведь)?@ som betyr omtrent ‘... , ikke sant’ og konstruksjonen ^Сам подумать-Imp, Cl@ som betyr omtrent ‘Tenk på det, Tenk på at, Husk at ... ’.<br>
+  title_nor: "Utenlandske studenter diskuterer russiske helligdager. Fyll ut de tomme feltene. Bruk konstruksjonen ^..., так ведь?@ som betyr omtrent ‘... , ikke sant’ og konstruksjonen ^Сам/сама подумай, ...@ som betyr omtrent ‘Tenk på det, Tenk på at, Husk at ... ’.<br>
             I disse konstruksjonene står Cl for en hel setning (Cl=setning), og подумать-Imp som er imperativformen av verbet подумать ‘å tenke’ (Imp = imperativ), det vil si подумай (entall) og подумайте (flertall). Legg merke til at pronomenet сам ‘selv’ skal bøyes i overensstemmelse med samtalepartnerens kjønn. Bruk сам for å tiltale en mann, сама for å tiltale en kvinne. Imperativformen подумай er ikke avhengig av samtalepartnerens kjønn."
   comment: "Формат задания: в парах. После каждого диалога студенты меняются ролями.<br>
             Comment for language teachers. Task format: in pairs. After each dialogue, the students switch roles."
