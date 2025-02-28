@@ -30,7 +30,7 @@
 2:
   lesson_id: 8
   ex_number: 2
-  title: "Прочитайте эти тексты сами. Скажите, для чего нужны конструкции, выделенные в тексте?"
+  title: "Прочитайте эти тексты сами. Для чего нужны конструкции, выделенные в тексте?"
   instructions: ~
   exercise_type: ~
   title_eng: Read the texts in the exercise 1. What is the purpose of the constructions highlighted in the text?
@@ -192,7 +192,7 @@
   title: Вы услышали небольшую часть разговора на улице. Попробуйте догадаться, о чём говорили до этого. Назовите тему разговора и придумайте предыдущие реплики. Используйте конструкцию ^(а) насчёт ... – ...@.
   instructions: В этой конструкции в первом слоте ... используется существительное (noun) в генитиве (genitive case), а во втором слоте ... — целое предложение (sentence). Скобки () вокруг слова означают, что это факультативный элемент.
   exercise_type: ~
-  title_eng: You overheard a small part of a conversation on the street. Try to guess what was said before the part that you heard. Name the topic of the conversation and imagine what the previous remarks might have been. Use the construction ^(а) насчёт NP-Gen – Cl@ meaning ‘and concerning X, ...’.<br>
+  title_eng: You overheard a small part of a conversation on the street. Try to guess what was said before the part that you heard. Name the topic of the conversation and imagine what the previous remarks might have been. Use the construction ^(а) насчёт ... – ...@ meaning ‘and concerning X, ...’.<br>
               In this construction, the first slot ... is filled with a noun in the genitive case, and the second slot ... is filled with an entire sentence. The parentheses () indicate an optional element of a construction.
   title_nor: Du overhørte en liten del av en samtale på gata. Prøv å gjette hva som ble sagt tidligere. Navngi temaet på samtalen og finn ut hvordan de foregående uttalelsene kunne ha sett ut. Bruk konstruksjonen ^(а) насчёт ... – ...@, som betyr ‘og når det gjelder X, ... ’.<br>
               I denne konstruksjonen fylles den første plassen ... med et substantiv i genitiv, og den andre plassen ... fylles med en hel setning. De parentesene () indikerer en valgfri del av en konstruksjon.
@@ -234,12 +234,12 @@
 8:
   lesson_id: 8
   ex_number: 8
-  title: Вы ресторанный критик и должны оценить блюда начинающего шеф-повара. В каждом блюде вы нашли одну проблему. Объясните, в чём именно повар сделал ошибку. Используйте заметки внизу и конструкцию ^дело Cop не в NP-Loc (, а в NP-Loc)@.
+  title: Вы ресторанный критик и должны оценить блюда начинающего шеф-повара. В каждом блюде вы нашли одну проблему. Объясните, в чём именно повар сделал ошибку. Используйте заметки внизу и конструкцию ^дело не в ..., а в ...@.
   instructions: В этой конструкции Cop — это связочный глагол быть (Cop =copula verb), NP-Loc — это существительное (NP=noun phrase) в локативе (Loc= Locative case), а скобки () означают, что это факультативный элемент.
   exercise_type: text_input
-  title_eng: You are a restaurant critic and have to evaluate the dishes prepared by a young chef. You found a problem with each dish. Explain what exactly the chef did wrong when making the food. Use the notes provided below and the construction ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘the point is not in X but in Y’.<br>
+  title_eng: You are a restaurant critic and have to evaluate the dishes prepared by a young chef. You found a problem with each dish. Explain what exactly the chef did wrong when making the food. Use the notes provided below and the construction ^дело не в ..., а в ...@ ‘the point is not in X but in Y’.<br>
               In this construction, Cop is a copula verb быть (Cop =copula verb), NP-Loc is a noun in the Locative case (NP=noun phrase, Loc=Locative case), and parentheses () indicate an optional element of a construction.
-  title_nor: "Du er restaurantanmelder og skal vurdere rettene til en ung kokk. Du fant et problem med hver rett. Forklar akkurat hva som gikk galt når kokken laget maten. Bruk notatene nedenfor og konstruksjonen ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘det gjelder ikke X / det handler ikke om X, men Y’.<br>
+  title_nor: "Du er restaurantanmelder og skal vurdere rettene til en ung kokk. Du fant et problem med hver rett. Forklar akkurat hva som gikk galt når kokken laget maten. Bruk notatene nedenfor og konstruksjonen ^дело не в ..., а в ...@ ‘det gjelder ikke X / det handler ikke om X, men Y’.<br>
               I denne konstruksjonen står Cop for kopula-verbet быть (Cop=kopula-verb), NP-Loc er et substantiv i lokativ kasus (NP=nominalfrase, Loc=lokativ kasus), mens parentesene () indikerer en valgfri del av en konstruksjon. Hvis man bruker eksempelet nedenfor ville jeg sagt på norsk: «Det er ikke krydringen som er problemet, men kjøttet»."
   comment: ~
   example: "Заметки:<br>
@@ -277,13 +277,13 @@
     answer4: Эспрессо плохо получился. И дело не в сорте кофе, а в обжарке. Она слишком светлая.
     answer5: Овощной салат плохо получился. И дело не в овощах, а в оливковом масле. Оно слишком старое.
   difficult_words:
-    word1: "мукa — English: flour; Norwegian: mel<br>
-            время приготовления — English: cooking time; Norwegian: tiden brukt til å bake eplekake"
-    word2: "тесто — English: dough; Norwegian: deig<br>
-            масло — English: butter; Norwegian: smør"
-    word3: "сливки — English: dairy cream; Norwegian: fløte"
-    word4: "обжарка — English: roast (about coffee); Norwegian: kaffebrenning (brenningsgrad når det gjelder kaffe)"
-    word5: "оливковое масло — English: olive oil; Norwegian: olivenolje"
+    word1: "мукa — EN: flour; NO: mel<br>
+            время приготовления — EN: cooking time; NO: tiden brukt til å bake eplekake"
+    word2: "тесто — EN: dough; NO: deig<br>
+            масло — EN: butter; NO: smør"
+    word3: "сливки — EN: dairy cream; NO: fløte"
+    word4: "обжарка — EN: roast (about coffee); NO: kaffebrenning (brenningsgrad når det gjelder kaffe)"
+    word5: "оливковое масло — EN: olive oil; NO: olivenolje"
   table: ~
 9:
   lesson_id: 8
@@ -293,9 +293,9 @@
           — ^дело не в ..., а в ...@
   instructions: В этих конструкциях NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case), Cl — это целое предложение (Cl=clause, sentence), Cop — это связочный глагол быть (Cop =copula verb), NP-Loc — это существительное (NP=noun phrase) в локативе (Loc= Locative case), а скобки () обозначают факультативный элемент.
   exercise_type: text_input
-  title_eng: Rewrite a dialog by using the constructions ^(а) насчёт NP-Gen – Cl@ ‘and concerning X, ...’ and ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘the point is not in X but in Y’.<br>
+  title_eng: Rewrite a dialog by using the constructions ^(а) насчёт ... – ...@ ‘and concerning X, ...’ and ^ддело не в ..., а в ...@ ‘the point is not in X but in Y’.<br>
               In these constructions, NP-Gen stands for a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), Cl means an entire sentence (Cl=clause, sentence), Cop means a copula verb быть (Cop =copula verb), NP-Loc is a noun in the Locative case (NP=noun phrase, Loc=Locative case), and parentheses () indicate an optional element of a construction.
-  title_nor: Omskriv dialogen ved å bruke konstruksjonene ^(а) насчёт NP-Gen – Cl@ ‘og når det gjelder X, ... ’ og ^дело Cop не в NP-Loc (, а в NP-Loc)@ ‘det gjelder ikke X / det handler ikke om X, men Y’.<br>
+  title_nor: Omskriv dialogen ved å bruke konstruksjonene ^(а) насчёт ... – ...@ ‘og når det gjelder X, ... ’ og ^дело не в ..., а в ...@ ‘det gjelder ikke X / det handler ikke om X, men Y’.<br>
               I disse konstruksjonene står NP-Gen for et substantiv i genitiv kasus (NP=nominalfrase, Gen=genitiv kasus), Cl betyr en hel setning (Cl=setning), Cop betyr kopula-verbet быть (Cop=kopula-verb), NP-Loc er et substantiv i lokativ kasus (NP=nominalfrase, Loc=lokativ kasus), mens parentesene () indikerer en valgfri del av en konstruksjon.
   comment: ~
   example: — Яйца не вредные. Почему ты не хочешь их готовить? (вредный — вред)<br>
