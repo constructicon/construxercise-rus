@@ -24,8 +24,8 @@
       audio: b
   answer_to_show: ~
   answer_key: ~
-  difficult_words: "*подавать — English: serve; Norwegian: servere<br>
-                    *подгоревшая курица — English: burnt chicken; Norwegian: brent kylling"
+  difficult_words: "*подавать — EN: serve; NO: servere<br>
+                    *подгоревшая курица — EN: burnt chicken; NO: brent kylling"
   table: ~
 2:
   lesson_id: 8
@@ -64,7 +64,7 @@
                   У моего брата сильная аллергия на цитрусовые. Он может есть остальные фрукты, ^и на том спасибо@.<br>
                   Муж опять забыл убрать молоко в холодильник, и оно испортилось. Никто это молоко не выпил, ^и на том спасибо@.
   answer_key: 1в, 2а, 3г, 4д, 5б
-  difficult_words: "*пересолить — English: to put too much salt; Norwegian:"
+  difficult_words: "*пересолить — EN: to put too much salt; NO: å oversalte"
   table:
     row1:
       - 1. Соня опять пересолила* суп.
@@ -189,13 +189,13 @@
 7:
   lesson_id: 8
   ex_number: 7
-  title: Вы услышали небольшую часть разговора на улице. Попробуйте догадаться, о чём говорили до этого. Назовите тему разговора и придумайте предыдущие реплики. Используйте конструкцию ^(а) насчёт NP-Gen – Cl@.
-  instructions: В этой конструкции NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case), Cl — это целое предложение (Cl=clause, sentence), а скобки () вокруг слова означают, что это факультативный элемент.
+  title: Вы услышали небольшую часть разговора на улице. Попробуйте догадаться, о чём говорили до этого. Назовите тему разговора и придумайте предыдущие реплики. Используйте конструкцию ^(а) насчёт ... – ...@.
+  instructions: В этой конструкции в первом слоте ... используется существительное (noun) в генитиве (genitive case), а во втором слоте ... — целое предложение (sentence). Скобки () вокруг слова означают, что это факультативный элемент.
   exercise_type: ~
   title_eng: You overheard a small part of a conversation on the street. Try to guess what was said before the part that you heard. Name the topic of the conversation and imagine what the previous remarks might have been. Use the construction ^(а) насчёт NP-Gen – Cl@ meaning ‘and concerning X, ...’.<br>
-              In this construction, NP-Gen stands for a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), Cl means an entire sentence (Cl=clause, sentence), and parentheses () indicate an optional element of a construction.
-  title_nor: Du overhørte en liten del av en samtale på gata. Prøv å gjette hva som ble sagt tidligere. Navngi temaet på samtalen og finn ut hvordan de foregående uttalelsene kunne ha sett ut. Bruk konstruksjonen ^(а) насчёт NP-Gen – Cl@ som betyr ‘og når det gjelder X, ... ’.<br>
-              I denne konstruksjonen står NP-Gen for et substantiv i genitiv kasus (NP=nominalfrase, Gen=genitiv kasus), Cl betyr en hel setning (Cl=setning), mens parentesene () indikerer en valgfri del av en konstruksjon.
+              In this construction, the first slot ... is filled with a noun in the genitive case, and the second slot ... is filled with an entire sentence. The parentheses () indicate an optional element of a construction.
+  title_nor: Du overhørte en liten del av en samtale på gata. Prøv å gjette hva som ble sagt tidligere. Navngi temaet på samtalen og finn ut hvordan de foregående uttalelsene kunne ha sett ut. Bruk konstruksjonen ^(а) насчёт ... – ...@, som betyr ‘og når det gjelder X, ... ’.<br>
+              I denne konstruksjonen fylles den første plassen ... med et substantiv i genitiv, og den andre plassen ... fylles med en hel setning. De parentesene () indikerer en valgfri del av en konstruksjon.
   comment: ~
   example: "<b>Вы услышали:</b><br>
             — Ой, мне звонят! Надо идти! ^А насчёт@ ужина — скажи, сможешь ли ты прийти в гости в пятницу.<br><br>
