@@ -51,7 +51,7 @@
   instructions: На месте ... находится целое предложение (sentence).
   exercise_type: text_input
   title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^..., и на том спасибо@ meaning ‘it’s something at least; Thank Heaven for small favors!’ We can place an entire sentence in the ... slot.
-  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^..., и на том спасибо@. som betyr omtrent ‘la oss være takknemlig for lite’ eller ‘heldigvis’ (den var litt vrien, vanskelig å finne et godt tilsvarende uttrykk på norsk). Plassen ... kan fylles med en hel setning.
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^..., и на том спасибо@, som betyr omtrent ‘la oss være takknemlig for lite’ eller ‘heldigvis’ (den var litt vrien, vanskelig å finne et godt tilsvarende uttrykk på norsk). Plassen ... kan fylles med en hel setning.
   comment: ~
   example: ~
   model: ~
@@ -114,8 +114,8 @@
                   Затем я попробовала бефстроганов. Это что-то ^типа@ гуляша.<br>
                   Затем я попробовала творожную запеканку. Это что-то ^типа@ чизкейка.
   answer_key: ~
-  difficult_words: "*подавать — English: serve; Norwegian: servere<br>
-                    *подгоревшая курица — English: burnt chicken; Norwegian: brent kylling"
+  difficult_words: "*подавать — EN: serve; NO: servere<br>
+                    *подгоревшая курица — EN: burnt chicken; NO: brent kylling"
   table: ~
 5:
   lesson_id: 8
