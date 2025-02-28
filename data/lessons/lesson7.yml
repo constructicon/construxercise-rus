@@ -23,11 +23,11 @@
 2:
   lesson_id: 7
   ex_number: 2
-  title: "Прочитайте эти тексты сами. Для чего нужны конструкции, выделенные в тексте?"
+  title: "Прочитайте текст в задании 1 сами. Для чего нужны конструкции, выделенные в тексте?"
   instructions: ~
   exercise_type: ~
-  title_eng: Read the texts in the exercise 1. What is the purpose of the constructions highlighted in the text?
-  title_nor: Les tekstene i øvelse 1. Hva er hensikten med de uthevede konstruksjonene i teksten?
+  title_eng: Read the text in the exercise 1. What is the purpose of the constructions highlighted in the text?
+  title_nor: Les teksten i øvelse 1. Hva er hensikten med de uthevede konstruksjonene i teksten?
   comment: ~
   example: ~
   model: ~
