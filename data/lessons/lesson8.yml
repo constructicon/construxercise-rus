@@ -2,11 +2,11 @@
 1:
   lesson_id: 8
   ex_number: 1
-  title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+  title: Послушайте тексты и заполните пропуски. Запишите ответы через запятую.
   instructions: ~
   exercise_type: ~
-  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
-  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  title_eng: Listen to the texts and fill in the blanks. Write the answers using commas to separate words.
+  title_nor: Lytt til tekstene og fyll inn de tomme feltene. Skriv svarene og bruk komma for å skille ordene.
   comment: ~
   example: ~
   model: ~
@@ -47,11 +47,11 @@
 3:
   lesson_id: 8
   ex_number: 3
-  title: Соедините части предложений, подобрав логичное продолжение.Используйте конструкцию ^Cl,и на том спасибо@.
-  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  title: Соедините части предложений, подобрав логичное продолжение. Используйте конструкцию ^..., и на том спасибо@.
+  instructions: На месте ... находится целое предложение (sentence).
   exercise_type: text_input
-  title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^Cl,и на том спасибо@ meaning ‘it’s something at least; Thank Heaven for small favors!’ We can place an entire sentence in the Cl slot (Cl=clause, sentence).
-  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^Cl,и на том спасибо@. som betyr omtrent ‘la oss være takknemlig for lite’ eller ‘heldigvis’ (den var litt vrien, vanskelig å finne et godt tilsvarende uttrykk på norsk). Plassen Cl kan fylles med en hel setning.
+  title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^..., и на том спасибо@ meaning ‘it’s something at least; Thank Heaven for small favors!’ We can place an entire sentence in the ... slot.
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^..., и на том спасибо@. som betyr omtrent ‘la oss være takknemlig for lite’ eller ‘heldigvis’ (den var litt vrien, vanskelig å finne et godt tilsvarende uttrykk på norsk). Plassen ... kan fylles med en hel setning.
   comment: ~
   example: ~
   model: ~
@@ -84,11 +84,11 @@
 4:
   lesson_id: 8
   ex_number: 4
-  title: Некоторые популярные в России блюда имеют аналоги в других странах. Вы сходили в кафе в Москве. Расскажите другу о том, какое блюдо вы попробовали, используя конструкцию ^NP типа NP-Gen@.
-  instructions: В этой конструкции NP — это существительное (NP=noun phrase), а NP-Gen — это существительное в генитиве (Gen=Genitive case).
+  title: Некоторые популярные в России блюда имеют аналоги в других странах. Вы сходили в кафе в Москве. Расскажите другу о том, какое блюдо вы попробовали, используя конструкцию ^... типа ...@.
+  instructions: В этой конструкции на месте ... стоят существительные (noun), на месте второго ... стоит форма генитива (Genitive).
   exercise_type: ~
-  title_eng: Some popular Russian dishes have analogues in other countries. Imagine that you have been at a cafe in Moscow. Tell your friend about the Russian dishes you have tried there by using the construction ^NP типа NP-Gen@ ‘something like X’. In this construction, NP stands for a noun (NP=noun phrase), аnd NP-Gen means a noun in the Genitive case (Gen=Genitive case).
-  title_nor: Noen populære russiske retter har tilsvarende retter i andre land. Forestill deg at du har vært på en kafé i Moskva. Fortell en venn om hvilke matretter du prøvde der, ved å bruke konstruksjonen ^NP типа NP-Gen@ ‘en slags X / som X’. I denne konstruksjonen står NP for et substantiv (NP=nominalfrase), og NP-Gen betyr substantiv i genitiv kasus (Gen=genitiv kasus).
+  title_eng: Some popular Russian dishes have analogues in other countries. Imagine that you have been at a cafe in Moscow. Tell your friend about the Russian dishes you have tried there by using the construction ^... типа ...@ ‘something like X’.
+  title_nor: Noen populære russiske retter har tilsvarende retter i andre land. Forestill deg at du har vært på en kafé i Moskva. Fortell en venn om hvilke matretter du prøvde der, ved å bruke konstruksjonen ^... типа ...@ ‘en slags X / som X’.
   comment: ~
   example: Сначала я заказала оладьи. Это что-то ^типа@ панкейков. Затем я попробовала...
   model: ~
@@ -120,11 +120,11 @@
 5:
   lesson_id: 8
   ex_number: 5
-  title: Закончите разговор, дописав третью реплику. Поставьте прилагательное в скобках () в краткую форму. Используйте конструкцию ^вот и Pred!@
-  instructions: В этой конструкции Pred — это предикатив, то есть прилагательное в краткой форме (Pred= predicative).
+  title: Закончите разговор, дописав третью реплику. Поставьте прилагательное в скобках () в краткую форму. Используйте конструкцию ^вот и ...!@
+  instructions: В этой конструкции на месте ... стоит предикатив (predicative), то есть прилагательное (adjective) в краткой форме.
   exercise_type: text_input
-  title_eng: Complete a conversation by adding a third line. Use the short form of the adjective in parentheses (). Use the construction ^вот и Pred!@ ‘then X’ (for example Then fine!). In this construction, Pred stands for a predicative, that is a short form of an adjective.
-  title_nor: "Fullfør samtalen ved å legge til en tredje replikk. Bruk kortform av adjektivet i parentes. Bruk konstruksjonen ^вот и Pred!@ som kan oversettes med enten ‘det er X’, ‘hvor X’ eller ‘så X’ (for eksempel: Det er fint! Hvor herlig! Så bra!). I denne konstruksjonen står Pred for predikativ, det vil si adjektivets kortform."
+  title_eng: Complete a conversation by adding a third line. Use the short form of the adjective in parentheses (). Use the construction ^вот и ...!@ ‘then X’ (for example, Then fine!). In this construction, the slot ... is filled with a predicative, that is a short form of an adjective.
+  title_nor: "Fullfør samtalen ved å legge til en tredje replikk. Bruk kortform av adjektivet i parentes. Bruk konstruksjonen ^вот и ...!@ som kan oversettes med enten ‘det er X’, ‘hvor X’ eller ‘så X’ (for eksempel: Det er fint! Hvor herlig! Så bra!). I sloten ... brukes en predikativ, det vil si adjektivets kortform."
   comment: ~
   example: "— Ждём вас на обед к двум. Придёте?<br>
             — Да.<br>
@@ -161,8 +161,8 @@
   lesson_id: 8
   ex_number: 6
   title: Вы с собеседником должны решить, что приготовить на праздничный ужин. Обсудите с ним блюда, используя конструкции<br>
-          — ^(а) насчёт NP-Gen – Cl@<br>
-          — ^вот и Pred!@
+          — ^(а) насчёт ... – ...@<br>
+          — ^вот и ...!@
   instructions: В этих конструкциях NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case), а Cl — это целое предложение (Cl=clause, sentence), Pred — это предикатив, то есть прилагательное в краткой форме (Pred= predicative), a скобки () вокруг слова означают, что это факультативный элемент конструкции.
   exercise_type: ~
   title_eng: You and your interlocutor must decide what to cook for a festive dinner. Discuss your meal plan with him (or her). Use the construction ^(а) насчёт NP-Gen – Cl@ ‘and concerning X, ...’ and the construction ^вот и Pred!@ ‘then X’ (for example Then fine!).<br>
@@ -380,10 +380,10 @@
   ex_number: 11
   title: Вы собираетесь пригласить друзей на ужин. Сейчас вы в магазине покупаете продукты. Обсудите с вашим другом, что вы купите, сколько вам нужно каждого продукта и что вы приготовите.<br>
         Используйте конструкции<br>
-        — ^(а) насчёт NP-Gen – Cl@<br>
-        — ^вот и Pred!@<br>
+        — ^(а) насчёт ... – ...@<br>
+        — ^вот и ...!@<br>
         — ^дело Cop не в NP-Loc (, а в NP-Loc)@<br>
-        — ^NP типа NP-Gen@
+        — ^... типа ...@
   instructions: В этих конструкциях<br>
                 NP-Gen — это существительное (NP=noun phrase) в генитиве (Gen=Genitive case),<br>
                 Cl — это целое предложение (Cl=clause, sentence),<br>
@@ -393,10 +393,10 @@
                 скобки () обозначают факультативные элементы.
   exercise_type: ~
   title_eng: "You are planning to invite your friends for dinner. You are now shopping in the grocery store. Discuss with your friend what you will buy, how much of each item you need, and what you will cook. Use the constructions from the list:<br>
-              — ^(а) насчёт NP-Gen – Cl@<br>
-              — ^вот и Pred!@<br>
+              — ^(а) насчёт ... – ...@<br>
+              — ^вот и ...!@<br>
               — ^дело Cop не в NP-Loc (, а в NP-Loc)@<br>
-              — ^NP типа NP-Gen@<br>
+              — ^... типа ...@<br>
               In these constructions, NP-Gen stands for a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), Cl means an entire sentence (Cl=clause, sentence), Pred means a predicative, that is a short form of an adjective, Cop means a copula verb быть (Cop =copula verb), NP-Loc is a noun in the Locative case (NP=noun phrase, Loc= Locative case), and parentheses () indicate an optional element of a construction."
   title_nor: Du skal invitere noen venner på middag. Akkurat nå er du på butikken for å handle. Diskuter med en venn hva du skal kjøpe, hvor mye av hver vare du trenger og hva du skal lage. Bruk følgende konstruksjoner<br>
               — ^(а) насчёт NP-Gen – Cl@<br>
