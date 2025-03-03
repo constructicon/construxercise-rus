@@ -275,11 +275,11 @@
     Signer postkortene adresserte til forskjellige folk. Skriv gratulasjoner i hvert postkort ved hjelp av «gratulasjonsgeneratoren». Legg merke til at det er forskjell på gratulasjoner til forskjellige folk. Avslutt hver gratulasjon med konstruksjonen ^Словом, ...@ som betyr ‘alt i alt / generelt / kort sagt / fortalt ...’.<br>
   comment: ~
   constr_info: |
-  Конструкция ^Словом, ...@ значит 'alt i alt / generelt / kort sagt’. На месте ... стоит целое предложение (sentence):<br>
-    <ul>
-      <li>Всю ночь мы сидели с друзьями в ресторане, пили, ели и болтали – ^словом,@ веселились.</li>
-      <li>Он то болен, то занят, то устал, – ^словом,@ свидание наше невозможно.</li>
-    </ul>
+    Конструкция ^Словом, ...@ значит 'alt i alt / generelt / kort sagt’. На месте ... стоит целое предложение (sentence):<br>
+      <ul>
+        <li>Всю ночь мы сидели с друзьями в ресторане, пили, ели и болтали – ^словом,@ веселились.</li>
+        <li>Он то болен, то занят, то устал, – ^словом,@ свидание наше невозможно.</li>
+      </ul>
   example: ~
   model: ~
   image:
