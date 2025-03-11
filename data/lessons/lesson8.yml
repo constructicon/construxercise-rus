@@ -499,8 +499,8 @@
                     *чеснок — EN: garlic; NO: hvitløk<br>
                     *лавровый лист — EN: bay leaf; NO: laurbærblad"
   table:
-    vertical_align: +
-    horizontal_align: +
+    vertical_align: ~
+    horizontal_align: ~
     heading:
       - "Ингредиенты:"
       - "Что купил друг:"
