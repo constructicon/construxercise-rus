@@ -53,6 +53,12 @@
   title_eng: Connect the phrases by choosing a matching continuation. Use the construction ^..., и на том спасибо@ meaning ‘it’s something at least; Thank Heaven for small favors!’ We can place an entire sentence in the ... slot.
   title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^..., и на том спасибо@, som betyr omtrent ‘la oss være takknemlig for lite’ eller ‘heldigvis’ (den var litt vrien, vanskelig å finne et godt tilsvarende uttrykk på norsk). Plassen ... kan fylles med en hel setning.
   comment: ~
+  constr_info: |
+    Конструкция ^..., и на том спасибо!@ значит, что человек доволен тем, что у него есть, даже если это не идеально. Конструкция может выражать сарказм или скепсис. Слова "и на том спасибо" значат 'и за это спасибо'. На месте ... стоит предложение.
+    <ul>
+    <li>На ужин только макароны, но хоть не пустая тарелка^, и на том спасибо!@</li>
+    <li>Автобус опоздал на полчаса, но приехал^, и на том спасибо!@</li>
+    </ul>
   example: ~
   model: ~
   image: ~
@@ -90,6 +96,16 @@
   title_eng: Some popular Russian dishes have analogues in other countries. Imagine that you have been at a cafe in Moscow. Tell your friend about the Russian dishes you have tried there by using the construction ^... типа ...@ ‘something like X’.
   title_nor: Noen populære russiske retter har tilsvarende retter i andre land. Forestill deg at du har vært på en kafé i Moskva. Fortell en venn om hvilke matretter du prøvde der, ved å bruke konstruksjonen ^... типа ...@ ‘en slags X / som X’.
   comment: ~
+  constr_info: |
+   Конструкция ^… типа …@ объясняет общее понятие через пример или показывает сходство объектов. На месте второго слота … стоит существительное (noun) в генитиве (genitiv).
+    <br>
+    NO: Denne konstruksjonen forklarer et generelt begrep gjennom et eksempel eller viser
+    likheten mellom objekter.
+    <br>
+    <ul>
+    <li>Я люблю десерты ^типа@ мороженого или шоколадного мусса.</li>
+    <li>На ужин приготовили что-то ^типа@ пасты с томатным соусом.</li>
+    </ul>
   example: Сначала я заказала оладьи. Это что-то ^типа@ панкейков. Затем я попробовала...
   model: ~
   image: ~
@@ -126,6 +142,13 @@
   title_eng: Complete a conversation by adding a third line. Use the short form of the adjective in parentheses (). Use the construction ^вот и ...!@ ‘then X’ (for example, Then fine!). In this construction, the slot ... is filled with a predicative, that is a short form of an adjective.
   title_nor: "Fullfør samtalen ved å legge til en tredje replikk. Bruk kortform av adjektivet i parentes. Bruk konstruksjonen ^вот и ...!@ som kan oversettes med enten ‘det er X’, ‘hvor X’ eller ‘så X’ (for eksempel: Det er fint! Hvor herlig! Så bra!). I sloten ... brukes en predikativ, det vil si adjektivets kortform."
   comment: ~
+  constr_info: |
+    Конструкция ^Вот и …!@ обычно выражает положительную оценку действий
+    другого человека, завершая обсуждение. На месте … прилагательное в
+    краткой форме (predicative).    <br>
+    <ul>
+    <li>Приезжайте-ка лучше завтра вечером к нам на ужин! Ладно? Договорились? Ну, ^вот и@ отлично^!@</li>
+    </ul>
   example: "— Ждём вас на обед к двум. Придёте?<br>
             — Да.<br>
             — _____________________(чудесный)!<br><br>
@@ -170,6 +193,13 @@
   title_nor: "Du og din samtalepartner må bestemme hva dere skal lage til en festlig middag. Diskuter forskjellige matretter med din samtalepartner ved å bruke konstruksjonene ^(а) насчёт NP-Gen – Cl@ ‘og når det gjelder X, ... ’ og ^вот и Pred!@ ‘det er X’, ‘hvor X’, eller ‘så X’ (For eksempel: Det er fint! Hvor herlig! Så bra!).<br>
               I disse konstruksjonene står NP-Gen for et substantiv i genitiv kasus (NP=nominalfrase, Gen=genitiv kasus), Cl betyr en hel setning (Cl=setning), Pred betyr predikativ, det vil si adjektivets kortform, mens parentesene () indikerer en valgfri del av en konstruksjon."
   comment: ~
+  constr_info: |
+    Конструкция ^а насчёт …, …@ вводит тему (в генитиве) и даёт информацию по этой теме (на месте второго …):    <br>
+    <ul>
+    <li>^А насчёт@ завтрака^,@ я предпочитаю овсянку с фруктами.</li>
+    <li>^А насчёт@ десерта^,@ я бы выбрал шоколадный торт.</li>
+    <li>^А насчёт@ специй^,@ я всегда добавляю немного базилика в соус.</li>
+    </ul>
   example: — ^А насчёт@ горячего — что мы будем готовить?<br>
             — Я хочу лазанью. А ты?<br>
             — Я тоже.<br>
@@ -242,6 +272,14 @@
   title_nor: "Du er restaurantanmelder og skal vurdere rettene til en ung kokk. Du fant et problem med hver rett. Forklar akkurat hva som gikk galt når kokken laget maten. Bruk notatene nedenfor og konstruksjonen ^дело не в ..., а в ...@ ‘det gjelder ikke X / det handler ikke om X, men Y’.<br>
               I denne konstruksjonen står Cop for kopula-verbet быть (Cop=kopula-verb), NP-Loc er et substantiv i lokativ kasus (NP=nominalfrase, Loc=lokativ kasus), mens parentesene () indikerer en valgfri del av en konstruksjon. Hvis man bruker eksempelet nedenfor ville jeg sagt på norsk: «Det er ikke krydringen som er problemet, men kjøttet»."
   comment: ~
+  constr_info: |
+    Конструкция ^Дело не в …, а в …@ показывает, что какой-то фактор, по мнению
+    говорящего, менее важен по сравнению с другим фактором. На месте …
+    стоит существительное (noun) в локативе (locative).    <br>
+    <ul>
+    <li>^Дело не в@ деньгах^, а в@ атмосфере ресторана.</li>
+    <li>^Дело не в том,@ что я не люблю готовить^, а в том,@ что у меня мало времени.</li>
+    </ul>
   example: "Заметки:<br>
             Запечённое мясо: Не специи &#10132; Мясо (несвежее).<br>
             —><br>
