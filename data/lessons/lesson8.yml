@@ -98,9 +98,10 @@
   comment: ~
   constr_info: |
    Конструкция ^… типа …@ объясняет общее понятие через пример или показывает сходство объектов. На месте второго слота … стоит существительное (noun) в генитиве (genitiv).
-    <br>
+    <br><br>
     NO: Denne konstruksjonen forklarer et generelt begrep gjennom et eksempel eller viser
     likheten mellom objekter.
+    <br>
     <br>
     <ul>
     <li>Я люблю десерты ^типа@ мороженого или шоколадного мусса.</li>
