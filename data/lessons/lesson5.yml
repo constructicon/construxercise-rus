@@ -364,11 +364,11 @@
 11:
   lesson_id: 5
   ex_number: 11
-  title: Составьте текст о ваших увлечениях по модели. Используйте предложенные конструкции.
+  title: Соедините конструкции из разных групп. Составьте текст о ваших увлечениях по модели. Используйте предложенные конструкции.
   instructions: ~
   exercise_type: ~
-  title_eng: Generate a text about your hobbies or interests by using the set of constructions below.
-  title_nor: Lag en tekst om dine hobbys og interesser ved hjelp av konstruksjonene nedenfor.
+  title_eng: Combine constructions from different groups. Generate a text about your hobbies or interests by using the set of constructions below.
+  title_nor: Kombinerer konstruksjoner fra ulike grupper. Lag en tekst om dine hobbys og interesser ved hjelp av konstruksjonene nedenfor.
   comment: |
     Комментарий для преподавателя. Формат задания: «Снежный ком». Первый студент говорит предложение, второй студент повторяет и добавляет новое предложение, третий студент повторяет первые два предложения и добавляет одно свое и т. д. Каждый студент должен повторить весь текст, который получился до него, и добавить свое.<br>
     Comment for language teachers. Task format: snowball. The text is generated jointly by a group of students. Each student repeats what has already been said by their peers and adds a new sentence at the end. This way, the entire sequence of relevant sentences is repeated several times and helps the students to learn the template.
