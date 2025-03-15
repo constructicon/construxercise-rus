@@ -2,11 +2,11 @@
 1:
   lesson_id: 5
   ex_number: 1
-  title: Часть 1. Конструкции, которые вводят дополнительную информацию
+  title: Вспомните конструкции, которые вводят дополнительную информацию.
   instructions: ~
   exercise_type: ~
-  title_eng: Part 1. Constructions that introduce additional information
-  title_nor: "Del 1. Konstruksjoner som introduserer tilleggsinformasjon"
+  title_eng: Recall constructions that introduce additional information.
+  title_nor: Husk konstruksjoner som introduserer tilleggsinformasjon.
   comment: ~
   example: ~
   model: ~
@@ -117,11 +117,11 @@
 4:
   lesson_id: 5
   ex_number: 4
-  title: "Часть 2. Конструкции, которые вводят пример"
+  title: Вспомните конструкции, которые вводят пример.
   instructions: ~
   exercise_type: ~
-  title_eng: "Part 2. Constructions used to present an example"
-  title_nor: "Del 2. Konstruksjoner som presenterer et eksempel"
+  title_eng: Recall "Part constructions used to present an example.
+  title_nor: Husk konstruksjoner som presenterer et eksempel.
   comment: ~
   example: ~
   model: ~
@@ -283,11 +283,11 @@
 8:
   lesson_id: 5
   ex_number: 8
-  title: Часть 3. Конструкции, которые подводят итог
+  title: Вспомните конструкции, которые подводят итог.
   instructions: ~
   exercise_type: ~
-  title_eng: Part 3. Constructions that draw a conclusion
-  title_nor: "Del 3. Konstruksjoner som oppsummerer"
+  title_eng: Recall constructions that draw a conclusion.
+  title_nor: Husk konstruksjoner som oppsummerer.
   comment: ~
   example: ~
   model: ~
@@ -358,9 +358,9 @@
 10:
   lesson_id: 5
   ex_number: 10
-  title: Часть 4. Соединяем конструкции из разных групп
-  title_eng: "Part 4. Combining constructions from different groups"
-  title_nor: "Del 4. Kombinerer konstruksjoner fra ulike grupper"
+  title: Соедините конструкции из разных групп.
+  title_eng: "Combine constructions from different groups"
+  title_nor: "Kombinerer konstruksjoner fra ulike grupper"
 11:
   lesson_id: 5
   ex_number: 11
