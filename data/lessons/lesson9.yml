@@ -97,10 +97,10 @@
   difficult_words: ~
   table:
     row1:
-      - <b>…, а ты как думаешь?</b><br><br>
+      - <b>^…, а ты как думаешь?@</b><br><br>
 
         Мне кажется, ему не идёт этот шарф, ^а ты как думаешь?@
-      - <b>^А ты не думаешь, что …?</b><br><br>
+      - <b>^А ты не думаешь, что …?@</b><br><br>
 
         ^А ты не думаешь, что@ эта помада слишком яркая?
     row2:
@@ -115,15 +115,13 @@
 4:
   lesson_id: 9
   ex_number: 4
-  title: "Допишите предложения, используя слова в скобках и конструкцию ^а NP-Nom не думать-Prs, что Cl?@"
-  instructions: В этой конструкции NP-Nom — это существительное (NP=noun phrase) в номинативе (Nom=Nominative case), Prs — это настоящее время глагола (Prs= present tense), Cl — это целое предложение (Cl=clause, sentence). На месте NP-Nom используйте то местоимение, которое указано в скобках.
+  title: "Допишите предложения, используя слова в скобках и конструкцию ^А ты не думаешь, что …?@"
+  instructions: ~
   exercise_type: text_input
   title_eng: |
-    Complete the sentences by using the words in parentheses and the construction ^а NP-Nom не думать-Prs, что Cl?@ ‘Don’t you think that ...?’.<br>
-    In this construction, NP-Nom stands for a noun in the Nominative case (NP=noun phrase, Nom= Nominative case), Prs stands for the present tense of the verb (Prs= present tense), and Cl means an entire sentence (Cl=clause, sentence). In the slot NP-Nom use the pronoun given in the parentheses (ты, вы, он, она, etc.).
+    Complete the sentences by using the words in parentheses and the construction ^А ты не думаешь, что …?@ ‘Don’t you think that ...?’.<br>
   title_nor: | 
-    Fullfør setningene ved å bruke ordene i parentes og konstruksjonen ^а NP-Nom не думать-Prs, что Cl?@ ‘Tror du ikke at ...?’.<br>
-    I denne konstruksjonen står NP-Nom for et substantiv i nominativ kasus (NP=nominalfrase, Nom=nominativ kasus), Prs betyr verb i presens (Prs=presens), og Cl betyr en hel setning (Cl=setning). Ved plassen NP-Nom, bruk pronomen i parentes (ты, вы, он, она, etc.).
+    Fullfør setningene ved å bruke ordene i parentes og konstruksjonen ^А ты не думаешь, что …?@ ‘Synes du ikke at ...?’.<br>
   comment: ~
   example: |
     Странно, что ты хочешь идти на стрижку к новому парикмахеру. ______________ (ты / результат может тебе не понравиться)?<br>
@@ -158,16 +156,14 @@
   ex_number: 5
   title: |
     Переделайте утверждения в вопросы, используя конструкции<br>
-    — ^Аdj-Nom Cop NP-Nom, правда (ведь)?@<br>
-    — ^Cl, не правда ли?@
-  instructions: В этих конструкциях Аdj-Nom — это прилагательное (Аdj = adjective) в номинативе (Nom=Nominative case), Cop — это связочный глагол быть (Cop =copula verb), NP-Nom — это существительное (NP=noun phrase) в номинативе (Nom=Nominative case), Cl — это целое предложение (Cl=clause, sentence). Конструкции очень похожи по значению. Обе конструкции значат, что говорящий ждёт от собеседника согласия. Частица "не" не передает отрицание!
+    — ^..., правда?@<br>
+    — ^..., не правда ли?@
+  instructions: ~
   exercise_type: text_input
   title_eng: |
-    Rephrase these statements as questions by using the construction ^Аdj-Nom Cop NP-Nom, правда (ведь)?@ meaning ‘X is Y, isn’t it?’ and the construction ^Cl, не правда ли?@ meaning ‘..., isn’t that right?’. These Russian constructions are used similarly to tag questions in English (e.g. She is beautiful, isn’t she?).<br>
-    In these constructions, Аdj-Nom means an adjective in the Nominative case (Adj=adjective, Nom=Nominative case), Cop is a copula verb быть (Cop=copula verb), NP-Nom stands for a noun in the Nominative case (NP=noun phrase, Nom=Nominative case), and Cl means an entire sentence (Cl=clause, sentence). The two constructions are very similar in meaning. Both constructions mean that the speaker expects that the interlocutor to agree with him or her. The word не does not convey negation!
+    Rephrase these statements as questions by using the construction ^..., правда?@ meaning ‘X is Y, isn’t it?’ and the construction ^..., не правда ли?@ meaning ‘..., isn’t that right?’.<br>
   title_nor: |
-    Lag spørsmål av disse utsagnene ved å bruke konstruksjonen ^Аdj-Nom Cop NP-Nom, правда (ведь)?@ som betyr ‘…, ikke sant?’ og konstruksjonen ^Cl, не правда ли?@ som også betyr ‘..., ikke sant?’.<br>
-    I disse konstruksjonene står Adj-Nom for et adjektiv i nominativ kasus (Adj=adjektiv, Nom=nominativ kasus), Cop er kopula-verbet быть (Cop=kopula-verb), NP-Nom betyr substantiv i nominativ kasus (NP=nominalfrase, Nom=nominativ kasus), og Cl betyr en hel setning (Cl=setning). Disse to konstruksjonene har veldig lik betydning. Begge konstruksjonene betyr at taleren forventer at samtalepartneren er enig. Ordet не ‘ikke’ er ikke nektende!
+    Lag spørsmål av disse utsagnene ved å bruke konstruksjonen ^..., правда?@ som betyr ‘…, ikke sant?’ og konstruksjonen ^..., не правда ли?@ som også betyr ‘..., ikke sant?’.<br>
   comment: ~
   example: |
     У Алины весёлая улыбка.<br>
@@ -227,11 +223,11 @@
 6:
   lesson_id: 9
   ex_number: 6
-  title: Выразите своё несогласие с утверждением собеседника. Используйте конструкцию ^по-моему, Cl@.
-  instructions: На месте Cl находится целое предложение (Cl=clause, sentence).
+  title: Выразите своё несогласие с утверждением собеседника. Используйте конструкцию ^по-моему, ...@.
+  instructions: ~
   exercise_type: ~
-  title_eng: Express your disagreement with your interlocutor. Use the construction ^по-моему, Cl@ meaning ‘in my opinion, ... ’. We can put an entire sentence in the Cl slot (Cl=clause, sentence).
-  title_nor: Uttrykk din uenighet med samtalepartnerens uttalelse ved å bruke konstruksjonen ^по-моему, Cl@ ‘Etter min mening, ... ’. Ved plassen Cl kan man bruke en hel setning (Cl=setning).
+  title_eng: Express your disagreement with your interlocutor. Use the construction ^по-моему, ...@ meaning ‘in my opinion, ... ’.
+  title_nor: Uttrykk din uenighet med samtalepartnerens uttalelse ved å bruke konstruksjonen ^по-моему, ...@ ‘Etter min mening, ... ’.
   comment: ~
   example: — ^По-моему@, у Лёши карие глаза. — А ^по-моему@, зелёные.
   model: ~
@@ -408,22 +404,22 @@
       - Конструкция
       - Вариант конструкции
     row1:
-      - Cl, а NP-Nom как думать-Prs?
+      - ..., а N как думать-Prs?
       - ^... , а ты как думаешь?@
     row2: 
-      - а NP-Nom не думать-Prs, что Cl?
+      - а N не думать-Prs, что ...?
       - ^А ты не думаешь, что ...?@
     row3: 
-      - Аdj-Nom Cop NP-Nom, правда (ведь)?
+      - Аdj-Nom Cop N, правда (ведь)?
       - ^... , правда ведь?@
     row4: 
-      - Cl, не правда ли?
+      - ..., не правда ли?
       - ^..., не правда ли?@
     row5: 
-      - Cl, по-твоему/по-вашему?
+      - ..., по-твоему/по-вашему?
       - ^..., по-твоему?@
     row6: 
-      - по-моему, Cl
+      - по-моему, ...
       - ^По-моему, ...@
 10:
   lesson_id: 9
