@@ -2,11 +2,11 @@
 1:
   lesson_id: 9
   ex_number: 1
-  title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+  title: Послушайте тексты и заполните пропуски. Запишите ответы через запятую.
   instructions: ~
   exercise_type: ~
-  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
-  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  title_eng: Listen to the texts and fill in the blanks. Write the answers using commas to separate words.
+  title_nor: Lytt til tekstene og fyll inn de tomme feltene. Skriv svarene og bruk komma for å skille ordene.
   comment: ~
   example: ~
   model: ~
@@ -15,19 +15,19 @@
     task1:
       text: "<b>а.</b><br>
             Дочь:<br>
-            — Оля пригласила меня к себе на день рождения. Что мне надеть, ^как думаешь?@<br>
+            — Оля пригласила меня к себе на день _______________. Что мне надеть, ^как думаешь?@<br>
             Мама:<br>
-            — У тебя есть чудесное красное платье, ^правда ведь?@ Я думаю, можно надеть его.<br>
+            — У тебя ___________ чудесное красное платье, ^правда ведь?@ Я думаю, можно надеть его.<br>
             Дочь:<br>
-            — А ^как по-твоему,@ к нему подойдут мои светлые туфли?<br>
+            — А ^как по-твоему,@ к нему подойдут ___________ светлые туфли?<br>
             Мама:<br>
             — ^Ты не думаешь,@ что в кроссовках или кедах тебе будет удобнее? ^По-моему,@ сейчас модно носить кроссовки с платьем. Вы же будете много танцевать, ^не правда ли?@<br>
             Дочь:<br>
-            — Ты права. Надену те белые кроссовки, которые ты мне подарила на Новый год. Спасибо за идею!"
+            — Ты права. Надену те белые кроссовки, которые ты мне ___________ на Новый год. Спасибо за идею!"
       audio: a
     task2:
       text: "<b>б.</b><br>
-            — Ксюша сегодня очень хорошо выглядит, ^не правда ли?@<br>
+            — Ксюша сегодня очень ___________ выглядит, ^не правда ли?@<br>
             — ^По-твоему,@ ей идёт новая причёска?<br>
             — Очень идёт, ^а ты как думаешь?@<br>
             — Конечно! ^По-моему,@ чёлка* ей к лицу."
@@ -56,15 +56,13 @@
 3:
   lesson_id: 9
   ex_number: 3
-  title: Заполните пропуски. Используйте конструкции ^Cl, а NP-Nom как думать-Prs?@ и ^а NP-Nom не думать-Prs, что Cl?@
+  title: Заполните пропуски. Используйте конструкции ^…, а ты как думаешь?@ и ^А ты не думаешь, что …?@
   instructions: В этих конструкциях Cl — это целое предложение (Cl=clause, sentence), NP-Nom — это существительное (NP=noun phrase) в номинативе (Nom=Nominative case), Prs — это настоящее время глагола (Prs= present tense).<br>
                 На месте NP-Nom часто бывает местоимение (ты, вы, он, она и др.).<br>
                 Обратите внимание на разницу в значении этих конструкций (см. таблицу).
   exercise_type: text_input
-  title_eng: Fill in the blanks. Use the construction ^Cl, а NP-Nom как думать-Prs?@ ‘..., what do you think?’ and the construction ^а NP-Nom не думать-Prs, что Cl?@ ‘Don’t you think that ...?’.<br>
-              In these constructions, Cl stands for an entire sentence (Cl=clause, sentence), NP-Nom stands for a noun in the Nominative case (NP=noun phrase, Nom= Nominative case), and Prs stands for the present tense of the verb (Prs= present tense). In the slot NP-Nom we can use a pronoun (for example, ты, вы, он, она, etc.) instead of a noun. Note the difference in meaning between the two constructions (see the table below).
-  title_nor: Fyll ut de tomme feltene. Bruk konstruksjonen ^Cl, а NP-Nom как думать-Prs?@ ‘..., hva tror du?’ og konstruksjonen ^а NP-Nom не думать-Prs, что Cl?@ ‘Tror du ikke at ...?’.<br>
-              I disse konstruksjonene betyr Cl en hel setning (Cl=setning), NP-Nom står for et substantiv i nominativ kasus (NP=nominalfrase, Nom=nominativ kasus), Prs betyr verb i presens (Prs=presens). Ved plassen NP-Nom er det mulig å bruke pronomen i stedet for substantiv (for eksempel, ты, вы, он, она, etc.). Legg merke til betydningsforskjellen mellom de to konstruksjonene (se tabellen nedenfor).
+  title_eng: Fill in the blanks. Use the constructions ^…, а ты как думаешь?@ and ^А ты не думаешь, что …?@.
+  title_nor: Fyll ut de tomme feltene. Bruk konstruksjonene ^…, а ты как думаешь?@ og ^А ты не думаешь, что …?@.<br>
   comment: ~
   example: ~
   model: ~
