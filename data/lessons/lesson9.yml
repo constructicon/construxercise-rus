@@ -335,12 +335,13 @@
     </ul>
   instructions: ~
   exercise_type: ~
-  title_eng: Discuss the similarities and differences in the appearance of the people in the pictures (Жанна and Ира, Дэвид and Алекс, Лина and Маргарита, Амрит and Николай). Point out the similarities, whereas your interlocutor will focus on the differences. Еxpress your own opinion and ask for the opinion of your interlocutor. Use the variants of the constructions provided in the rightmost column of the table.
-  title_nor: Diskuter likheter og forskjeller ved utseendet til menneskene på bildene (Жанна og Ира, Дэвид og Алекс, Лина og Маргарита, Амрит og Николай). En av dere fokuserer på likhetene, mens den andre beskriver forskjellene. Uttrykk din egen mening og spør din samtalepartner om hans eller hennes mening. Bruk de forskjellige variantene av konstruksjonene i kolumne 2 i tabellen.
+  title_eng: Discuss the similarities and differences in the appearance of the people in the pictures (Жанна and Ира, Дэвид and Алекс, Лина and Маргарита, Амрит and Николай). Point out the similarities, whereas your interlocutor will focus on the differences. Еxpress your own opinion and ask for the opinion of your interlocutor. Use the variants of the constructions provided.
+  title_nor: Diskuter likheter og forskjeller ved utseendet til menneskene på bildene (Жанна og Ира, Дэвид og Алекс, Лина og Маргарита, Амрит og Николай). En av dere fokuserer på likhetene, mens den andre beskriver forskjellene. Uttrykk din egen mening og spør din samtalepartner om hans eller hennes mening. Bruk de forskjellige variantene av konstruksjonene.
   comment: "Формат задания: в парах. = Task format: in pairs."
-  example: — Эти девушки не похожи. У Иры волосы прямые, а у Жанны кудрявые, ^не правда ли?@<br>
-            — Правда, но, ^по-моему,@ они похожи. ^Ты не думашь, что@ у них у обеих длинные волосы?<br>
-            — Да, но у Жанны волосы тёмные, а Ира блондинка, ^правда ведь?@
+  example: |
+    — Эти девушки не похожи. У Иры волосы прямые, а у Жанны кудрявые, ^не правда ли?@<br>
+    — Правда, но, ^по-моему,@ они похожи. ^Ты не думашь, что@ у них у обеих длинные волосы?<br>
+    — Да, но у Жанны волосы тёмные, а Ира блондинка, ^правда ведь?@
   model: ~
   image: ~
   task:
@@ -370,8 +371,8 @@
     </ul>
   instructions: ~
   exercise_type: ~
-  title_eng: Discuss the people you see in the pictures. Who do you think they are? Use the variants of the constructions provided in column 2 of the table.
-  title_nor: Diskuter menneskene på bildene. Hvem tror du de er? Bruk de forskjellige variantene av konstruksjonene i kolumne 2 i tabellen.
+  title_eng: Discuss the people you see in the pictures. Who do you think they are? Use the variants of the constructions provided.
+  title_nor: Diskuter menneskene på bildene. Hvem tror du de er? Bruk de forskjellige variantene av konstruksjonene.
   comment: "Формат задания: в парах. Один студент рассказывает о людях на фотографии, а другой студент задаёт вопросы.<br>
             Comment for language teachers. Task format: in pairs. One student describes the people in the pictures, whereas the other student asks questions."
   example: "A: — А это семья моего деда. Он в центре, с усами. У него строгий взгляд, ^правда ведь?@<br>
