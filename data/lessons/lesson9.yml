@@ -321,7 +321,16 @@
 8:
   lesson_id: 9
   ex_number: 8
-  title: Обсудите сходства и различия во внешности людей на фотографиях (Жанна и Ира; Дэвид и Алекс; Лина и Маргарита; Амрит и Николай). Один человек указывает на сходства, другой на различия. Узнайте мнение собеседника и выразите собственное. Используйте предложенные варианты конструкций (см. таблицу).
+  title: |
+    Обсудите сходства и различия во внешности людей на фотографиях (Жанна и Ира; Дэвид и Алекс; Лина и Маргарита; Амрит и Николай). Один человек указывает на сходства, другой на различия. Узнайте мнение собеседника и выразите собственное. Используйте предложенные варианты конструкций:
+    <ul>
+    <li>^... , а ты как думаешь?@</li>
+    <li>^А ты не думаешь, что ...?@</li>
+    <li>^... , правда ведь?@</li>
+    <li>^..., не правда ли?@</li>
+    <li>^..., по-твоему?@</li>
+    <li>^По-моему, ...@</li>
+    </ul>
   instructions: ~
   exercise_type: ~
   title_eng: Discuss the similarities and differences in the appearance of the people in the pictures (Жанна and Ира, Дэвид and Алекс, Лина and Маргарита, Амрит and Николай). Point out the similarities, whereas your interlocutor will focus on the differences. Еxpress your own opinion and ask for the opinion of your interlocutor. Use the variants of the constructions provided in the rightmost column of the table.
@@ -343,28 +352,7 @@
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
-  table:
-    heading:
-      - Конструкция
-      - ...
-    row1:
-      - ^... , а ты как думаешь?@
-      - ...
-    row2: 
-      - ^А ты не думаешь, что ...?@
-      - ...
-    row3: 
-      - ^... , правда ведь?@
-      - ...
-    row4: 
-      - ^..., не правда ли?@
-      - ...
-    row5: 
-      - ^..., по-твоему/по-вашему?@
-      - ...
-    row6: 
-      - ^По-моему, ...@
-      - ...
+  table: ~
 9:
   lesson_id: 9
   ex_number: 9
