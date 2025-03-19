@@ -83,10 +83,12 @@
       - ^На первый взгляд, ...@
       - ^На самом деле ...@@
     row1:
-      - ^На первый взгляд,@ Алиса спокойная.<br>
+      - |
+        ^На первый взгляд,@ Алиса спокойная.<br>
         EN: ‘At first glance, Alice is calm.’<br>
         NO: ‘Ved første øyekast er Alice rolig.’
-      - ^На самом деле@ она очень эмоциональный человек.<br>
+      - |
+        ^На самом деле@ она очень эмоциональный человек.<br>
         EN: ‘In reality, she is a very emotional person.’<br>
         NO: ‘Faktisk er hun en veldig emosjonell person.’
     row2:
@@ -137,10 +139,12 @@
       - ^мягко говоря, ...@
       - ^грубо говоря, ...@
     row1:
-      - Миша, ^мягко говоря,@ не подарок.<br>
+      - |
+        Миша, ^мягко говоря,@ не подарок.<br>
         EN: ‘To put it mildly, Misha is no joy to be with.’<br>
         NO: ‘Misja er mildt sagt ikke en gave.’
-      - Разница совсем небольшая. Все видят, ^грубо говоря@ одно и то же.<br>
+      - |
+        Разница совсем небольшая. Все видят, ^грубо говоря@ одно и то же.<br>
         EN: ‘The difference isn’t so big. Roughly speaking, everyone sees the same thing.’<br>
         NO: ‘Forskjellen er ganske liten. Alle ser, grovt sett, det samme.’
     row2:
@@ -241,12 +245,14 @@
       - ^(на)вряд ли ...@
       - ^Не факт, что ...@
     row1:
-      - ^Вряд ли@ он придёт.<br>
+      - |
+        ^Вряд ли@ он придёт.<br>
         EN: ‘It is unlikely that he will come.’<br>
         = I think he is not coming.<br>
         NO: ‘Det er usannsynlig at han kommer’.<br>
         = Jeg tror ikke at han kommer.'
-      - ^Не факт, что@ он придёт.<br>
+      - |
+        ^Не факт, что@ он придёт.<br>
         EN: ‘It is not necessarily the case that he will come.’<br>
         = I do not know if he is not coming.<br>
         NO: ‘Det er ikke sikkert han kommer’<br>
@@ -284,45 +290,47 @@
     horizontal_align: +
     row1:
       - NOM
-      -
-        - такой
-        - такая
-        - такие
-        - слишком
-      -
-        - добрый
-        - злой
-        - талантливый
-        - (не)внимательный
-        - легкомысленный
-        - ответственный
-        - инициативный
-        - (не)честный
-        - смелый
-        - храбрый
-        - трусливый
-        - хитрый
-        - сообразительный
-        - энергичный
-        - ленивый
-        - трудолюбивый
+      - |
+        - такой <br>
+        - такая <br>
+        - такие <br>
+        - слишком <br>
+      - |
+        - добрый <br>
+        - злой <br>
+        - талантливый <br>
+        - (не)внимательный <br>
+        - легкомысленный <br>
+        - ответственный <br>
+        - инициативный <br>
+        - (не)честный <br>
+        - смелый <br>
+        - храбрый <br>
+        - трусливый <br>
+        - хитрый <br>
+        - сообразительный <br>
+        - энергичный <br>
+        - ленивый <br>
+        - трудолюбивый <br>
         - (не)терпеливый
-      - ^Вряд ли@<br>
+      - |
+        ^Вряд ли@<br>
         /<br>
         ^Навряд ли@
       - DAT
-      - (будет)<br>
+      - |
+        (будет)<br>
           трудно<br>
           легко
-      -
-        - найти работу
-        - найти друзей
-        - (быть) в отношениях
-        - вести бизнес
-        - знакомиться с людьми
-        - работать в команде
-        - работать одному (одной)
-        - прыгнуть с парашютом
+      - |
+        - найти работу <br>
+        - найти друзей <br>
+        - (быть) в отношениях <br>
+        - вести бизнес <br>
+        - знакомиться с людьми <br>
+        - работать в команде <br>
+        - работать одному (одной) <br>
+        - прыгнуть с парашютом <br>
         - отправиться в кругосветное путешествие
 10:
   lesson_id : 10
@@ -341,7 +349,9 @@
   model: 1. Ты предлагаешь ___INF________. Но он(а) такой ____________! Не факт, что он(а) на это согласится.<br>
           2. Ты предлагаешь, чтобы ___________. Но он(а) такой ____________! Не факт, что он(а) на это согласится.
   image: ~
-  task: добрый<br>
+  task: 
+    text: | 
+        добрый<br>
         злой<br>
         талантливый<br>
         (не)внимательный<br>
@@ -388,7 +398,7 @@
       - Какой человек по характеру
       - Качество характера
     row1:
-      -
+      - |
         - Добрый
         - Ответственный
         - Серьёзный
@@ -421,7 +431,7 @@
         - Ленивый
         - Медлительный
         - Глупый
-      -
+      - |
         - доброта
         - ответственность
         - серьёзность
@@ -457,13 +467,14 @@
 12:
   lesson_id : 10
   ex_number: 12
-  title: "Обсудите с собеседником, какими вы видите идеального а) начальника, б) подчинённого, в) друга, г) партнёра, д) родителя, е) однокурсника. Используйте конструкции:<br>
+  title: |
+    Обсудите с собеседником, какими вы видите идеального а) начальника, б) подчинённого, в) друга, г) партнёра, д) родителя, е) однокурсника. Используйте конструкции:<br>
           — ^на первый взгляд, Cl@<br>
           — ^на самом деле, Cl@<br>
           — ^Не факт, что Cl@<br>
           — ^(на)вряд ли XP/Cl@<br>
           — ^мягко говоря, Cl@<br>
-          — ^грубо говоря, Cl@"
+          — ^грубо говоря, Cl@
   instructions: ~
   exercise_type: ~
   title_eng: Discuss with your interlocutor how you imagine the ideal a) boss, b) subordinate, c) friend, d) partner, e) parent, f) classmate. Use the constructions from the list.
@@ -480,13 +491,14 @@
 13:
   lesson_id : 10
   ex_number: 13
-  title: "Вы с другом должны были подготовить проект, но не успели сдать его до дедлайна. Обсудите, что делать дальше: как лучше сказать преподавателю, что вы не готовы? Kак он отреагирует: накажет вас или разрешит сдать проект позже? Используйте конструкции:<br>
+  title: |
+    Вы с другом должны были подготовить проект, но не успели сдать его до дедлайна. Обсудите, что делать дальше: как лучше сказать преподавателю, что вы не готовы? Kак он отреагирует: накажет вас или разрешит сдать проект позже? Используйте конструкции:<br>
           — ^на первый взгляд, Cl@<br>
           — ^на самом деле, Cl@<br>
           — ^Не факт, что Cl@<br>
           — ^(на)вряд ли XP/Cl@<br>
           — ^мягко говоря, Cl@<br>
-          — ^грубо говоря, Cl@"
+          — ^грубо говоря, Cl@
   instructions: ~
   exercise_type: ~
   title_eng: "You and your friend were supposed to prepare a project, but did not have time to finish it before the deadline. Discuss with your friend what to do next: what is the best way to tell the professor that your project is not ready? How will the professor react: will they punish you or let you turn in the project later? Use the constructions from the list."
@@ -503,13 +515,14 @@
 14:
   lesson_id : 10
   ex_number: 14
-  title: "Вы с соседом на время взяли любимую кружку третьего соседа и случайно сломали её. Что делать? Обсудите, как отреагирует ваш сосед и что вам нужно сделать, чтобы он не обиделся. Используйте конструкции:<br>
+  title: |
+    Вы с соседом на время взяли любимую кружку третьего соседа и случайно сломали её. Что делать? Обсудите, как отреагирует ваш сосед и что вам нужно сделать, чтобы он не обиделся. Используйте конструкции:<br>
           — ^на первый взгляд, Cl@<br>
           — ^на самом деле, Cl@<br>
           — ^Не факт, что Cl@<br>
           — ^(на)вряд ли XP/Cl@<br>
           — ^мягко говоря, Cl@<br>
-          — ^грубо говоря, Cl@"
+          — ^грубо говоря, Cl@
   instructions: ~
   exercise_type: ~
   title_eng: You and your roommate used another roommate’s favorite mug and accidentally broke it. What should you do? Discuss how your roommate will react and what you need to do so that they do not get offended. Use the constructions from the list.
@@ -526,13 +539,14 @@
 15:
   lesson_id : 10
   ex_number: 15
-  title: "Вы влюбились в парня или девушку из вашей группы. Обсудите с лучшим другом или подругой, что вас беспокоит: есть ли у вас шансы? Как вы познакомились? Что предпринимать дальше? Используйте конструкции:<br>
+  title: |
+    Вы влюбились в парня или девушку из вашей группы. Обсудите с лучшим другом или подругой, что вас беспокоит: есть ли у вас шансы? Как вы познакомились? Что предпринимать дальше? Используйте конструкции:<br>
           — ^на первый взгляд, Cl@<br>
           — ^на самом деле, Cl@<br>
           — ^Не факт, что Cl@<br>
           — ^(на)вряд ли XP/Cl@<br>
           — ^мягко говоря, Cl@<br>
-          — ^грубо говоря, Cl@"
+          — ^грубо говоря, Cl@
   instructions: ~
   exercise_type: ~
   title_eng: "You have fallen in love with a guy or girl from your group. Discuss with your best friend what is bothering you: do you have a chance? How did you meet? What to do next? Use the constructions from the list."
