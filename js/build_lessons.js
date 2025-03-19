@@ -460,7 +460,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
 
     if (data[exercise_id]["image"] != null) {
-        
+        // test
         if (data[exercise_id]["image"]["link"] != undefined) {
             let image_wrapper = document.createElement('div')
             image_wrapper.setAttribute('class', 'p-2 m-2')
