@@ -25,6 +25,8 @@
             Дочь:<br>
             — Ты права. Надену те белые кроссовки, которые ты мне ___________ на Новый год. Спасибо за идею!"
       audio: a
+      image:
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/outfit.jpg"
     task2:
       text: "<b>б.</b><br>
             — Ксюша сегодня очень ___________ выглядит, ^не правда ли?@<br>
@@ -32,6 +34,8 @@
             — Очень идёт, ^а ты как думаешь?@<br>
             — Конечно! ^По-моему,@ чёлка* ей к лицу."
       audio: b
+      image:
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/haircut.jpg"
   answer_to_show: ~
   answer_key: ~
   difficult_words: "чёлка* — English: bangs (of hair); Norwegian: pannelugg"
