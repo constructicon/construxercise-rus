@@ -44,7 +44,9 @@
   answer_key: 
     answer1: "рождения, есть, мои"
     answer2: "хорошо"
-  difficult_words: "чёлка* — English: bangs (of hair); Norwegian: pannelugg"
+  difficult_words: 
+    word1: ~
+    word2: "чёлка* — English: bangs (of hair); Norwegian: pannelugg"
   table: ~
 2:
   lesson_id: 9
