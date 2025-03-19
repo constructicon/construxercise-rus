@@ -167,6 +167,12 @@
   title_nor: |
     Lag spørsmål av disse utsagnene ved å bruke konstruksjonen ^..., правда?@ som betyr ‘…, ikke sant?’ og konstruksjonen ^..., не правда ли?@ som også betyr ‘..., ikke sant?’.<br>
   comment: ~
+  constr_info: |
+    Эти конструкции очень похожи по значению. Обе конструкции значат, что говорящий ждёт от собеседника согласия.
+    <ul>
+    <li> Стильная стрижка, ^правда?@</li>
+    <li>Глеб – симпатичный молодой человек, ^не правда ли?@</li>
+    </ul>
   example: |
     У Алины весёлая улыбка.<br>
     &#10132;<br>
@@ -231,6 +237,8 @@
   title_eng: Express your disagreement with your interlocutor. Use the construction ^по-моему, ...@ meaning ‘in my opinion, ... ’.
   title_nor: Uttrykk din uenighet med samtalepartnerens uttalelse ved å bruke konstruksjonen ^по-моему, ...@ ‘Etter min mening, ... ’.
   comment: ~
+  constr_info: |
+    construction info placeholder
   example: — ^По-моему@, у Лёши карие глаза. — А ^по-моему@, зелёные.
   model: ~
   image: ~
