@@ -356,7 +356,16 @@
 9:
   lesson_id: 9
   ex_number: 9
-  title: Обсудите людей на фотографии. Как вы думаете, кто они? Используйте предложенные варианты конструкций (см. таблицу).
+  title: |
+    Обсудите людей на фотографии. Как вы думаете, кто они? Используйте предложенные варианты конструкций:
+    <ul>
+    <li>^... , а ты как думаешь?@</li>
+    <li>^А ты не думаешь, что ...?@</li>
+    <li>^... , правда ведь?@</li>
+    <li>^..., не правда ли?@</li>
+    <li>^..., по-твоему?@</li>
+    <li>^По-моему, ...@</li>
+    </ul>
   instructions: ~
   exercise_type: ~
   title_eng: Discuss the people you see in the pictures. Who do you think they are? Use the variants of the constructions provided in column 2 of the table.
@@ -398,45 +407,25 @@
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
-  table:
-    heading:
-      - Конструкция
-      - ...
-    row1:
-      - ^... , а ты как думаешь?@
-      - ...
-    row2: 
-      - ^А ты не думаешь, что ...?@
-      - ...
-    row3:
-      - ^... , правда ведь?@
-      - ...
-    row4: 
-      - ^..., не правда ли?@
-      - ...
-    row5: 
-      - ^..., по-твоему?@
-      - ...
-    row6: 
-      - ^По-моему, ...@
-      - ...
+  table: ~
 10:
   lesson_id: 9
   ex_number: 10
   title: Бонусное упражнение<br>
         Вы — сценарист и кастинг-директор в студии по производству фильмов. Ваша студия хочет создать новые экранизации известных литературных произведений. Обсудите подбор актёров на разные роли с точки зрения внешности актёров и ваших представлений о роли. Используйте конструкции из таблицы.
-  instructions: "<b>Роли:</b><br>
-                — Квазимодо<br>
-                — Эсмеральда<br>
-                — Джеймс Бонд<br>
-                — Король Лир<br>
-                — Шерлок Холмс<br>
-                — Миссис Хадсон<br>
-                — Джульетта<br>
-                — Гарри Поттер<br>
-                — Волан-де-морт<br>
-                — Гермиона<br>
-                — Мисс Марпл"
+  instructions: |
+    <b>Роли:</b><br>
+      — Квазимодо<br>
+      — Эсмеральда<br>
+      — Джеймс Бонд<br>
+      — Король Лир<br>
+      — Шерлок Холмс<br>
+      — Миссис Хадсон<br>
+      — Джульетта<br>
+      — Гарри Поттер<br>
+      — Волан-де-морт<br>
+      — Гермиона<br>
+      — Мисс Марпл"
   exercise_type: ~
   title_eng: Bonus exercise.<br>
               You are a screenwriter and a casting director in a film production studio. Your studio wants to create new adaptations of famous literary works. Discuss casting for various roles in terms of the appearance of the actors and your ideas about each role. Use the constructions from the list.
