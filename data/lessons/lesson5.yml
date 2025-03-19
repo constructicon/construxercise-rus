@@ -377,11 +377,11 @@
   image: ~
   task:
     task1:
-      text: a.<br>
+      text: ~
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/5/5_5.png"
     task2:
-      text: б.<br>
+      text: ~
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/5/5_6.png"
   answer_to_show:
