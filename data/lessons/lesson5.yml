@@ -160,7 +160,8 @@
   comment: ~
   example: ~
   model: ~
-  image: ~
+  image: 
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/5/bandaid.jpg"
   task:
     task1:
       text: "1. Медицина бывает платной и бесплатной. В некоторых странах, __________________, базовые медицинские услуги финансируются за счёт налогов и предоставляются бесплатно, а дополнительные услуги — платно."
