@@ -426,7 +426,8 @@
     — ^Что насчёт ...?@<br>
     — ^Что касается ..., то ...@
   model: ~
-  image: ~
+  image: 
+    link: ""https://github.com/constructicon/construxercise-rus/raw/main/images/5/assistant.jpg""
   task: 
     text: |
       <b>Товары на выбор:</b><br><ul>
@@ -457,7 +458,8 @@
   comment: ~
   example: ~
   model: ~
-  image: ~
+  image: 
+    link: ""https://github.com/constructicon/construxercise-rus/raw/main/images/5/interview.jpg""
   task: 
     text: |
       <b>План</b><br><br> 1. — Как вы в целом оцениваете ситуацию?<br><ul>
