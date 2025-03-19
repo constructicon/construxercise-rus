@@ -4,7 +4,7 @@
   ex_number: 1
   title: Послушайте тексты и заполните пропуски. Запишите ответы через запятую.
   instructions: ~
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: Listen to the texts and fill in the blanks. Write the answers using commas to separate words.
   title_nor: Lytt til tekstene og fyll inn de tomme feltene. Skriv svarene og bruk komma for å skille ordene.
   comment: ~
@@ -36,8 +36,12 @@
       audio: b
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/haircut.jpg"
-  answer_to_show: ~
-  answer_key: ~
+  answer_to_show: 
+    answer1: "рождения, есть, мои"
+    answer2: "хорошо"
+  answer_key: 
+    answer1: "рождения, есть, мои"
+    answer2: "хорошо"
   difficult_words: "чёлка* — English: bangs (of hair); Norwegian: pannelugg"
   table: ~
 2:
