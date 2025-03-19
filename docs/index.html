@@ -9,15 +9,7 @@
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
 </head>
 <body>
-  <div id="app"></div>
-  <script>
-    window.$docsify = {
-      name: 'Construxercise! Docs',  // Site name displayed in the sidebar
-      repo: 'https://github.com/constructicon/construxercise-rus', // GitHub repo link
-      logo: 'https://raw.githubusercontent.com/constructicon/construxercise-rus/main/images/logo.png', // Custom logo
-      themeColor: '#000000' // Primary theme color
-    };
-  </script>
+  <div id="app">
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
@@ -27,6 +19,9 @@
       loadSidebar: '_sidebar.md',
       subMaxLevel: 2,
       search: {
+        name: 'Construxercise! Docs',  // Site name displayed in the sidebar
+        repo: 'https://github.com/constructicon/construxercise-rus', // GitHub repo link
+        logo: 'https://raw.githubusercontent.com/constructicon/construxercise-rus/main/images/logo.png', // Custom logo
         maxAge: 86400000, // Cache duration in milliseconds (1 day)
         paths: 'auto', // Index all files automatically
         placeholder: 'Search...',
@@ -35,7 +30,6 @@
       },
     };
   </script>
-
-
+</div>
 </body>
 </html>
