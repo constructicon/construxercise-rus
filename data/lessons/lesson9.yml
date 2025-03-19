@@ -72,6 +72,17 @@
   title_eng: Fill in the blanks. Use the constructions ^…, а ты как думаешь?@ and ^А ты не думаешь, что …?@
   title_nor: Fyll ut de tomme feltene. Bruk konstruksjonene ^…, а ты как думаешь?@ og ^А ты не думаешь, что …?@<br>
   comment: ~
+  constr_info: |
+    Конструкция ^..., а ты как думаешь?@ используется, чтобы узнать мнение собеседника. На месте ... стоит предложение (sentence).
+    <ul>
+      <li>Мне кажется, ему не идёт этот шарф, ^а ты как думаешь?@</li>
+    </ul>
+    <br><br>
+    С помощью конструкции ^А ты не думаешь, что ...?@ мы формально спрашиваем мнение, а на самом деле хотим привести дополнительный
+    аргумент. Слово <i>не</i> не передаёт отрицания!
+    <ul>
+      <li>^А ты не думаешь, что@ эта помада слишком яркая?</li>
+    </ul>
   example: ~
   model: ~
   image: ~
@@ -103,23 +114,6 @@
     answer5: А ты не думаешь, что
     answer6: а ты как думаешь
   difficult_words: ~
-  table:
-    row1:
-      - <b>^…, а ты как думаешь?@</b><br><br>
-
-        Мне кажется, ему не идёт этот шарф, ^а ты как думаешь?@
-      - <b>^А ты не думаешь, что …?@</b><br><br>
-
-        ^А ты не думаешь, что@ эта помада слишком яркая?
-    row2:
-      - Спрашиваем мнение собеседника
-      - Формально спрашиваем мнение, а на самом деле хотим привести дополнительный аргумент. Слово не не передаёт отрицания!
-    row3:
-      - We ask for our interlocutor’s opinion
-      - We formally ask for an opinion, but in fact we want to give an additional argument. The word не ‘not’ does not convey negation!
-    row4:
-      - Når vi spør etter samtalepartnerens mening
-      - Formelt sett spør vi etter samtalepartnerens mening, men egentlig ønsker vi å underbygge vår eget resonnement med ytterligere et argument. Ordet не ‘ikke’ er ikke nektende!
 4:
   lesson_id: 9
   ex_number: 4
