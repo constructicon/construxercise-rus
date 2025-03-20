@@ -333,9 +333,9 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     // get task title
     if (document.title.split(" ")[0] == "Lesson") {
         // To add title with exercise number:
-        // task_title.innerHTML = annotate(`${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`);
+        task_title.innerHTML = annotate(`${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`);
         // To add title without exercise number:
-        task_title.innerHTML = annotate(`${data[exercise_id]["title"]}`);
+        // task_title.innerHTML = annotate(`${data[exercise_id]["title"]}`);
 
     } else {
         task_title.innerHTML = annotate(`${data[exercise_id]["lesson_id"]}.${data[exercise_id]["ex_number"]}. ${data[exercise_id]["title"]}`);
