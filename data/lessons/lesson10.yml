@@ -106,8 +106,8 @@
   title: Обсудите с собеседником, что вы думаете о человеке на фото. Какой он или она по характеру? Используйте конструкцию ^На первый взгляд, ...@.
   instructions: ~
   exercise_type: ~
-  title_eng: Discuss with your interlocutor what you think of the person in the picture. What kind of personality do they have? Use the construction ^На первый взгляд, ...@ meaning ‘At first glance, ... ’. We can place an entire sentence in the Cl slot (Cl=clause, sentence).
-  title_nor: Diskuter med din samtalepartner hva dere tenker om personen på bildet. Hvordan er han eller hun som person? Bruk konstruksjonen ^На первый взгляд, ...@ ‘Ved første øyekast ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  title_eng: Discuss with your interlocutor what you think of the person in the picture. What kind of personality do they have? Use the construction ^На первый взгляд, ...@ meaning ‘At first glance, ... ’. We can place an entire sentence in the ... slot.
+  title_nor: Diskuter med din samtalepartner hva dere tenker om personen på bildet. Hvordan er han eller hun som person? Bruk konstruksjonen ^На первый взгляд, ...@ ‘Ved første øyekast ... ’. Plassen ... kan fylles med en hel setning.
   comment: "Формат задания: в парах. = Task format: in pairs."
   example: ~
   model: ~
@@ -124,8 +124,8 @@
   title: Прочитайте информацию в таблице. Чем похожи и чем отличаются конструкции ^мягко говоря, ...@ и ^грубо говоря, ...@?
   instructions: ~
   exercise_type: ~
-  title_eng: Analyze the information provided in the table. How are the two constructions ^мягко говоря, ...@ ‘To put it mildly, ...’ and ^грубо говоря, ...@ ‘Roughly speaking, ...’ similar and how are they different? We can place an entire sentence in the Cl slot (Cl=clause, sentence).
-  title_nor: Analyser informasjonen i tabellen. Finn likheter og forskjeller i bruken og betydningen av konstruksjonene ^мягко говоря, ...@ ‘mildt sagt, ...’ og ^грубо говоря, ...@, Cl ‘grovt sett, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
+  title_eng: Analyze the information provided in the table. How are the two constructions ^мягко говоря, ...@ ‘To put it mildly, ...’ and ^грубо говоря, ...@ ‘Roughly speaking, ...’ similar and how are they different? We can place an entire sentence in the ... slot.
+  title_nor: Analyser informasjonen i tabellen. Finn likheter og forskjeller i bruken og betydningen av konstruksjonene ^мягко говоря, ...@ ‘mildt sagt, ...’ og ^грубо говоря, ...@, ‘grovt sett, ... ’. Plassen ... kan fylles med en hel setning.
   comment: ~
   example: ~
   model: ~
@@ -162,8 +162,8 @@
   title: Замените подчёркнутые слова на менее эмоциональные и резкие. Используйте конструкцию ^мягко говоря, ...@.
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence). Слова ^мягко говоря@ могут находиться в начале, в конце или в середине предложения. Лучше всего помещать слова ^мягко говоря@ непосредственно перед фразой, которая используется как менее категоричная.
   exercise_type: text_input
-  title_eng: Replace the underlined words with other words that are less emotional and harsh. Use the construction ^мягко говоря, Cl@ meaning ‘Mildly speaking / To put it mildly, ...’. We can place an entire sentence in the Cl slot (Cl=clause, sentence). The words ^мягко говоря@ can be placed in the beginning, at the end, or in the middle of a sentence. The best strategy is to place the words ^мягко говоря@ right before the hedging phrase.
-  title_nor: Erstatt de understrekete ordene med andre ord som ikke er like følelsesladde og skarpe. Bruk konstruksjonen ^мягко говоря, Cl@ ‘mildt sagt, ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning). Ordene ^мягко говоря@ kan være enten i begynnelsen, i slutten, eller i midten av en setning. Den beste måten er imidlertid å plassere ordene ^мягко говоря@ direkte foran den formildende frasen.
+  title_eng: Replace the underlined words with other words that are less emotional and harsh. Use the construction ^мягко говоря, ...@ meaning ‘Mildly speaking / To put it mildly, ...’. We can place an entire sentence in the ... slot. The words ^мягко говоря@ can be placed in the beginning, at the end, or in the middle of a sentence. The best strategy is to place the words ^мягко говоря@ right before the hedging phrase.
+  title_nor: Erstatt de understrekete ordene med andre ord som ikke er like følelsesladde og skarpe. Bruk konstruksjonen ^мягко говоря, ...@ ‘mildt sagt, ... ’. Plassen ... kan fylles med en hel setning. Ordene ^мягко говоря@ kan være enten i begynnelsen, i slutten, eller i midten av en setning. Den beste måten er imidlertid å plassere ordene ^мягко говоря@ direkte foran den formildende frasen.
   comment: ~
   example: |
     Соседи <b>были шокированы</b>, когда увидели вора у себя дома.<br>
@@ -242,7 +242,7 @@
   difficult_words: ~
   table:
     heading:
-      - ^(на)вряд ли ...@
+      - ^вряд ли ...@
       - ^Не факт, что ...@
     row1:
       - |
@@ -339,9 +339,9 @@
   instructions: text.<br>
               Обратите внимание, что в модели 1 используется глагол в форме инфинитива, а в модели 2 используется союз чтобы с зависимым предложением. В каждой модели второе предложение должно по смыслу противоречить первому.
   exercise_type: ~
-  title_eng: Build as many sentences as you can by using the two patterns below. Use the construction ^Не факт, что Cl@ meaning ‘it is not necessarily the case that ...’. We can put an entire sentence in the Cl slot (Cl=clause, sentence).<br>
+  title_eng: Build as many sentences as you can by using the two patterns below. Use the construction ^Не факт, что ...@ meaning ‘it is not necessarily the case that ...’. We can put an entire sentence in the ... slot e.<br>
               Note that in pattern 1 we use the infinitive, whereas in pattern 2 we use the subjunction чтобы ‘in order to’ followed by a subordinate clause. In both patterns, the second sentence should contradict the first sentence.
-  title_nor: Lag så mange setninger som mulig med utgangspunkt i eksemplene nedenfor. Bruk konstruksjonen ^Не факт, что Cl@ ‘det er ikke sikkert at ...’. Ved plassen Cl brukes en hel setning (Cl=setning).<br>
+  title_nor: Lag så mange setninger som mulig med utgangspunkt i eksemplene nedenfor. Bruk konstruksjonen ^Не факт, что ...@ ‘det er ikke sikkert at ...’. Ved plassen ... brukes en hel setning.<br>
               Legg merke til at i eksempel 1 brukes infinitiv, men i eksempel 2 brukes subjunksjonen чтобы ‘for å’ som etterfølges av en leddsetning. I begge eksemplene skal den andre setningen motsi den første setningen.
   comment: "Формат задания: в парах. = Task format: in pairs."
   example: 1. Ты предлагаешь обмануть. Но он такой честный! Не факт, что он на это согласится.<br>
@@ -377,13 +377,13 @@
   lesson_id : 10
   ex_number: 11
   title: Бонусное упражнение<br>
-          Одни и те же качества могут быть полезными и вредными для разных целей. Oбсудите, какие традиционно отрицательные качества могут быть полезными, а какие традиционно положительные качества могут быть вредными (см. таблицу). Используйте конструкцию ^Не факт, что Cl@. Некоторые качества, тем не менее, скорее однозначно плохие или хорошие. Назовите их, используя конструкцию ^(на)вряд ли XP/Cl@. Объясните свою позицию.
+          Одни и те же качества могут быть полезными и вредными для разных целей. Oбсудите, какие традиционно отрицательные качества могут быть полезными, а какие традиционно положительные качества могут быть вредными (см. таблицу). Используйте конструкцию ^Не факт, что ...@. Некоторые качества, тем не менее, скорее однозначно плохие или хорошие. Назовите их, используя конструкцию ^вряд ли ...@. Объясните свою позицию.
   instructions: В этих конструкциях XP — это фраза (XP=phrase), а Cl — целое предложение (Cl=clause, sentence).
   exercise_type: ~
   title_eng: Bonus exercise.<br>
-              The same personal qualities can be favorable or unfavorable in different contexts and for different purposes. Discuss what traditionally negative personal qualities can be beneficial and what traditionally positive qualities can be harmful (see the table). Use the construction ^Не факт, что Cl@ meaning ‘it is not necessarily the case that ...’. Some personal qualities, however, are rather unambiguously good or bad. Name them by using the construction ^(на)вряд ли XP/Cl@ meaning ‘It’s unlikely that ... ’ and explain your opinion. In these constructions, XP is a phrase, and Cl is an entire sentence (Cl=clause, sentence).
+              The same personal qualities can be favorable or unfavorable in different contexts and for different purposes. Discuss what traditionally negative personal qualities can be beneficial and what traditionally positive qualities can be harmful (see the table). Use the construction ^Не факт, что ...@ meaning ‘it is not necessarily the case that ...’. Some personal qualities, however, are rather unambiguously good or bad. Name them by using the construction ^вряд ли ...@ meaning ‘It’s unlikely that ... ’ and explain your opinion.
   title_nor: Bonusoppgave.<br>
-              De samme personlige egenskapene kan være fordelaktige i noen situasjoner, og ufordelaktige i andre. Diskuter hvilke tradisjonelt negative personlige egenskaper kan være nyttige, og hvilke tradisjonelt positive personlige egenskaper kan være skadelige (se tabell). Bruk konstruksjonen ^Не факт, что Cl@ ‘det er ikke sikkert at ...’. Noen personlige egenskaper er imidlertid mer eller mindre entydig positive eller negative. Navngi dem ved å bruke konstruksjonen ^(на)вряд ли XP/Cl@ ‘neppe ... ’ og uttrykk din mening. I disse konstruksjonene står XP for en frase, mens Cl er en hel setning (Cl=setning).
+              De samme personlige egenskapene kan være fordelaktige i noen situasjoner, og ufordelaktige i andre. Diskuter hvilke tradisjonelt negative personlige egenskaper kan være nyttige, og hvilke tradisjonelt positive personlige egenskaper kan være skadelige (se tabell). Bruk konstruksjonen ^Не факт, что ...@ ‘det er ikke sikkert at ...’. Noen personlige egenskaper er imidlertid mer eller mindre entydig positive eller negative. Navngi dem ved å bruke konstruksjonen ^вряд ли ...@ ‘neppe ... ’ og uttrykk din mening.
   comment: "Формат задания: в парах. = Task format: in pairs."
   example: ^Не факт, что@ эгоизм — это плохое качество. В карьере эгоизм даже помогает.<br>
           ^Навряд ли@ злость может быть хорошим качеством. Она не приносит ничего хорошего человеку и окружающим.
@@ -469,12 +469,12 @@
   ex_number: 12
   title: |
     Обсудите с собеседником, какими вы видите идеального а) начальника, б) подчинённого, в) друга, г) партнёра, д) родителя, е) однокурсника. Используйте конструкции:<br>
-          — ^на первый взгляд, Cl@<br>
-          — ^на самом деле, Cl@<br>
-          — ^Не факт, что Cl@<br>
-          — ^(на)вряд ли XP/Cl@<br>
-          — ^мягко говоря, Cl@<br>
-          — ^грубо говоря, Cl@
+          — ^на первый взгляд, ...@<br>
+          — ^на самом деле, ...@<br>
+          — ^Не факт, что ...@<br>
+          — ^вряд ли ...@<br>
+          — ^мягко говоря, ...@<br>
+          — ^грубо говоря, ...@
   instructions: ~
   exercise_type: ~
   title_eng: Discuss with your interlocutor how you imagine the ideal a) boss, b) subordinate, c) friend, d) partner, e) parent, f) classmate. Use the constructions from the list.
@@ -493,12 +493,12 @@
   ex_number: 13
   title: |
     Вы с другом должны были подготовить проект, но не успели сдать его до дедлайна. Обсудите, что делать дальше: как лучше сказать преподавателю, что вы не готовы? Kак он отреагирует: накажет вас или разрешит сдать проект позже? Используйте конструкции:<br>
-          — ^на первый взгляд, Cl@<br>
-          — ^на самом деле, Cl@<br>
-          — ^Не факт, что Cl@<br>
-          — ^(на)вряд ли XP/Cl@<br>
-          — ^мягко говоря, Cl@<br>
-          — ^грубо говоря, Cl@
+          — ^на первый взгляд, ...@<br>
+          — ^на самом деле, ...@<br>
+          — ^Не факт, что ...@<br>
+          — ^вряд ли ...@<br>
+          — ^мягко говоря, ...@<br>
+          — ^грубо говоря, ...@
   instructions: ~
   exercise_type: ~
   title_eng: "You and your friend were supposed to prepare a project, but did not have time to finish it before the deadline. Discuss with your friend what to do next: what is the best way to tell the professor that your project is not ready? How will the professor react: will they punish you or let you turn in the project later? Use the constructions from the list."
@@ -517,12 +517,12 @@
   ex_number: 14
   title: |
     Вы с соседом на время взяли любимую кружку третьего соседа и случайно сломали её. Что делать? Обсудите, как отреагирует ваш сосед и что вам нужно сделать, чтобы он не обиделся. Используйте конструкции:<br>
-          — ^на первый взгляд, Cl@<br>
-          — ^на самом деле, Cl@<br>
-          — ^Не факт, что Cl@<br>
-          — ^(на)вряд ли XP/Cl@<br>
-          — ^мягко говоря, Cl@<br>
-          — ^грубо говоря, Cl@
+          — ^на первый взгляд, ...@<br>
+          — ^на самом деле, ...@<br>
+          — ^Не факт, что ...@<br>
+          — ^вряд ли ...@<br>
+          — ^мягко говоря, ...@<br>
+          — ^грубо говоря, ...@
   instructions: ~
   exercise_type: ~
   title_eng: You and your roommate used another roommate’s favorite mug and accidentally broke it. What should you do? Discuss how your roommate will react and what you need to do so that they do not get offended. Use the constructions from the list.
@@ -541,12 +541,12 @@
   ex_number: 15
   title: |
     Вы влюбились в парня или девушку из вашей группы. Обсудите с лучшим другом или подругой, что вас беспокоит: есть ли у вас шансы? Как вы познакомились? Что предпринимать дальше? Используйте конструкции:<br>
-          — ^на первый взгляд, Cl@<br>
-          — ^на самом деле, Cl@<br>
-          — ^Не факт, что Cl@<br>
-          — ^(на)вряд ли XP/Cl@<br>
-          — ^мягко говоря, Cl@<br>
-          — ^грубо говоря, Cl@
+          — ^на первый взгляд, ...@<br>
+          — ^на самом деле, ...@<br>
+          — ^Не факт, что ...@<br>
+          — ^вряд ли ...@<br>
+          — ^мягко говоря, ...@<br>
+          — ^грубо говоря, ...@
   instructions: ~
   exercise_type: ~
   title_eng: "You have fallen in love with a guy or girl from your group. Discuss with your best friend what is bothering you: do you have a chance? How did you meet? What to do next? Use the constructions from the list."
