@@ -199,11 +199,11 @@
 7:
   lesson_id: 11
   ex_number: 7
-  title: Заполните пропуски в предложениях, используя конструкции ^в частности, XP/Cl@ и ^скажем, XP/Cl@. Прочитайте информацию в таблице, чтобы понять, чем похожи и чем отличаются эти конструкции.
+  title: Заполните пропуски в предложениях, используя конструкции ^в частности, ...@ и ^скажем, ...@. Прочитайте информацию, чтобы понять, чем похожи и чем отличаются эти конструкции.
   instructions: В этих конструкциях слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence).
   exercise_type: text_input
-  title_eng: Fill in the blanks by using the constructions ^в частности, XP/Cl@ ‘for example / in particular / more specifically, ...’ and ^скажем, XP/Cl@ ‘for example /say/let us say ...’. In order to understand the differences between these constructions, see the table below. In both constructions, we can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
-  title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonene ^в частности, XP/Cl@ ‘for eksempel / spesifikt ...’ og ^скажем, XP/Cl@ ‘for eksempel / la oss si ...’. Les tabellen nedenfor for å forstå likhetene og forskjellene mellom disse to konstruksjonene. I begge konstruksjonene kan plassen XP/Cl fylles med en frase eller en hel setning (XP=frase, Cl=setning).
+  title_eng: Fill in the blanks by using the constructions ^в частности, ...@ ‘for example / in particular / more specifically, ...’ and ^скажем, ...@ ‘for example /say/let us say ...’. In order to understand the differences between these constructions, see the explanation below. In both constructions, we can put a phrase or an entire sentence in the slot marked ...
+  title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonene ^в частности, ...@ ‘for eksempel / spesifikt ...’ og ^скажем, ...@ ‘for eksempel / la oss si ...’. Les forklaringen nedenfor for å forstå likhetene og forskjellene mellom disse to konstruksjonene. I begge konstruksjonene kan plassen ... fylles med en frase eller en hel setning.
   comment: ~
   example: ~
   model: ~
@@ -234,8 +234,8 @@
   difficult_words: ~
   table:
     heading:
-      - ^в частности, XP/Cl@
-      - ^скажем, XP/Cl@
+      - ^в частности, ...@
+      - ^скажем, ...@
     row1:
       -
         - Они занимались ремонтом техники, ^в частности@ холодильников.
@@ -247,21 +247,21 @@
         - Norwegian ‘... for eksempel / la oss si ...’
     row2:
       -
-        - Конструкция ^в частности, XP/Cl@ часто подчёркивает принадлежность приведённого примера к некоторому множеству.
-        - This construction ^в частности, Cl/XP@ emphasizes the fact that the given example belongs to a certain set.
-        - Konstruksjonen ^в частности, Cl/XP@ fremhever det anførte eksempelets tilhørighet til en gitt mengde.
+        - Конструкция ^в частности, ...@ часто подчёркивает принадлежность приведённого примера к некоторому множеству.
+        - This construction ^в частности, ...@ emphasizes the fact that the given example belongs to a certain set.
+        - Konstruksjonen ^в частности, ...@ fremhever det anførte eksempelets tilhørighet til en gitt mengde.
       -
-        - Конструкция ^скажем, XP/Cl@ часто вводит пример как гипотетически возможный.
-        - The construction ^скажем, Cl/XP@ often presents an example as hypothetically possible.
-        - Konstruksjonen ^скажем, Cl/XP@ presenterer ofte eksempelet som noe hypotetisk mulig.
+        - Конструкция ^скажем, ...@ часто вводит пример как гипотетически возможный.
+        - The construction ^скажем, ...@ often presents an example as hypothetically possible.
+        - Konstruksjonen ^скажем, ...@ presenterer ofte eksempelet som noe hypotetisk mulig.
 8:
   lesson_id: 11
   ex_number: 8
-  title: Составьте предложения. Используйте конструкцию ^скажем, XP/Cl@.
+  title: Составьте предложения. Используйте конструкцию ^скажем, ...@.
   instructions: В этой конструкции слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence).
   exercise_type: ~
-  title_eng: Build sentences by using the construction ^скажем, XP/Cl@ ‘for example /say/let us say ...’. In this construction, we can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
-  title_nor: Lag setninger ved å bruke konstruksjonen ^скажем, XP/Cl@ ‘for eksempel / la oss si ...’ Plassen XP/Cl kan fylles med en frase eller en hel setning (XP=frase, Cl=setning).
+  title_eng: Build sentences by using the construction ^скажем, ...@ ‘for example /say/let us say ...’.
+  title_nor: Lag setninger ved å bruke konstruksjonen ^скажем, ...l@ ‘for eksempel / la oss si ...’.
   comment: ~
   example: На деловую встречу лучше надеть что-то строгое, ^скажем,@ рубашку и брюки.
   model: ~
@@ -340,8 +340,8 @@
   title: Соедините предложения или части предложений, подобрав логичное продолжение.
   instructions: Конструкция ^в частности, XP/Cl@ может присоединять целое предложение (Cl) или только часть предложения, фразу (XP).
   exercise_type: text_input
-  title_eng: Connect the sentences or phrases by choosing a matching continuation. Note that in the construction ^в частности, XP/Cl@ ‘for example / in particular / more specifically, ...’, we can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
-  title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at i konstruksjonen ^в частности, XP/Cl@ ‘for eksempel / spesifikt ...’, kan plassen XP/Cl fylles med en frase eller en hel setning (XP=frase, Cl=setning).
+  title_eng: Connect the sentences or phrases by choosing a matching continuation. Note that in the construction ^в частности, ...@ ‘for example / in particular / more specifically, ...’, we can put a phrase or an entire sentence in the slot marked ...
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at i konstruksjonen ^в частности, ...@ ‘for eksempel / spesifikt ...’, kan plassen ... fylles med en frase eller en hel setning.
   comment: ~
   example: На деловую встречу лучше надеть что-то строгое, ^скажем,@ рубашку и брюки.
   model: ~
@@ -369,7 +369,7 @@
 10:
   lesson_id: 11
   ex_number: 10
-  title: Продолжите предложения, используя конструкцию ^в частности, XP/Cl@.
+  title: Продолжите предложения, используя конструкцию ^в частности, ...@.
   instructions: В этой конструкции слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence).
   exercise_type: ~
   title_eng: Complete the sentences by using the construction ^в частности, XP/Cl@ ‘for example / in particular / more specifically, ...’. In this construction, we can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
