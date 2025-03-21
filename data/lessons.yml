@@ -479,16 +479,20 @@
   lesson_name: Урок 11. Одежда
   lesson_name_eng: Getting dressed
   construction_table_rows:
-    - - 759
-      - В заключение …
-      - ^В заключение@ я хочу поблагодарить всех сотрудников нашей фирмы.
-      - - In conclusion, ...
-        - Finally, ...
-    - - 1957
-      - Итак, …
-      - ^Итак,@ платье мы выбрали, теперь нужно добавить аксессуары.
-      - - Thus, ... 
-        - So, ...
+    - - 1895
+      - …, … и тому подобное.
+      - В холодную погоду нужна теплая одежда: свитер, шарф, куртка ^и тому подобное@.
+      - - ... and the like.
+      - - ... og lignende.
+      - - In cold weather, warm clothing is needed: a sweater, scarf, jacket, and the like.
+        - I kaldt vær er det behov for varme klær: en genser, skjerf, jakke og lignende.
+    - - 1894
+      - …, … и так далее.
+      - Чтобы выглядеть стильно, нужно следить за трендами, комбинировать разные стили, экспериментировать ^и так далее.@
+      - - ... and so on.
+      - - og så videre.
+      - - To look stylish, you need to follow trends, combine different styles, experiment, and so on.
+        - For å se stilig ut, må du følge trender, kombinere forskjellige stiler, eksperimentere og så videre.
     - - 1894
       - …, … и так далее.
       - Кто-то займётся спортом, кто-то будет слушать музыку, кто-то танцевать ^и так далее@.
