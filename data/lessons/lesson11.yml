@@ -338,7 +338,7 @@
   lesson_id: 11
   ex_number: 9
   title: Соедините предложения или части предложений, подобрав логичное продолжение.
-  instructions: Конструкция ^в частности, XP/Cl@ может присоединять целое предложение (Cl) или только часть предложения, фразу (XP).
+  instructions: Конструкция ^в частности, ...@ может присоединять целое предложение или только часть предложения, фразу.
   exercise_type: text_input
   title_eng: Connect the sentences or phrases by choosing a matching continuation. Note that in the construction ^в частности, ...@ ‘for example / in particular / more specifically, ...’, we can put a phrase or an entire sentence in the slot marked ...
   title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at i konstruksjonen ^в частности, ...@ ‘for eksempel / spesifikt ...’, kan plassen ... fylles med en frase eller en hel setning.
@@ -372,8 +372,8 @@
   title: Продолжите предложения, используя конструкцию ^в частности, ...@.
   instructions: В этой конструкции слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence).
   exercise_type: ~
-  title_eng: Complete the sentences by using the construction ^в частности, XP/Cl@ ‘for example / in particular / more specifically, ...’. In this construction, we can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence).
-  title_nor: Fullfør setningene ved å bruke konstruksjonen ^в частности, XP/Cl@ ‘for eksempel / spesifikt ...’ Plassen XP/Cl kan fylles med en frase eller en hel setning (XP=frase, Cl=setning).
+  title_eng: Complete the sentences by using the construction ^в частности, ...@ ‘for example / in particular / more specifically, ...’.
+  title_nor: Fullfør setningene ved å bruke konstruksjonen ^в частности, ...@ ‘for eksempel / spesifikt ...’.
   comment: ~
   example: "Красивая одежда не обязательно дорогая.<br>
             &#10132; Красивая одежда не обязательно дорогая. ^В частности,@ можно покупать вещи с рук (например, на finn.no)."
@@ -393,15 +393,14 @@
 11:
   lesson_id: 11
   ex_number: 11
-  title: Продолжите предложения, используя конструкцию ^скажем, XP/Cl@.
+  title: Продолжите предложения, используя конструкцию ^скажем, ...@.
   instructions: В этой конструкции слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence). Обратите внимание на падеж в скобках (), который требуется в предложении.
   exercise_type: ~
-  title_eng: "Complete the sentences by using the construction ^скажем, XP/Cl@ ‘for example /say/let us say
-            ...’. In this construction, we can put a phrase or an entire sentence in the slot marked XP/Cl
-            (XP=phrase, Cl=clause, sentence). The case required in each sentence is indicated in the
+  title_eng: "Complete the sentences by using the construction ^скажем, ...@ ‘for example /say/let us say
+            ...’. In this construction, we can put a phrase or an entire sentence in the slot marked ... The case required in each sentence is indicated in the
             parentheses."
-  title_nor: "Fullfør setningene ved å bruke konstruksjonen ^скажем, XP/Cl@ ‘for eksempel / la oss si ...’.
-            Plassen XP/Cl kan fylles med en frase eller en hel setning (XP=frase, Cl=setning). Legg merke til
+  title_nor: "Fullfør setningene ved å bruke konstruksjonen ^скажем, ...@ ‘for eksempel / la oss si ...’.
+            Plassen ... kan fylles med en frase eller en hel setning. Legg merke til
             at kasus, som skal brukes i hver setning, står i parentes."
   comment: ~
   example: В одежде я консервативный. ^Скажем,@ я никогда не ношу рубашку без галстука.
@@ -441,8 +440,8 @@
                     3. и тому подобное<br>
                     4. Итак"
   answer_key: ~
-  difficult_words: "*уместные — English: appropriate; Norwegian: passende<br>
-                    * судить «по одёжке» — English: first impressions count; judge someone by their clothes; Norwegian: dømme noen etter utseendet"
+  difficult_words: "*уместные — EN: appropriate; NO: passende<br>
+                    * судить «по одёжке» — EN: first impressions count; judge someone by their clothes; NO: dømme noen etter utseendet"
   table: ~
 13:
   lesson_id: 11
@@ -544,12 +543,12 @@
   lesson_id: 11
   ex_number: 15
   title: Вы стилист. Помогите клиенту подобрать одежду. Какой цветотип у вашего клиента? Напишите короткий текст для вашего клиента с вашими советами. Используйте информацию о цветотипах из упражнения 13 и конструкции<br>
-        — ^в заключение VP/Cl@<br>
-        — ^Итак, Cl@<br>
-        — ^XP/Cl, XP/Cl и так далее/и т. д.@<br>
-        — ^NP, NP и тому подобное/и т. п.@<br>
-        — ^в частности, Cl/XP@<br>
-        — ^скажем, Cl/XP@
+        — ^в заключение ...@<br>
+        — ^Итак, ...@<br>
+        — ^..., ... и так далее.@<br>
+        — ^..., ... и тому подобное.@<br>
+        — ^в частности, ...@<br>
+        — ^скажем, ...@
   instructions: ~
   exercise_type: ~
   title_eng: Read the text that explains what a personal color type analysis is. Fill in the blanks with the words from the list.
