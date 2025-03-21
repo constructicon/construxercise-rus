@@ -1,11 +1,11 @@
 1:
   lesson_id: 11
   ex_number: 1
-  title: Прочитайте текст. Для чего нужны конструкции, выделенные в тексте? Что они обозначают?
+  title: Послушайте текст.
   instructions: ~
   exercise_type: ~
-  title_eng: Read the text. What is the purpose of the constructions highlighted in the text? What does each of these constructions mean?
-  title_nor: Les teksten. Hva er hensikten med de uthevede konstruksjonene i teksten? Hva betyr hver enkelt av disse konstruksjonene?
+  title_eng: Listen to the text.
+  title_nor: Lytt på teksten.
   comment: ~
   example: ~
   model: ~
@@ -28,7 +28,7 @@
 2:
   lesson_id: 11
   ex_number: 2
-  title: "Прочитайте эти тексты сами. Скажите, для чего нужны конструкции, выделенные в тексте?"
+  title: "Прочитайте текст в задании 1 сами. Для чего нужны конструкции, выделенные в тексте?"
   instructions: ~
   exercise_type: ~
   title_eng: Read the texts in the exercise 1. What is the purpose of the constructions highlighted in the text?
@@ -45,11 +45,11 @@
 3:
   lesson_id: 11
   ex_number: 3
-  title: Вы владелец модного бренда и получаете престижную награду за свою работу. На церемонии награждения вы произносите речь, в конце которой используете конструкцию ^в заключение Cl@.
+  title: Вы владелец модного бренда и получаете престижную награду за свою работу. На церемонии награждения вы произносите речь, в конце которой используете конструкцию ^В заключение ...@.
   instructions: В этой конструкции слот Cl заполняется целым предложением (Cl=clause, sentence). Составьте предложения из частей, предложенных в таблице.
   exercise_type: ~
-  title_eng: You are the owner of a fashion brand, and you receive a prestigious award for your work. At the awards ceremony, you give a speech. At the end of this speech, you use the construction ^в заключение Cl@ meaning ‘In conclusion / Lastly / Finally, ...’. In this construction, we can put an entire sentence in the Cl slot (Cl=clause, sentence). Build sentences from the parts given in the table.
-  title_nor: Du eier et moteselskap og har vunnet en prestisjefylt pris for ditt arbeid. På prisutdelingsseremonien holder du en tale. På slutten av talen bruker du konstruksjonen ^в заключение Cl@ som betyr omtrent ‘til slutt ...’. I denne konstruksjonen kan plassen Cl fylles med en hel setning (Cl=setning). Lag setninger ved å koble sammen de foreslåtte delene i tabellen.
+  title_eng: You are the owner of a fashion brand, and you receive a prestigious award for your work. At the awards ceremony, you give a speech. At the end of this speech, you use the construction ^В заключение ...@ meaning ‘In conclusion / Lastly / Finally, ...’. In this construction, we can put an entire sentence in the ... slot. Build sentences from the parts given in the table.
+  title_nor: Du eier et moteselskap og har vunnet en prestisjefylt pris for ditt arbeid. På prisutdelingsseremonien holder du en tale. På slutten av talen bruker du konstruksjonen ^в заключение Cl@ som betyr omtrent ‘til slutt ...’. I denne konstruksjonen kan plassen ... fylles med en hel setning. Lag setninger ved å koble sammen de foreslåtte delene i tabellen.
   comment: ~
   example: ^В заключение@ хочу добавить, что эта награда  — результат отличной работы всех наших сотрудников.<br>
             ^В заключение@, мы продолжим радовать вас нашими платьями.
@@ -79,11 +79,11 @@
 4:
   lesson_id: 11
   ex_number: 4
-  title: Вы стилист и ведёте блог о моде. Расскажите своим подписчикам в социальных сетях, что будут носить люди весной и летом этого года. Используйте фото ниже. Подведите итог своему рассказу, используя конструкцию ^Итак, Cl@.
+  title: Вы стилист и ведёте блог о моде. Расскажите своим подписчикам в социальных сетях, что будут носить люди весной и летом этого года. Используйте фото ниже. Подведите итог своему рассказу, используя конструкцию ^Итак, ...@.
   instructions: В этой конструкции слот Cl заполняется целым предложением (Cl=clause, sentence). Составьте предложения из частей, предложенных в таблице.
   exercise_type: ~
-  title_eng: You are a stylist and have a fashion blog. Tell your social media followers what people will be wearing in the upcoming spring and summer seasons. Use the photo below. Summarize your story using the construction ^Итак, Cl@ meaning ‘Thus, / So, ...’. In this construction, Cl stands for the whole sentence (Cl=clause, sentence).
-  title_nor: Du er stylist og har en moteblogg. Fortell dine følgere på sosiale media hva folk vil ha på seg den kommende vår- og sommersesongen. Bruk fotografiene nedenfor. Oppsummer din historie ved å bruke konstruksjonen ^Итак, Cl@ som betyr omtrent ‘altså / så / ...’ I denne konstruksjonen er Cl en hel setning (Cl=setning).
+  title_eng: You are a stylist and have a fashion blog. Tell your social media followers what people will be wearing in the upcoming spring and summer seasons. Use the photo below. Summarize your story using the construction ^Итак, ...@ meaning ‘Thus, / So, ...’. In this construction, ... stands for а whole sentence.
+  title_nor: Du er stylist og har en moteblogg. Fortell dine følgere på sosiale media hva folk vil ha på seg den kommende vår- og sommersesongen. Bruk fotografiene nedenfor. Oppsummer din historie ved å bruke konstruksjonen ^Итак, ...@ som betyr omtrent ‘altså / så / ...’ I denne konstruksjonen er ... en hel setning.
   comment: ~
   example: ^Итак,@ в этом сезоне люди будут носить блузки ярких цветов. Например, красные.<br>
           ^Итак,@ в этом сезоне будут в моде блузки ярких цветов. Например, красные.<br>
@@ -127,12 +127,12 @@
   lesson_id: 11
   ex_number: 5
   title: "Составьте предложения с перечислением объектов. В конце предложения используйте конструкции:<br>
-          — ^XP/Cl, XP/Cl и так далее/и т. д.@<br>
-          — ^NP, NP и тому подобное/и т. п.@"
+          — ^..., ... и так далее.@<br>
+          — ^..., ... и тому подобное.@"
   instructions: В этих конструкциях слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence), а NP — это существительное (NP=noun phrase).
   exercise_type: ~
-  title_eng: Build sentences in which you list several objects. At the end of each sentence, use the constructions ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... and so on’ and ^NP, NP и тому подобное/и т. п.@ ‘... and the like / etc.’. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence). NP stands for a noun (NP=noun phrase).
-  title_nor: Lag setninger hvor du lister flere objekter. Bruk konstruksjonene ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... og så videre / osv.’ og ^NP, NP и тому подобное/и т. п.@ ‘... og lignende / og så videre / osv.’ i slutten av hver setning. Plassen XP/Cl kan fylles med en frase eller en hel setning. (XP=frase, Cl=setning). NP betyr substantiv (NP=nominalfrase).
+  title_eng: Build sentences in which you list several objects. At the end of each sentence, use the constructions ^..., ... и так далее@ ‘... and so on’ and ^..., ... и тому подобное@ ‘... and the like’.
+  title_nor: Lag setninger hvor du lister flere objekter. Bruk konstruksjonene ^..., ... и так далее@ ‘... og så videre’ og ^..., ... и тому подобное@ ‘... og lignende’ i slutten av hver setning.
   comment: ~
   example: (постоянно мёрзнуть) (свитер, толстовка, тёплый кардиган, шарф)<br>
     &#10132;<br>
@@ -160,18 +160,18 @@
               Одежда для похода должна быть практичной и удобной: футболка, свитер, непромокаемая куртка, тёплые ботинки, шапка ^и так далее@."
   answer_key: ~
   difficult_words:
-    word3: "звёзды* — English: celebrities; Norwegian: kjendiser"
+    word3: "звёзды* — EN: celebrities; NO: kjendiser"
   table: ~
 6:
   lesson_id: 11
   ex_number: 6
   title: "Составьте предложения, подобрав логичное продолжение. В конце предложения используйте конструкции:<br>
-          — ^XP/Cl, XP/Cl и так далее/и т. д.@<br>
-          — ^NP, NP и тому подобное/и т. п.@"
+          — ^..., ... и так далее.@<br>
+          — ^..., ... и тому подобное.@"
   instructions: В этих конструкциях слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence), а NP — это существительное (NP=noun phrase).
   exercise_type: text_input
-  title_eng: Connect the phrases by choosing a matching continuation. At the end of each sentence, use the constructions ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... and so on’ and ^NP, NP и тому подобное/и т. п.@ ‘... and the like / etc.’. We can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence). NP stands for a noun (NP=noun phrase).
-  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonene ^XP/Cl, XP/Cl и так далее/и т. д.@ ‘... og så videre / osv.’ og ^NP, NP и тому подобное/и т. п.@ ‘... og lignende / og så videre / osv.’ i slutten av hver setning. Plassen XP/Cl kan fylles med en frase eller en hel setning. (XP=frase, Cl=setning). NP betyr substantiv (NP=nominalfrase).
+  title_eng: Connect the phrases by choosing a matching continuation. At the end of each sentence, use the constructions ^..., ... и так далее@ ‘... and so on’ and ^..., ... и тому подобное@ ‘... and the like’.
+  title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonene ^..., ... и так далее@ ‘... og så videre’ og ^..., ... и тому подобное@ ‘... og lignende.’ i slutten av hver setning.
   comment: ~
   example: ~
   model: ~
