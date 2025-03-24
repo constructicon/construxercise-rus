@@ -178,4 +178,121 @@ Note that since links often contain special characters that can mess up yaml syn
 
 ## Task
 
-The `task` attribute is perhaps the most important as it is responsible for the exercise contents.
+The `task` attribute is perhaps the most important as it is responsible for the exercise contents. The way this attribute is used depends on whether there are subtasks in the exercise. 
+
+To add text to an exercise, use `text` attribute. 
+
+```
+  task: 
+    text: |
+        В этом году я поступил в университет на филологический факультет. _________________________, учиться здесь сложно. _________________________, преподаватель по литературе, задаёт очень много домашних заданий на неделю. _________________________, к сегодняшнему занятию нам нужно было прочитать роман \"Идиот\" целиком и написать эссе. __________________________ меня, ___________ я люблю учить иностранные языки: английский и испанский. А вот литература мне уже не очень нравится."
+```
+
+If the task contains multiple subtasks, they are added as attributes with their order number, for example:
+
+```
+  task:
+    task1: ~
+    task2: ~
+    task3: ~
+```
+
+Just like with regular tasks, subtasks can can different contents along with text, such as images, audio, tables. 
+```
+  task:
+    task1:
+      text: "а. Познакомьтесь! Матвей Белов –  ________________  медицинского факультета. ^Кроме того,@ Матвей занимается каратэ и  ________________  плавает. Матвей ^не только@ учится, ^но и@  ________________  санитаром в больнице. Это полезный опыт, ^к тому же@ неплохая зарплата. ^Кстати говоря,@ в этой больнице лежала  ________________  тëтя. Она говорит, что Матвей – замечательный санитар и, ^плюс ко всему,@ у него  ________________  хорошее чувство юмора."
+      audio: a
+      image: 
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/nurse.jpg"
+        width: "400"
+    task2:
+      text: "б. Это Ирина.  ________________  талантливая певица. Ирина ^не только@ отлично поет, ^но и@ прекрасно  ________________  на гитаре. ^Кстати говоря,@  ________________  Ирине подарил отец."
+      audio: b
+      image:
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/guitar.jpg"
+        width: "400"
+```
+Audios must be added to the `voiceovers` subdirectory. Similarly to images, it contains subdirectories for each lesson. For example: https://github.com/constructicon/construxercise-rus/tree/main/voiceovers/1 contains audios for the first lesson. 
+
+The naming convention for the audios is: less{lesson_id}ex{ex_number}{identifier}.wav. For example, the first audio in lesson 1 has the name `less1ex1a.wav`, the second -- `less1ex1b.wav`, etc. As you can see in the example yaml above, we only need to input the identifier in the yaml file (a, b, c, etc.).
+
+## Answer_to_show
+This attribute contains answers that are displayed to the user upon pressing the 'Answer key' button. The value does not have to be exactly the correct answer, it can also contain clarifications, formatting, etc. This attribute is NOT used to check the correctness of the user input. 
+
+If the task does not have subtasks, `answer_to_show` assumes the value of a string, for instance:
+
+```
+  answer_to_show: "1. Честно говоря <br>2. К примеру / Так, <br>3. К примеру / Так, <br>4. Что касается <br>5. то"
+```
+
+![ans-to-show-eg](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/ans-to-show-eg.png)
+
+If the task has multiple subtasks, this attribute's value is contains multiple attributes, one for each subtask, for example:
+
+```
+  task: 
+    task1:
+      text: "1"
+    task2:
+      text: "2"
+    task3:
+      text: "3"
+  answer_to_show: 
+    answer1: "У бабушки болят глаза. Ей нужен врач, который лечит болезни глаз, ^другими словами,@ / ^то есть@ окулист."
+    answer2: "Маша каталась на сноуборде и сломала ногу. Ей нужен врач, который лечит переломы, ^другими словами,@ / ^то есть@ хирург."
+    answer3: "У Степана болит зуб. Ему нужен врач, который лечит зубы, ^другими словами,@ / ^то есть@ стоматолог."
+```
+
+## Answer_key
+This attribute is almost exactly the same as the previous one, except its value is used to check user's input. Its value must thus be exactly the same as we expect from the user in the task. 
+
+For instance, in the example above the answer that is shown to the user is very different from the one we use to check for correctness: 
+```
+  task: 
+    task1:
+      text: "1"
+    task2:
+      text: "2"
+    task3:
+      text: "3"
+  answer_to_show: 
+    answer1: "У бабушки болят глаза. Ей нужен врач, который лечит болезни глаз, ^другими словами,@ / ^то есть@ окулист."
+    answer2: "Маша каталась на сноуборде и сломала ногу. Ей нужен врач, который лечит переломы, ^другими словами,@ / ^то есть@ хирург."
+    answer3: "У Степана болит зуб. Ему нужен врач, который лечит зубы, ^другими словами,@ / ^то есть@ стоматолог."
+  answer_key:
+    answer1: "б"
+    answer2: "в"
+    answer3: "а"
+```
+
+Sometimes multiple answers are correct. The `answer_key` attribute can then be defined as a list, each element in which is a variant of correct answer. For example:
+
+```
+  answer_key:
+    answer1: 
+      - "Мне уже лучше, да и вообще, я вас совсем не знаю!"
+      - "Мне уже лучше, и вообще, я вас совсем не знаю!"
+    answer2: 
+      - "И вообще, тебе надо найти другую работу!"
+      - "Да и вообще, тебе надо найти другую работу!"
+    answer3: 
+      - "И вообще, я уже не помню..."
+      - "Да и вообще, я уже не помню..."
+    answer4: 
+      - "И вообще, у меня всё болит."
+      - "Да и вообще, у меня всё болит."
+```
+
+Here there are 4 subtasks, and each of them has 2 potentially correct answers. The script will then search for the user's answer in this list, and if it is found, display the user answer as correct.
+
+## Difficult_words
+
+...
+
+## Table
+
+...
+
+## Answer_options
+...
