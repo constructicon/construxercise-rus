@@ -1,11 +1,112 @@
 # Intro to yaml
 
-The data for the website is stored in .yml-files, which is a markup language with relatively simple syntax.
+The data for the website is stored in .yml-files, which are used for dynamic generation of website pages. [YAML](https://yaml.org/) (Yet Another Markup Language) is a markup language with a relatively simple syntax. 
 
-...
+## File structure
+Each yaml file begins with ```---```. In our case, yaml files are organized as lists of exercises. Each exercise begins as a number, starting with 1:
 
-## Main syntax rules
-...
+```
+---
+1:
+```
+
+All attributes related to this exercise will need to be indented with whitespace, showing that they are part of the respective exercise. Some attributes always present in exercises are **lesson_id**, **ex_number**, and **title**. For example:
+
+```
+---
+1:
+  lesson_id: 1
+  ex_number: 1
+  title: Послушайте тексты и заполните пропуски. Запишите ответы через запятую.
+```
+
+The [Tag overview](https://constructicon.github.io/construxercise-rus/docs/#/data/tag-overview) page contains an overview of all attributes in yaml files, their possible values, and example of usage. In this section, we will give examples of different types of attributes and how to properly format them.
+
+## Attributes and values
+As mentioned above, yaml files are organized as pairs of keys (attributes) and values. For instance, in the example above **lesson_id** is a key with value **1**. 
+
+The yaml syntax requires that keys are followed by a colon (:) and a space before the value begins. Every attribute must begin on a new line, i.e. it is not possible to have multiple attributes on one line.
+
+There is a predefined set of attributes the JavaScript code looks for when generating pages (see section [Tag overview](https://constructicon.github.io/construxercise-rus/docs/#/data/tag-overview)). This means that if an attribute is misspelled or a new one is created, the code will ignore the value attached to it, as the key is not defined in the JavaScript file.
+
+## Value types
+There are only two types of values used in our code. 
+
+- Integers (e.g. 1, 2, 43, 1091): used for **lesson_id** and **ex_number** attributes
+- Strings (e.g. "Составьте предложения."): used for exercise titles, task texts, answers, etc.
+
+Although integers are straight-forward and don't require any special attention (simply type the number you want), strings are a bit trickier. When the string is short and does not contain special characters, it can be used as is:
+
+```
+  title: Составьте предложения.
+```
+
+However, if the text contains symbols that yaml uses for its syntax, the string **must** be contained in "".
+
+```
+  difficult_words:
+    word3: "звёзды* — EN: celebrities; NO: kjendiser"
+```
+<div style="display: flex; gap: 20px;">
+  <div style="flex: 1; background: #e8f5e9; padding: 10px; border-radius: 5px;">
+    <strong>✅ Do This:</strong>
+    <pre><code class="language-js">  difficult_words:
+    word3: "звёзды* — EN: celebrities; NO: kjendiser"</code></pre>
+  </div>
+  <div style="flex: 1; background: #ffebee; padding: 10px; border-radius: 5px;">
+    <strong>❌ Don't Do This:</strong>
+    <pre><code class="language-js">  difficult_words:
+    word3: звёзды* — EN: celebrities; NO: kjendiser</code></pre>
+  </div>
+</div>
+In the example above, the string contains characters that would break yaml's syntax if not contained in quotation marks, specifically - and :. By enclosing the text in quotation marks we signal to yaml that this is a string and should not be treated as part of yaml's syntax.
+
+Finally, if the string is very long, complex, contains special characters and spans over multiple lines, a different formatting rule must be used:
+
+```
+  constr_info: |
+    Kонструкция ^кроме того, ...@ вводит дополнительную информацию. Часто
+    перед этой конструкцией стоит союз «а» : ^а кроме того, ...@
+    <ul><li> Я учусь в университете. ^Кроме того,@ я играю в футбол.</li>
+     <li>Я учусь в университете, ^а кроме того,@ я играю в футбол.</li></ul>
+
+```
+
+Here a | symbol is added along with newline to signal to yaml that the string will take over multiple lines. All text must then be indented relative to the attribute:
+
+<div style="display: flex; gap: 20px;">
+  <div style="flex: 1; background: #e8f5e9; padding: 10px; border-radius: 5px;">
+    <strong>✅ Do This:</strong>
+    <pre><code class="language-js"> 
+    constr_info: | 
+        Текст
+        на несколько
+        строк.
+    </code></pre>
+  </div>
+  <div style="flex: 1; background: #ffebee; padding: 10px; border-radius: 5px;">
+    <strong>❌ Don't Do This:</strong>
+    <pre><code class="language-js">
+    constr_info: | 
+    Текст
+    на несколько
+    строк.
+    </code></pre>
+  </div>
+</div>
+
+## String formatting
+Very often the text needs to be formatted for the website page, for example, organized in a numbered list, italicised, etc. Since Yaml does not support such formatting, we use HTML tags inside the strings. When the website is later generated by JavaScript, the HTML files will format the text properly on the page.
+
+```
+  title: |
+    Бонусное упражнение<br>
+    Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть несколько.<br>
+    <ul><li>^Кстати@</li><li>^Кроме того@</li><li>^К тому же@</li></ul>
+```
+
+Result:
+
 
 ## Common bugs
 
