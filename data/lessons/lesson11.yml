@@ -51,6 +51,10 @@
   title_eng: You are the owner of a fashion brand, and you receive a prestigious award for your work. At the awards ceremony, you give a speech. At the end of this speech, you use the construction ^В заключение ...@ meaning ‘In conclusion / Lastly / Finally, ...’. In this construction, we can put an entire sentence in the ... slot. Build sentences from the parts given in the table.
   title_nor: Du eier et moteselskap og har vunnet en prestisjefylt pris for ditt arbeid. På prisutdelingsseremonien holder du en tale. På slutten av talen bruker du konstruksjonen ^в заключение Cl@ som betyr omtrent ‘til slutt ...’. I denne konstruksjonen kan plassen ... fylles med en hel setning. Lag setninger ved å koble sammen de foreslåtte delene i tabellen.
   comment: ~
+  constr_info: |
+    Kонструкция ^text, ...@ text
+    <ul><li>text.</li>
+     <li>text.</li></ul>
   example: ^В заключение@ хочу добавить, что эта награда  — результат отличной работы всех наших сотрудников.<br>
             ^В заключение@, мы продолжим радовать вас нашими платьями.
   model: ~
