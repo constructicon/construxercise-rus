@@ -100,13 +100,21 @@ Very often the text needs to be formatted for the website page, for example, org
 
 ```
   title: |
-    Бонусное упражнение<br>
-    Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть несколько.<br>
-    <ul><li>^Кстати@</li><li>^Кроме того@</li><li>^К тому же@</li></ul>
+    Бонусное упражнение
+    Заполните пропуски словами из списка. Объясните, почему другие варианты не подходят. Правильных ответов может быть несколько.
+    <ul>
+    <li>^Кстати@</li>
+    <li>^Кроме того@</li>
+    <li>^К тому же@</li>
+    </ul>
 ```
 
 Result:
+![html-formatting-result](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/html-formatting-eg.png)
 
+Here, the ```<ul></ul>``` tag formats the content as an unordered list (to do ordered list, change to ```<ol></ol>```). Each bullet point should then be contained in ```<li></li>``` tags. 
+
+In addition, a ```<br>``` tag is often used to add linebreaks in the text.
 
 ## Common bugs
 
