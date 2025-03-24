@@ -47,8 +47,8 @@
   title_nor: Beskriv dine første inntrykk når du møtte dine klassekamerater og lærere. Beskriv også hvordan dette forandret seg over tid. Bruk setningene 1 til 6 og konstruksjonene ^На первый взгляд, Cl@ ‘Ved første øyekast ... ’ og ^На самом деле Cl@ ‘Faktisk ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
   comment: ~
   constr_info: |
-    Kонструкция ^text, ...@ text
-    <ul><li>text.</li>
+    Kонструкция ^на первый взгляд, ...@ обозначает первоначальную, часто поверхностную и субъективную оценку. Эта оценка не вполне соответствует действительности и позднее может измениться.
+    <ul><li>^На первый взгляд,@ Алиса спокойная.</li>
      <li>text.</li></ul>
   example: Саша скучный. Саша спокойный.<br>
           ^На первый взгляд,@ Саша скучный. Но ^на самом деле@ он спокойный.
