@@ -89,6 +89,10 @@
   title_eng: You are a stylist and have a fashion blog. Tell your social media followers what people will be wearing in the upcoming spring and summer seasons. Use the photo below. Summarize your story using the construction ^Итак, ...@ meaning ‘Thus, / So, ...’. In this construction, ... stands for а whole sentence.
   title_nor: Du er stylist og har en moteblogg. Fortell dine følgere på sosiale media hva folk vil ha på seg den kommende vår- og sommersesongen. Bruk fotografiene nedenfor. Oppsummer din historie ved å bruke konstruksjonen ^Итак, ...@ som betyr omtrent ‘altså / så / ...’ I denne konstruksjonen er ... en hel setning.
   comment: ~
+  constr_info: |
+    Kонструкция ^text, ...@ text
+    <ul><li>text.</li>
+     <li>text.</li></ul>
   example: ^Итак,@ в этом сезоне люди будут носить блузки ярких цветов. Например, красные.<br>
           ^Итак,@ в этом сезоне будут в моде блузки ярких цветов. Например, красные.<br>
           ^Итак,@ в этом сезоне будет модно носить блузки ярких цветов. Например, красные.
