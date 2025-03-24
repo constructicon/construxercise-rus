@@ -142,6 +142,10 @@
   title_eng: Build sentences in which you list several objects. At the end of each sentence, use the constructions ^..., ... и так далее@ ‘... and so on’ and ^..., ... и тому подобное@ ‘... and the like’.
   title_nor: Lag setninger hvor du lister flere objekter. Bruk konstruksjonene ^..., ... и так далее@ ‘... og så videre’ og ^..., ... и тому подобное@ ‘... og lignende’ i slutten av hver setning.
   comment: ~
+  constr_info: |
+    Kонструкция ^text, ...@ text
+    <ul><li>text.</li>
+     <li>text.</li></ul>
   example: (постоянно мёрзнуть) (свитер, толстовка, тёплый кардиган, шарф)<br>
     &#10132;<br>
             — Я постоянно мёрзну, поэтому всегда ношу свитера, толстовки, тёплые кардиганы, шарфы ^и так далее@.<br>
@@ -213,6 +217,10 @@
   title_eng: Fill in the blanks by using the constructions ^в частности, ...@ ‘for example / in particular / more specifically, ...’ and ^скажем, ...@ ‘for example /say/let us say ...’. In order to understand the differences between these constructions, see the explanation below. In both constructions, we can put a phrase or an entire sentence in the slot marked ...
   title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonene ^в частности, ...@ ‘for eksempel / spesifikt ...’ og ^скажем, ...@ ‘for eksempel / la oss si ...’. Les forklaringen nedenfor for å forstå likhetene og forskjellene mellom disse to konstruksjonene. I begge konstruksjonene kan plassen ... fylles med en frase eller en hel setning.
   comment: ~
+  constr_info: |
+    Kонструкция ^text, ...@ text
+    <ul><li>text.</li>
+     <li>text.</li></ul>
   example: ~
   model: ~
   image:
@@ -449,7 +457,7 @@
                     4. Итак"
   answer_key: ~
   difficult_words: "*уместные — EN: appropriate; NO: passende<br>
-                    * судить «по одёжке» — EN: first impressions count; judge someone by their clothes; NO: dømme noen etter utseendet"
+                    *судить «по одёжке» — EN: first impressions count; judge someone by their clothes; NO: dømme noen etter utseendet"
   table: ~
 13:
   lesson_id: 11
@@ -550,7 +558,7 @@
 15:
   lesson_id: 11
   ex_number: 15
-  title: Вы стилист. Помогите клиенту подобрать одежду. Какой цветотип у вашего клиента? Напишите короткий текст для вашего клиента с вашими советами. Используйте информацию о цветотипах из упражнения 13 и конструкции<br>
+  title: Вы стилист. Помогите клиенту подобрать одежду. Какой цветотип у вашего клиента? Напишите короткий текст для вашего клиента с вашими советами. Используйте информацию о цветотипах из упражнения 14 и конструкции<br>
         — ^в заключение ...@<br>
         — ^Итак, ...@<br>
         — ^..., ... и так далее.@<br>
