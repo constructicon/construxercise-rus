@@ -134,4 +134,48 @@ The values for this attribute are often multiline text and thus need to be forma
 
 ## Example
 
-The `example` tag contains examples to how an exercise can be completed.
+The `example` tag contains examples to how an exercise can be completed. The contents are shown under the exercise title in a separate field with 'Образец' as the title:
+
+![example-eg](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/example-eg.png)
+
+## Model
+
+This attribute usually contains a template or scheme of how the exercise shouls be completed. The contents are shown under the exercise title in a separate field with 'Модель' as the title:
+
+![model-eg](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/model-eg.png)
+
+## Image
+
+The `image` attribute is used to add images to the exercise. It is usually done by passing the `link` attribute (attributes can be nested, like in this case). In addition, a `width` attribute can be passed to specify size in pixels. 
+
+```
+    image: 
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/packing.jpg"
+        width: 400
+```
+
+The URL provided to the image is the **raw** image in the github repository. Any new image should be uploaded to the [images](https://github.com/constructicon/construxercise-rus/tree/main/images) subdirectory in the repository, which contains subdirectories for all lessons. For instance, if the image needs to be added for the 10th lesson, it should be uploaded to the https://github.com/constructicon/construxercise-rus/tree/main/images/10 subdirectory.
+
+<div style="border-left: 5px solid #f39c12; background: #fff3cd; padding: 10px; border-radius: 5px;">
+  <strong>⚠️ Important!</strong><br><br>
+
+  After uploading the image, select the URL in your browser, for instance:
+
+  https://github.com/constructicon/construxercise-rus/blob/main/images/5/interview.jpg
+  
+  This link WILL NOT WORK if pasted into the yaml file as is. After you have selected the URL, change 'blob' to 'raw':
+
+  https://github.com/constructicon/construxercise-rus/raw/main/images/5/interview.jpg
+
+  Press enter to reload the window. The link will then change to something like this:
+
+  https://raw.githubusercontent.com/constructicon/construxercise-rus/main/images/5/interview.jpg
+
+  This URL is ready to use!
+</div>
+
+Note that since links often contain special characters that can mess up yaml syntax, it is best to provide them in quotation marks.
+
+## Task
+
+The `task` attribute is perhaps the most important as it is responsible for the exercise contents.
