@@ -89,28 +89,7 @@
     answer5: На первый взгляд, Ирина Петровна строгая. Но на самом деле она справедливая.
     answer6: На первый взгляд, Николай Андреевич несерьёзный. Но на самом деле он очень весёлый.
   difficult_words: ~
-  table:
-    heading:
-      - ^На первый взгляд, ...@
-      - ^На самом деле ...@@
-    row1:
-      - |
-        ^На первый взгляд,@ Алиса спокойная.<br>
-        EN: ‘At first glance, Alice is calm.’<br>
-        NO: ‘Ved første øyekast er Alice rolig.’
-      - |
-        ^На самом деле@ она очень эмоциональный человек.<br>
-        EN: ‘In reality, she is a very emotional person.’<br>
-        NO: ‘Faktisk er hun en veldig emosjonell person.’
-    row2:
-      - Конструкция обозначает <b>первоначальную, часто поверхностную и субъективную оценку объекта</b> или участника. Эта оценка не вполне соответствует действительности и впоследствии может измениться.
-      - Конструкция обозначает <b>объективную оценку</b> объекта или участника или сообщает информацию, которая соответствует действительности. Часто эта информация противопоставлена другой, менее точной.
-    row3:
-      - This construction denotes <b>the initial, often preliminary, and subjective assessment</b> of аn object or a participant. This assessment is not entirely true and may change later.
-      - This construction denotes <b>an objective assessment</b> of an object or a participant or communicates information that is true. Often this information is contrasted with another, less accurate information.
-    row4:
-      - Konstruksjonen betegner en <b>første, ofte overflatisk og subjektiv vurdering</b> av et objekt eller en deltaker, en vurdering som ikke samsvarer helt med virkeligheten og i det følgende kan bli endret.
-      - Konstruksjonen angir en <b>objektiv evaluering</b> av et objekt eller en deltaker, eller kommuniserer informasjon som samsvarer med virkeligheten. Ofte blir denne informasjonen kontrastert med annen, mindre nøyaktig informasjon.
+  table: ~
 4:
   lesson_id : 10
   ex_number: 4
