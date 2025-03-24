@@ -49,7 +49,16 @@
   constr_info: |
     Kонструкция ^на первый взгляд, ...@ обозначает первоначальную, часто поверхностную и субъективную оценку. Эта оценка не вполне соответствует действительности и позднее может измениться.
     <ul><li>^На первый взгляд,@ Алиса спокойная.</li>
-     <li>text.</li></ul>
+    <li>EN: ^At first glance,@ Alice is calm.</li></ul>
+    <li>NO: ^Ved første øyekast@ er Alice rolig.</li></ul><br>
+    EN: This construction denotes the initial, often preliminary, and subjective assessment. This assessment is not entirely true and may change later.<br>
+    NO: Konstruksjonen betegner en første, ofte overflatisk og subjektiv vurdering, en vurdering som ikke samsvarer helt med virkeligheten og i det følgende kan bli endret.<br>
+    Kонструкция ^на самом деле, ...@ обозначает объективную оценку или сообщает информацию, которая соответствует действительности. Часто эта информация противопоставлена другой, менее точной.
+    <ul><li>^На самом деле,@ она очень эмоциональный человек.</li>
+    <li>EN: ^In reality,@ she is a very emotional person.</li></ul>
+    <li>NO: ^Faktisk@ er hun en veldig emosjonell person.</li></ul><br>
+    EN: This construction denotes an objective assessment or communicates information that is true. Often this information is contrasted with another, less accurate information.<br>
+    NO: Konstruksjonen angir en objektiv evaluering eller kommuniserer informasjon som samsvarer med virkeligheten. Ofte blir denne informasjonen kontrastert med annen, mindre nøyaktig informasjon.<br>
   example: Саша скучный. Саша спокойный.<br>
           ^На первый взгляд,@ Саша скучный. Но ^на самом деле@ он спокойный.
   model: ~
