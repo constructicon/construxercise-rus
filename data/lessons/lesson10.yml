@@ -49,12 +49,12 @@
   constr_info: |
     Kонструкция ^на первый взгляд, ...@ обозначает первоначальную, часто поверхностную и субъективную оценку. Эта оценка не вполне соответствует действительности и позднее может измениться.
     <ul><li>^На первый взгляд,@ Алиса спокойная.</li>
-    EN: At first glance, Alice is calm. NO: Ved første øyekast er Alice rolig.</li></ul><br>
+    EN: <b>At first glance,</b> Alice is calm. NO: <b>Ved første øyekast</b> er Alice rolig.</li></ul><br>
     EN: This construction denotes the initial, often preliminary, and subjective assessment. This assessment is not entirely true and may change later.<br>
     NO: Konstruksjonen betegner en første, ofte overflatisk og subjektiv vurdering, en vurdering som ikke samsvarer helt med virkeligheten og i det følgende kan bli endret.</li></ul><br>
     Kонструкция ^на самом деле, ...@ обозначает объективную оценку или сообщает информацию, которая соответствует действительности. Часто эта информация противопоставлена другой, менее точной.<br>
     <ul><li>^На самом деле,@ она очень эмоциональный человек.</li>
-    EN: In reality, she is a very emotional person. NO: Faktisk er hun en veldig emosjonell person.</li></ul><br>
+    EN: <b>In reality,</b> she is a very emotional person. NO: <b>Faktisk</b> er hun en veldig emosjonell person.</li></ul><br>
     EN: This construction denotes an objective assessment or communicates information that is true. Often this information is contrasted with another, less accurate information.<br>
     NO: Konstruksjonen angir en objektiv evaluering eller kommuniserer informasjon som samsvarer med virkeligheten. Ofte blir denne informasjonen kontrastert med annen, mindre nøyaktig informasjon.<br>
   example: Саша скучный. Саша спокойный.<br>
@@ -146,9 +146,8 @@
   title_nor: Erstatt de understrekete ordene med andre ord som ikke er like følelsesladde og skarpe. Bruk konstruksjonen ^мягко говоря, ...@ ‘mildt sagt, ... ’. Plassen ... kan fylles med en hel setning. Ordene ^мягко говоря@ kan være enten i begynnelsen, i slutten, eller i midten av en setning. Den beste måten er imidlertid å plassere ordene ^мягко говоря@ direkte foran den formildende frasen.
   comment: ~
   constr_info: |
-    Kонструкция ^text, ...@ text
-    <ul><li>text.</li>
-     <li>text.</li></ul>
+    Слова ^мягко говоря@ могут находиться в начале, в конце или в середине предложения. Лучше всего ставить их непосредственно перед фразой, которая используется как менее категоричная.
+    <ul><li> Аглая, ^мягко говоря,@ не всегда пунктуальна!</li>
   example: |
     Соседи <b>были шокированы</b>, когда увидели вора у себя дома.<br>
     &#10132; Соседи, ^мягко говоря,@ удивились, когда увидели вора у себя дома.
@@ -184,10 +183,6 @@
   title_eng: Connect the sentences by choosing a matching continuation. Use the construction ^грубо говоря, ...@ meaning ‘Roughly, ...’. We can place an entire sentence in the ... slot.
   title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^грубо говоря, ...@ som betyr omtrent ‘grovt sett, ... ’. Plassen ... kan fylles med en hel setning.
   comment: ~
-  constr_info: |
-    Kонструкция ^text, ...@ text
-    <ul><li>text.</li>
-     <li>text.</li></ul>
   example: |
     Мой кот боится всего: шума на улице, гостей, яркого света и даже мух.	Он очень трусливый.<br>
     &#10132;<br>
