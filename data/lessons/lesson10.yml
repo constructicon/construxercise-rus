@@ -116,11 +116,7 @@
   exercise_type: ~
   title_eng: Analyze the information provided in the table. How are the two constructions ^мягко говоря, ...@ ‘To put it mildly, ...’ and ^грубо говоря, ...@ ‘Roughly speaking, ...’ similar and how are they different? We can place an entire sentence in the ... slot.
   title_nor: Analyser informasjonen i tabellen. Finn likheter og forskjeller i bruken og betydningen av konstruksjonene ^мягко говоря, ...@ ‘mildt sagt, ...’ og ^грубо говоря, ...@, ‘grovt sett, ... ’. Plassen ... kan fylles med en hel setning.
-  comment: ~ 
-  constr_info: |
-    Kонструкция ^text, ...@ text
-    <ul><li>text.</li>
-     <li>text.</li></ul>
+  comment: ~
   constr_info: |
     Kонструкция ^мягко говоря, ...@ вводит некоторую оценочную формулировку, которая является более нейтральной или вежливой, чем могла бы быть в этой ситуации. Говорящий дает понять, что его формулировка является более мягкой, чем то, что он на самом деле думает. Говорящий намеренно избегает резких или грубых выражений.
     <ul><li>^Миша, ^мягко говоря,@ не подарок.</li>
