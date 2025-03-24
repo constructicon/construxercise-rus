@@ -123,7 +123,7 @@
     EN: <b>To put it mildly,</b> Misha is no joy to be with. NO: Misja er <b>mildt sagt</b> ikke en gave.</li></ul><br>
     EN: This construction introduces an evaluative statement that is more neutral or polite than it might have been in this situation. The speaker makes it clear that the wording is milder than what they really think. The speaker deliberately avoids harsh or rude expressions.<br>
     NO: Konstruksjonen introduserer еn evaluerende formulering, som er mer nøytral eller høflig enn en kunne ha vært i denne situasjonen. Taleren gjør det klart at formuleringen hans er mykere enn det han egentlig tror. Taleren unngår bevisst harde eller frekke uttrykk.</li></ul><br>
-    Kонструкция ^на самом деле, ...@ обозначает объективную оценку или сообщает информацию, которая соответствует действительности. Часто эта информация противопоставлена другой, менее точной.<br>
+    Kонструкция ^грубо говоря, ...@ обозначает объективную оценку или сообщает информацию, которая соответствует действительности. Часто эта информация противопоставлена другой, менее точной.<br>
     <ul><li>Разница совсем небольшая. Все видят, ^грубо говоря@ одно и то же.</li>
     EN: The difference isn’t so big. <b>Roughly speaking,</b> everyone sees the same thing. NO: Forskjellen er ganske liten. Alle ser, <b>grovt sett,</b> det samme.</li></ul><br>
     EN: This construction introduces an evaluative statement that is less precise than it might be in this situation. The speaker deliberately conveys the general idea and avoids giving details.<br>
@@ -142,12 +142,14 @@
   title: Замените подчёркнутые слова на менее эмоциональные и резкие. Используйте конструкцию ^мягко говоря, ...@.
   instructions: На месте Cl находится целое предложение (Cl=clause, sentence). Слова ^мягко говоря@ могут находиться в начале, в конце или в середине предложения. Лучше всего помещать слова ^мягко говоря@ непосредственно перед фразой, которая используется как менее категоричная.
   exercise_type: text_input
-  title_eng: Replace the underlined words with other words that are less emotional and harsh. Use the construction ^мягко говоря, ...@ meaning ‘Mildly speaking / To put it mildly, ...’. We can place an entire sentence in the ... slot. The words ^мягко говоря@ can be placed in the beginning, at the end, or in the middle of a sentence. The best strategy is to place the words ^мягко говоря@ right before the hedging phrase.
-  title_nor: Erstatt de understrekete ordene med andre ord som ikke er like følelsesladde og skarpe. Bruk konstruksjonen ^мягко говоря, ...@ ‘mildt sagt, ... ’. Plassen ... kan fylles med en hel setning. Ordene ^мягко говоря@ kan være enten i begynnelsen, i slutten, eller i midten av en setning. Den beste måten er imidlertid å plassere ordene ^мягко говоря@ direkte foran den formildende frasen.
+  title_eng: Replace the underlined words with other words that are less emotional and harsh. Use the construction ^мягко говоря, ...@ meaning ‘Mildly speaking / To put it mildly, ...’.
+  title_nor: Erstatt de understrekete ordene med andre ord som ikke er like følelsesladde og skarpe. Bruk konstruksjonen ^мягко говоря, ...@ ‘mildt sagt, ... ’.
   comment: ~
   constr_info: |
     Слова ^мягко говоря@ могут находиться в начале, в конце или в середине предложения. Лучше всего ставить их непосредственно перед фразой, которая используется как менее категоричная.
-    <ul><li> Аглая, ^мягко говоря,@ не всегда пунктуальна!</li>
+    <ul><li> Аглая, ^мягко говоря,@ не всегда пунктуальна!</li><br>
+    EN: The words ^мягко говоря@ can be placed in the beginning, at the end, or in the middle of a sentence. The best strategy is to place the words ^мягко говоря@ right before the hedging phrase.<br>
+    NO: Ordene ^мягко говоря@ kan være enten i begynnelsen, i slutten, eller i midten av en setning. Den beste måten er imidlertid å plassere ordene ^мягко говоря@ direkte foran den formildende frasen.</li></ul><br>
   example: |
     Соседи <b>были шокированы</b>, когда увидели вора у себя дома.<br>
     &#10132; Соседи, ^мягко говоря,@ удивились, когда увидели вора у себя дома.
