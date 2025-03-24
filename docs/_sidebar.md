@@ -4,3 +4,4 @@
   - [Yaml structure](data/yaml-structure.md)
 - **Code**
   - [Repo structure](code/repo-structure.md)
+- [Docs](docs.md)
