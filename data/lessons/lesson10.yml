@@ -46,6 +46,10 @@
   title_eng: Describe your first impressions from meeting your classmates and teachers. Describe also how these first impressions have changed over time. Use the sentences 1 to 6, the construction ^На первый взгляд, Cl@ meaning ‘At first glance, ... ’ and the construction ^На самом деле Cl@ meaning ‘Actually / In reality /As a matter of fact, ... ’. We can place an entire sentence in the Cl slot (Cl=clause, sentence).
   title_nor: Beskriv dine første inntrykk når du møtte dine klassekamerater og lærere. Beskriv også hvordan dette forandret seg over tid. Bruk setningene 1 til 6 og konstruksjonene ^На первый взгляд, Cl@ ‘Ved første øyekast ... ’ og ^На самом деле Cl@ ‘Faktisk ... ’. Plassen Cl kan fylles med en hel setning (Cl=setning).
   comment: ~
+  constr_info: |
+    Kонструкция ^text, ...@ text
+    <ul><li>text.</li>
+     <li>text.</li></ul>
   example: Саша скучный. Саша спокойный.<br>
           ^На первый взгляд,@ Саша скучный. Но ^на самом деле@ он спокойный.
   model: ~
@@ -126,7 +130,11 @@
   exercise_type: ~
   title_eng: Analyze the information provided in the table. How are the two constructions ^мягко говоря, ...@ ‘To put it mildly, ...’ and ^грубо говоря, ...@ ‘Roughly speaking, ...’ similar and how are they different? We can place an entire sentence in the ... slot.
   title_nor: Analyser informasjonen i tabellen. Finn likheter og forskjeller i bruken og betydningen av konstruksjonene ^мягко говоря, ...@ ‘mildt sagt, ...’ og ^грубо говоря, ...@, ‘grovt sett, ... ’. Plassen ... kan fylles med en hel setning.
-  comment: ~
+  comment: ~ 
+  constr_info: |
+    Kонструкция ^text, ...@ text
+    <ul><li>text.</li>
+     <li>text.</li></ul>
   example: ~
   model: ~
   image: ~
@@ -165,6 +173,10 @@
   title_eng: Replace the underlined words with other words that are less emotional and harsh. Use the construction ^мягко говоря, ...@ meaning ‘Mildly speaking / To put it mildly, ...’. We can place an entire sentence in the ... slot. The words ^мягко говоря@ can be placed in the beginning, at the end, or in the middle of a sentence. The best strategy is to place the words ^мягко говоря@ right before the hedging phrase.
   title_nor: Erstatt de understrekete ordene med andre ord som ikke er like følelsesladde og skarpe. Bruk konstruksjonen ^мягко говоря, ...@ ‘mildt sagt, ... ’. Plassen ... kan fylles med en hel setning. Ordene ^мягко говоря@ kan være enten i begynnelsen, i slutten, eller i midten av en setning. Den beste måten er imidlertid å plassere ordene ^мягко говоря@ direkte foran den formildende frasen.
   comment: ~
+  constr_info: |
+    Kонструкция ^text, ...@ text
+    <ul><li>text.</li>
+     <li>text.</li></ul>
   example: |
     Соседи <b>были шокированы</b>, когда увидели вора у себя дома.<br>
     &#10132; Соседи, ^мягко говоря,@ удивились, когда увидели вора у себя дома.
@@ -200,6 +212,10 @@
   title_eng: Connect the sentences by choosing a matching continuation. Use the construction ^грубо говоря, ...@ meaning ‘Roughly, ...’. We can place an entire sentence in the ... slot.
   title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^грубо говоря, ...@ som betyr omtrent ‘grovt sett, ... ’. Plassen ... kan fylles med en hel setning.
   comment: ~
+  constr_info: |
+    Kонструкция ^text, ...@ text
+    <ul><li>text.</li>
+     <li>text.</li></ul>
   example: |
     Мой кот боится всего: шума на улице, гостей, яркого света и даже мух.	Он очень трусливый.<br>
     &#10132;<br>
