@@ -217,6 +217,19 @@
   title_eng: Analyze the diagram below. How are the two constructions ^вряд ли ...@ meaning ‘it is unlikely that ...’ and ^Не факт, что ...@ meaning ‘it is not necessarily the case that ...’ different? We can locate a phrase or an entire sentence in the slot ...
   title_nor: Analyser diagrammet nedenfor. På hvilken måte er konstruksjonene ^вряд ли ...@ ‘neppe ...’ og ^Не факт, что ...@ ‘det er ikke sikkert at ...’ forskjellige? Plassen ... kan fylles med en frase eller en hel setning.
   comment: ~
+  constr_info: |
+    Kонструкция ^вряд ли ...@ используется, когда говорящий сомневается в том, что произойдёт какое-то событие. У конструкции есть более разговорный вариант ^навряд ли ...@.
+    <ul><li>^Вряд ли@ он придёт.</li>
+    EN: <b>It is unlikely that</b> he will come. (= I think he is not coming)<br>
+    NO: <b>Det er usannsynlig at</b> han kommer. (= Jeg tror ikke at han kommer)</li></ul><br>
+    EN: This construction is used when the speaker doubts that an event will take place. The construction has a more colloquial version ^навряд ли ...@<br>
+    NO: Konstruksjonen brukes når taleren tviler på om en gitt hendelse vil inntreffe. Konstruksjonen har en mer uformell versjon ^навряд ли ...@</li></ul><br>
+    Kонструкция ^Не факт, что ...@ используется, когда говорящий сомневается в адекватности некоторой оценки или информации. Конструкция часто передает скепсис говорящего, основанный на его знаниях о ситуации.<br>
+    <ul><li>^Не факт, что@ он придёт.</li>
+    EN: <b>It is not necessarily the case that</b> (= I do not know if he is not coming)<br>
+    NO: <b>Det er ikke sikkert</b> han kommer. (= Jeg vet ikke om han kommer)</li></ul><br>
+    EN: This construction is used when the speaker has doubts about the adequacy of some assessment or information. This construction often conveys the speaker’s skepticism based on their knowledge of the situation.<br>
+    NO: Konstruksjonen brukes når taleren tviler om tilstrekkeligheten til noen evaluering eller informasjon. Konstruksjonen uttrykker ofte talerens skepsis basert på hans kunnskap om situasjonen.<br>
   example: ~
   model: ~
   image:
@@ -225,35 +238,7 @@
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
-  table:
-    heading:
-      - ^вряд ли ...@
-      - ^Не факт, что ...@
-    row1:
-      - |
-        ^Вряд ли@ он придёт.<br>
-        EN: ‘It is unlikely that he will come.’<br>
-        = I think he is not coming.<br>
-        NO: ‘Det er usannsynlig at han kommer’.<br>
-        = Jeg tror ikke at han kommer.'
-      - |
-        ^Не факт, что@ он придёт.<br>
-        EN: ‘It is not necessarily the case that he will come.’<br>
-        = I do not know if he is not coming.<br>
-        NO: ‘Det er ikke sikkert han kommer’<br>
-        = Jeg vet ikke om han kommer.
-    row2:
-      - Говорящий сомневается в том, что произойдет некоторое событие
-      - Говорящий сомневается в адекватности некоторой оценки или информации.<br>
-        Конструкция часто передает скепсис говорящего, основанный на его знаниях о ситуации.
-    row3:
-      - The speaker doubts that an event will take place.
-      - The speaker has doubts about the adequacy of some assessment or information.<br>
-        This construction often conveys the speaker’s skepticism based on their knowledge of the situation.
-    row4:
-      - Taleren tviler på om en gitt hendelse vil inntreffe.
-      - Taleren tviler om tilstrekkeligheten til noen evaluering eller informasjon.<br>
-        Konstruksjonen uttrykker ofte talerens skepsis basert på hans kunnskap om situasjonen.
+  table: ~
 9:
   lesson_id : 10
   ex_number: 9
