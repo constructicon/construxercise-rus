@@ -292,7 +292,55 @@ Here there are 4 subtasks, and each of them has 2 potentially correct answers. T
 
 ## Table
 
-...
+The `table` attribute allows to add a table to both a task and a subtask. This means that both this:
+
+```
+task:
+  table:
+    ...
+```
+and this:
+```
+task:
+  task1:
+    table:
+      ...
+```
+is possible.
+
+It is one of the most extensive attributes, mostly because of the need to have options for different formatting, headings, text alignment, etc. Here is the list of all possible attributes in `table`:
+
+```
+table: 
+    heading: ~
+    vertical_align: ~
+    horizontal_align: ~
+    width: ~
+    row1:
+      - "this is the first column"
+      - "and this is the second"
+
+    row2: 
+      - "this is the first column but second row"
+      - "and this is the second column second row"
+
+```
+
+The `heading` attribute allows to add a heading which will be visually separated from the rest of the content. For instance:
+
+```
+table:
+    heading: 
+      - Вопрос
+      - Ответ
+    vertical_align: ~
+    horizontal_align: ~
+    width: ~
+    row1:
+      - 1. В каких ещё компаниях вы проходите собеседование?
+      - а. Честно говоря, я не очень амбициозный человек. Через пять лет я хочу продолжать работать в вашей компании на должности руководителя отдела*.
+    ...
+```
 
 ## Answer_options
 ...
