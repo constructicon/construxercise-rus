@@ -245,7 +245,10 @@
   model: ~
   image: ~
   task: 
-    text: Собеседник
+    task1:
+      text: Coбеседник 1
+    task2:
+      text: Coбеседник 2
   answer_to_show: | 
     <b>Собеседник 1:</b><br>
     1. — ^По-моему,@ Алёна выглядит устало.<br>
