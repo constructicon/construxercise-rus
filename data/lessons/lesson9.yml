@@ -241,7 +241,7 @@
   comment: ~
   constr_info: |
     construction info placeholder
-  example: — ^По-моему@, у Лёши карие глаза. — А ^по-моему@, зелёные.
+  example: — ^По-моему@, у Лёши карие глаза. <br> — А ^по-моему@, зелёные.
   model: ~
   image: ~
   task: 
