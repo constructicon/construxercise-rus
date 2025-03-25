@@ -245,7 +245,7 @@
   model: ~
   image: ~
   task: 
-
+    text: ""
   answer_to_show: | 
     <b>Собеседник 1:</b><br>
     1. — ^По-моему,@ Алёна выглядит устало.<br>
@@ -385,6 +385,7 @@
       text: <b>а.</b>
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/8_1.jpg"
+      audio: ""
     task2:
       text: <b>б.</b>
       image:
