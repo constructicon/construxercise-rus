@@ -345,7 +345,7 @@ table:
 
 ![header-eg](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/heading-eg.png)
 
-The list then contains as many elements as we would like cells in the header. NB! If you want the header to have fewer cells than the rest of the table, **the number of element can be smaller**, then the rest of the header cells will be left empty. It would look better with joint cells in the header instead, but this functionality has not been added yet. For example:
+The list then contains as many elements as we would like cells in the header. NB! If you want the header to have fewer cells than the rest of the table, **the number of elements can be smaller**, then the rest of the header cells will be left empty. It would look better with joint cells in the header instead, but this functionality has not been added yet. For example:
 
 ```
   table:
