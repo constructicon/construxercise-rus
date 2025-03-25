@@ -326,7 +326,7 @@ table:
 
 ```
 
-The `heading` attribute allows to add a heading which will be visually separated from the rest of the content. For instance:
+The `heading` attribute allows to add a heading which will be visually separated from the rest of the content. Its value is a list with the same length as the number of cells in each row. For instance:
 
 ```
 table:
@@ -341,6 +341,44 @@ table:
       - а. Честно говоря, я не очень амбициозный человек. Через пять лет я хочу продолжать работать в вашей компании на должности руководителя отдела*.
     ...
 ```
+
+![ans-to-show-eg](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/heading-eg.png)
+
+The list then contains as many elements as we would like cells in the header. NB! If you want the header to have fewer cells than the rest of the table, **the number of element here has to stay the same**, but you can keep some of the elements empty. For example:
+
+```
+  table:
+    vertical_align: +
+    horizontal_align: ~
+    width: ~
+    heading:
+      - Шкала проблем
+    row1:
+      - ^У меня ...@
+      - ^Мало того, ...@
+      - ^Ко всему прочему, ...@
+      - ^И вообще, ...@
+    row2:
+      - |
+          - часто болит голова <br>
+          - много работы <br>
+          - скоро экзамен по русскому языку <br>
+      - |
+          - проблемы на работе <br>
+          - много дел <br>
+          - я недавно болел гриппом <br>
+      - |
+          - приехал друг <br>
+          - сломалась машина <br>
+          - нужно переезжать в другую квартиру <br>
+      - |
+          - всë плохо! <br>
+          - всë сложно! <br>
+          - много сюрпризов! <br>
+          - хорошего мало, но всë будет хорошо! <br>
+
+```
+![header-joint-eg](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/joint-header-eg.png)
 
 ## Answer_options
 ...
