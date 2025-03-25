@@ -435,5 +435,8 @@ A very important quality of the `row` attribute is the ability to add `rowspan` 
       - { text: "в. стоматолог-ортопед" }
 ```
 
+![rowspan-eg](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/rowspan-eg.png)
+
+
 ## Answer_options
 ...
