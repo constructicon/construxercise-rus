@@ -326,6 +326,7 @@ table:
 
 ```
 
+### `heading`
 The `heading` attribute allows to add a heading which will be visually separated from the rest of the content. Its value is a list with the same length as the number of cells in each row. For instance:
 
 ```
@@ -342,9 +343,9 @@ table:
     ...
 ```
 
-![ans-to-show-eg](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/heading-eg.png)
+![header-eg](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/heading-eg.png)
 
-The list then contains as many elements as we would like cells in the header. NB! If you want the header to have fewer cells than the rest of the table, **the number of element here has to stay the same**, but you can keep some of the elements empty. For example:
+The list then contains as many elements as we would like cells in the header. NB! If you want the header to have fewer cells than the rest of the table, **the number of element can be smaller**, then the rest of the header cells will be left empty. It would look better with joint cells in the header instead, but this functionality has not been added yet. For example:
 
 ```
   table:
@@ -379,6 +380,60 @@ The list then contains as many elements as we would like cells in the header. NB
 
 ```
 ![header-joint-eg](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/joint-header-eg.png)
+
+### `vertical_align`
+This attribute allows us to center text inside the cell vertically. The default value is NA:
+
+```
+vertical_align: ~
+```
+
+Then the text inside the cells is not centered, but instead aligned to the top.
+
+If the value of this attribute is set to `+`, the text will be centered vertically.
+
+```
+vertical_align: +
+```
+
+### `horizontal_align`
+Similarly to the previous attribute, `horizontal_align` allows us to center the text inside the cells, but horizontally. The default behavior is not centered:
+```
+horizontal_align: ~
+```
+The text is then left-aligned. If the value passed to this attribute is `+`, the text will be centered horizontally.
+```
+horizontal_align: +
+```
+
+### `width`
+This attribute has behavior similar to the same attribute for [image](https://constructicon.github.io/construxercise-rus/docs/#/data/tag-overview?id=image) and allows us to control the size of the table relative to the entire page. 
+
+### `row`
+The rest of the attribute in `table` are numbered rows. There is not limit on how many rows there are in the table, but every row must have a number in its name (`row1`, `row2`, `row3`, etc.).
+
+Each row's value is a list of cells. Each cell is a string, and the same formatting rules apply to it as for other attributes with text value. For instance, we can annotate constructions (with our custom `annotate` function that searches for special ^ and @ symbols), or use HTML tags.
+
+A very important quality of the `row` attribute is the ability to add `rowspan` and `colspan`. This is done to **merge** cells together vertically or horizontally.
+```
+  table:
+    heading: ~
+    vertical_align: +
+    horizontal_align: ~
+    width: ~
+    row1:
+      - { text: "1. У Михаила часто болит голова. Ему нужен врач," }
+      - { text: "^а именно@", rowspan: 3 }
+      - { text: "а. психотерапевт" }
+    row2:
+      - { text: "2. У тëти глубокая депрессия. Ей нужен специалист," }
+      - { text: ""}
+      - { text: "б. невропатолог" }
+    row3:
+      - { text: "3. У дедушки сломался зуб. Ему нужен стоматолог," }
+      - { text: ""}
+      - { text: "в. стоматолог-ортопед" }
+```
 
 ## Answer_options
 ...
