@@ -513,6 +513,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 subtask.appendChild(subtask_col)
                 // Add image if available for subtask
                 if (data[exercise_id]["task"][`task${i}`]["image"] != null) {
+                    // console.log(data[exercise_id]["task"])
                     if (typeof data[exercise_id]["task"][`task${i}`]["image"]["link"] != "undefined") {
 
                         let image_block = add_image(data[exercise_id]["task"][`task${i}`]["image"])
