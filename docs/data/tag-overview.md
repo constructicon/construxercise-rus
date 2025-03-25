@@ -93,7 +93,7 @@ Finally, if the `multichoice_multianswer` option is passed, checkboxes are gener
 
 ![checkbox-eg](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/checkbox-eg.png)
 
-In the last two cases (radio buttons and checkboxes) the options for buttons are predefined and stored in the `answer_options` attribute [link].
+In the last two cases (radio buttons and checkboxes) the options for buttons are predefined and stored in the `answer_options` attribute: [Answer_options](https://constructicon.github.io/construxercise-rus/docs/#/data/tag-overview?id=answer_options).
 
 ## Title_eng
 
