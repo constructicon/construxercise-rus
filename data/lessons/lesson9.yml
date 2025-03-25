@@ -344,10 +344,10 @@
   model: ~
   image: ~
   task:
-    audio: ""
     task1:
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/7_1.png"
+      audio: ""
     task2:
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/9/7_2.png"
