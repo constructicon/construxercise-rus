@@ -289,24 +289,6 @@
         - У Лиды круглое лицо. <br>
         - У Аллы густые волосы.  
 
-  task:
-    text:
-      row1:
-      - |
-        <strong>Собеседник 1:</strong><br>
-        <input type="text" value="Алёна выглядит устало." /><br>
-        <input type="text" value="У Миши красивые глаза." /><br>
-        <input type="text" value="У Марины приветливая улыбка." /><br>
-        <input type="text" value="У Наташи шикарные волосы." /><br>
-        <input type="text" value="У Глеба не очень счастливое лицо." />
-      - |
-        <strong>Собеседник 2:</strong><br>
-        <input type="text" value="Зина высокого роста." /><br>
-        <input type="text" value="У Феди хитрый взгляд." /><br>
-        <input type="text" value="У Гены крупный нос." /><br>
-        <input type="text" value="У Лиды круглое лицо." /><br>
-        <input type="text" value="У Аллы густые волосы." />
-
 
 7:
   lesson_id: 9
