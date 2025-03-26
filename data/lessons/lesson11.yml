@@ -354,10 +354,10 @@
   lesson_id: 11
   ex_number: 9
   title: Соедините предложения или части предложений, подобрав логичное продолжение.
-  instructions: Конструкция ^в частности, ...@ может присоединять целое предложение или только часть предложения, фразу.
+  instructions: Конструкция ^в частности, ...@ может присоединять целое предложение или часть юредложения.
   exercise_type: text_input
-  title_eng: Connect the sentences or phrases by choosing a matching continuation. Note that in the construction ^в частности, ...@ ‘for example / in particular / more specifically, ...’, we can put a phrase or an entire sentence in the slot marked ...
-  title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at i konstruksjonen ^в частности, ...@ ‘for eksempel / spesifikt ...’, kan plassen ... fylles med en frase eller en hel setning.
+  title_eng: Connect the sentences or phrases by choosing a matching continuation.
+  title_nor: Koble sammen setningene ved å bruke delene som passer.
   comment: ~
   example: На деловую встречу лучше надеть что-то строгое, ^скажем,@ рубашку и брюки.
   model: ~
@@ -412,12 +412,9 @@
   title: Продолжите предложения, используя конструкцию ^скажем, ...@.
   instructions: В этой конструкции слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence). Обратите внимание на падеж в скобках (), который требуется в предложении.
   exercise_type: ~
-  title_eng: "Complete the sentences by using the construction ^скажем, ...@ ‘for example /say/let us say
-            ...’. In this construction, we can put a phrase or an entire sentence in the slot marked ... The case required in each sentence is indicated in the
+  title_eng: "Complete the sentences by using the construction ^скажем, ...@ ‘for example /say/let us say ...’. The case required in each sentence is indicated in the
             parentheses."
-  title_nor: "Fullfør setningene ved å bruke konstruksjonen ^скажем, ...@ ‘for eksempel / la oss si ...’.
-            Plassen ... kan fylles med en frase eller en hel setning. Legg merke til
-            at kasus, som skal brukes i hver setning, står i parentes."
+  title_nor: "Fullfør setningene ved å bruke konstruksjonen ^скажем, ...@ ‘for eksempel / la oss si ...’. Кasusen, som skal brukes i hver setning, står i parentes."
   comment: ~
   example: В одежде я консервативный. ^Скажем,@ я никогда не ношу рубашку без галстука.
   model: ~
