@@ -94,9 +94,13 @@
   title_nor: Du er stylist og har en moteblogg. Fortell dine følgere på sosiale media hva folk vil ha på seg den kommende vår- og sommersesongen. Bruk fotografiene nedenfor. Oppsummer din historie ved å bruke konstruksjonen ^Итак, ...@ som betyr omtrent ‘altså / så / ...’ I denne konstruksjonen er ... en hel setning.
   comment: ~
   constr_info: |
-    Kонструкция ^text, ...@ text
-    <ul><li>text.</li>
-     <li>text.</li></ul>
+    Kонструкция ^Итак, ...@ содержит вывод и часто используется в конце речи, но может также использоваться в начале речи (пример 3).<br>
+    EN: This construction contains a conclusion and is often used at the end of a speech, but it can also be used at the beginning of a speech (example 3).<br>
+    NO: Denne konstruksjonen inneholder en konklusjon og brukes ofte på slutten av en tale, men kan også brukes i begynnelsen av en tale (eksempel 3).<br>
+    <ul><li>^Итак,@ платье мы выбрали, теперь нужно добавить аксессуары.</li>
+    <li>^Итак,@ хочу сказать: нужно всегда одеваться по погоде.</li>
+    <li>^Итак,@ подведём итог!</li>
+    <li>^Итак,@ начнём урок!</li></ul>
   example: ^Итак,@ в этом сезоне люди будут носить блузки ярких цветов. Например, красные.<br>
           ^Итак,@ в этом сезоне будут в моде блузки ярких цветов. Например, красные.<br>
           ^Итак,@ в этом сезоне будет модно носить блузки ярких цветов. Например, красные.
