@@ -223,11 +223,11 @@
 7:
   lesson_id: 11
   ex_number: 7
-  title: Заполните пропуски в предложениях, используя конструкции ^в частности, ...@ и ^скажем, ...@. Прочитайте информацию, чтобы понять, чем похожи и чем отличаются эти конструкции.
+  title: Заполните пропуски в предложениях, используя конструкции ^в частности, ...@ и ^скажем, ...@.
   instructions: В этих конструкциях слот XP/Cl заполняется фразой (XP=phrase) или целым предложением (Cl=clause, sentence).
   exercise_type: text_input
-  title_eng: Fill in the blanks by using the constructions ^в частности, ...@ ‘for example / in particular / more specifically, ...’ and ^скажем, ...@ ‘for example /say/let us say ...’. In order to understand the differences between these constructions, see the explanation below. In both constructions, we can put a phrase or an entire sentence in the slot marked ...
-  title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonene ^в частности, ...@ ‘for eksempel / spesifikt ...’ og ^скажем, ...@ ‘for eksempel / la oss si ...’. Les forklaringen nedenfor for å forstå likhetene og forskjellene mellom disse to konstruksjonene. I begge konstruksjonene kan plassen ... fylles med en frase eller en hel setning.
+  title_eng: Fill in the blanks by using the constructions ^в частности, ...@ ‘for example / in particular / more specifically, ...’ and ^скажем, ...@ ‘for example /say/let us say ...’.
+  title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonene ^в частности, ...@ ‘for eksempel / spesifikt ...’ og ^скажем, ...@ ‘for eksempel / la oss si ...’.
   comment: ~
   constr_info: |
     Обе конструкции вводят пояснение некоторого общего утверждения с помощью конкретного частного примера.<br>
@@ -246,9 +246,8 @@
   example: ~
   model: ~
   image:
-    text: Обе конструкции вводят пояснение некоторого общего утверждения с помощью конкретного частного примера. В качестве примера описывается целая ситуация или называется её элемент.<br>
-          Both constructions introduce an explanation of a general assertion by presenting a specific concrete example. The example usually describes an entire situation or names one of its elements.<br>
-          Begge konstruksjoner introduserer en nærmere forklaring på en generell påstand ved hjelp av et konkret, spesifikt eksempel. Eksempelet beskriver som regel en hel situasjon eller nevner et element av den.
+    text: text<br>
+          text<br>
     link: https://raw.githubusercontent.com/zojabutenko/zojabutenko.github.io/main/images/11/6.jpg
   task:
     task1:
