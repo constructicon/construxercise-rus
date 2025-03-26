@@ -52,9 +52,13 @@
   title_nor: Du eier et moteselskap og har vunnet en prestisjefylt pris for ditt arbeid. På prisutdelingsseremonien holder du en tale. På slutten av talen bruker du konstruksjonen ^в заключение Cl@ som betyr omtrent ‘til slutt ...’. I denne konstruksjonen kan plassen ... fylles med en hel setning. Lag setninger ved å koble sammen de foreslåtte delene i tabellen.
   comment: ~
   constr_info: |
-    Kонструкция ^text, ...@ text
-    <ul><li>text.</li>
-     <li>text.</li></ul>
+    Kонструкция ^В заключение ...@ используется, чтобы закончить речь и ввести финальную часть.<br>
+    EN: This construction is used to end a speech and introduce the final part.<br>
+    NO: Denne konstruksjonen brukes for å avslutte en tale og introdusere den siste delen.<br>
+    Конструкция используется в разных вариантах:<br>
+    <ul><li>^В заключение,@ всегда выбирайте одежду по погоде.</li>
+    <li>^В заключение,@ хочу сказать: нужно всегда одеваться по погоде.</li>
+    <li>^В заключение,@ хочется сказать, что нужно всегда одеваться по погоде.</li></ul>
   example: ^В заключение@ хочу добавить, что эта награда  — результат отличной работы всех наших сотрудников.<br>
             ^В заключение@, мы продолжим радовать вас нашими платьями.
   model: ~
