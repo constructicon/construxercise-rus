@@ -13,6 +13,9 @@
   task: 
     text: "У меня, ^мягко говоря,@ тяжёлый характер. ^На первый взгляд,@ я серьёзный и трудолюбивый, но ^на самом деле@ я очень требователен* к людям. ^Вряд ли@ моим коллегам нравится, что я всё время критикую их за ошибки. ^Не факт,@ что они сильно расстраиваются* из-за этого, но ^грубо говоря,@ критика — это не лучший способ найти друзей на работе."
     audio: ""
+    image: 
+      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/10/1.jpg"
+      width: "400"
   answer_to_show: ~
   answer_key: ~
   difficult_words: "*требователен к людям — EN: demanding of other people; NO: krevende til folk (eller «krever mye av andre mennesker», altså et menneske som har høye forventninger til kolleger og andre)<br>
