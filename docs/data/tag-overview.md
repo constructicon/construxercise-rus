@@ -19,6 +19,7 @@ When a new exercise is added, we usually start with a placeholder such as the on
   example: ~
   model: ~
   image: ~
+  audio: ~
   task: ~
   answer_to_show: ~
   answer_key: ~
@@ -175,6 +176,11 @@ The URL provided to the image is the **raw** image in the github repository. Any
 </div>
 
 Note that since links often contain special characters that can mess up yaml syntax, it is best to provide them in quotation marks.
+
+## Audio
+The `audio` attribute allows us to add an audio to the task's contents. The value is either a unique identifier for the voiceover (e.g. 'a' or 'b') or empty ("") if there is only one audio relevant for the current task. When this attribute is filled here, an audio block is place right befor the task or subtasks and right after the tasks title, image, and example.
+
+![audio-eg](https://raw.githubusercontent.com/constructicon/construxercise-rus/main/docs/images/audio-before-task.png)
 
 ## Task
 
