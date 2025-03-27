@@ -427,7 +427,7 @@
     — ^Что касается ..., то ...@
   model: ~
   image: 
-    link: ""https://github.com/constructicon/construxercise-rus/raw/main/images/5/assistant.jpg""
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/5/assistant.jpg"
   task: 
     text: |
       <b>Товары на выбор:</b><br><ul>
