@@ -410,7 +410,7 @@ horizontal_align: +
 This attribute has behavior similar to the same attribute for [image](https://constructicon.github.io/construxercise-rus/docs/#/data/tag-overview?id=image) and allows us to control the size of the table relative to the entire page. 
 
 ### `row`
-The rest of the attribute in `table` are numbered rows. There is not limit on how many rows there are in the table, but every row must have a number in its name (`row1`, `row2`, `row3`, etc.).
+The rest of the attributes in `table` are numbered rows. There is no limit on how many rows there are in the table, but every row must have a number in its name (`row1`, `row2`, `row3`, etc.).
 
 Each row's value is a list of cells. Each cell is a string, and the same formatting rules apply to it as for other attributes with text value. For instance, we can annotate constructions (with our custom `annotate` function that searches for special ^ and @ symbols), or use HTML tags.
 
