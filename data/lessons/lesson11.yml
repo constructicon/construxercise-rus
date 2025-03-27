@@ -459,7 +459,7 @@
         , одежда делового стиля — это скучно, но необходимо."
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/12.jpg"
-        width: 600
+        width: "400"
   answer_to_show: "1. Скажем<br>
                     2. в частности<br>
                     3. и тому подобное<br>
