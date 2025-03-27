@@ -488,7 +488,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         add_table()
     }
     if (data[exercise_id]["audio"] != null) {
-        add_audio(lesson_id, exercise_id, data[exercise_id]["audio"])
+        all_exercise.appendChild(add_audio(lesson_id, exercise_id, data[exercise_id]["audio"]))
     }
     var task = document.createElement("div")
     task.setAttribute('class', 'container')
