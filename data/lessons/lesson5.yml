@@ -459,7 +459,7 @@
   example: ~
   model: ~
   image: 
-    link: ""https://github.com/constructicon/construxercise-rus/raw/main/images/5/interview.jpg""
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/5/interview.jpg"
   task: 
     text: |
       <b>План</b><br><br> 1. — Как вы в целом оцениваете ситуацию?<br><ul>
