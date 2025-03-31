@@ -30,13 +30,13 @@ Alternatively, one can access the exercises on the page “Functions” where th
 Our philosophy is that the more you produce Russian on your own, the more you learn (learning-by-doing). You can train in speaking and writing already at early stages of learning Russian. We focus on simple constructions that enrich your language skills, make your speech more fluent, native-like, and give you confidence to engage in conversation.
 
 ## The team
-The team of collaborators includes Anna Endresen, Valentina Zhukova, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Zoia Butenko, Tatiana Perevoshchikova. The project is administered at UiT The Arctic University of Norway and is supported by the Directorate for Higher Education and Skills of the Norwegian Ministry of Education and Research (HK-dir, https://hkdir.no, the grant UTF-2020/10129).
+The team of collaborators includes Anna Endresen, Valentina Zhukova, Zoia Butenko, Taras Andrushko, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, and Tatiana Perevoshchikova. The project is administered at UiT The Arctic University of Norway and is supported by the Directorate for Higher Education and Skills of the Norwegian Ministry of Education and Research (HK-dir, https://hkdir.no, the grant UTF-2020/10129).
 
 ## How to cite
 
 When using the materials available here, please provide the following citation:
 
-Endresen, Anna, Valentina Zhukova, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Zoia Butenko, Tatiana Perevoshchikova. 2022. Construxercise! Hands-on learning of Russian constructions. A digital educational resource. https://constructicon.github.io/construxercise-rus/
+Endresen, Anna, Valentina Zhukova, Zoia Butenko, Taras Andrushko, George Lonshakov, Daria Demidova, Natalia Kalanova, Elena Bjørgve, David Henrik Lavén, Laura A. Janda, Tatiana Perevoshchikova. 2022. Construxercise! Hands-on learning of Russian constructions. A digital educational resource. https://constructicon.github.io/construxercise-rus/
 
-
-
+## Keywords
+learning Russian, teaching Russian, Russian as a foreign language, RFL, Russian constructions, discourse constructions in Russian, language pedagogy for Russian, learn Russian on-line, resources for teaching Russian in the classroom, colloquial Russian, informal Russian, imrpove speaking Russian, conversation skills, writing skills, practical teaching sessions in Russian, structure your text in Russian, learners of Russian, instructors of Russian, foreign students, second langauge students, foreign learners of Russian, communicative approach to teaching Russian, task-based principles in teaching Russian, Construction Grammar, Pedagogical Construction Graammar, Applied Linguistics, innovative digital language resources for Russian, construxercise, exercises on Russian constructions
