@@ -143,9 +143,10 @@
             д. — ^На самом деле,@ очки и шляпа — это очень хорошая идея.<br>
             е. — Привет, Соня! ^Честно говоря,@ платье — это слишком дорогой подарок для меня, и ^к тому же@ платье нужно мерить. ^Не факт, что@ мы выберем правильный размер.<br>
     task2:
+      image:
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_1.jpg"
       text: Что получит в подарок Кристина?
-      image: 
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_2.jpg"
+
 
   answer_to_show: 
     answer1: "1в, 2е, 3а, 4г, 5д, 6б"
