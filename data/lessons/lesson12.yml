@@ -14,7 +14,7 @@
   task:
     task1:
       image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_1.jpg"
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_2.png"
         width: "200"
       text: | 
               — Миша, привет! ^Так что насчёт@ среды? Идём в бассейн? Ты обещал подумать и написать мне.<br>
