@@ -15,7 +15,7 @@
     task1:
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_1.jpg"
-        width: "200"
+        width: "400"
       text: | 
               — Миша, привет! ^Так что насчёт@ среды? Идём в бассейн? Ты обещал подумать и написать мне.<br>
                 — Привет, Игорь! ^Честно говоря,@ среда не очень хороший день для бассейна. У меня работа до 16:30, и ^к тому же@ дедлайн по философии… ^Не факт,@ что я успею в бассейн.<br>
@@ -160,33 +160,21 @@
 4:
   lesson_id: 12
   ex_number: 4
-  title: Вспомните конструкции, которые вводят пример.
+  title: Ирина и Коля позвали друзей на ужин. Им нужно решить, что приготовить. Составьте диалог между Ириной и Колей по модели. Используйте конструкции и опорные слова.
   instructions: ~
   exercise_type: ~
-  title_eng: Recall "Part constructions used to present an example.
-  title_nor: Husk konstruksjoner som presenterer et eksempel.
+  title_eng: Irina and Kolya invited friends for dinner. They need to decide what to cook. Make up a dialogue between Irina and Kolya based on the model. Use constructions and key words.
+  title_nor: Irina og Kolya inviterte venner til middag. De må bestemme hva de skal lage mat. Komponer en dialog mellom Irina og Kolya basert på modellen. Bruk konstruksjoner og støtteord.
   comment: ~
   example: ~
   model: ~
-  image: ~
+  image: 
+    link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_3.png"
   task: ~
   answer_to_show: 
   answer_key: ~
   difficult_words: ~
-  table:
-    width: ~
-    vertical_align: ~
-    horizontal_align: ~
-    heading: ~
-    row1: 
-      - ^например, ...@
-      - ^Например,@ в Финляндии запретили курить везде в общественных местах.
-    row2: 
-      - ^к примеру, ...@
-      - На собеседовании могут спросить о ваших достижениях, ^к примеру,@ о проектах, которые вы успешно завершили.
-    row3: 
-      - ^Так, ...@
-      - Разные профессии требуют специфических навыков. ^Так,@ для программиста важно знание языков программирования.
+  table: ~
 5:
   lesson_id: 12
   ex_number: 5
