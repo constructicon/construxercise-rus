@@ -2,193 +2,192 @@
 1:
   lesson_id: 12
   ex_number: 1
-  title: Игорь и Миша договариваются по телефону сходить в бассейн.Перед вами календарь Игоря. Заполните его. Напишите, когда у Игоря работа, дедлайн по философии, поход в бар и поход в бассейн.
+  title: Вспомните конструкции, которые вводят дополнительную информацию.
   instructions: ~
   exercise_type: ~
-  title_eng: Igor and Misha agree on the phone to go to the pool. Here is Igor's calendar. Fill it out. Write when Igor has work, a philosophy deadline, a trip to the bar, and a trip to the pool.
-  title_nor: Igor og Misha blir enige over telefonen om å gå til bassenget. Her er Igors kalender. Fyll den ut. Skriv når du Igors arbeid, filosofi deadline, gå til baren og gå til basseng.
+  title_eng: Recall constructions that introduce additional information.
+  title_nor: Husk konstruksjoner som introduserer tilleggsinformasjon.
   comment: ~
   example: ~
   model: ~
-  task:
-    task1: 
-      text:  "— Миша, привет! ^Так что насчёт@ среды? Идём в бассейн? Ты обещал подумать и написать мне.<br>
-              — Привет, Игорь! ^Честно говоря,@ среда не очень хороший день для бассейна. У меня работа до 16:30, и ^к тому же@ дедлайн по философии… ^Не факт,@ что я успею в бассейн.<br>
-              — Жаль! Может, в пятницу? ^Насколько я понимаю@, в пятницу ты не работаешь и не учишься, ^так ведь@?<br>
-              — ^Как по мне,@ в пятницу нужно идти в бар, а не в бассейн. ^По-моему,@ для бассейна лучше подходит четверг, ^а ты как думаешь@?<br>
-              — ^На самом деле,@ в четверг мне даже удобнее.<br>
-              — ^Вот и чудесно!@ Тогда до встречи в четверг!<br><br>"
-      audio: ~
-      image: 
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_1.jpg"
+  image: ~
+  task: ~
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
   table:
-      vertical_align: +
-      horizontal_align: ~
-      row1:
-        - понедельник(ПН)
-        - |
-          вторник(ВТ)
-        - |
-          среда(СР)
-        - |
-          четверг(ЧТ)
-        - |
-          пятница(ПТ)
-        - |
-          суббота(сб)
-        - |
-          воскресенье(ВС)
+    width: ~
+    vertical_align: ~
+    horizontal_align: ~
+    heading: ~
+    row1: 
+      - ^кроме того ...@
+      - Я учусь в университете. ^Кроме того@, я играю в футбол.
+    row2: 
+      - ^к тому же ...@
+      - Я часто хожу на кинофестивали, ^к тому же@ веду свой блог.
+    row3: 
+      - ^плюс ко всему, ...@
+      - ^Плюс ко всему@, я люблю путешествовать.
+    row4:
+      - ^Мало того, ...@
+      - У Никиты ухудшилось зрение. ^Мало того,@ у него появились боли в спине.
+    row5:
+      - ^ко всему прочему, ...@
+      - У Степана проблемы с давлением и сердцем. ^Ко всему прочему,@ он курит и пьёт.
 2:
-  1:
-    lesson_id: 12
-    ex_number: 6
-    title: Егор сходил в гости к Паше. Что не понравилось Егору?
-    instructions: ~
-    exercise_type: ~
-    title_eng: " "
-    title_nor: " "
-    comment: ~
-    example: ~
-    model: ~
-    image:
-      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_7.jpg"
-    task: 
-      text: "Вчера ходил в гости к Паше. Я, ^мягко говоря,@ не хотел идти, но пошёл. ^Сама подумай,@ я уже три раза до этого говорил, что у меня дела и не смогу. Паша может и обидеться, поэтому я согласился. Паша сказал, что приготовит пиццу по секретному рецепту. Ты даже не представляешь, какой это рецепт! ^Грубо говоря,@ он купил замороженную пиццу ^типа@ пепперони и добавил в неё майонез и сосиски. Не сжёг её, ^и на том спасибо.@ ^Будь моя воля,@ не стал бы её есть. Но я съел. ^Вряд ли@ Паша понял, что его пицца мне не понравилась: я хороший актёр.<br>
-    <b>Что не понравилось Егору?</b>"
-      audio: ""
-    answer_to_show: "1. Егор не хотел идти в гости, но ему пришлось<br>
-  2. У него были другие дела, но он не хотел обижать Пашу<br>
-  3. Ему не понравилась пицца, которую приготовил Паша
-  "
-    answer_key: ~
-    difficult_words: ~
-    table: ~
-  2:
-    lesson_id: 12
-    ex_number: 7
-    title: Посмотрите на конструкции в упражнении 6. Для каждой функции выберите подходящую конструкцию.
-    instructions: ~
-    exercise_type: text_input
-    title_eng: " "
-    title_nor: " "
-    comment: ~
-    example: ~
-    model: ~
-    image: ~
-    task:
-      task1:
-        text: "1. Смягчить категоричность высказывания<br>а. ^Что насчёт ...?@   	<br>б. ^мягко говоря, ...@   	      	<br>в. ^... типа ...@"
-      task2:
-        text: "2. Выразить скепсис<br>а. ^вряд ли ...@   		<br>б. ^на первый взгляд, ...@	<br>в. ^Итак, ...@"
-      task3:
-        text: "3. Подвести итог<br>а. ^честно говоря, ...@ 		<br>б. ^..., и на том спасибо.@ 	<br>в. ^..., не правда ли?@"
-      task4:
-        text: "4. Пояснить с помощью примера<br>а. ^мягко говоря, ...@ <br>б. ^на самом деле ...@ <br>в. ^... типа ...@"
-      task5:
-        text: "5. Обобщить, смягчая категоричность высказывания и избегая деталей<br>а. ^грубо говоря, ...@ <br>б. ^Вот и ...!@   <br>в.  ^Мало того, ...@"
-    answer_to_show: 1б, 2а, 3б, 4в, 5а
-    answer_key: 1б, 2а, 3б, 4в, 5а
-    difficult_words: ~
-    table: ~
-  3:
-    lesson_id: 12
-    ex_number: 8
-    title: "Заполните пропуски словами из списка.<br><ul><li>^Грубо говоря@</li>
-<li>^Будь моя воля@</li>
-<li>^Сам подумай@</li>
-<li>^навряд ли@</li>
-<li>^и на том спасибо@</li>
-<li>^типа@</li>
-<li>^мягко говоря@</li></ul>
-"
-    instructions: ~
-    exercise_type: ~
-    title_eng: " "
-    title_nor: " "
-    comment: ~
-    example: ~
-    model: ~
-    image:
-      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_8.jpg"
-    task: "Не хочу больше разговаривать с Кириллом. Он позвал на свидание Юлю, хотя знает, что она мне давно нравится. 1._______________________ , разве друзья так делают? Это, 2._______________________ , не по-братски. 3._______________________ , врезал* бы ему как следует*. Ещё и подарил ей какие-то цветы 4._______________________ тюльпанов… Ну, он хотя бы сам мне сказал об этом, 5._______________________. Но всё равно мы 6._______________________ будем с ним друзьями после такого. 7._______________________ , будем здороваться, но не более того*."
-    answer_to_show: "1. Сам подумай <br>
-2. мягко говоря <br>
-3. Будь моя воля <br>
-4. типа <br>
-5. и на том спасибо <br>
-6. навряд ли <br>
-7. Грубо говоря"
-    answer_key: ~
-    difficult_words: "*врезать — English: hit; Norwegian: <br>
-*как следует — English: properly; Norwegian:<br>
-*не более того — English: not more than that; Norwegian:
-"
-    table: ~
-  4:
-    lesson_id: 12
-    ex_number: 9
-    title: Катя поссорилась с Настей и рассказывает об этом Семёну. Составьте монолог Кати по модели. Используйте конструкции и опорные предложения.
-    instructions: ~
-    exercise_type: ~
-    title_eng: " "
-    title_nor: " "
-    comment: ~
-    example: ~
-    model: ~
-    image:
-      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_9.png"
-    task: "<b>Опорные предложения</b><br><ul>
-<li>Мы с Настей поссорились. Я злюсь на неё.</li>
-<li>Настя взяла у меня любимую блузку и испачкала её вареньем.</li>
-<li>Настя вернула блузку.</li>
-<li>Я ей не дам свою одежду в следующий раз.</li>
-<li>Зачем давать ей одежду, если она постоянно берёт мои вещи и портит их?</li>
-<li>Я бы вообще не давала эту блузку ей.</li></ul>
-"
-    answer_to_show: "Мы с Настей поссорились сегодня! ^Мягко говоря,@ злюсь на неё. Она взяла у меня любимую блузку и испачкала её вареньем! Вернула, ^и на том спасибо@. ^Вряд ли@ я ей дам свою одежду в следующий раз, когда попросит. ^Сам подумай,@ зачем давать ей одежду, если она постоянно берёт мои вещи и портит их. ^Будь моя воля,@ вообще не давала бы эту блузку ей."
-    answer_key: ~
-    difficult_words: ~
-    table: ~
-  5:
-    lesson_id: 12
-    ex_number: 10
-    title: "Вы с лучшим другом давно не виделись. Вы встретились в кафе. Расскажите ему или ей последние новости. Используйте конструкции:<br><ul>
-    <li>^мягко говоря, ...@</li>
-<li>^грубо говоря, ...@</li>
-<li>^вряд ли ...@</li>
-<li>^... типа ...@</li>
-<li>^Сам подумай, ...@</li>
-<li>^будь моя воля, я бы ...@</li>
-<li>^..., и на том спасибо.@</li></ul>
-"
-    instructions: ~
-    exercise_type: ~
-    title_eng: " "
-    title_nor: " "
-    comment: ~
-    example: ~
-    model: ~
-    image: ~
-    task:
-      task1:
-        text: "Вариант 1.<br><ul>
-<li>Вы сердитесь на своего начальника: он дал вам много задач, которые вы делать не должны.</li>
-<li>У вас на работе закрыли столовую, теперь там нельзя пообедать.</li>
-<li>Вы обиделись на вашу подругу: она сказала, что вы в последнее время выглядите “хуже, чем обычно”. Вы больше не хотите с ней разговаривать.</li></ul>
-"
-      task2:
-        text: "Вариант 2.<br><ul>
-<li>Уже май, а на улице всё ещё лежит снег, и вам это не нравится.</li>
-<li>У вас рядом с домом громко кричат птицы по утрам и мешают вам спать.</li>
-<li>Ваши любимые джинсы порвались, нужно купить новые.</li></ul>
-"
-    answer_to_show: ~
-    answer_key: ~
-    difficult_words: ~
-    table: ~
-
-
-
+  lesson_id: 12
+  ex_number: 2
+  title: Соедините предложения, подобрав логичное продолжение.
+  instructions: ~
+  exercise_type: text_input
+  title_eng: Connect the phrases by choosing a matching continuation.
+  title_nor: Koble sammen setningene ved å bruke delene som passer.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 1в, 2а 3д, 4б, 5г
+  answer_key: 1в, 2а 3д, 4б, 5г
+  difficult_words: ~
+  table:
+    width: ~
+    vertical_align: +
+    horizontal_align: ~
+    heading: ~
+    row1:
+      - 1. Иван — студент-программист, учится на отлично!
+      - a. ^К тому же,@ нет ветра.
+    row2:
+      - 2. Сегодня очень хорошая погода.
+      - б. ^Мало того,@ она ещё и заразилась коронавирусом, когда была в больнице.
+    row3:
+      - "3. Мне очень нравится моя новая работа: интересная, приятные коллеги, недалеко от дома."
+      - в. ^Кроме того,@ Иван — спортсмен, хорошо играет в волейбол.
+    row4:
+      - 4. Маша недавно сломала руку.
+      - г. ^Ко всему прочему,@ она потеряла паспорт в метро.
+    row5:
+      - 5. У Оли сегодня был трудный день
+      - д. ^Плюс ко всему,@ высокая зарплата.
+3:
+  lesson_id: 5
+  ex_number: 3
+  title: |
+    Заполните пропуски. В каждом случае выберите подходящую конструкцию из двух предложенных.
+  instructions: ~
+  exercise_type: multichoice_singleanswer
+  title_eng: Fill in the blanks. In each case, choose one appropriate construction from the two available options.
+  title_nor: Fyll ut de tomme feltene. I hvert tilfelle skal du velge en av de to foreslåtte konstruksjonene. En av disse er riktig.
+  comment: ~
+  constr_info: |
+    Слова ^к примеру@ и ^например@ могут быть в начале, середине или конце предложения, а слово ^Так@ только в начале предложения.<br>
+  example: ~
+  model: "Летом я хочу поехать в Россию. Планирую посетить Москву и Санкт-Петербург, 1__________________ побывать в городах Золотого кольца. Давно хотел посмотреть на Красную площадь, музеи, дворцы, старинные монастыри. 2_____________, в июне в Питере будет мой друг Илья, хочу его увидеть. Илья работает врачом, у него маленькая зарплата и много стресса. 3_____________ , недавно его бросила девушка, поэтому Илья грустит. 4_____________ , у Ильи заболел кот. Думаю, Илья будет рад погулять по Москве со мной и забыть о проблемах. 5_____________ , мы можем пойти в бар, чтобы пить и веселиться."
+  image: 
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/5/saint_petersburg.jpg"
+  task: 
+    task1:
+      text: "1<br><ul><li>а. к тому же</li> <li>б. а именно</li></ul>"
+    task2:
+      text: "2<br><ul><li>а. Например </li> <li>б. Кроме того</li></ul>"
+    task3:
+      text: "3<br><ul><li>a. Мало того </li> <li>б. Другими словами</li></ul>"
+    task4:
+      text: "4<br><ul><li>a. В целом </li> <li>б. Ко всему прочему</li></ul>"
+    task5:
+      text: "5<br><ul><li>a. Таким образом </li> <li>б. Плюс ко всему</li></ul>"
+  answer_to_show: 
+    answer1: "а"
+    answer2: "б"
+    answer3: "а"
+    answer4: "б"
+    answer5: "б"
+  answer_key: 
+    answer1: "а"
+    answer2: "б"
+    answer3: "а"
+    answer4: "б"
+    answer5: "б"   
+  answer_options:
+    - а
+    - б
+  difficult_words: ~
+  table: ~
+4:
+  lesson_id: 12
+  ex_number: 4
+  title: Вспомните конструкции, которые вводят пример.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Recall "Part constructions used to present an example.
+  title_nor: Husk konstruksjoner som presenterer et eksempel.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: ~
+  answer_to_show: 
+  answer_key: ~
+  difficult_words: ~
+  table:
+    width: ~
+    vertical_align: ~
+    horizontal_align: ~
+    heading: ~
+    row1: 
+      - ^например, ...@
+      - ^Например,@ в Финляндии запретили курить везде в общественных местах.
+    row2: 
+      - ^к примеру, ...@
+      - На собеседовании могут спросить о ваших достижениях, ^к примеру,@ о проектах, которые вы успешно завершили.
+    row3: 
+      - ^Так, ...@
+      - Разные профессии требуют специфических навыков. ^Так,@ для программиста важно знание языков программирования.
+5:
+  lesson_id: 12
+  ex_number: 5
+  title: |
+    Заполните пропуски словами из списка<br><ul>
+    <li>^к примеру@</li>
+    <li>^например,@</li>
+    <li>^Так,@</li></ul>
+  instructions: "Обратите внимание на различия в использовании конструкций. Слова ^к примеру@ и ^например@ могут быть в начале или в середине предложения, а слово ^Так@ только в начале предложения. Конструкция ^Так, Cl@ в качестве примера приводит целую ситуацию, которая описана целым предложением (Cl = sentence, clause). Конструкции ^к примеру, XP/Cl@ и ^например, XP/Cl@ могут описывать как целую ситуацию, так и элемент ситуации, поэтому в этих конструкциях слот XP/Cl заполняется фразой или целым предложением (XP=phrase, Cl = sentence, clause): <i>к примеру, Вася (XP); к примеру, в Москве (XP); к примеру, домой (XP) vs. К примеру, я никогда не был в Москве (Cl).</i>"
+  exercise_type: multichoice_multianswer
+  title_eng: "Fill in the blanks with the words from the list. Note the differences in the use of these constructions. The words ^к примеру@ and ^например@ both meaning ‘for example, ...’ can appear either at the beginning or in the middle of a sentence, whereas the word ^Так@ can only be sentence initial. The construction ^Так, Cl@ ‘For example, ...’ presents an example that is an entire situation described by a sentence (Cl = sentence, clause). The constructions ^к примеру, XP/Cl@ and ^например, XP/Cl@ present an example that is either an entire situation or an element of a situation. Therefore, in these constructions we can put a phrase or an entire sentence in the slot marked XP/Cl (XP=phrase, Cl=clause, sentence): <i>к примеру, Вася (XP); к примеру, в Москве (XP); к примеру, домой (XP) vs. К примеру, я никогда не был в Москве (Cl).</i>"
+  title_nor: "Fyll ut de tomme feltene med ord fra listen. Legg merke til hvordan konstruksjonene brukes forskjellig. Ordene ^к примеру@ og ^например@ kan plasseres i begynnelsen eller midten av setningen, mens ^Так@ kan plasseres kun i begynnelsen. Konstruksjonen ^Так, Cl@ beskriver en hel situasjon med en setning (Cl = en setning), mens ^к примеру@ og ^например@ kan brukes for å legge til både hele setninger og mindre deler av en setning. Altså er det mulig å fylle plassen XP/Cl med en frase eller en hel setning (XP=frase, Cl=setning): <i>к примеру, Вася (XP); к примеру, в Москве (XP); к примеру, домой (XP) vs. К примеру, я никогда не был в Москве (Cl).</i>"
+  comment: ~
+  example: ~
+  model: ~
+  image: 
+    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/5/bandaid.jpg"
+  task:
+    task1:
+      text: "1. Медицина бывает платной и бесплатной. В некоторых странах, __________________, базовые медицинские услуги финансируются за счёт налогов и предоставляются бесплатно, а дополнительные услуги — платно."
+    task2:
+      text: "2. Чтобы хорошо себя чувствовать, необходимо, __________________, регулярно заниматься спортом и правильно питаться."
+    task3:
+      text: "3. У всех бывают вредные привычки. __________________, я раньше много курил."
+    task4:
+      text: "4. На этой неделе Нина сидит дома. Вчера, __________________, она не пошла на работу из-за высокой температуры, а в понедельник — из-за давления."
+    task5:
+      text: "5. Мне нужен пластырь. Давай куда-нибудь зайдём! __________________, в аптеку или в магазин."
+  answer_to_show:
+    answer1: к примеру; например,
+    answer2: к примеру; например,
+    answer3: к примеру; например,; Так,
+    answer4: к примеру; например,
+    answer5: к примеру; например,
+  answer_key:
+    answer1: к примеру; например,
+    answer2: к примеру; например,
+    answer3: к примеру; например,; Так,
+    answer4: к примеру; например,
+    answer5: к примеру; например,
+  answer_options:
+    - к примеру
+    - например,
+    - Так,
+  difficult_words: ~
+  table: ~
