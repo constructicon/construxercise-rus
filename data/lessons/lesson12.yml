@@ -363,12 +363,12 @@
   example: ~
   model: 
     image:
-      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_9.jpg"
+      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_9.png"
   image: ~
   task:
     task1:
       image:
-        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_9_1.jpg"
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_9_1.png"
         width: "400"
       text: " <b>Опорные слова</b>
               o Мы с Настей поссорились. Я злюсь на неё.<br>
