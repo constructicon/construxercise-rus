@@ -1,4 +1,4 @@
----
+
 1:
   lesson_id: 12
   ex_number: 1
@@ -10,7 +10,6 @@
   comment: ~
   example: ~
   model: ~
-  image: ~
   task:
     task1: 
       text:  "— Миша, привет! ^Так что насчёт@ среды? Идём в бассейн? Ты обещал подумать и написать мне.<br>
@@ -19,10 +18,10 @@
               — ^Как по мне,@ в пятницу нужно идти в бар, а не в бассейн. ^По-моему,@ для бассейна лучше подходит четверг, ^а ты как думаешь@?<br>
               — ^На самом деле,@ в четверг мне даже удобнее.<br>
               — ^Вот и чудесно!@ Тогда до встречи в четверг!<br><br>
-    audio: ~
-    image: 
-        link: ~
-        width: ~
+      audio: ~
+      image: 
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_1.jpg"
+        width: "400"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
