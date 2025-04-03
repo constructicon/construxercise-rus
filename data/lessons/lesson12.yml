@@ -64,40 +64,62 @@
 
 2:
   lesson_id: 12
-  ex_number: 2
-  title: Соедините предложения, подобрав логичное продолжение.
+  ex_number: 3
+  title: Посмотрите на конструкции в упражнении 1. Для каждой функции выберите нужную конструкцию.
   instructions: ~
-  exercise_type: text_input
-  title_eng: Connect the phrases by choosing a matching continuation.
-  title_nor: Koble sammen setningene ved å bruke delene som passer.
+  exercise_type: multichoice_singleanswer
+  title_eng: Look at the constructions in Exercise 1. For each function, choose the correct construction.
+  title_nor: Se på strukturene i oppgave 1. Velg riktig struktur for hver funksjon.
   comment: ~
+  constr_info: ~
   example: ~
   model: ~
   image: ~
-  task: ~
-  answer_to_show: 1в, 2а 3д, 4б, 5г
-  answer_key: 1в, 2а 3д, 4б, 5г
+  task:
+    task1:
+      text: 1. Ввести тему<br>
+            a. ^честно говоря, ...@<br>
+            б. ^..., так ведь?@<br>
+            в. ^Что насчёт ...?@<br>
+    task2:
+      text: 2. Выразить своё мнение<br>
+            a. ^как по мне, так ...@<br>
+            б. ^как по мне, так ...@<br>
+            в. ^как по мне, так ...@<br>
+    task3:
+      text: 3. Добавить информацию<br>
+            a. ^насколько я понимаю, ...@<br>
+            б. ^к тому же ...@<br>
+            в. ^на самом деле ...@<br>
+    task4:
+      text: 4. Узнать мнение собеседника<br>
+            a. ^честно говоря, ...@<br>
+            б. ^..., так ведь?@<br>
+            в. ^к тому же ...@<br>
+    task5:
+      text: 5. Смягчить категоричность высказывания<br>
+            a. ^мягко говоря, ...@<br>
+            б. ^по-моему, ...@<br>
+            в. ^Вот и ...!@<br>
+
+  answer_to_show: 
+    answer1: "в"
+    answer2: "а"
+    answer3: "б"
+    answer4: "б"
+    answer5: "а"
+  answer_key: 
+    answer1: "в"
+    answer2: "а"
+    answer3: "б"
+    answer4: "б"
+    answer5: "а"   
+  answer_options:
+    - а
+    - б
+    - в
   difficult_words: ~
-  table:
-    width: ~
-    vertical_align: +
-    horizontal_align: ~
-    heading: ~
-    row1:
-      - 1. Иван — студент-программист, учится на отлично!
-      - a. ^К тому же,@ нет ветра.
-    row2:
-      - 2. Сегодня очень хорошая погода.
-      - б. ^Мало того,@ она ещё и заразилась коронавирусом, когда была в больнице.
-    row3:
-      - "3. Мне очень нравится моя новая работа: интересная, приятные коллеги, недалеко от дома."
-      - в. ^Кроме того,@ Иван — спортсмен, хорошо играет в волейбол.
-    row4:
-      - 4. Маша недавно сломала руку.
-      - г. ^Ко всему прочему,@ она потеряла паспорт в метро.
-    row5:
-      - 5. У Оли сегодня был трудный день
-      - д. ^Плюс ко всему,@ высокая зарплата.
+  table: ~
 3:
   lesson_id: 12
   ex_number: 3
