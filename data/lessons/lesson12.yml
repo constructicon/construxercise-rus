@@ -304,31 +304,31 @@
   lesson_id: 12
   ex_number: 8
   title: Заполните пропуски в тексте словами из списка:<br>
-          • а. ^Грубо говоря@
-          • б. ^Будь моя воля@
-          • в. ^Сам подумай@
-          • г. ^навряд ли@
-          • д. ^и на том спасибо@
-          • е. ^типа@
-          • ж. ^мягко говоря@
+          • а. ^Грубо говоря@<br>
+          • б. ^Будь моя воля@<br>
+          • в. ^Сам подумай@<br>
+          • г. ^навряд ли@<br>
+          • д. ^и на том спасибо@<br>
+          • е. ^типа@<br>
+          • ж. ^мягко говоря@<br>
   instructions: ~
   exercise_type: text_input
   title_eng:  Fill in the blanks in the text with words from the list:<br>
-              • ^Roughly speaking@
-              • ^If it were up to me@
-              • ^Think about it yourself@
-              • ^unlikely@
-              • ^thanks for that@
-              • ^sort of@
-              • ^to put it mildly@
+              • ^Roughly speaking@<br>
+              • ^If it were up to me@<br>
+              • ^Think about it yourself@<br>
+              • ^unlikely@<br>
+              • ^thanks for that@<br>
+              • ^sort of@<br>
+              • ^to put it mildly@<br>
   title_nor: Fyll ut hullene i teksten med ord fra listen:<br>
-              • ^Grovt sett@
-              • ^Vær det min vilje@
-              • ^Tenk selv@
-              • ^neppe@
-              • ^og takk for det@
-              • ^type@
-              • ^for å si det mildt@
+              • ^Grovt sett@<br>
+              • ^Vær det min vilje@<br>
+              • ^Tenk selv@<br>
+              • ^neppe@<br>
+              • ^og takk for det@<br>
+              • ^type@<br>
+              • ^for å si det mildt@<br>
   comment: ~
   example: ~
   model: ~
