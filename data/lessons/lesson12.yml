@@ -212,6 +212,7 @@
     word1: девичник – EN:bachelorette party; NO:utdrikningslag for kvinner
     word2: мальчишник – EN:bachelor party; NO:utdrikningslag for menn
   table: ~
+
 6:
   lesson_id: 12
   ex_number: 6
@@ -228,7 +229,7 @@
     task1:
       image:
         link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_7.jpg"
-        width: "300"
+        width: "400"
       text: "Вчера ходил в гости к Паше. Я, ^мягко говоря,@ не хотел идти, но пошёл. ^Сама подумай,@ я уже три раза до этого говорил, что у меня дела и не смогу. Паша может и обидеться, поэтому я согласился. Паша сказал, что приготовит пиццу по секретному рецепту. Ты даже не представляешь, какой это рецепт! ^Грубо говоря,@ он купил замороженную пиццу ^типа@ пепперони и добавил в неё майонез и сосиски. Не сжёг её, ^и на том спасибо. Будь моя воля,@ не стал бы её есть. Но я съел. ^Вряд ли@ Паша понял, что его пицца мне не понравилась: я хороший актёр."
 
   answer_to_show: ~
@@ -239,4 +240,62 @@
            Ты даже не представляешь! – EN:You can't even imagine! NO:Du kan ikke engang forestille deg!<br>
            замороженная пицца – EN:frozen pizza; NO:frossen pizza<br>
            сосиска – EN:sausage; NO:pølse сжечь – EN:to burn; NO:å brenne<br>
+  table: ~
+
+7:
+  lesson_id: 12
+  ex_number: 7
+  title: Посмотрите на конструкции в упражнении 6. Для каждой функции выберите нужную конструкцию.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Look at the constructions in Exercise 6. For each function, choose the correct construction.
+  title_nor: Se på strukturene i oppgave 6. Velg riktig struktur for hver funksjon.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: 1. Смягчить категоричность высказывания<br>
+            a. ^Что насчёт ...?@<br>
+            б. ^мягко говоря, ...@<br>
+            в. ^... типа ...@<br>
+    task2:
+      text: 2. Выразить скепсис<br>
+            a. ^вряд ли ...@<br>
+            б. ^на первый взгляд ...@<br>
+            в. ^Итак, ...@<br>
+    task3:
+      text: 3. Подвести итог<br>
+            a. ^честно говоря, ...@<br>
+            б. ^..., и на том спасибо.@<br>
+            в. ^..., не правда ли?@<br>
+    task4:
+      text: 4. Пояснить с помощью примера<br>
+            a. ^мягко говоря, ...@<br>
+            б. ^на самом деле ...@<br>
+            в. ^... типа ...@<br>
+    task5:
+      text: 5. Обобщить без деталей<br>
+            a. ^грубо говоря, ...@<br>
+            б. ^Вот и ...!@<br>
+            в. ^Мало того, ...@<br>
+
+  answer_to_show: 
+    answer1: "б"
+    answer2: "а"
+    answer3: "б"
+    answer4: "в"
+    answer5: "а"
+  answer_key: 
+    answer1: "б"
+    answer2: "а"
+    answer3: "б"
+    answer4: "в"
+    answer5: "а"   
+  answer_options:
+    - а
+    - б
+    - в
+  difficult_words: ~
   table: ~
