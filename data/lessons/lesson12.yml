@@ -350,3 +350,56 @@
             *как следует — ЕN: properly; NO: ordentlig<br>
             *не более того — ЕN: not more than that; NO: ikke mer enn det"
   table: ~
+
+9:
+  lesson_id: 12
+  ex_number: 9
+  title: Заполните пропуски в тексте словами из списка:<br>
+          • а. ^Грубо говоря@<br>
+          • б. ^Будь моя воля@<br>
+          • в. ^Сам подумай@<br>
+          • г. ^навряд ли@<br>
+          • д. ^и на том спасибо@<br>
+          • е. ^типа@<br>
+          • ж. ^мягко говоря@<br>
+  instructions: ~
+  exercise_type: text_input
+  title_eng:  Fill in the blanks in the text with words from the list:<br>
+              • ^Roughly speaking@<br>
+              • ^If it were up to me@<br>
+              • ^Think about it yourself@<br>
+              • ^unlikely@<br>
+              • ^thanks for that@<br>
+              • ^sort of@<br>
+              • ^to put it mildly@<br>
+  title_nor: Fyll ut hullene i teksten med ord fra listen:<br>
+              • ^Grovt sett@<br>
+              • ^Vær det min vilje@<br>
+              • ^Tenk selv@<br>
+              • ^neppe@<br>
+              • ^og takk for det@<br>
+              • ^type@<br>
+              • ^for å si det mildt@<br>
+  comment: ~
+  example: ~
+  model: 
+    image:
+      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_8.jpg"
+  image: ~
+  task:
+    task1:
+      image:
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_8.jpg"
+        width: "400"
+      text: "Не хочу больше разговаривать с Кириллом! Он позвал на свидание Юлю, хотя знает, что она мне давно нравится. 1.______________________________ , разве друзья так делают? Это, 2.____________________________ , не по-братски. 3._____________________________ , врезал* бы ему как следует*. Ещё и подарил ей какие-то цветы 4._____________________________ тюльпанов... Ну, он хотя бы сам мне сказал об этом, 5._____________________________. Но всё равно мы 6._____________________________ будем с ним друзьями после такого. 7._____________________________ , будем здороваться, но не более того*."
+
+  answer_to_show: 
+    answer1: "1в, 2ж, 3б, 4е, 5д, 6г, 7а"
+  answer_key: 
+    answer1: "1в, 2ж, 3б, 4е, 5д, 6г, 7а"
+  answer_options: ~
+  difficult_words:
+    word1:  "*врезать — ЕN: to hit; NO: å slå<br>
+            *как следует — ЕN: properly; NO: ordentlig<br>
+            *не более того — ЕN: not more than that; NO: ikke mer enn det"
+  table: ~
