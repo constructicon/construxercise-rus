@@ -440,10 +440,26 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         ex_words.innerHTML = "Модель"
         ex_words.appendChild(document.createElement("br"))
 
-        model.innerHTML = annotate(data[exercise_id]["model"]);
+        if (data[exercise_id]["model"]['image'] != null) {
+            if (data[exercise_id]["model"]['image']["link"] != undefined) {
+                let image_wrapper = document.createElement('div')
+                image_wrapper.setAttribute('class', 'p-2 m-2')
+                // image_wrapper.setAttribute("class", "mx-auto d-block")
+
+                image_wrapper.appendChild(add_image(data[exercise_id]["model"]["image"]))
+                model.appendChild(image_wrapper)
+            }
+        }
+        else {
+
+
+            model.innerHTML = annotate(data[exercise_id]["model"]);
+            // main_content.appendChild(model);
+
+        }
         all_exercise.appendChild(ex_words)
+
         all_exercise.appendChild(model);
-        // main_content.appendChild(model);
     }
 
     if (data[exercise_id]["example"] != null) {
