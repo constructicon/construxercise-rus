@@ -10,6 +10,9 @@
   comment: ~
   example: ~
   model: ~
+  image: 
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_1.jpg"
+        width: "400"
   task:
     task1: 
       text:  "— Миша, привет! ^Так что насчёт@ среды? Идём в бассейн? Ты обещал подумать и написать мне.<br>
@@ -19,9 +22,7 @@
               — ^На самом деле,@ в четверг мне даже удобнее.<br>
               — ^Вот и чудесно!@ Тогда до встречи в четверг!<br><br>"
       audio: ~
-      image: 
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_1.jpg"
-        width: "400"
+
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
