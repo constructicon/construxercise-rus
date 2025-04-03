@@ -247,7 +247,7 @@
   ex_number: 7
   title: Посмотрите на конструкции в упражнении 6. Для каждой функции выберите нужную конструкцию.
   instructions: ~
-  exercise_type: ~
+  exercise_type: multichoice_singleanswer
   title_eng: Look at the constructions in Exercise 6. For each function, choose the correct construction.
   title_nor: Se på strukturene i oppgave 6. Velg riktig struktur for hver funksjon.
   comment: ~
