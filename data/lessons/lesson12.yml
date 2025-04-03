@@ -144,7 +144,7 @@
             е. — Привет, Соня! ^Честно говоря,@ платье — это слишком дорогой подарок для меня, и ^к тому же@ платье нужно мерить. ^Не факт, что@ мы выберем правильный размер.<br>
     task2:
       image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/12/12_1.jpg"
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_2.png"
       text: Что получит в подарок Кристина?
 
 
