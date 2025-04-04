@@ -256,11 +256,20 @@
       - как бы то ни было, Cl
       - На новой клавиатуре клавиши расположены странно. ^Как бы то ни было,@ к этому быстро привыкаешь.
     - - 836
-        - в целом ...
-        - ^В целом@ отпуск прошёл интересно.
+      - в целом ...
+      - ^В целом@ отпуск прошёл интересно.
+      - - Overall, …
+      - - alt i alt, ...
+      - - Overall, the vacation was interesting.
+        - Alt i alt var ferien interessant.
       - - 1839
-        - таким образом, ...
-        - Мы приехали в музей, а он был закрыт. ^Таким образом,@ у нас появилось время для экскурсии по центру города.
+      - Таким образом, ...
+      - Мы приехали в музей, а он был закрыт. ^Таким образом,@ у нас появилось время для экскурсии по центру города.
+      - - Thus, ...
+        - So, ...
+      - Dermed, ...    
+      - - We arrived at the museum, but it was closed. Thus, we had time for a tour in the city center.
+        - Vi kom til museet, men det var stengt. Dermed fikk vi tid til en omvisning i byens sentrum.
     - - 308
       - Словом, ...
       - Артём то занят, то устал, то в командировке. ^Словом,@ он всегда находит причину не прийти к нам в гости.
@@ -283,17 +292,37 @@
       - дело Cop не в NP-Loc (, а в NP-Loc)
       - ^Дело не в@ опозданиях.
     - - 2311
-      - Cl, и на том спасибо
-      - Не обижают, ^и на том спасибо@.
+      - ..., и на том спасибо!
+      - На завтрак был только чай с бутербродами, ^и на том спасибо!@
+      - - It’s something at least! 
+        - Thank Heaven for small favors!
+      - - La oss være takknemlige for det lille vi har!
+      - - For breakfast, there was only tea with sandwiches — it's something at least!
+        - Til frokost var det bare te med smørbrød — la oss være takknemlige for det lille vi har!
     - - 64
-      - вот и Pred!
-      - ^Вот и@ чудесно!
+      - Вот и ...!
+      - Вы уже выбрали, что будете заказывать? ^Вот и@ прекрасно!
+      - - Then ...! (e.g., Then fine!)
+      - - Det er ...!
+      - - Have you already decided what you will order? Wonderful!
+        - Har dere allerede bestemt hva dere skal bestille? Flott!
     - - 759
-      - в заключение Cl
-      - ^В заключение@ я хочу поблагодарить всех сотрудников нашей фирмы.
+      - В заключение …
+      - ^В заключение,@ всегда выбирайте одежду по погоде.
+      - - In conclusion, ...
+        - Finally, ...
+      - - Til slutt, ...
+      - - In conclusion, always choose clothing according to the weather.
+        - Til slutt, velg alltid klær etter været.
     - - 1957
-      - Итак, Cl
-      - ^Итак,@ мы вкратце рассказали об особенностях двух культур.
+      - Итак, ...
+      - ^Итак,@ платье мы выбрали, теперь нужно добавить аксессуары.
+      - - Thus, ...
+        - So, ...
+      - - Så, ...
+        - Altså ...
+      - - So, we've chosen the dress, now we need to add accessories.
+        - Så, vi har valgt kjolen, nå må vi legge til tilbehør.
   lesson_instructions:
     - Cl = clause, sentence (предложение)
     - NP = noun phrase (существительное)
