@@ -182,15 +182,27 @@
   lesson_name: Функция 4. Ввести тему
   lesson_name_eng: Introduce a topic
   construction_table_rows:
-    - - 687
-      - (а) насчёт NP-Gen – Cl
-      - ^А насчёт папы@ – он уехал на рыбалку.
-    - - 6
-      - (а/так) что насчёт XP?
-      - ^Что насчёт@ пятницы? Какие у тебя планы?
     - - 365
-      - что касается NP-Gen, то Cl
-      - ^Что касается спорта, то@ я никогда не любил бегать.
+      - что касается ..., то ...
+      - ^Что касается@ билетов^, то@ я всегда покупаю самые дешёвые.
+      - - As far as ... is concerned, …
+      - - når det gjelder ..., ...
+      - - As far as tickets are concerned, I always buy the cheapest ones.
+        - Når det gjelder billetter, kjøper jeg alltid de billigste.
+    - - 687
+      - А насчёт ..., ...
+      - ^А насчёт специй,@ я всегда добавляю немного базилика в соус.
+      - - As for ..., ...
+      - - Når det gjelder ..., ...
+      - - As for spices, I always add a bit of basil to the sauce.
+        - Når det gjelder krydder, legger jeg alltid litt basilikum i sausen.
+    - - 6
+      - Что насчёт ...?
+      - ^Что насчёт@ пятницы? Какие у тебя планы?
+      - - How about ...?
+      - - Hva med ...?
+      - - What about Friday? Do you have any plans?
+        - Hva med fredag? Har du noen planer?
   lesson_instructions:
     - NP = noun phrase (существительное)
     - Gen = Genitive case (генитив)
