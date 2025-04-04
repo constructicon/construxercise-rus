@@ -98,35 +98,80 @@
   lesson_name_eng: Add information
   construction_table_rows:
     - - 170
-      - (а) кроме того XP/Cl
-      - Он^, кроме того,@ плавает.
+      - кроме того ...
+      - Я учусь в университете. ^Кроме того@, я играю в футбол.
+      - - In addition, ...
+        - Besides, …
+      - - Dessuten ...
+      - - I study at the university. In addition, I play football.
+        - Jeg studerer ved universitetet. Dessuten spiller jeg fotball.
     - - 410
-      - не только XP, но и XP
-      - Он был ^не только@ умён, ^но и@ добр.
+      - не только ..., но и ...
+      - Я изучаю ^не только@ русский язык, ^но и@ экономику.
+      - - not only ..., but also ...
+      - - ikke bare ... men også ...
+      - - I study not only Russian, but also economics.
+        - Jeg studerer ikke bare russisk, men også økonomi.
     - - 1872
-      - (и) кстати (говоря), Cl
-      - ^И кстати,@ он пришёл без подарка.
+      - кстати, ...
+      - ^Кстати,@ мой брат по профессии тоже экономист.
+      - - By the way, ...
+      - - Forresten ...
+      - - By the way, my brother is also an economist by profession.
+        - Forresten, min bror er også økonom av yrke.
     - - 1093
-      - к тому же XP/Cl
-      - ^К тому же@ каждый день шёл снег.
+      - к тому же ...
+      - Я часто хожу на кинофестивали, ^к тому же@ веду свой блог.
+      - - In addition, ...
+      - - I tillegg ... 
+      - - I often go to film festivals; in addition, I run my own blog.
+        - Jeg går ofte på filmfestivaler, i tillegg driver jeg min egen blogg.
     - - 1867
-      - плюс/вдобавок (ко всему/к тому/к этому), Cl
-      - ^Плюс ко всему,@ погода резко испортилась.
+      - плюс ко всему, ...
+      - ^Плюс ко всему@, я люблю путешествовать.
+      - - In addition, …
+      - - I tillegg til alt dette, ...
+      - - In addition, I like to travel.
+        - I tillegg til alt dette, liker jeg å reise.
     - - 1874
-      - (Так) мало того – Cl
-      - ^Мало того,@ Маша привела с собой друзей.
+      - Мало того, ...
+      - У Никиты ухудшилось зрение. ^Мало того,@ у него появились боли в спине.
+      - - To top it off, ...
+        - And what is more...
+      - - Ikke nok med det ...
+        - Dessuten ...
+      - - Nikita's vision has worsened. On top of that, he has developed back pain.
+        - Nikita har fått dårligere syn. På toppen av det har han fått ryggsmerter.
     - - 1868
-      - ко всему прочему, Cl
-      - ^Ко всему прочему,@ он курит и пьёт.
+      - ко всему прочему, ...
+      - У Степана проблемы с давлением и сердцем. ^Ко всему прочему,@ он курит и пьёт.
+      - - On top of all of this, …
+      - - På toppen av alt, ...
+        - Dessuten ...
+      - - Stepan has problems with his blood pressure and heart. On top of that, he smokes and drinks.
+        - Stepan har problemer med blodtrykket og hjertet. I tillegg røyker og drikker han.
     - - 1873
-      - VP, заодно VP
-      - Сходи за хлебом, ^заодно@ мусор вынесешь.
+      - ... заодно ...
+      - Мы украсили дом к Новому году и ^заодно@ сделали генеральную уборку.
+      - - ... and in the process ... 
+        - ... and at the same time ...
+      - - ... samtidig …
+      - - We decorated the house for the New Year and in the process thoroughly cleaned the house.
+        - Vi pyntet huset til nyttår og ryddet samtidig grundig i huset.
     - - 1894
-      - XP/Cl, XP/Cl и так далее/и т. д.
-      - Кто-то займётся спортом, кто-то будет слушать музыку, кто-то танцевать ^и так далее@.
+      - …, … и так далее.
+      - Чтобы выглядеть стильно, нужно следить за трендами, комбинировать разные стили, экспериментировать ^и так далее.@
+      - - ... and so on.
+      - - og så videre.
+      - - To look stylish, you need to follow trends, combine different styles, experiment, and so on.
+        - For å se stilig ut, må du følge trender, kombinere forskjellige stiler, eksperimentere og så videre.
     - - 1895
-      - NP, NP и тому подобное/и т. п.
-      - Здесь продаются разные справочники, журналы, книги ^и тому подобное@.
+      - …, … и тому подобное.
+      - В холодную погоду нужна тёплая одежда — свитер, шарф, куртка ^и тому подобное.@
+      - - ... and the like.
+      - - ... og lignende.
+      - - In cold weather, warm clothing is needed - a sweater, scarf, jacket, and the like.
+        - I kaldt vær er det behov for varme klær - en genser, skjerf, jakke og lignende.
   lesson_instructions:
     - XP = phrase (фраза)
     - Cl = clause, sentence (предложение)
