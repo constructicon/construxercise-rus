@@ -326,20 +326,17 @@ function add_table(subtask, taskKey) {
 for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     
     var all_exercise = document.createElement("div");
-    
+        
     //adding tag if possible 
     if (data[exercise_id]["tags"] != null) {
-        let tags = document.createElement("div")
-        tags.setAttribute("style", "margin-bottom: 20px")
-        tags.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
-        let ex_words = document.createElement("b")
+        let tags = document.createElement("h1");
+        tags.setAttribute("style", "margin-bottom: 20px");
         
-        tags.innerHTML = annotate(data[exercise_id]["tags"])
-        all_exercise.appendChild(ex_words)
-        all_exercise.appendChild(tags)
-        // all_exercise.appendChild(document.createElement("br"))
-        // main_content.appendChild(ex_words)
-        // main_content.appendChild(example)
+        // Set the content of the tags
+        tags.innerHTML = annotate(data[exercise_id]["tags"]);
+        
+        // Add the tags first
+        main_content.appendChild(tags);
     }
     
     var task_title = document.createElement("h2");
