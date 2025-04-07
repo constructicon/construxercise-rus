@@ -442,3 +442,48 @@
   difficult_words:
     word1:  "*порваться — ЕN: to tear (the jeans tore); NO: å revne (jeansen revnet)<br>"
   table: ~
+
+11:
+  lesson_id: 12
+  ex_number: 11
+  title: Ответьте на вопросы по тексту.
+  instructions: ~
+  exercise_type: ~
+  title_eng:  Answer the questions about the text.
+  title_nor:  Svar på spørsmålene basert på teksten.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      image:
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_11.png"
+      text: " <b>Нужно ли давать детям карманные деньги?</b><br>
+              ^Как по мне,@ родителям нужно учить детей
+              пользоваться деньгами как можно раньше.
+              Поэтому я считаю, что можно давать деньги
+              даже маленьким детям. ^Во-первых,@ этот
+              навык им потом без сомнений пригодится в
+              жизни. А ^кроме того,@ дети будут лучше
+              понимать ценность вещей вокруг, если будут
+
+              знать о ценности денег. ^Таким образом, по-
+              моему,@ у каждого ребенка должны быть свои
+
+              деньги на карманные расходы.<br><br>
+              <b>К какому выводу приходит автор?</b><br>
+              <b>Какие аргументы он приводит, чтобы это доказать?</b>"
+
+  answer_to_show: ~
+  answer_key: ~
+  answer_options: ~
+  difficult_words:
+    word1:  "* пользоваться — ЕN: to use; NO: å bruke<br>
+             * как можно раньше — ЕN: as early as possible; NO: så tidlig som mulig<br>
+             * навык — ЕN: skill; NO: ferdighet<br>
+             * без сомнений — ЕN: without a doubt; NO: uten tvil<br>
+             * пригодится — ЕN: will come in handy; NO: vil komme til nytte<br>
+             * ценность — ЕN: value; NO: verdi<br>
+             * карманные расходы — ЕN: pocket money; NO: lommepenger<br>"
+  table: ~
