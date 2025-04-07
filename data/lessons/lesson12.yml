@@ -991,3 +991,71 @@
     - в
   difficult_words: ~
   table: ~
+
+22:
+  lesson_id: 12
+  ex_number: 22
+  title: Заполните пропуски в тексте словами из списка. Правильныхвариантов может быть несколько.<br>
+              • а. ^С другой стороны@<br>
+              • б. ^Например@<br>
+              • в. ^Что касается@<br>
+              • г. ^К примеру@<br>
+              • д. ^Насчёт@<br>
+              • е. ^Как бы то ни было@<br>
+              • ж. ^С одной стороны@<br>
+              • з. ^В целом@<br>
+              • и. ^Так@<br>
+              • к. ^Таким образом@<br>
+  instructions: ~
+  exercise_type: text_input
+  title_eng:  Fill in the blanks in the text with words from the list. There may be several correct options.<br>
+              • ^On the other hand@<br>
+              • ^For example@<br>
+              • ^As for@<br>
+              • ^As for@<br>
+              • ^About@<br>
+              • ^In any case@<br>
+              • ^On the one hand@<br>
+              • ^On the whole@<br>
+              • ^So@<br>
+              • ^Thus@<br>
+  title_nor: Fyll ut hullene i teksten med ord fra listen. Det kan være flere riktige alternativer.<br>
+              • ^På den annen side@<br>
+              • ^For eksempel@<br>
+              • ^Angående@<br>
+              • ^For eksempel@<br>
+              • ^Om@<br>
+              • ^Hvordan det måtte være@<br>
+              • ^På den ene siden@<br>
+              • ^Overall@<br>
+              • ^Så@<br>
+              • ^Dermed@<br>
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      image:
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_22.jpg"
+        width: "400"
+      text: "1._______________________ того, должна ли
+              школьная форма быть обязательной, есть
+              разные мнения. 2._______________________, если
+              все ученики носят одинаковую форму, то нет
+              различий между детьми из богатых и бедных
+              семей. 3._______________________, школьная
+              форма часто неудобная, а различия между
+              семьями с разным достатком могут быть не
+              только в одежде, но и в технике.
+              4._______________________, у богатых детей обычно более дорогие телефоны.
+              5._______________________, по поводу школьной формы единого мнения в обществе пока нет."
+
+  answer_to_show: ~
+  answer_key: ~
+  answer_options: ~
+  difficult_words:
+    word1:  "* различие — EN: difference; NO: forskjell<br>
+             * достаток — EN: wealth, income; NO: velstand<br>
+             * общество — EN: society; NO: samfunn"
+  table: ~
