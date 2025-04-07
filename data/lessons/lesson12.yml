@@ -939,3 +939,55 @@
         - |
           &nbsp;<br><br>
           &nbsp;
+
+21:
+  lesson_id: 12
+  ex_number: 21
+  title: "Посмотрите на конструкции в упражнении 21. Для каждой функции выберите нужную конструкцию."
+  instructions: ~
+  exercise_type: multichoice_singleanswer
+  title_eng: "Look at the constructions in Exercise 21. For each function, choose the correct construction."
+  title_nor: "Se på strukturene i oppgave 21. For hver funksjoner velger ønsket design."
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: 1. Ввести тему<br>
+              а. ^Так, ...@<br>
+              б. ^В целом ...@<br>
+              в. ^что касается ..., то ...@<br>
+    task2:
+      text: 2. Ввести две противоположные точки зрения<br>
+            а. ^к примеру, ...@<br>
+            б. ^С одной стороны, ..., с другой стороны, ...@<br>
+            в. ^как бы то ни было, ...@<br>
+    task3:
+      text: 3. Ввести пример<br>
+            а. ^Так, ...@<br>
+            б. ^А насчёт ..., ...@<br>
+            в. ^в целом ...@<br>
+    task4:
+      text: 4. Подвести итог<br>
+            а. ^что касается ..., то ...@<br>
+            б. ^например, ...@<br>
+            в. ^таким образом, ...@<br>
+
+
+  answer_to_show: 
+    answer1: "в"
+    answer2: "б"
+    answer3: "а"
+    answer4: "в"
+  answer_key: 
+    answer1: "в"
+    answer2: "б"
+    answer3: "а"
+    answer4: "в"
+  answer_options:
+    - а
+    - б
+    - в
+  difficult_words: ~
+  table: ~
