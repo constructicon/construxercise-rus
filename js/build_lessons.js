@@ -330,7 +330,7 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     //adding tag if possible 
     if (data[exercise_id]["tags"] != null) {
         let tags = document.createElement("h1");
-        tags.setAttribute("style", "margin-bottom: 20px; background-color: #e0f7fa; padding: 10px; border-radius: 5px;");
+        tags.setAttribute("style", "margin-bottom: 20px; background-color: #e0f7fa; padding: 10px; border-radius: 15px;");
         
         // Set the content of the tags
         tags.innerHTML = annotate(data[exercise_id]["tags"]);
