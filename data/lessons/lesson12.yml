@@ -172,7 +172,7 @@
   model: ~
   image: ~
   task: 
-    task1: "&nbsp;"
+    task1: "_"
     image:
       link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_3.png"
   answer_to_show:
