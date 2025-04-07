@@ -487,3 +487,51 @@
              * ценность — ЕN: value; NO: verdi<br>
              * карманные расходы — ЕN: pocket money; NO: lommepenger<br>"
   table: ~
+
+12:
+  lesson_id: 12
+  ex_number: 12
+  title: Распределите конструкции из списка ниже по трём категориям.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Divide the structures from the list below into three categories.
+  title_nor: Klassifiser designene fra listen nedenfor i tre kategorier.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      text: | 
+              • ^к тому же ...@<br>
+              • ^как по мне, так ...@<br>
+              • ^в целом ...@<br>
+              • ^таким образом, ...@<br>
+              • ^по-моему, ...@<br>
+              • ^во-первых, ..., во-вторых, ...@<br>
+              • ^как бы то ни было, ...@<br>
+              • ^не только ..., но и ...@<br>
+              • ^на мой взгляд, ...@<br>
+
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table:
+    width: ~
+    vertical_align: ~
+    horizontal_align: ~
+    heading: ~
+    row1:
+        - 1. Выразить своё мнение
+        - |
+          2. Аргументировать
+        - |
+          3. Подвести итог
+
+    row2: 
+        - | 
+          &nbsp;
+        - |
+          &nbsp;
+        - |
+          &nbsp;
