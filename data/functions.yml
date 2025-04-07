@@ -460,9 +460,6 @@
         - ..., stemmer det?
       - - Katya's birthday is in March, right?
         - Katjas bursdag er i mars, ikke sant?
-    - - 2278
-      - ..., не так ли?
-      - Уютная квартира, ^не так ли@?
   lesson_instructions:
     - Cl = clause, sentence (предложение)
     - NP = noun phrase (существительное)
