@@ -1007,7 +1007,7 @@
               • и. ^Так@<br>
               • к. ^Таким образом@<br>
   instructions: ~
-  exercise_type: text_input
+  exercise_type: ~
   title_eng:  Fill in the blanks in the text with words from the list. There may be several correct options.<br>
               • ^On the other hand@<br>
               • ^For example@<br>
