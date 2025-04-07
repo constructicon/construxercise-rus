@@ -625,9 +625,7 @@
               under."
   comment: ~
   example: ~
-  model: 
-    image:
-      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_15.png"
+  model: ~
   image: ~
   task:
     task1:
