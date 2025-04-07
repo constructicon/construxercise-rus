@@ -555,6 +555,7 @@
     task1:
       image:
         link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_13.png"
+        wiidth: "200"
       text: " _________, курение в общественных местах должно быть
               запрещено. Это вредно и неприятно для людей вокруг.
               ___________, рядом могут быть маленькие дети или люди с
