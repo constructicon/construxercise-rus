@@ -573,3 +573,38 @@
     word1:  "* лёгкие — ЕN: lungs; NO: lunger<br>
              * запретить — ЕN: to prohibit; NO: å forby<br>"
   table: ~
+
+14:
+  lesson_id: 12
+  ex_number: 14
+  title: Бонусное упражнение. Заполните пропуски в тексте.
+  instructions: ~
+  exercise_type: ~
+  title_eng: Bonus exercise: Fill in the gaps in the text.
+  title_nor: Bonusøvelse. Fyll ut de tomme feltene i teksten.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    image: 
+      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_14.png"
+      width: "200"
+    task1:
+      text: "Глобальное потепление, 1.____________________,
+            незаметно. 2.__________________, обычно мы не
+            обращаем внимание на то, как меняется температура или
+            климат в нашем городе. 3.____________________, мы
+            начинаем беспокоиться, только когда произошли какие-то
+            большие изменения. 4._________________, исчез ледник.
+            Но на самом деле климат постоянно меняется: тают льды,
+            горят леса, увеличиваются пустыни
+            5.____________________. 6.________________, глобальное
+            потепление происходит каждый день, поэтому нам важно
+            подумать над решением этой проблемы уже сейчас."
+
+  answer_to_show: ~
+  answer_key: ~
+  answer_options: ~
+  difficult_words: ~
+  table: ~
