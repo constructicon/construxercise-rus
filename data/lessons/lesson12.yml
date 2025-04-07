@@ -28,7 +28,10 @@
     answer1: "СР:работа до 16:30, дедлайн по философии<br>
               ЧТ: бассейн<br>
               ПТ: бар"
-  answer_key: ~
+  answer_to_show: 
+    answer1: "СР:работа до 16:30, дедлайн по философии<br>
+              ЧТ: бассейн<br>
+              ПТ: бар"
   difficult_words: ~
   table:
     width: ~
