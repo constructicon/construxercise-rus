@@ -1059,3 +1059,43 @@
              * достаток — EN: wealth, income; NO: velstand<br>
              * общество — EN: society; NO: samfunn"
   table: ~
+
+
+23:
+  lesson_id: 12
+  ex_number: 23
+  title: "Напишите небольшое эссе (5-8 предложений) на одну из тем. Опишите две точки зрения на проблему по модели."
+  instructions: ~
+  exercise_type: ~
+  title_eng: "Write a short essay (5-8 sentences) on one of the topics. Describe two points of view on the problem according to the model."
+  title_nor: "Skriv et kort essay (5-8 setninger) om ett av temaene. Beskriv to synspunkter på problemet i henhold til modellen."
+  comment: ~
+  example: ~
+  model: 
+    image:
+      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_23.png"
+  image: ~
+  task:
+    task1:
+      text: "<b>Темы:</b><br><br>
+              1. Одна семья — один автомобиль: нужно ли ограничить количество автомобилей в
+              семье?<br>
+              2. Меньше знаешь — лучше спишь: нужно ли делать информацию о зарплатах в
+              компании открытой для всех сотрудников?<br>
+              3. Ползарплаты — государству: нужно ли повысить налоги в стране, чтобы улучшить
+              качество жизни людей?<br>
+              4. В интернет — с 18 лет: нужно ли ввести возрастные ограничения на пользование
+              интернетом?"
+
+  answer_to_show: ~
+  answer_key: ~
+  answer_options: ~
+  difficult_words:
+    word1:  "* ограничить — ЕN: to limit, restrict; NO: å begrense<br>
+             * количество — ЕN: quantity; NO: antall<br>
+             * ползарплаты — ЕN: half of the salary; NO: halvparten av lønnen<br>
+             * государство — ЕN: state; NO: stat<br>
+             * качество жизни — ЕN: quality of life; NO: livskvalitet<br>
+             * возрастные ограничения — ЕN: age restrictions; NO: aldersbegrensninger<br>
+             * пользование — ЕN: use, usage; NO: bruk"<br>
+  table: ~
