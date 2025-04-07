@@ -631,7 +631,7 @@
   image: ~
   task:
     task1:
-      text: "<b>Темы:</b><br>
+      text: "<b>Темы:</b><br><br>
               1. Многие люди любят фастфуд. Как вы думаете, можно ли его есть, когда хочется, или это
               очень вредно и лучше не рисковать? Объясните свою точку зрения.<br><br>
 
@@ -655,3 +655,51 @@
   answer_options: ~
   difficult_words: ~
   table: ~
+
+16:
+  lesson_id: 12
+  ex_number: 16
+  title: "Нужны ли в современном мире зоопарки? Какие аргументы
+          приводит каждый собеседник в поддержку своего мнения?"
+  instructions: ~
+  exercise_type: ~
+  title_eng: "Are zoos needed in the modern world? What arguments does each interlocutor give in support of their opinion?"
+  title_nor: "Er dyreparker nødvendige i den moderne verden? Hva er argumentene?
+              gir hver samtalepartner støtte for sin mening?"
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      image:
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_16.png"
+        width: "200"
+      text: "— ^Как по мне,@ зоопарки нужно закрыть. Это негуманно для
+              животных.<br>
+              — ^По-твоему,@ в зоопарках нет ничего хорошего?<br>
+              — Конечно, нет! Это очень жестокое развлечение. Странно, что
+              ты этого не понимаешь.<br>
+              — Зоопарки нужны ^не только@ для развлечения^, но и@ для науки:
+              там работают биологи. Они исследуют животных, а это очень
+              важно. ^И кстати говоря,@ многие дети решают стать биологами
+              именно после похода в зоопарк.<br>
+              — Дети могут посмотреть на животных по телевизору или в
+              книгах^, не правда ли?@<br>
+              — ^А ты не думаешь, что@ без зоопарков многие виды животных
+              просто исчезнут? ^Другими словами,@ в зоопарках сохраняют те
+              виды, которые в природе не смогут выжить.<br>
+              — Возможно. Но, ^как бы то ни было,@ многие зоопарки нужно
+              изменить."
+
+  answer_to_show: ~
+  answer_key: ~
+  answer_options: ~
+  difficult_words:
+    word1:  "* жестокий — ЕN: cruel; NO: grusom<br>
+             * развлечение — ЕN: entertainment; NO: underholdning<br>
+             * виды — ЕN: species; NO: arter<br>
+             * исчезнуть — ЕN: to disappear; NO: å forsvinne<br>
+             * сохранять — ЕN: to preserve, to maintain; NO: å bevare, å opprettholde<br>
+             * выжить — ЕN: to survive; NO: å overleve"
+  table: ~ 
