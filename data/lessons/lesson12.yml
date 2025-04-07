@@ -728,7 +728,7 @@
   ex_number: 17
   title: "Соедините функцию конструкции с примером."
   instructions: ~
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: "Match the function of the construction with the example."
   title_nor: "Koble konstruksjonsfunksjonen med eksemplet."
   comment: ~
