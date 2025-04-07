@@ -170,10 +170,11 @@
   comment: ~
   example: ~
   model: ~
-  image: 
-    link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_3.png"
+  image: ~
   task: 
-    task1: ""
+    task1: "&nbsp;"
+    image:
+      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_3.png"
   answer_to_show:
         answer1:  " — Ирина, привет! ^Так что насчёт@ ужина в субботу? Мы хотели приготовить что-нибудь<br>
                     новое. Может, утку с яблоками?<br>
