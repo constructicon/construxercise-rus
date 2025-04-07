@@ -530,11 +530,45 @@
 
     row2: 
         - | 
-          &nbsp;<br>
+          &nbsp;<br><br>
           &nbsp;
         - |
-          &nbsp;<br>
+          &nbsp;<br><br>
           &nbsp;
         - |
-          &nbsp;<br>
+          &nbsp;<br><br>
           &nbsp;
+
+13:
+  lesson_id: 12
+  ex_number: 13
+  title: Заполните пропуски в тексте, используя конструкции из упражнения 12.
+  instructions: ~
+  exercise_type: ~
+  title_eng:  Fill in the gaps in the text using the constructions from Exercise 12.
+  title_nor:  Fyll ut hullene i teksten ved å bruke konstruksjonene fra oppgave 12.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task:
+    task1:
+      image:
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_13.png"
+      text: " _________, курение в общественных местах должно быть
+              запрещено. Это вредно и неприятно для людей вокруг.
+              ___________, рядом могут быть маленькие дети или люди с
+              больными легкими. _________, если запретить курение в
+              общественных местах, то люди начнут курить меньше, потому
+              что это будет неудобно. Это ________ сделает город более
+              комфортным, _________ поможет людям вести более
+              здоровый образ жизни. _________, я считаю, что для курения
+              в городе должны быть специальные места."
+
+  answer_to_show: ~
+  answer_key: ~
+  answer_options: ~
+  difficult_words:
+    word1:  "* лёгкие — ЕN: lungs; NO: lunger<br>
+             * запретить — ЕN: to prohibit; NO: å forby<br>"
+  table: ~
