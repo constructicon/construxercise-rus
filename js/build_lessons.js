@@ -324,49 +324,26 @@ function add_table(subtask, taskKey) {
 
 
 for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
+    
     var all_exercise = document.createElement("div");
-
-    var task_title = document.createElement("h3");
-    task_title.setAttribute("style", "margin-top: 30px");
-
+    
     //adding tag if possible 
     if (data[exercise_id]["tags"] != null) {
-        let model = document.createElement("div");
-        model.setAttribute("style", "margin-bottom: 20px")
-        model.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
+        let tags = document.createElement("div")
+        tags.setAttribute("style", "margin-bottom: 20px")
+        tags.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
         let ex_words = document.createElement("b")
-        ex_words.innerHTML = "Модель"
-        ex_words.appendChild(document.createElement("br"))
-
-        if (data[exercise_id]["tags"]['image'] != null) {
-            if (data[exercise_id]["tags"]['image']["link"] != undefined) {
-                let image_wrapper = document.createElement('div')
-                image_wrapper.setAttribute('class', 'p-2 m-2')
-                // image_wrapper.setAttribute("class", "mx-auto d-block")
-
-                image_wrapper.appendChild(add_image(data[exercise_id]["tags"]["image"]))
-                model.appendChild(image_wrapper)
-            }
-        }
-        else {
-
-
-            model.innerHTML = annotate(data[exercise_id]["model"]);
-            // main_content.appendChild(model);
-
-        }
+        
+        tags.innerHTML = annotate(data[exercise_id]["tags"])
         all_exercise.appendChild(ex_words)
-
-        all_exercise.appendChild(model);
+        all_exercise.appendChild(tags)
+        // all_exercise.appendChild(document.createElement("br"))
+        // main_content.appendChild(ex_words)
+        // main_content.appendChild(example)
     }
-
-
-    if (data[exercise_id]["tags"]) {
-        const tagTitle = document.createElement("h2");
-        tagTitle.setAttribute("style", "margin-top: 50px; color: #444; border-top: 2px solid #eee; padding-top: 10px;");
-        tagTitle.innerText = data[exercise_id]["tags"];
-        main_content.appendChild(tagTitle);
-    }
+    
+    var task_title = document.createElement("h2");
+    task_title.setAttribute("style", "margin-top: 30px");
     
     // get task title
     if (document.title.split(" ")[0] == "Lesson") {
