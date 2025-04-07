@@ -587,10 +587,10 @@
   model: ~
   image: ~
   task:
-    image: 
-      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_14.png"
-      width: "200"
     task1:
+      image: 
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_14.png"
+        width: "200"
       text: "Глобальное потепление, 1.____________________,
             незаметно. 2.__________________, обычно мы не
             обращаем внимание на то, как меняется температура или
@@ -625,7 +625,9 @@
               under."
   comment: ~
   example: ~
-  model: ~
+  model: 
+    image:
+      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_15.png"
   image: ~
   task:
     task1:
