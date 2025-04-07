@@ -797,3 +797,59 @@
             8. Задать вопрос собеседнику, думая, что он согласится с вашим мнением
           - |
             з. Ультрафиолетовое излучение увеличивает риск рака кожи. Другими словами, загорать на солнце вредно для здоровья.
+
+18:
+  lesson_id: 12
+  ex_number: 18
+  title: "Анатолий Васильевич, директор школы, и Кристина, мама
+          ученицы третьего класса, спорят, должны ли ученики носить
+          школьную форму. Перед вами аргументы Анатолия Васильевича и
+          Кристины. Составьте диалог между ними. Используйте модель
+          ниже и конструкции из таблицы в задании 17."
+  instructions: ~
+  exercise_type: ~
+  title_eng: "Anatoly Vasilyevich, the school principal, and Kristina, the mother
+              of a third-grade student, argue about whether students should wear a school
+              uniform. Here are the arguments of Anatoly Vasilyevich and
+              Kristina. Make up a dialogue between them. Use the model
+              below and the constructions from the table in task 17."
+  title_nor: "18. Anatoly Vasilyevich, skoledirektør, og Christina, mor
+              elever i tredje klasse krangler om elevene skal ha på seg
+              skoleuniform. Før du er argumentene til Anatoly Vasilyevich og
+              Christina. Lag en dialog mellom dem. Bruk modellen
+              nedenfor og designene fra tabellen i oppgave 17."
+  comment: ~
+  example: ~
+  model: 
+    image:
+      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_18_1.png"
+  image: ~
+  task:
+    task1:
+      image:
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_18_2.png"
+        width: "200"
+      text: "• Форма помогает дисциплине и убирает
+              неравенство (дети из бедных семей не чувствуют
+              себя хуже, чем дети из богатых семей)<br><br>
+              • Форма помогает детям быстрее собраться утром в
+              школу<br><br>
+              • Без формы в школе будет анархия, форма
+              сохраняет порядок"
+    task2:
+      image:
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_18_3.png"
+        width: "200"
+      text: "• Дети должны свободно выбирать одежду в школу<br><br>
+              • Диктовать человеку, как он должен выглядеть —
+              негуманно для личности<br><br>
+              • Можно ввести дресс-код, чтобы были какие-то
+              правила<br><br>
+              • У школьников должно быть больше свободы в
+              выборе одежды"
+
+  answer_to_show: ~
+  answer_key: ~
+  answer_options: ~
+  difficult_words: ~
+  table: ~
