@@ -896,9 +896,9 @@
   image: ~
   task:
     task1:
-    image:
-      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_20.png"
-      width: "400"
+      image:
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_20.png"
+        width: "400"
       text: "<b>Натуральный мех и кожа в современном мире: за и против</b><br><br>
               Людям часто сложно согласиться друг с другом ^насчёт@ того,
               нужно ли носить одежду из натурального меха и кожи. ^С
