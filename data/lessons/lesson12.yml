@@ -580,8 +580,8 @@
   title: Бонусное упражнение. Заполните пропуски в тексте.
   instructions: ~
   exercise_type: ~
-  title_eng: Bonus exercise: Fill in the gaps in the text.
-  title_nor: Bonusøvelse. Fyll ut de tomme feltene i teksten.
+  title_eng: "Bonus exercise: Fill in the gaps in the text."
+  title_nor: "Bonusøvelse. Fyll ut de tomme feltene i teksten."
   comment: ~
   example: ~
   model: ~
