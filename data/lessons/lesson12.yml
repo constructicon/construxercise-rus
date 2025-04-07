@@ -702,4 +702,24 @@
              * исчезнуть — ЕN: to disappear; NO: å forsvinne<br>
              * сохранять — ЕN: to preserve, to maintain; NO: å bevare, å opprettholde<br>
              * выжить — ЕN: to survive; NO: å overleve"
-  table: ~ 
+  table: 
+      width: ~
+      vertical_align: ~
+      horizontal_align: ~
+      heading: ~
+      row1:
+          - <b>Зоопарки нужно оставить</b>
+          - |
+            <b>Зоопарки нужно закрыть</b>
+
+
+      row2: 
+          - | 
+            &nbsp;<br><br>
+            &nbsp;
+          - |
+            &nbsp;<br><br>
+            &nbsp;
+          - |
+            &nbsp;<br><br>
+            &nbsp;
