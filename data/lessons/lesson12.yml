@@ -4,7 +4,7 @@
   ex_number: 1
   title: Игорь и Миша договариваются по телефону сходить в бассейн.Перед вами календарь Игоря. Заполните его. Напишите, когда у Игоря работа, дедлайн по философии, поход в бар и поход в бассейн.
   instructions: ~
-  exercise_type: ~
+  exercise_type: text_input
   title_eng: Igor and Misha agree on the phone to go to the pool. Here is Igor's calendar. Fill it out. Write when Igor has work, a philosophy deadline, a trip to the bar, and a trip to the pool.
   title_nor: Igor og Misha blir enige over telefonen om å gå til bassenget. Her er Igors kalender. Fyll den ut. Skriv når du Igors arbeid, filosofi deadline, gå til baren og gå til basseng.
   comment: ~
@@ -24,7 +24,10 @@
                 — ^На самом деле,@ в четверг мне даже удобнее.<br>
                 — ^Вот и чудесно!@ Тогда до встречи в четверг!<br><br>
 
-  answer_to_show: ~
+  answer_to_show: 
+    answer1: "СР:работа до 16:30, дедлайн по философии<br>
+              ЧТ: бассейн<br>
+              ПТ: бар"
   answer_key: ~
   difficult_words: ~
   table:
@@ -64,7 +67,7 @@
 
 2:
   lesson_id: 12
-  ex_number: 3
+  ex_number: 2
   title: Посмотрите на конструкции в упражнении 1. Для каждой функции выберите нужную конструкцию.
   instructions: ~
   exercise_type: multichoice_singleanswer
