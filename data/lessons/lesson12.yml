@@ -334,7 +334,7 @@
           • ж. ^мягко говоря@<br>
   instructions: ~
   exercise_type: text_input
-  title_eng:  Fill in the blanks in the text with words from the list:<br>
+  title_eng:  Fill in the blanks with the words from the list:<br>
               • ^Roughly speaking@<br>
               • ^If it were up to me@<br>
               • ^Think about it yourself@<br>
@@ -342,7 +342,7 @@
               • ^thanks for that@<br>
               • ^sort of@<br>
               • ^to put it mildly@<br>
-  title_nor: Fyll ut hullene i teksten med ord fra listen:<br>
+  title_nor: Fyll ut de tomme feltene med ord fra listen:<br>
               • ^Grovt sett@<br>
               • ^Vær det min vilje@<br>
               • ^Tenk selv@<br>
