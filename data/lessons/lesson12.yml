@@ -843,16 +843,15 @@
           ниже и конструкции из таблицы в задании 17."
   instructions: ~
   exercise_type: ~
-  title_eng: "Anatoly Vasilyevich, the school principal, and Kristina, the mother
-              of a third-grade student, argue about whether students should wear a school
-              uniform. Here are the arguments of Anatoly Vasilyevich and
-              Kristina. Make up a dialogue between them. Use the model
-              below and the constructions from the table in task 17."
-  title_nor: "18. Anatoly Vasilyevich, skoledirektør, og Christina, mor
-              elever i tredje klasse krangler om elevene skal ha på seg
-              skoleuniform. Før du er argumentene til Anatoly Vasilyevich og
-              Christina. Lag en dialog mellom dem. Bruk modellen
-              nedenfor og designene fra tabellen i oppgave 17."
+  title_eng: "Anatoly Vasilyevich, the school principal, and Cristina, the mother
+              of a third-grade pupil, are debating whether students should wear 
+              school uniforms. Read the arguments of Anatoly Vasilyevich and Cristina below. 
+              Create a dialogue between them. Use the model below and the 
+              constructions from the table in exercise 17."
+  title_nor: "18. Anatolij Vasiljevitsj, skolens rektor, og Kristina, moren til en tredjeklassing, 
+              diskuterer om elevene bør bruke skoleuniform. Les argumentene til
+              Anatolij Vasiljevitsj og Kristina. Lag en dialog mellom dem. 
+              Bruk modellen nedenfor og konstruksjonene fra tabellen i oppgave 17."
   comment: ~
   example: ~
   model: 
