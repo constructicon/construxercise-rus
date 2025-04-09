@@ -699,9 +699,8 @@
           приводит каждый собеседник в поддержку своего мнения?"
   instructions: ~
   exercise_type: ~
-  title_eng: "Are zoos needed in the modern world? What arguments does each interlocutor give in support of their opinion?"
-  title_nor: "Er dyreparker nødvendige i den moderne verden? Hva er argumentene?
-              gir hver samtalepartner støtte for sin mening?"
+  title_eng: "Do we need zoos in the modern world? What arguments does each participant provide to support their opinion?"
+  title_nor: "Trenger man dyrehager i den moderne verden? Hvilke argumenter fremmer hver deltaker for å støtte sitt synspunkt?"
   comment: ~
   example: ~
   model: ~
