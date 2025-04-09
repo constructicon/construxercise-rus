@@ -129,7 +129,7 @@
     Соня и Серёжа выбирают подарок для Кристины. Перед вами их диалог, в котором реплики перепутались. Восстановите диалог. Что получит в подарок Кристина?
   instructions: ~
   exercise_type: text_input
-  title_eng: Sonya and Seryozha are picking out a gift for Kristina. Below is their dialogue, but the lines are mixed up. Restore the dialogue. What gift will Kristina end up receiving?
+  title_eng: Sonya and Seryozha are picking out a gift for Kristina. Here is their dialogue below, but the lines are mixed up. Restore the dialogue. What gift will Kristina end up receiving?
   title_nor: Sonya og Serjozha velger en gave til Kristina. Foran deg er dialogen deres, der replikkene er blandet. Gjenopprett dialogen. Hva vil Kristina få i gave?
   comment: ~
   constr_info: ~
