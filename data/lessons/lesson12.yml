@@ -194,11 +194,11 @@
 5:
   lesson_id: 12
   ex_number: 5
-  title: Выберите ситуацию и обсудите её с собеседником. Используйте модель из упражнения 4
+  title: Выберите ситуацию и обсудите её с собеседником. Используйте модель из упражнения 4.
   instructions: ~
   exercise_type: ~
   title_eng: Choose a situation and discuss it with your interlocutor. Use the model from Exercise 4.
-  title_nor: Velg en situasjon og diskuter den med samtalepartneren din. Bruk modellen fra øvelse 4.
+  title_nor: Velg en situasjon og diskuter den med din samtalepartner. Bruk modellen fra oppgave 4.
   comment: ~
   example: ~
   model: ~
@@ -225,8 +225,8 @@
   answer_key: ~
   answer_options: ~
   difficult_words:
-    word1: "*девичник – EN:bachelorette party; NO:utdrikningslag for kvinner"
-    word2: "*мальчишник – EN:bachelor party; NO:utdrikningslag for menn"
+    word1: "*девичник – EN: bachelorette party; NO: utdrikningslag for kvinner"
+    word2: "*мальчишник – EN: bachelor party; NO: utdrikningslag for menn"
   table: ~
 
 6:
