@@ -270,7 +270,7 @@
   instructions: ~
   exercise_type: multichoice_singleanswer
   title_eng: Look at the constructions in exercise 6. For each function, choose the appropriate construction.
-  title_nor: Se på konstruksjonene i oppgave 6. Velg riktig konstruksjon for hver funksjon.
+  title_nor: Se på konstruksjonene i oppgave 6. Velg en riktig konstruksjon for hver funksjon.
   comment: ~
   example: ~
   model: ~
@@ -981,8 +981,8 @@
   title: "Посмотрите на конструкции в упражнении 21. Для каждой функции выберите нужную конструкцию."
   instructions: ~
   exercise_type: multichoice_singleanswer
-  title_eng: "Look at the constructions in Exercise 21. For each function, choose the correct construction."
-  title_nor: "Se på strukturene i oppgave 21. For hver funksjoner velger ønsket design."
+  title_eng: "Look at the constructions in exercise 21. For each function, choose the correct construction."
+  title_nor: "Se på konstruksjonene i oppgave 21. Velg en riktig konstruksjon for hver funksjon."
   comment: ~
   example: ~
   model: ~
@@ -1007,7 +1007,7 @@
       text: 4. Подвести итог<br>
             а. ^что касается ..., то ...@<br>
             б. ^например, ...@<br>
-            в. ^таким образом, ...@<br>
+            в. ^Tаким образом, ...@<br>
 
 
   answer_to_show: 
@@ -1031,16 +1031,16 @@
   lesson_id: 12
   ex_number: 22
   title: Заполните пропуски в тексте словами из списка. Правильных вариантов может быть несколько.<br>
-              • а. ^С другой стороны@<br>
-              • б. ^Например@<br>
-              • в. ^Что касается@<br>
-              • г. ^К примеру@<br>
-              • д. ^Насчёт@<br>
-              • е. ^Как бы то ни было@<br>
-              • ж. ^С одной стороны@<br>
-              • з. ^В целом@<br>
-              • и. ^Так@<br>
-              • к. ^Таким образом@<br>
+              • ^С другой стороны@<br>
+              • ^Например@<br>
+              • ^Что касается@<br>
+              • ^К примеру@<br>
+              • ^Насчёт@<br>
+              • ^Как бы то ни было@<br>
+              • ^С одной стороны@<br>
+              • ^В целом@<br>
+              • ^Так@<br>
+              • ^Таким образом@<br>
   instructions: ~
   exercise_type: ~
   title_eng:  Fill in the blanks with the words from the list. There may be several correct options.<br>
