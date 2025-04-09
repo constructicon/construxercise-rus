@@ -269,8 +269,8 @@
   title: Посмотрите на конструкции в упражнении 6. Для каждой функции выберите нужную конструкцию.
   instructions: ~
   exercise_type: multichoice_singleanswer
-  title_eng: Look at the constructions in Exercise 6. For each function, choose the correct construction.
-  title_nor: Se på strukturene i oppgave 6. Velg riktig struktur for hver funksjon.
+  title_eng: Look at the constructions in exercise 6. For each function, choose the appropriate construction.
+  title_nor: Se på konstruksjonene i oppgave 6. Velg riktig konstruksjon for hver funksjon.
   comment: ~
   example: ~
   model: ~
@@ -289,7 +289,7 @@
     task3:
       text: 3. Подвести итог<br>
             a. ^честно говоря, ...@<br>
-            б. ^..., и на том спасибо.@<br>
+            б. ^..., и на том спасибо!@<br>
             в. ^..., не правда ли?@<br>
     task4:
       text: 4. Пояснить с помощью примера<br>
