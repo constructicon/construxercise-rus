@@ -924,7 +924,7 @@
   instructions: ~
   exercise_type: ~
   title_eng: "Name two points of view on the problem. What arguments does the author give in favor of each point of view? What conclusion does the author come to?"
-  title_nor: "Nevn to synspunkter på problemet. Hva er argumentene? argumenterer forfatteren for hvert synspunkt? Til hvilken konklusjon? kommer forfatteren?"
+  title_nor: "Nevn to synspunkter på problemet. Hvilke argumenter fremmer forfatteren til støtte for hvert synspunkt? Til hvilken konklusjon kommer forfatteren?"
   comment: ~
   example: ~
   model: ~
@@ -976,7 +976,7 @@
 21:
   lesson_id: 12
   ex_number: 21
-  tags: "Часть 4. Спор о проблеме: диалог"
+  tags: ~
   title: "Посмотрите на конструкции в упражнении 21. Для каждой функции выберите нужную конструкцию."
   instructions: ~
   exercise_type: multichoice_singleanswer
