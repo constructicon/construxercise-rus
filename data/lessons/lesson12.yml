@@ -433,7 +433,7 @@
               • ^Think about it, ...@<br>
               • ^if it were up to me, I would ...@<br>
               • ^..., and thanks for that!@<br>
-  title_nor:  Du har ikke sett din beste venn på lenge. Du møttes på en kafé. Fortell ham eller henne de siste nyhetene. Bruk konstruksjoner:<br>
+  title_nor:  Du og din beste venn har ikke sett hverandre på lenge. Dere møttes på en kafé. Fortell ham eller henne de siste nyhetene. Bruk de konstruksjonene:<br>
               • ^mildt sagt ...@<br>
               • ^grovt sett ...@<br>
               • ^neppe ...@<br>
@@ -475,8 +475,8 @@
   title: Ответьте на вопросы по тексту.
   instructions: ~
   exercise_type: ~
-  title_eng:  Answer the questions about the text.
-  title_nor:  Svar på spørsmålene basert på teksten.
+  title_eng:  Answer the questions on the text.
+  title_nor:  Svar på spørsmålene om denne teksten.
   comment: ~
   example: ~
   model: ~
@@ -499,7 +499,7 @@
 
               деньги на карманные расходы.<br><br>
               <b>К какому выводу приходит автор?</b><br><br>
-              <b>Какие аргументы он приводит, чтобы это доказать?</b>"
+              <b>Какие аргументы автор приводит, чтобы это доказать?</b>"
 
   answer_to_show: 
     answer1: "Вывод автора: у каждого ребенка должны быть свои деньги на карманные расходы.<br>
