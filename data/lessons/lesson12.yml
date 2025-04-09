@@ -378,8 +378,8 @@
   title: Катя поссорилась с Настей и рассказывает об этом Семёну. Составьте монолог Кати по модели. Используйте конструкции и опорные предложения.
   instructions: ~
   exercise_type: ~
-  title_eng:  Katya had a fight with Nastya and tells Semyon about it. Compose Katya's monologue based on the model. Use constructions and supporting sentences.
-  title_nor:  Katya kranglet med Nastya og forteller Semyon om det. Komponer Katyas monolog basert på modellen. Bruk konstruksjoner og støtteklausuler.
+  title_eng:  Katya has had an argument with Nastyaand is telling Semyon about it. Compose Katya's monologue based on the model. Use the suggested constructions and sentences.
+  title_nor:  Katya har kranglet med Nastya og forteller Semyon om det. Lag Katyas monolog basert på modellen. Bruk de foreslåtte konstruksjonene og setningene.
   comment: ~
   example: ~
   model: 
@@ -401,9 +401,9 @@
 
   answer_to_show: 
     answer1: "Мы с Настей поссорились сегодня! ^Мягко говоря,@ злюсь на неё. Она взяла у меня любимую
-              блузку и испачкала её вареньем! Вернула, ^и на том спасибо.@ ^Вряд ли@ я ей дам свою одежду
+              блузку и испачкала её вареньем! Вернула, ^и на том спасибо!@ ^Вряд ли@ я ей дам свою одежду
               в следующий раз, когда попросит. ^Сам подумай,@ зачем давать ей одежду, если она
-              постоянно берёт мои вещи и портит их. ^Будь моя воля,@ вообще не давала бы эту блузку ей."
+              постоянно берёт мои вещи и портит их. ^Будь моя воля,@ вообще не давала бы эту блузку ей!"
   answer_key: ~
   answer_options: ~
   difficult_words:
@@ -420,19 +420,19 @@
           • ^грубо говоря, ...@<br>
           • ^вряд ли ...@<br>
           • ^... типа ...@<br>
-          • ^Сам подумай, ...@<br>
+          • ^Сам / сама подумай, ...@<br>
           • ^будь моя воля, я бы ...@<br>
-          • ^..., и на том спасибо@<br>
+          • ^..., и на том спасибо!@<br>
   instructions: ~
   exercise_type: ~
-  title_eng:  You haven't seen your best friend for a long time. You met at a cafe. Tell him or her the latest news. Use the constructions:<br>
+  title_eng:  You and your best friend haven’t seen each other in a long time. You meеt at a café. Tell him or her the latest news. Use the constructions:<br>
               • ^to put it mildly, ...@<br>
-              • ^to put it roughly, ...@<br>
+              • ^rouphly, ...@<br>
               • ^hardly ...@<br>
               • ^... like ...@<br>
               • ^Think about it, ...@<br>
-              • ^if I had my way, I would ...@<br>
-              • ^..., and thanks for that@<br>
+              • ^if it were up to me, I would ...@<br>
+              • ^..., and thanks for that!@<br>
   title_nor:  Du har ikke sett din beste venn på lenge. Du møttes på en kafé. Fortell ham eller henne de siste nyhetene. Bruk konstruksjoner:<br>
               • ^mildt sagt ...@<br>
               • ^grovt sett ...@<br>
@@ -440,7 +440,7 @@
               • ^... som ...@<br>
               • ^Tenk selv, ...@<br>
               • ^hvis det var opp til meg, ville jeg ...@<br>
-              • ^..., og takk for det@<br>
+              • ^..., og takk for det!@<br>
   comment: ~
   example: ~
   model: ~
