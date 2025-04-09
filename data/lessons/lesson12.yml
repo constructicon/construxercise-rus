@@ -525,8 +525,8 @@
   title: Распределите конструкции из списка ниже по трём категориям.
   instructions: ~
   exercise_type: ~
-  title_eng: Divide the structures from the list below into three categories.
-  title_nor: Klassifiser designene fra listen nedenfor i tre kategorier.
+  title_eng: Classify the constructions in the list below into three groups.
+  title_nor: Klassifiser konstruksjonene i listen nedenfor i tre grupper.
   comment: ~
   example: ~
   model: ~
@@ -535,11 +535,11 @@
     task1:
       text: | 
               • ^к тому же ...@<br>
-              • ^как по мне, так ...@<br>
+              • ^как по мне, ...@<br>
               • ^в целом ...@<br>
-              • ^таким образом, ...@<br>
+              • ^Таким образом, ...@<br>
               • ^по-моему, ...@<br>
-              • ^во-первых, ..., во-вторых, ...@<br>
+              • ^во-первых, ..., во-вторых, ..., в-третьих, ...орых@<br>
               • ^как бы то ни было, ...@<br>
               • ^не только ..., но и ...@<br>
               • ^на мой взгляд, ...@<br>
@@ -576,8 +576,8 @@
   title: Заполните пропуски в тексте, используя конструкции из упражнения 12.
   instructions: ~
   exercise_type: ~
-  title_eng:  Fill in the gaps in the text using the constructions from Exercise 12.
-  title_nor:  Fyll ut hullene i teksten ved å bruke konstruksjonene fra oppgave 12.
+  title_eng:  Fill in the blanks by using the constructions from exercise 12.
+  title_nor:  Fyll ut de tomme feltene i teksten med konstruksjonene fra oppgave 12.
   comment: ~
   example: ~
   model: ~
@@ -587,14 +587,14 @@
       image:
         link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_13.png"
         width: "200"
-      text: " _________, курение в общественных местах должно быть
+      text: " ________________________, курение в общественных местах должно быть
               запрещено. Это вредно и неприятно для людей вокруг.
-              ___________, рядом могут быть маленькие дети или люди с
-              больными легкими. _________, если запретить курение в
+              ________________________, рядом могут быть маленькие дети или люди с
+              больными легкими. ________________________, если запретить курение в
               общественных местах, то люди начнут курить меньше, потому
-              что это будет неудобно. Это ________ сделает город более
-              комфортным, _________ поможет людям вести более
-              здоровый образ жизни. _________, я считаю, что для курения
+              что это будет неудобно. Это ________________________ сделает город более
+              комфортным, ________________________ поможет людям вести более
+              здоровый образ жизни. ________________________, я считаю, что для курения
               в городе должны быть специальные места."
 
   answer_to_show: ~
@@ -611,8 +611,8 @@
   title: Бонусное упражнение. Заполните пропуски в тексте.
   instructions: ~
   exercise_type: ~
-  title_eng: "Bonus exercise: Fill in the gaps in the text."
-  title_nor: "Bonusøvelse. Fyll ut de tomme feltene i teksten."
+  title_eng: "Bonus exercise. Fill in the blanks in the text."
+  title_nor: "Bonusoppgave. Fyll ut de tomme feltene i teksten."
   comment: ~
   example: ~
   model: ~
@@ -622,22 +622,26 @@
       image: 
         link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_14.png"
         width: "200"
-      text: "Глобальное потепление, 1.____________________,
-            незаметно. 2.__________________, обычно мы не
+      text: "Глобальное потепление, 1.________________________,
+            незаметно. 2.________________________, обычно мы не
             обращаем внимание на то, как меняется температура или
-            климат в нашем городе. 3.____________________, мы
+            климат в нашем городе. 3.________________________, мы
             начинаем беспокоиться, только когда произошли какие-то
-            большие изменения. 4._________________, исчез ледник.
+            большие изменения. 4.________________________, исчез ледник.
             Но на самом деле климат постоянно меняется: тают льды,
-            горят леса, увеличиваются пустыни
-            5.____________________. 6.________________, глобальное
+            горят леса, увеличиваются пустыни 5.________________________. 6.________________________, глобальное
             потепление происходит каждый день, поэтому нам важно
             подумать над решением этой проблемы уже сейчас."
 
   answer_to_show: ~
   answer_key: ~
   answer_options: ~
-  difficult_words: ~
+  difficult_words:
+    word1:  "* обращать внимание на ... — ЕN: to pay attention to …; NO: å legge merke til ...<br>
+             * беспокоиться — ЕN: to worry; NO: å bekymre seg<br>
+             * ледник — ЕN: glacier; NO: isbre<br>
+             * беспокоиться — ЕN: ice; NO: is<br>
+             * беспокоиться — ЕN: desert; NO: ørken<br>"
   table: ~
 
 15:
