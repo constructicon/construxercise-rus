@@ -236,8 +236,8 @@
   title: Егор сходил в гости к Паше. Что не понравилось Егору?
   instructions: ~
   exercise_type: ~
-  title_eng: Egor went to visit Pasha. What did Egor not like?
-  title_nor: Egor dro for å besøke Pasha. Hva likte ikke Egor?
+  title_eng: Egor has visited Pasha. What did Egor not like?
+  title_nor: Egor har vært på besøk hos Pasja. Hva likte ikke Egor?
   comment: ~
   example: ~
   model: ~
@@ -247,7 +247,7 @@
       image:
         link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_7.jpg"
         width: "400"
-      text: "Вчера ходил в гости к Паше. Я, ^мягко говоря,@ не хотел идти, но пошёл. ^Сама подумай,@ я уже три раза до этого говорил, что у меня дела и не смогу. Паша может и обидеться, поэтому я согласился. Паша сказал, что приготовит пиццу по секретному рецепту. Ты даже не представляешь, какой это рецепт! ^Грубо говоря,@ он купил замороженную пиццу ^типа@ пепперони и добавил в неё майонез и сосиски. Не сжёг её, ^и на том спасибо. Будь моя воля,@ не стал бы её есть. Но я съел. ^Вряд ли@ Паша понял, что его пицца мне не понравилась: я хороший актёр."
+      text: "Вчера ходил в гости к Паше. Я, ^мягко говоря,@ не хотел идти, но пошёл. ^Сама подумай,@ я уже три раза до этого говорил, что у меня дела и не смогу. Паша может и обидеться, поэтому я согласился. Паша сказал, что приготовит пиццу по секретному рецепту. Ты даже не представляешь, какой это рецепт! ^Грубо говоря,@ он купил замороженную пиццу ^типа@ пепперони и добавил в неё майонез и сосиски. Не сжёг её, ^и на том спасибо! Будь моя воля,@ не стал бы её есть. Но я съел. ^Вряд ли@ Паша понял, что его пицца мне не понравилась: я хороший актёр."
 
   answer_to_show: 
     answer1: "1. Егор не хотел идти в гости, но ему пришлось.<br>
@@ -256,10 +256,11 @@
   answer_key: ~
   answer_options: ~
   difficult_words:
-    word1: "*обидеться – EN:to get offended; NO:å bli fornærmet<br>
-           *Ты даже не представляешь! – EN:You can't even imagine! NO:Du kan ikke engang forestille deg!<br>
-           *замороженная пицца – EN:frozen pizza; NO:frossen pizza<br>
-           *сосиска – EN:sausage; NO:pølse сжечь – EN:to burn; NO:å brenne<br>"
+    word1: "*обидеться – EN: to get offended; NO: å bli fornærmet<br>
+           *Ты даже не представляешь! – EN: You can't even imagine!; NO: Du kan ikke engang forestille deg!<br>
+           *замороженная пицца – EN: frozen pizza; NO: frossen pizza<br>
+           *сосиска – EN:sausage; NO: pølse<br>
+           *сжечь – EN: to burn; NO: å brenne<br>"
   table: ~
 
 7:
