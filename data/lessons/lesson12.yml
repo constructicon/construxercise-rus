@@ -764,8 +764,8 @@
   title: "Соедините функцию конструкции с примером."
   instructions: ~
   exercise_type: text_input
-  title_eng: "Match the function of the construction with the example."
-  title_nor: "Koble konstruksjonsfunksjonen med eksemplet."
+  title_eng: "For each function in column 1 find a matching example in column 2."
+  title_nor: "For hver funksjon i kolonne 1, finn et passende eksempel i kolonne 2."
   comment: ~
   example: ~
   model: ~
@@ -779,12 +779,12 @@
     answer1: "1в, 2а ,3е, 4б, 5ж, 6д, 7з, 8г"
   answer_options: ~
   difficult_words:
-    word1:  "* жара — ЕN: text; NO: text<br>
-             * обгореть — ЕN: text; NO: text<br>
-             * загорать на солнце — ЕN: text; NO: text<br>
-             * получить тепловой удар — ЕN: text; NO: text<br>
-             * увеличивать — ЕN: text; NO: text<br>
-             * рака кожи — ЕN: text; NO: text"
+    word1:  "* жара — ЕN: heat; NO: varme<br>
+             * обгореть — ЕN: to get sunburned; NO: å bli solbrent<br>
+             * загорать на солнце — ЕN: to sunbathe; NO: å sole seg<br>
+             * получить тепловой удар — ЕN: to get a heatstroke; NO: å få heteslag<br>
+             * увеличивать — ЕN: to increase; NO: å øke<br>
+             * рак кожи — ЕN: skin cancer; NO: hudkreft"
   table: 
       width: ~
       vertical_align: ~
@@ -796,7 +796,7 @@
             <b>Пример</b>
       row2: 
           - | 
-            1. Выразить свое мнение
+            1. Выразить своё мнение
           - |
             а. Мне кажется, что снег лучше мороза^, а ты как думаешь?@
       row3: 
@@ -895,8 +895,8 @@
   title: "Выберите ситуацию и обсудите её с собеседником. Используйте конструкции из задания 17."
   instructions: ~
   exercise_type: ~
-  title_eng: "Choose a situation and discuss it with your interlocutor. Use the constructions from task 17."
-  title_nor: "Velg en situasjon og diskuter den med samtalepartneren din. Bruk design fra oppgave 17."
+  title_eng: "Choose a situation and discuss it with your interlocutor. Use the constructions from exercise 17."
+  title_nor: "Velg en situasjon og diskuter den med din samtalepartner. Bruk konstruksjonene fra oppgave 17."
   comment: ~
   example: ~
   model: ~
