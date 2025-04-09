@@ -1030,7 +1030,7 @@
 22:
   lesson_id: 12
   ex_number: 22
-  title: Заполните пропуски в тексте словами из списка. Правильныхвариантов может быть несколько.<br>
+  title: Заполните пропуски в тексте словами из списка. Правильных вариантов может быть несколько.<br>
               • а. ^С другой стороны@<br>
               • б. ^Например@<br>
               • в. ^Что касается@<br>
@@ -1043,28 +1043,8 @@
               • к. ^Таким образом@<br>
   instructions: ~
   exercise_type: ~
-  title_eng:  Fill in the blanks in the text with words from the list. There may be several correct options.<br>
-              • ^On the other hand@<br>
-              • ^For example@<br>
-              • ^As for@<br>
-              • ^As for@<br>
-              • ^About@<br>
-              • ^In any case@<br>
-              • ^On the one hand@<br>
-              • ^On the whole@<br>
-              • ^So@<br>
-              • ^Thus@<br>
-  title_nor: Fyll ut hullene i teksten med ord fra listen. Det kan være flere riktige alternativer.<br>
-              • ^På den annen side@<br>
-              • ^For eksempel@<br>
-              • ^Angående@<br>
-              • ^For eksempel@<br>
-              • ^Om@<br>
-              • ^Hvordan det måtte være@<br>
-              • ^På den ene siden@<br>
-              • ^Overall@<br>
-              • ^Så@<br>
-              • ^Dermed@<br>
+  title_eng:  Fill in the blanks with the words from the list. There may be several correct options.<br>
+  title_nor: Fyll ut de tomme feltene i teksten med ordene fra listen. Det kan være flere riktige alternativer.<br>
   comment: ~
   example: ~
   model: ~
@@ -1102,8 +1082,8 @@
   title: "Напишите небольшое эссе (5-8 предложений) на одну из тем. Опишите две точки зрения на проблему по модели."
   instructions: ~
   exercise_type: ~
-  title_eng: "Write a short essay (5-8 sentences) on one of the topics. Describe two points of view on the problem according to the model."
-  title_nor: "Skriv et kort essay (5-8 setninger) om ett av temaene. Beskriv to synspunkter på problemet i henhold til modellen."
+  title_eng: "Write a short essay (5-8 sentences) on one of the topics. Describe two points of view on the problem using to the model below."
+  title_nor: "Skriv et kort essay (5-8 setninger) om ett av temaene. Beskriv to synspunkter på problemet og bruk modellen nederst."
   comment: ~
   example: ~
   model: 
