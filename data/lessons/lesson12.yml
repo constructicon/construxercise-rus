@@ -3,11 +3,11 @@
   lesson_id: 12
   ex_number: 1
   tags: "Часть 1. Общие планы: диалог"
-  title: Игорь и Миша договариваются по телефону сходить в бассейн.Перед вами календарь Игоря. Заполните его. Напишите, когда у Игоря работа, дедлайн по философии, поход в бар и поход в бассейн.
+  title: Игорь и Миша договариваются по телефону сходить в бассейн. Перед вами календарь Игоря. Заполните его. Напишите, когда у Игоря работа, дедлайн по философии, поход в бар и поход в бассейн.
   instructions: ~
   exercise_type: ~
-  title_eng: Igor and Misha agree on the phone to go to the pool. Here is Igor's calendar. Fill it out. Write when Igor has work, a philosophy deadline, a trip to the bar, and a trip to the pool.
-  title_nor: Igor og Misha blir enige over telefonen om å gå til bassenget. Her er Igors kalender. Fyll den ut. Skriv når du Igors arbeid, filosofi deadline, gå til baren og gå til basseng.
+  title_eng: Igor and Misha are making plans over the phone to visit the swimming pool. You have Igor's calendar in front of you. Fill it in by indicating when Igor has work, a deadline in philosophy course, a night out at the bar, and a visit to the swimming pool.
+  title_nor: Igor og Misha avtaler over telefonen å dra til svømmebassenget. Foran deg er Igors kalender. Fyll den ut. Skriv ned når Igor har jobb, en frist for filosofi, en tur til baren og en tur til svømmebassenget.
   comment: ~
   example: ~
   model: ~
@@ -35,19 +35,19 @@
     horizontal_align: ~
     heading: ~
     row1:
-        - понедельник(ПН)
+        - понедельник (ПН)
         - |
-          вторник(ВТ)
+          вторник (ВТ)
         - |
-          среда(СР)
+          среда (СР)
         - |
-          четверг(ЧТ)
+          четверг (ЧТ)
         - |
-          пятница(ПТ)
+          пятница (ПТ)
         - |
-          суббота(СБ)
+          суббота (СБ)
         - |
-          воскресенье(ВС)
+          воскресенье (ВС)
     row2: 
         - | 
           &nbsp;
