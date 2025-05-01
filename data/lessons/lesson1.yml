@@ -278,7 +278,7 @@
             ^а кроме того,@ она прекрасно играет на пианино.</li></ul>"
     image: 
       link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/kitchen.jpg"
-      width: "300"
+      width: "400"
   model: ~
   image: ~
   task:
