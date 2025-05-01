@@ -473,13 +473,12 @@
   comment: "Формат задания: в парах. <br>= Task format: in pairs."
   example: ~
   model: ~
-  image: 
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/packing.jpg"
+  image: ~
   task: 
     task1:
       image: 
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/packing.jpg"
-        width: "300"
+        width: "400"
       text: |
         Список вещей:<br><ul>
         <li>фотоаппарат</li>
