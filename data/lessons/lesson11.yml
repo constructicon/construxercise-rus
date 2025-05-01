@@ -63,10 +63,8 @@
     <li>^В заключение,@ хочется сказать, что нужно всегда одеваться по погоде.</li></ul>
   example: ^В заключение@ хочу добавить, что эта награда  — результат отличной работы всех наших сотрудников.<br>
             ^В заключение@, мы продолжим радовать вас нашими платьями.
-  constr_info_eng: 
-    text: "This construction is used to end a speech and introduce the final part.<br>"
-  constr_info_nor: 
-    text: "Denne konstruksjonen brukes for å avslutte en tale og introdusere den siste delen.<br>"
+  constr_info_eng: "This construction is used to end a speech and introduce the final part.<br>"
+  constr_info_nor: "Denne konstruksjonen brukes for å avslutte en tale og introdusere den siste delen.<br>"
   model: ~
   image: ~
   task: ~
@@ -163,10 +161,8 @@
     <ul><li>В холодную погоду нужна тёплая одежда – свитер, шарф, куртка ^и тому подобное.@ / ^и так далее.@ / ^и т. п.@ / ^и т. д.@</li>
     <li>Чтобы выглядеть стильно, нужно следить за трендами, комбинировать разные стили, экспериментировать ^и так далее.@ / ^и т. д.@</li></ul><br>
     В конструкции ^…, … и тому подобное@ обычно используются существительные (EN: nouns; NO: substantiver). В конструкции ^..., ... и так далее@ нет такого ограничения. Часто используются сокращения ^и т.п.@ и ^и т.д.@
-  constr_info_eng:
-    text: "These constructions list several similar elements (objects or actions) and indicate that the remaining elements are understood from the context.<br>"
-  constr_info_nor:
-    text: "Disse konstruksjonene lister opp flere lignende elementer (objekter eller handlinger) og viser at de resterende elementene forstås fra konteksten.<br>"
+  constr_info_eng: "These constructions list several similar elements (objects or actions) and indicate that the remaining elements are understood from the context.<br>"
+  constr_info_nor: "Disse konstruksjonene lister opp flere lignende elementer (objekter eller handlinger) og viser at de resterende elementene forstås fra konteksten.<br>"
   example: (постоянно мёрзнуть) (свитер, толстовка, тёплый кардиган, шарф)<br>
     &#10132;<br>
             — Я постоянно мёрзну, поэтому всегда ношу свитера, толстовки, тёплые кардиганы, шарфы ^и так далее@.<br>
