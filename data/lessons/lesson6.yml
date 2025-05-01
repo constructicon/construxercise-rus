@@ -48,10 +48,16 @@
   title_eng:  Compare various means of transport in terms of various parameters. Build sentences by using the model below and the construction ^с точки зрения ..., ...@ meaning ‘With regard to X, ...’ or ‘In terms of X, ...’. In this construction, NP-Gen is a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), and Cl is a sentence (Cl=clause, sentence). Pay attention to the meaning of this construction visualized in the diagram below.
   title_nor: Bruk forskjellige parametere for å sammenligne og beskrive ulike typer av transportmidler. Lag setninger ved å bruke malen nedenfor, sammen med konstruksjonen ^с точки зрения ..., ...@ som betyr omtrent ‘fra X synspunkt, ...’, ‘med hensyn til, ...’. I denne konstruksjonen står NP-Gen for et substantiv i genitiv kasus, (NP=nominalfrase, Gen=genitiv kasus), Cl er en setning (Cl=setning). Legg merke til diagrammet nedenfor som beskriver betydningen av denne konstruksjonen.
   comment: "Формат задания: в парах. = Task format: in pairs."
+  constr_info: |
+    Есть разные параметры, по которым можно охарактеризовать объект.<br>
+    Конструкция ^с точки зрения ..., ...@ указывает на один из них. На месте
+    первого слота ... стоит существительное (noun) в генитиве (Gen), а на месте
+    второго слота ... стоит предложение (sentence).
+    • ^С точки зрения комфорта,@ машина удобнее автобуса..<br>
   example: С точки зрения комфорта, яхта лучше поезда.
   model: С точки зрения ________ , ________ лучше/хуже ________
   image: 
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/2.png"
+    link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/3.png"
     width: ~
     height: ~
   task: ~
@@ -105,7 +111,7 @@
   example: ~
   model: ~
   image:
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/3.png"
+    link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/4.png"
     width: ~
     height: ~
   task: ~
