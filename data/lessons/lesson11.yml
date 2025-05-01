@@ -232,26 +232,26 @@
   title_eng: Fill in the blanks by using the constructions ^в частности, ...@ ‘for example / in particular / more specifically, ...’ and ^скажем, ...@ ‘for example /say/let us say ...’.
   title_nor: Fyll ut de tomme feltene ved å bruke konstruksjonene ^в частности, ...@ ‘for eksempel / spesifikt ...’ og ^скажем, ...@ ‘for eksempel / la oss si ...’.
   comment: ~
-  constr_info: |
-    Обе конструкции вводят пояснение некоторого общего утверждения с помощью конкретного частного примера.<br>
-    Kонструкция ^скажем ...@ вводит пример как гипотетически возможный.<br>
-    EN: This construction presents an example as hypothetically possible.<br>
-    NO: Denne konstruksjonen presenterer eksempelet som noe hypotetisk mulig.<br>
-    <ul><li>Для работы в офисе подойдет деловая одежда, ^скажем,@ классические брюки и рубашка.</li>
-    <li>Вариантов предлагается много. ^Скажем,@ японская модель образования.</li>
-    <li>Я люблю как музыку прошлого ― Гайдна, Моцарта, так и ту музыку, в которой звучит будущее ― ^скажем,@ техно.</li></ul><br>
-    Kонструкция ^в частности ...@ часто подчёркивает, что какой-то объект является частью <b>большой группы объектов</b>.<br>
-    EN: This construction emphasizes the fact that the given example belongs to a certain set.<br>
-    NO: Denne konstruksjonen fremhever ofte at et objekt er en del av en stor gruppe objekter.<br>
-    <ul><li>Тренер сказал, что <b>неспортивная обувь</b>, ^в частности@ туфли и сандали, не подходят для занятий теннисом.</li>
-    <li>Они занимались ремонтом <b>техники,</b> ^в частности@ телевизоров.</li></ul><br>
-    На месте … в обеих конструкциях может быть слово, фраза или целое предложение.
+  constr_info: 
+    text: "Обе конструкции вводят пояснение некоторого общего утверждения с помощью конкретного частного примера.<br>
+            Kонструкция ^скажем ...@ вводит пример как гипотетически возможный.<br>
+            EN: This construction presents an example as hypothetically possible.<br>
+            NO: Denne konstruksjonen presenterer eksempelet som noe hypotetisk mulig.<br>
+            <ul><li>Для работы в офисе подойдет деловая одежда, ^скажем,@ классические брюки и рубашка.</li>
+            <li>Вариантов предлагается много. ^Скажем,@ японская модель образования.</li>
+            <li>Я люблю как музыку прошлого ― Гайдна, Моцарта, так и ту музыку, в которой звучит будущее ― ^скажем,@ техно.</li></ul><br>
+            Kонструкция ^в частности ...@ часто подчёркивает, что какой-то объект является частью <b>большой группы объектов</b>.<br>
+            EN: This construction emphasizes the fact that the given example belongs to a certain set.<br>
+            NO: Denne konstruksjonen fremhever ofte at et objekt er en del av en stor gruppe objekter.<br>
+            <ul><li>Тренер сказал, что <b>неспортивная обувь</b>, ^в частности@ туфли и сандали, не подходят для занятий теннисом.</li>
+            <li>Они занимались ремонтом <b>техники,</b> ^в частности@ телевизоров.</li></ul><br>
+            На месте … в обеих конструкциях может быть слово, фраза или целое предложение."
+    image:
+      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/7.jpg"
+      width: "400"
   example: ~
   model: ~
-  image:
-    text: text<br>
-          text<br>
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/7.jpg"
+  image: ~
   task:
     task1:
       text: 1. Синтетические материалы сегодня активно используются в производстве одежды,__________, в изготовлении купальников и тёплых курток.
@@ -547,11 +547,12 @@
   comment: ~
   example: ~
   model: ~
-  image:
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/13.jpg"
-    width: 600
+  image: ~
   task: 
     task1:
+      image:
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/13.jpg"
+        width: 500
       text: "Цветотип — это цветовой тип внешности, он есть у каждого. Считается, что существует четыре цветотипа: весна, лето, осень и зима (1 __________________
         , у каждого времени года есть ещё более подробная классификация: 2 __________________
         , цветотип весна может быть тёплым, ярким или светлым). Определить ваше «время года» можно по цвету волос, кожи, глаз, губ 3 __________________
@@ -581,13 +582,15 @@
   title_eng: Read the text that explains what a personal color type analysis is. Fill in the blanks with the words from the list.
   title_nor: Les teksten om personlig fargeanalyse. Fyll ut de tomme feltene med ord fra listen.
   comment: ~
-  example: "Кристина, 25 лет<br>
+  example: 
+    text: "Кристина, 25 лет<br>
             Совет стилиста:<br>
             Цветотип Кристины — лето: у неё голубые глаза холодного оттенка и светлые волосы. Кристине подойдут неяркие холодные цвета, ^в частности,@ сиреневый, голубой, бирюзовый и ^так далее@. ^Скажем,@ она будет прекрасно выглядеть в голубой рубашке, светлых джинсах, синем пальто и бежевых ботинках. Также ей подойдёт пастельно- розовая толстовка, светло-серый свитер, бежевая куртка ^и тому подобное@. ^Итак,@ мы собрали для Кристины новый гардероб."
+    image:
+      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/14_1.jpg"
+      width: 400
   model: ~
-  image:
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/14_1.jpg"
-    width: 400
+  image: ~
   task:
     task1:
       text: 1. Инна, 29 лет
