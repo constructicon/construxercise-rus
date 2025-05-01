@@ -542,13 +542,11 @@ if (data[exercise_id]["constr_info"]) {
 
             let img = document.createElement("img");
             img.setAttribute("src", model_data.image.link);
-            img.setAttribute("class", "img-fluid rounded");
+            img.setAttribute("class", "rounded"); // removed 'img-fluid'
             img.setAttribute("alt", "model image");
-
+            
             if (model_data.image.width) {
-                img.style.width = model_data.image.width + "px";
-            } else {
-                img.style.maxWidth = "300px";
+                img.style.width = model_data.image.width + "px"; // exact width from YAML
             }
 
             image_wrapper.appendChild(img);
