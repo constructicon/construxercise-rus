@@ -48,18 +48,20 @@
   title_eng:  Compare various means of transport in terms of various parameters. Build sentences by using the model below and the construction ^с точки зрения ..., ...@ meaning ‘With regard to X, ...’ or ‘In terms of X, ...’. In this construction, NP-Gen is a noun in the Genitive case (NP=noun phrase, Gen=Genitive case), and Cl is a sentence (Cl=clause, sentence). Pay attention to the meaning of this construction visualized in the diagram below.
   title_nor: Bruk forskjellige parametere for å sammenligne og beskrive ulike typer av transportmidler. Lag setninger ved å bruke malen nedenfor, sammen med konstruksjonen ^с точки зрения ..., ...@ som betyr omtrent ‘fra X synspunkt, ...’, ‘med hensyn til, ...’. I denne konstruksjonen står NP-Gen for et substantiv i genitiv kasus, (NP=nominalfrase, Gen=genitiv kasus), Cl er en setning (Cl=setning). Legg merke til diagrammet nedenfor som beskriver betydningen av denne konstruksjonen.
   comment: "Формат задания: в парах. = Task format: in pairs."
-  constr_info: |
-    Есть разные параметры, по которым можно охарактеризовать объект.<br>
-    Конструкция ^с точки зрения ..., ...@ указывает на один из них. На месте
-    первого слота ... стоит существительное (noun) в генитиве (Gen), а на месте
-    второго слота ... стоит предложение (sentence).
-    • ^С точки зрения комфорта,@ машина удобнее автобуса..<br>
+  constr_info: 
+    text : "Есть разные параметры, по которым можно охарактеризовать объект.<br>
+      Конструкция ^с точки зрения ..., ...@ указывает на один из них. На месте
+      первого слота ... стоит существительное (noun) в генитиве (Gen), а на месте
+      второго слота ... стоит предложение (sentence).
+      • ^С точки зрения комфорта,@ машина удобнее автобуса..<br>"
+    image: 
+      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/3.png"
+      width: ~
+  constr_info_eng: "There exist various parameters that can be used to characterize an object. This construction points to one of these parameters."
+  constr_info_nor: "Det eksisterer flere parametere for å beskrive et objekt. Denne konstruksjonen peker mot en av disse parameterne."
   example: С точки зрения комфорта, яхта лучше поезда.
   model: С точки зрения ________ , ________ лучше/хуже ________
-  image: 
-    link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/3.png"
-    width: ~
-    height: ~
+  image: ~
   task: ~
   answer_to_show: ~
   answer_key: ~
@@ -117,14 +119,11 @@
                   останусь дома.<br>"     
             image:
               link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/4.png"
-  constr_info_eng: "plaseholder for english"
-  constr_info_nor: "placeholder for norwegian"
+  constr_info_eng: "The speaker offered an answer, then thought for a while and offered a different answer that contradicts the first one."
+  constr_info_nor: "Taleren svarer, tenker seg om en liten stund og kommer med et nytt svar som helt eller delvis motsier det første svaret."
   example: ~
   model: ~
-  image:
-    link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/4.png"
-    width: ~
-    height: ~
+  image: ~
   task: ~
   answer_to_show: 1б, 2д, 3а, 4е, 5г, 6в
   answer_key: 1б, 2д, 3а, 4е, 5г, 6в

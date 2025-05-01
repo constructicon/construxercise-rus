@@ -420,10 +420,10 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         info.setAttribute("style", "margin-bottom: 20px; background-color:rgb(250,226,213)");
         info.setAttribute("class", "shadow p-3 mb-3 rounded");
     
-        // Create a wrapper for the text and icon
-        const textIconWrapper = document.createElement("span");
-        textIconWrapper.setAttribute("class", "m-3 d-flex align-items-center tiptext");
-        textIconWrapper.style.gap = "5px";
+        // Header
+        const headerWrapper = document.createElement("span");
+        headerWrapper.setAttribute("class", "m-3 d-flex align-items-center tiptext");
+        headerWrapper.style.gap = "5px";
     
         let info_title = document.createElement("p");
         const icon = document.createElement("i");
@@ -431,25 +431,57 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         info_title.setAttribute("class", "m-2 fw-bold");
         info_title.innerHTML = "Информация о конструкции";
     
-        textIconWrapper.appendChild(icon);
-        textIconWrapper.appendChild(info_title);
-        info.appendChild(textIconWrapper);
+        headerWrapper.appendChild(icon);
+        headerWrapper.appendChild(info_title);
+        info.appendChild(headerWrapper);
     
-        // Safe handling: if constr_info is an object or string
+        // Russian text by default
         const constr_data = data[exercise_id]["constr_info"];
-        let text_html = "";
+        let constr_text = typeof constr_data === "object" ? constr_data.text : constr_data;
     
-        if (typeof constr_data === "object" && constr_data !== null && "text" in constr_data) {
-            text_html = annotate(constr_data.text);
-        } else {
-            text_html = annotate(constr_data); // fallback if it's just a string
+        let rus_p = document.createElement("p");
+        rus_p.innerHTML = annotate(constr_text);
+        info.appendChild(rus_p);
+    
+        // Add translations if available
+        let eng_p = document.createElement("p");
+        let norw_p = document.createElement("p");
+    
+        let constr_buttons = document.createElement("div");
+        constr_buttons.setAttribute("class", "btn-group btn-group-sm");
+        constr_buttons.setAttribute("role", "group");
+    
+        if (data[exercise_id]["constr_info_eng"]) {
+            let eng_btn = document.createElement("button");
+            eng_btn.setAttribute("type", "button");
+            eng_btn.setAttribute("class", "btn btn-outline-secondary btn-sm");
+            eng_btn.innerHTML = "EN";
+    
+            let text_eng = annotate(data[exercise_id]["constr_info_eng"]);
+            eng_btn.onclick = function () {
+                show_item(eng_p, text_eng);
+            }
+            constr_buttons.appendChild(eng_btn);
         }
     
-        let constr_info_p = document.createElement("p");
-        constr_info_p.innerHTML = text_html;
-        info.appendChild(constr_info_p);
+        if (data[exercise_id]["constr_info_nor"]) {
+            let nor_btn = document.createElement("button");
+            nor_btn.setAttribute("type", "button");
+            nor_btn.setAttribute("class", "btn btn-outline-secondary btn-sm");
+            nor_btn.innerHTML = "NO";
     
-        // Add image if present
+            let text_nor = annotate(data[exercise_id]["constr_info_nor"]);
+            nor_btn.onclick = function () {
+                show_item(norw_p, text_nor);
+            }
+            constr_buttons.appendChild(nor_btn);
+        }
+    
+        info.appendChild(constr_buttons);
+        info.appendChild(eng_p);
+        info.appendChild(norw_p);
+    
+        // Image if present
         if (typeof constr_data === "object" && constr_data.image && constr_data.image.link) {
             let image_wrapper = document.createElement("div");
             image_wrapper.setAttribute("class", "p-2 m-2");
