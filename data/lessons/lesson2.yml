@@ -478,7 +478,7 @@
     task1:
       image: 
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/packing.jpg"
-        width: "400"
+        width: "500"
       text: |
         Список вещей:<br><ul>
         <li>фотоаппарат</li>
