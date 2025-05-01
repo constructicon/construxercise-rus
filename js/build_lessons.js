@@ -529,20 +529,48 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     }
 
     if (data[exercise_id]["example"] != null) {
-        let example = document.createElement("div")
-        example.setAttribute("style", "margin-bottom: 20px")
-        example.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
-        let ex_words = document.createElement("b")
-        ex_words.innerHTML = "Образец"
-        ex_words.appendChild(document.createElement("br"))
-        
-        example.innerHTML = annotate(data[exercise_id]["example"])
-        all_exercise.appendChild(ex_words)
-        all_exercise.appendChild(example)
-        // all_exercise.appendChild(document.createElement("br"))
-        // main_content.appendChild(ex_words)
-        // main_content.appendChild(example)
+        // Example section wrapper
+        let example_wrapper = document.createElement("div");
+        example_wrapper.setAttribute("style", "margin-bottom: 20px");
+        example_wrapper.setAttribute("class", "shadow p-2 mb-3 bg-body rounded");
+    
+        // Title
+        let ex_title = document.createElement("b");
+        ex_title.innerHTML = "Образец";
+        ex_title.appendChild(document.createElement("br"));
+        all_exercise.appendChild(ex_title);
+    
+        // Flex container for text and image
+        let contentRow = document.createElement("div");
+        contentRow.setAttribute("class", "d-flex justify-content-between align-items-start flex-wrap");
+        contentRow.setAttribute("style", "gap: 20px");
+    
+        // Example text (left side)
+        let exampleText = document.createElement("div");
+        exampleText.setAttribute("class", "flex-grow-1");
+        exampleText.innerHTML = annotate(data[exercise_id]["example"]);
+        contentRow.appendChild(exampleText);
+    
+        // Optional image (right side)
+        if (data[exercise_id]["image"] && data[exercise_id]["image"]["link"]) {
+            let imgWrapper = document.createElement("div");
+            imgWrapper.setAttribute("class", "text-end");
+    
+            let img = document.createElement("img");
+            img.setAttribute("src", data[exercise_id]["image"]["link"]);
+            img.setAttribute("class", "img-fluid rounded");
+            img.setAttribute("style", "max-width: 200px; height: auto");
+            img.setAttribute("alt", "example image");
+    
+            imgWrapper.appendChild(img);
+            contentRow.appendChild(imgWrapper);
+        }
+    
+        // Add everything to the wrapper
+        example_wrapper.appendChild(contentRow);
+        all_exercise.appendChild(example_wrapper);
     }
+    
 
 
     if (data[exercise_id]["image"] != null) {
