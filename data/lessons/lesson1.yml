@@ -280,9 +280,7 @@
       link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/kitchen.jpg"
       width: "400"
   model: ~
-  image: 
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/kitchen.jpg"
-    width: "400"
+  image: ~
   task:
     task1:
       text: 1. Я люблю фильмы про природу. Ещё мне нравится фантастика.
