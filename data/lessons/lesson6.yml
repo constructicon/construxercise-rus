@@ -117,6 +117,8 @@
                   останусь дома.<br>"     
             image:
               link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/4.png"
+  constr_info_eng: "plaseholder for english"
+  constr_info_nor: "placeholder for norwegian"
   example: ~
   model: ~
   image:

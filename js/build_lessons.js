@@ -417,32 +417,47 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     // add construction information if relevant
     if (data[exercise_id]["constr_info"]) {
         let info = document.createElement("div");
-        info.setAttribute("style", "margin-bottom: 20px")
-        info.setAttribute("style", "background-color:rgb(250,226,213)")
-        info.setAttribute("class", "shadow p-3 mb-3 rounded")
-
+        info.setAttribute("style", "margin-bottom: 20px; background-color:rgb(250,226,213)");
+        info.setAttribute("class", "shadow p-3 mb-3 rounded");
+    
         // Create a wrapper for the text and icon
         const textIconWrapper = document.createElement("span");
         textIconWrapper.setAttribute("class", "m-3 d-flex align-items-center tiptext");
-        textIconWrapper.style.gap = "5px"; // Small gap between text and icon
-
-        let info_title = document.createElement("p")
+        textIconWrapper.style.gap = "5px";
+    
+        let info_title = document.createElement("p");
         const icon = document.createElement("i");
         icon.setAttribute("class", "bi bi-info-square");
-        info_title.setAttribute('class', 'm-2 fw-bold')
-        // info.appendChild(icon)
-        info_title.innerHTML = "Информация о конструкции"
-        // info.appendChild(info_title)
-        textIconWrapper.appendChild(icon)
-        textIconWrapper.appendChild(info_title)
-        info.appendChild(textIconWrapper)
-
-        let constr_info = document.createElement('p')
-        constr_info.innerHTML = annotate(data[exercise_id]["constr_info"]);
-        // info.innerHTML = annotate(data[exercise_id]["constr_info"]);
-        info.appendChild(constr_info)
+        info_title.setAttribute("class", "m-2 fw-bold");
+        info_title.innerHTML = "Информация о конструкции";
+    
+        textIconWrapper.appendChild(icon);
+        textIconWrapper.appendChild(info_title);
+        info.appendChild(textIconWrapper);
+    
+        // Safe handling: if constr_info is an object or string
+        const constr_data = data[exercise_id]["constr_info"];
+        let text_html = "";
+    
+        if (typeof constr_data === "object" && constr_data !== null && "text" in constr_data) {
+            text_html = annotate(constr_data.text);
+        } else {
+            text_html = annotate(constr_data); // fallback if it's just a string
+        }
+    
+        let constr_info_p = document.createElement("p");
+        constr_info_p.innerHTML = text_html;
+        info.appendChild(constr_info_p);
+    
+        // Add image if present
+        if (typeof constr_data === "object" && constr_data.image && constr_data.image.link) {
+            let image_wrapper = document.createElement("div");
+            image_wrapper.setAttribute("class", "p-2 m-2");
+            image_wrapper.appendChild(add_image(constr_data.image));
+            info.appendChild(image_wrapper);
+        }
+    
         all_exercise.appendChild(info);
-        
     }
 
 
