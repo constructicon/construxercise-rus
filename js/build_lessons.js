@@ -529,45 +529,37 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     }
 
     if (data[exercise_id]["example"] != null) {
-        // Example section wrapper
+        // Example wrapper
         let example_wrapper = document.createElement("div");
         example_wrapper.setAttribute("style", "margin-bottom: 20px");
         example_wrapper.setAttribute("class", "shadow p-2 mb-3 bg-body rounded");
     
-        // Title
+        // "Образец" title
         let ex_title = document.createElement("b");
         ex_title.innerHTML = "Образец";
         ex_title.appendChild(document.createElement("br"));
         all_exercise.appendChild(ex_title);
     
-        // Flex container for text and image
-        let contentRow = document.createElement("div");
-        contentRow.setAttribute("class", "d-flex justify-content-between align-items-start flex-wrap");
-        contentRow.setAttribute("style", "gap: 20px");
+        // Add example text
+        let example = document.createElement("p");
+        example.innerHTML = annotate(data[exercise_id]["example"]);
+        example_wrapper.appendChild(example);
     
-        // Example text (left side)
-        let exampleText = document.createElement("div");
-        exampleText.setAttribute("class", "flex-grow-1");
-        exampleText.innerHTML = annotate(data[exercise_id]["example"]);
-        contentRow.appendChild(exampleText);
-    
-        // Optional image (right side)
+        // Check for optional image
         if (data[exercise_id]["image"] && data[exercise_id]["image"]["link"]) {
             let imgWrapper = document.createElement("div");
-            imgWrapper.setAttribute("class", "text-end");
-    
+            imgWrapper.setAttribute("class", "p-2 mt-2");
+            
             let img = document.createElement("img");
             img.setAttribute("src", data[exercise_id]["image"]["link"]);
             img.setAttribute("class", "img-fluid rounded");
-            img.setAttribute("style", "max-width: 200px; height: auto");
             img.setAttribute("alt", "example image");
-    
             imgWrapper.appendChild(img);
-            contentRow.appendChild(imgWrapper);
+    
+            example_wrapper.appendChild(imgWrapper);
         }
     
-        // Add everything to the wrapper
-        example_wrapper.appendChild(contentRow);
+        // Append the full example section
         all_exercise.appendChild(example_wrapper);
     }
     
