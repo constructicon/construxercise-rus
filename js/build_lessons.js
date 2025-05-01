@@ -545,9 +545,6 @@ if (data[exercise_id]["constr_info"]) {
             img.setAttribute("class", "rounded"); // removed 'img-fluid'
             img.setAttribute("alt", "model image");
             
-            if (model_data.image.width) {
-                img.style.width = model_data.image.width + "px"; // exact width from YAML
-            }
 
             image_wrapper.appendChild(img);
             content_wrapper.appendChild(image_wrapper);
