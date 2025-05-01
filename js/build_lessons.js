@@ -499,33 +499,46 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
     
     if (data[exercise_id]["model"] != null) {
-        let model = document.createElement("div");
-        model.setAttribute("style", "margin-bottom: 20px")
-        model.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
-        let ex_words = document.createElement("b")
-        ex_words.innerHTML = "Модель"
-        ex_words.appendChild(document.createElement("br"))
-
-        if (data[exercise_id]["model"]['image'] != null) {
-            if (data[exercise_id]["model"]['image']["link"] != undefined) {
-                let image_wrapper = document.createElement('div')
-                image_wrapper.setAttribute('class', 'p-2 m-2')
-                // image_wrapper.setAttribute("class", "mx-auto d-block")
-
-                image_wrapper.appendChild(add_image(data[exercise_id]["model"]["image"]))
-                model.appendChild(image_wrapper)
+        const model_data = data[exercise_id]["model"];
+    
+        let model_wrapper = document.createElement("div");
+        model_wrapper.setAttribute("style", "margin-bottom: 20px");
+        model_wrapper.setAttribute("class", "shadow p-2 mb-3 bg-body rounded d-flex justify-content-between align-items-start flex-wrap");
+        model_wrapper.style.gap = "20px";
+    
+        // Title
+        let ex_words = document.createElement("b");
+        ex_words.innerHTML = "Модель";
+        ex_words.appendChild(document.createElement("br"));
+        all_exercise.appendChild(ex_words);
+    
+        // Text part
+        const model_text = document.createElement("div");
+        model_text.setAttribute("style", "flex: 1 1 60%; min-width: 200px;");
+        model_text.innerHTML = annotate(typeof model_data === "object" ? model_data.text : model_data);
+        model_wrapper.appendChild(model_text);
+    
+        // Optional image
+        if (typeof model_data === "object" && model_data.image && model_data.image.link) {
+            let image_wrapper = document.createElement("div");
+            image_wrapper.setAttribute("style", "flex: 0 0 auto;");
+    
+            let img = document.createElement("img");
+            img.setAttribute("src", model_data.image.link);
+            img.setAttribute("class", "img-fluid rounded");
+            img.setAttribute("alt", "model image");
+    
+            if (model_data.image.width) {
+                img.style.width = model_data.image.width + "px";
+            } else {
+                img.style.maxWidth = "300px";
             }
+    
+            image_wrapper.appendChild(img);
+            model_wrapper.appendChild(image_wrapper);
         }
-        else {
-
-
-            model.innerHTML = annotate(data[exercise_id]["model"]);
-            // main_content.appendChild(model);
-
-        }
-        all_exercise.appendChild(ex_words)
-
-        all_exercise.appendChild(model);
+    
+        all_exercise.appendChild(model_wrapper);
     }
 
     if (data[exercise_id]["example"] != null) {
