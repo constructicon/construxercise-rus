@@ -169,12 +169,13 @@
   title_nor: Irina og Kolja har invitert venner til middag. De må bestemme seg for hva de skal lage til mat. Lag en dialog mellom Irina og Kolya basert på modellen. Bruk de foreslåtte konstruksjonene og ordene.
   comment: ~
   example: ~
-  model: ~
+  model: 
+      image:
+      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_3.png"
   image: ~
   task: 
     task1: "_"
-    image:
-      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_3.png"
+    image: ~
   answer_to_show:
         answer1:  " — Ирина, привет! ^Так что насчёт@ ужина в субботу? Мы хотели приготовить что-нибудь<br>
                     новое. Может, утку с яблоками?<br>
