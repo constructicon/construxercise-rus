@@ -506,46 +506,59 @@ if (data[exercise_id]["constr_info"]) {
     
     if (data[exercise_id]["model"] != null) {
         const model_data = data[exercise_id]["model"];
-    
+
         let model_wrapper = document.createElement("div");
-        model_wrapper.setAttribute("style", "margin-bottom: 20px");
-        model_wrapper.setAttribute("class", "shadow p-2 mb-3 bg-body rounded d-flex justify-content-between align-items-start flex-wrap");
-        model_wrapper.style.gap = "20px";
-    
+        model_wrapper.setAttribute("style", "margin-bottom: 20px;");
+        model_wrapper.setAttribute("class", "shadow p-2 mb-3 bg-body rounded");
+
         // Title
         let ex_words = document.createElement("b");
         ex_words.innerHTML = "Модель";
         ex_words.appendChild(document.createElement("br"));
         all_exercise.appendChild(ex_words);
-    
-        // Text part
-        const model_text = document.createElement("div");
-        model_text.setAttribute("style", "flex: 1 1 60%; min-width: 200px;");
-        model_text.innerHTML = annotate(typeof model_data === "object" ? model_data.text : model_data);
-        model_wrapper.appendChild(model_text);
-    
-        // Optional image
-        if (typeof model_data === "object" && model_data.image && model_data.image.link) {
+
+        // Wrapper for content (flex if both image and text exist)
+        let content_wrapper = document.createElement("div");
+        let hasText = typeof model_data === "string" || (model_data.text && model_data.text.trim() !== "");
+        let hasImage = typeof model_data === "object" && model_data.image && model_data.image.link;
+
+        if (hasText && hasImage) {
+            content_wrapper.setAttribute("class", "d-flex justify-content-between align-items-start flex-wrap");
+            content_wrapper.style.gap = "20px";
+        }
+
+        // Add text if available
+        if (hasText) {
+            let model_text = document.createElement("div");
+            model_text.setAttribute("style", hasImage ? "flex: 1 1 60%; min-width: 200px;" : "");
+            model_text.innerHTML = annotate(typeof model_data === "string" ? model_data : model_data.text);
+            content_wrapper.appendChild(model_text);
+        }
+
+        // Add image if available
+        if (hasImage) {
             let image_wrapper = document.createElement("div");
             image_wrapper.setAttribute("style", "flex: 0 0 auto;");
-    
+
             let img = document.createElement("img");
             img.setAttribute("src", model_data.image.link);
             img.setAttribute("class", "img-fluid rounded");
             img.setAttribute("alt", "model image");
-    
+
             if (model_data.image.width) {
                 img.style.width = model_data.image.width + "px";
             } else {
                 img.style.maxWidth = "300px";
             }
-    
+
             image_wrapper.appendChild(img);
-            model_wrapper.appendChild(image_wrapper);
+            content_wrapper.appendChild(image_wrapper);
         }
-    
+
+        model_wrapper.appendChild(content_wrapper);
         all_exercise.appendChild(model_wrapper);
     }
+
 
     if (data[exercise_id]["example"] != null) {
         const example_data = data[exercise_id]["example"];
