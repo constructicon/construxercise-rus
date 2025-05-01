@@ -56,7 +56,7 @@
       • ^С точки зрения комфорта,@ машина удобнее автобуса..<br>"
     image: 
       link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/3.png"
-      width: ~
+      width: "300"
   constr_info_eng: "There exist various parameters that can be used to characterize an object. This construction points to one of these parameters."
   constr_info_nor: "Det eksisterer flere parametere for å beskrive et objekt. Denne konstruksjonen peker mot en av disse parameterne."
   example: С точки зрения комфорта, яхта лучше поезда.
