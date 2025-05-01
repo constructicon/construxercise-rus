@@ -529,37 +529,48 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     }
 
     if (data[exercise_id]["example"] != null) {
-        // Example wrapper
-        let example_wrapper = document.createElement("div");
-        example_wrapper.setAttribute("style", "margin-bottom: 20px");
-        example_wrapper.setAttribute("class", "shadow p-2 mb-3 bg-body rounded");
+        const example_data = data[exercise_id]["example"];
+    
+        // Wrapper for the entire example block
+        const example_wrapper = document.createElement("div");
+        example_wrapper.setAttribute("class", "shadow p-3 mb-3 bg-body rounded d-flex justify-content-between align-items-start flex-wrap");
+        example_wrapper.setAttribute("style", "gap: 20px;");
     
         // "Образец" title
-        let ex_title = document.createElement("b");
+        const ex_title = document.createElement("b");
         ex_title.innerHTML = "Образец";
         ex_title.appendChild(document.createElement("br"));
         all_exercise.appendChild(ex_title);
     
-        // Add example text
-        let example = document.createElement("p");
-        example.innerHTML = annotate(data[exercise_id]["example"]);
-        example_wrapper.appendChild(example);
+        // Text on the left
+        const ex_text = document.createElement("div");
+        ex_text.setAttribute("style", "flex: 1 1 60%; min-width: 200px;");
+        const example_text = typeof example_data === "object" ? example_data.text : example_data;
+        ex_text.innerHTML = annotate(example_text);
     
-        // Check for optional image
-        if (data[exercise_id]["image"] && data[exercise_id]["image"]["link"]) {
-            let imgWrapper = document.createElement("div");
-            imgWrapper.setAttribute("class", "p-2 mt-2");
-            
-            let img = document.createElement("img");
-            img.setAttribute("src", data[exercise_id]["image"]["link"]);
+        example_wrapper.appendChild(ex_text);
+    
+        // Image on the right (if it exists)
+        if (typeof example_data === "object" && example_data.image && example_data.image.link) {
+            const imgWrapper = document.createElement("div");
+            imgWrapper.setAttribute("style", "flex: 0 0 auto;");
+    
+            const img = document.createElement("img");
+            img.setAttribute("src", example_data.image.link);
             img.setAttribute("class", "img-fluid rounded");
             img.setAttribute("alt", "example image");
-            imgWrapper.appendChild(img);
     
+            if (example_data.image.width) {
+                img.style.width = example_data.image.width + "px";
+            } else {
+                img.style.maxWidth = "300px";
+            }
+
+            imgWrapper.appendChild(img);
+            
             example_wrapper.appendChild(imgWrapper);
         }
-    
-        // Append the full example section
+
         all_exercise.appendChild(example_wrapper);
     }
     
