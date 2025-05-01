@@ -529,19 +529,37 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
     }
 
     if (data[exercise_id]["example"] != null) {
-        let example = document.createElement("div")
-        example.setAttribute("style", "margin-bottom: 20px")
-        example.setAttribute("class", "shadow p-2 mb-3 bg-body rounded")
-        let ex_words = document.createElement("b")
-        ex_words.innerHTML = "Образец"
-        ex_words.appendChild(document.createElement("br"))
-        
-        example.innerHTML = annotate(data[exercise_id]["example"])
-        all_exercise.appendChild(ex_words)
-        all_exercise.appendChild(example)
-        // all_exercise.appendChild(document.createElement("br"))
-        // main_content.appendChild(ex_words)
-        // main_content.appendChild(example)
+        let example = document.createElement("div");
+        example.setAttribute("style", "margin-bottom: 20px");
+        example.setAttribute("class", "shadow p-2 mb-3 bg-body rounded");
+    
+        // Label "Образец"
+        let ex_words = document.createElement("b");
+        ex_words.innerHTML = "Образец";
+        ex_words.appendChild(document.createElement("br"));
+    
+        // Example text
+        let example_text = document.createElement("p");
+        example_text.innerHTML = annotate(data[exercise_id]["example"]);
+        example.appendChild(example_text);
+    
+        // Optional image
+        if (data[exercise_id]["image"] && data[exercise_id]["image"]["link"]) {
+            let example_img = document.createElement("img");
+            example_img.src = data[exercise_id]["image"]["link"];
+            example_img.alt = "example image";
+            example_img.setAttribute("class", "img-fluid rounded mt-2");
+            if (data[exercise_id]["image"]["width"]) {
+                example_img.style.width = data[exercise_id]["image"]["width"];
+            }
+            if (data[exercise_id]["image"]["height"]) {
+                example_img.style.height = data[exercise_id]["image"]["height"];
+            }
+            example.appendChild(example_img);
+        }
+    
+        all_exercise.appendChild(ex_words);
+        all_exercise.appendChild(example);
     }
 
 
