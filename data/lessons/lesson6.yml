@@ -108,17 +108,17 @@
   title_eng: Connect the sentences by choosing a matching continuation. Use the construction ^впрочем, ...@ meaning ‘However, ...’. We can put an entire sentence in the ... slot. Pay attention to the meaning of this construction visualized in the diagram below.
   title_nor: Koble sammen setningene ved å bruke delene som passer. Bruk konstruksjonen ^впрочем, ...@ som betyr omtrent ‘for resten / ellers / for øvrig ... ’. Plassen ... kan fylles med en hel setning. Legg merke til hvordan diagrammet nedenfor beskriver betydningen av denne konstruksjonen.
   comment: ~
-  constr_info: |
-            Конструкция ^впрочем, ...@ используется в ситуации, когда говорящий
+  constr_info: 
+            text: "Конструкция ^впрочем, ...@ используется в ситуации, когда говорящий
             предложил один вариант ответа, потом немного подумал и предложил
             другой вариант ответа, который противоречит первому. На месте ... стоит
             целое предложение (sentence).<br><br>
             ^•@ Я планирую поехать на дачу в выходные. ^Впрочем,@ если будет дождь,
-            останусь дома.<br>
+            останусь дома.<br>"     
+            image:
+              link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/4.png"
   example: ~
-  model: 
-    image:
-      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/4.png"
+  model: ~
   image:
     link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/4.png"
     width: ~
