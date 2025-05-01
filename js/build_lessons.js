@@ -477,7 +477,11 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
             constr_buttons.appendChild(nor_btn);
         }
     
-        info.appendChild(constr_buttons);
+        let btnWrapper = document.createElement("div");
+        btnWrapper.setAttribute("class", "d-flex justify-content-end mt-2"); // right-aligned + top margin
+        btnWrapper.appendChild(constr_buttons);
+        
+        info.appendChild(btnWrapper);
         info.appendChild(eng_p);
         info.appendChild(norw_p);
     
