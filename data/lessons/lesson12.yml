@@ -171,7 +171,7 @@
   example: ~
   model: 
       image:
-      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_3.png"
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_3.png"
   image: ~
   task: 
     task1: 
