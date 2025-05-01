@@ -172,6 +172,7 @@
   model: 
       image:
         link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_3.png"
+        width: "800"
   image: ~
   task: ~
   answer_to_show:
@@ -384,6 +385,7 @@
   model: 
     image:
       link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_9.png"
+      width: "800"
   image: ~
   task:
     task1:
@@ -670,6 +672,7 @@
   model: 
     image:
       link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_15.png"
+      width: "800"
   image: ~
   task:
     task1:
@@ -871,6 +874,7 @@
   model: 
     image:
       link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_18_1.png"
+      width: "800"
   image: ~
   task:
     task1:
