@@ -552,8 +552,7 @@
   comment: ~
   example: ~
   model: ~
-  image: 
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/5/interview.jpg"
+  image: ~
   task: 
     task1:
       image: 

@@ -158,18 +158,11 @@
   comment: ~
   example: ~
   model: ~
-  image:
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/7/4.png"
-  task: ~
-  answer_to_show: ~
-  answer_key: ~
-  difficult_words: ~
-  table:
-    vertical_align: +
-    heading:
-      - Информация о Саше
-    row1:
-      - |
+  image: ~
+  task: 
+    task1:
+      text: "
+          Информация о Саше:<br>
           - 20 лет <br>
           - не любит оранжевый и зелёный цвет <br>
           - учится на историка <br>
@@ -178,7 +171,13 @@
           - у неё есть собака Буян <br>
           - любит яркий макияж <br>
           - не любит кошек <br>
-          - не любит оранжевый и зеленый цвет
+          - не любит оранжевый и зеленый цвет"
+      image: 
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/7/4.png"
+  answer_to_show: ~
+  answer_key: ~
+  difficult_words: ~
+  table: ~
 6:
   lesson_id: 7
   ex_number: 6
