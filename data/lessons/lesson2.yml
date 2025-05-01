@@ -476,23 +476,27 @@
   image: 
     link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/packing.jpg"
   task: 
-    text: |
-      Список вещей:<br><ul>
-      <li>фотоаппарат</li>
-      <li>купальник</li>
-      <li>лыжи</li>
-      <li>теплая куртка</li>
-      <li>подарок другу</li>
-      <li>паспорт</li>
-      <li>зонт</li>
-      <li>красивая одежда для прогулки</li>
-      <li>одеяло</li>
-      <li>непромокаемая обувь</li>
-      <li>очки от солнца</li>
-      <li>ноутбук</li>
-      <li>деньги</li>
-      <li>коробка конфет</li>
-      <li>фонарик</li></ul>
+    task1:
+      image: 
+        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/2/packing.jpg"
+        width: "300"
+      text: |
+        Список вещей:<br><ul>
+        <li>фотоаппарат</li>
+        <li>купальник</li>
+        <li>лыжи</li>
+        <li>теплая куртка</li>
+        <li>подарок другу</li>
+        <li>паспорт</li>
+        <li>зонт</li>
+        <li>красивая одежда для прогулки</li>
+        <li>одеяло</li>
+        <li>непромокаемая обувь</li>
+        <li>очки от солнца</li>
+        <li>ноутбук</li>
+        <li>деньги</li>
+        <li>коробка конфет</li>
+        <li>фонарик</li></ul>
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
