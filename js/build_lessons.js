@@ -437,11 +437,22 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         textIconWrapper.appendChild(info_title)
         info.appendChild(textIconWrapper)
 
+
+        // Image if available
+        if (data[exercise_id]["constr_info"]["image"] && data[exercise_id]["constr_info"]["image"]["link"]) {
+            let image_wrapper = document.createElement('div');
+            image_wrapper.setAttribute('class', 'p-2 m-2');
+            image_wrapper.appendChild(add_image(data[exercise_id]["constr_info"]["image"]));
+            info.appendChild(image_wrapper);
+        }
+
         let constr_info = document.createElement('p')
         constr_info.innerHTML = annotate(data[exercise_id]["constr_info"]);
         // info.innerHTML = annotate(data[exercise_id]["constr_info"]);
         info.appendChild(constr_info)
         all_exercise.appendChild(info);
+
+
     }
 
 
