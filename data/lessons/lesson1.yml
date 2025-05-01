@@ -274,9 +274,7 @@
      <li>Я учусь в университете, ^а кроме того,@ я играю в футбол.</li></ul>
   example: Мария отлично готовит. Ещё она прекрасно играет на пианино. <br><ul><li>Мария отлично готовит. ^Кроме того,@ она прекрасно играет на пианино.</li> <li>Мария отлично готовит, ^а кроме того,@ она прекрасно играет на пианино.</li></ul>
   model: ~
-  image: 
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/kitchen.jpg"
-    width: "400"
+  image: ~
   task:
     task1:
       text: 1. Я люблю фильмы про природу. Ещё мне нравится фантастика.
@@ -292,6 +290,9 @@
       text: 6. Андрей быстро бегает. Ещё Андрей замечательно плавает.
     task7:
       text: 7. Жанна мастерски играет в шахматы. Ещё она увлекается альпинизмом.
+    image: 
+      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/kitchen.jpg"
+      width: "400"
 
   answer_to_show:
     answer1: |
@@ -673,7 +674,7 @@
   title_eng: Tell another person what a real friend should be like. Use all five new constructions.
   title_nor: Fortell en annen person hvordan en riktig venn skal være. Bruk alle de fem nye konstruksjonene.
   comment: "Это упражнение хорошо делать с целой группой студентов. Формат задания: по цепочке. Каждый студент должен добавить к описанию идеального друга новую черту. Продолжаем по очереди, все предложения должны быть связаны друг с другом.<br>
-= This exercise is good to do with a group of students. Task format: have students answer one after another. Each student in their turn adds a new characteristic to the description of the ideal friend. All sentences should be connected to each other by the constructions."
+            = This exercise is good to do with a group of students. Task format: have students answer one after another. Each student in their turn adds a new characteristic to the description of the ideal friend. All sentences should be connected to each other by the constructions."
   example: Настоящий друг добрый. ^Кроме того,@ настоящий друг всегда помогает...
   model: ~
   image: ~
@@ -691,8 +692,12 @@
   title_eng: You have met a celebrity on the street. Explain to your friends who this person is without mentioning his or her name. Your friends should try to guess who this celebrity is. Use all five new constructions. 
   title_nor: Du har truffet en kjendis på gata. Forklar for vennene dine hvem det er, uten å nevne navnet til vedkommende. Dine venner må gjette hvem det er. Bruk alle de fem nye konstruksjonene.
   comment: "Каждый студент получает имя известного человека и должен объяснить, кто он (или она). Задача других студентов — отгадать, кто это. Кроме имени, студентам можно дать карточки с информацией об этих знаменитостях.<br>
-= Each student receives the name of a famous person and should explain who this person is. The task of the other students is to guess who this person is. In addition to the name, the students can also receive cards with information about these celebrities."
-  example: Этот человек — мужчина. Он певец. Этот мужчина ^не только@ хорошо поëт, ^но и@ отлично играет на скрипке. Он родился в Минске, но потом долго жил в Норвегии. ^Кстати говоря,@ этот норвежский певец выступал на Евровидении и победил!
+            = Each student receives the name of a famous person and should explain who this person is. The task of the other students is to guess who this person is. In addition to the name, the students can also receive cards with information about these celebrities."
+  
+  example: 
+    text: "Этот человек — мужчина. Он певец. Этот мужчина ^не только@ хорошо поëт, ^но и@ отлично играет на скрипке. Он родился в Минске, но потом долго жил в Норвегии. ^Кстати говоря,@ этот норвежский певец выступал на Евровидении и победил!"
+    image:
+          link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/happy.jpg"
   model: ~
   image:
     link: "https://github.com/constructicon/construxercise-rus/raw/main/images/1/happy.jpg"
