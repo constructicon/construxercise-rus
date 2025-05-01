@@ -174,7 +174,8 @@
       link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/12/12_3.png"
   image: ~
   task: 
-    task1: "_"
+    task1: 
+      text: "_"
     image: ~
   answer_to_show:
         answer1:  " — Ирина, привет! ^Так что насчёт@ ужина в субботу? Мы хотели приготовить что-нибудь<br>
