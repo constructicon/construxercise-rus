@@ -1,22 +1,35 @@
 const tree = document.createDocumentFragment();
 
-const lesson_id = document.title.split(" ")[1]
+const lesson_id = document.title.split(" ")[1];
+let records = {};  // <-- Declare this here
 
-if (document.title.split(" ")[0] == "Lesson") {
-    var r = await axios.get(`https://raw.githubusercontent.com/constructicon/construxercise-rus/main/data/lessons/lesson${lesson_id}.yml`);
+if (document.title.startsWith("Lesson")) {
+    // Standard lesson logic
+    const r = await axios.get(`https://raw.githubusercontent.com/constructicon/construxercise-rus/main/data/lessons/lesson${lesson_id}.yml`);
+    const json_data = jsyaml.loadAll(r.data);
+    for (let key of Object.keys(json_data)) {
+        records[key] = json_data[key];
+    }
+} else if (document.title.startsWith("Function")) {
+    // Function logic: Load function YAML and fetch each referenced lesson/exercise
+    const func_r = await axios.get(`https://raw.githubusercontent.com/constructicon/construxercise-rus/main/data/functions/function${lesson_id}.yml`);
+    const function_data = jsyaml.loadAll(func_r.data)[0];  // Single YAML document expected
+
+    for (let key of Object.keys(function_data)) {
+        const { lesson_id: l_id, ex_number } = function_data[key];
+
+        const lesson_r = await axios.get(`https://raw.githubusercontent.com/constructicon/construxercise-rus/main/data/lessons/lesson${l_id}.yml`);
+        const lesson_json = jsyaml.loadAll(lesson_r.data)[0];
+        records[key] = lesson_json[ex_number];
+    }
+}
+
+let data;
+if (document.title.startsWith("Lesson")) {
+    data = records[0];
 } else {
-    console.log(2)
-    var r = await axios.get(`https://raw.githubusercontent.com/constructicon/construxercise-rus/main/data/functions/function${lesson_id}.yml`);
-    
+    data = records;
 }
-let json_data = jsyaml.loadAll(r.data);
-let records = {};
-
-for (let key of Object.keys(json_data)) {
-    records[key] = json_data[key];
-}
-
-const data = records[0]
 const main_content = document.createElement("div")
 main_content.setAttribute("class", "container px-4")
 
