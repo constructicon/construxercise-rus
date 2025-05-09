@@ -18,6 +18,9 @@
         — ^Насколько я понимаю,@ завтра в Эрмитаже бесплатный день, билет не нужен.<br>
         — Точно! Тогда до встречи!"
     audio: ""
+    image: 
+      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/1.png"
+      width: "300"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
