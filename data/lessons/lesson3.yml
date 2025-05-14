@@ -187,14 +187,14 @@
   image: ~
   task: 
     task1:
-      text: '1'
-      image: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/3/5_1.jpg"
+      text: ~
+      image: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/3/5_1.png"
     task2:
-      text: "2"
-      image: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/3/5_2.jpg"
+      text: ~
+      image: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/3/5_2.png"
     task3:
-      text: "3"
-      image: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/3/5_3.jpg"
+      text: ~
+      image: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/3/5_3.png"
 
 
   answer_to_show: ~
