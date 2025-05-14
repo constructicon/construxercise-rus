@@ -188,13 +188,16 @@
   task: 
     task1:
       text: ~
-      image: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/3/5_1.png"
+      image: 
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/3/5_1.png"
     task2:
       text: ~
-      image: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/3/5_2.png"
+      image: 
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/3/5_2.png"
     task3:
       text: ~
-      image: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/3/5_3.png"
+      image: 
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/3/5_3.png"
 
 
   answer_to_show: ~
