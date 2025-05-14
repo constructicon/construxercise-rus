@@ -176,7 +176,7 @@
           - не любит оранжевый и зеленый цвет"
       image: 
         link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/7/5_.jpg"
-        width: ~
+        width: "400"
     task2:
       text: ~
       image:
@@ -307,6 +307,7 @@
             - учителя с Днём учителя "
       image:
         link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/7/8.jpg"
+        width: "400"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
