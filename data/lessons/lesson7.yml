@@ -292,8 +292,7 @@
       </ul>
   example: ~
   model: ~
-  image:
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/7/7.png"
+  image: ~
   task: 
     task1: 
       text: "<b>Кого поздравить:</b><br>
