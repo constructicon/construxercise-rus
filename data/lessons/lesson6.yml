@@ -66,7 +66,23 @@
   example: С точки зрения комфорта, яхта лучше поезда.
   model: С точки зрения ________ , ________ лучше/хуже ________
   image: ~
-  task: ~
+  task: 
+    task1: "
+            цена – EN: price; NO: pris				 <br>
+            скорость – EN: speed; NO: hastighet	<br>
+            безопасность – EN: safety; NO: sikkerhet<br>
+            надёжность – EN: reliability; NO: pålitelighet<br>
+            доступность – EN: accessibility; NO: tilgjengelighet<br>
+            маневренность – EN: maneuverability; NO: manøvrerbarhet<br>
+            катер – EN: motorboat; NO: motorbåt<br>
+            яхта – EN: yacht; NO: yacht<br>
+            самокат – EN: scooter; NO: sparkesykkel<br>
+            мопед – EN: moped; NO: moped<br>
+            моноколесо – EN: electronic monocycle; NO: elektrisk enhjulssykkel<br>
+            "
+    image:
+      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/3.1.jpg"
+      width: "300"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
@@ -383,12 +399,12 @@
   title_nor: Gi råd til de navngitte personene i setningene ved å foreslå alternative transportmidler og ulike måter å ta seg frem på. Bruk konstruksjonen на PronPoss-Loc месте/на месте NP-Gen Cl бы som betyr omtrent ‘hvis X var i Y sitt sted, ... / hvis X var Y, ...’, f.eks. ‘hvis jeg var deg, ...’, ‘hvis jeg var i dine sko’.<br>
               I denne er PronPoss-Loc et possessivt pronomen i lokativ kasus (PronPoss=possessivt pronomen, Loc=lokativ kasus), NP-Gen er et substantiv i genitiv kasus (NP=nominalfrase, Gen=genitiv kasus), og Cl er en setning (Cl=setning). Verbet etter partikkelen бы brukes i forttidsform, enten i maskulinum eller femininum, avhengig av talerens kjønn.
   comment: ~
-  example: Я поеду на такси (автобус)
+  example: 
+    text: Я поеду на такси (автобус)
+    image: 
+      link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/7.png"
   model: ~
-  image:
-    link: "https://github.com/constructicon/construxercise-rus/raw/main/images/6/7.png"
-    width: ~
-    height: ~
+  image: ~
   task:
     task1:  
       text: 1. Паша пойдёт пешком. (поехать на метро)

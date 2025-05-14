@@ -427,92 +427,110 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
 
     }
 
+
     // add construction information if relevant
-// add construction information if relevant
-if (data[exercise_id]["constr_info"]) {
-    let info = document.createElement("div");
-    info.setAttribute("style", "margin-bottom: 20px; background-color:rgb(250,226,213)");
-    info.setAttribute("class", "shadow p-3 mb-3 rounded");
-
-    // Header
-    const headerWrapper = document.createElement("span");
-    headerWrapper.setAttribute("class", "m-3 d-flex align-items-center tiptext");
-    headerWrapper.style.gap = "5px";
-
-    let info_title = document.createElement("p");
-    const icon = document.createElement("i");
-    icon.setAttribute("class", "bi bi-info-square");
-    info_title.setAttribute("class", "m-2 fw-bold");
-    info_title.innerHTML = "Информация о конструкции";
-
-    headerWrapper.appendChild(icon);
-    headerWrapper.appendChild(info_title);
-    info.appendChild(headerWrapper);
-
-    // Russian text by default
-    const constr_data = data[exercise_id]["constr_info"];
-    let constr_text = typeof constr_data === "object" ? constr_data.text : constr_data;
-
-    let rus_p = document.createElement("p");
-    rus_p.innerHTML = annotate(constr_text);
-    info.appendChild(rus_p);
-
-    // Add translations if available
-    let eng_p = document.createElement("p");
-    let norw_p = document.createElement("p");
-
-    let constr_buttons = document.createElement("div");
-    constr_buttons.setAttribute("class", "btn-group btn-group-sm");
-    constr_buttons.setAttribute("role", "group");
-
-    if (data[exercise_id]["constr_info_eng"]) {
-        let eng_btn = document.createElement("button");
-        eng_btn.setAttribute("type", "button");
-        eng_btn.setAttribute("class", "btn btn-outline-secondary btn-sm");
-        eng_btn.innerHTML = "EN";
-
-        let text_eng = annotate(data[exercise_id]["constr_info_eng"]);
-        eng_btn.onclick = function () {
-            show_item(eng_p, text_eng);
+    if (data[exercise_id]["constr_info"]) {
+        let info = document.createElement("div");
+        info.setAttribute("style", "margin-bottom: 20px; background-color:rgb(250,226,213)");
+        info.setAttribute("class", "shadow p-3 mb-3 rounded");
+    
+        // Header
+        const headerWrapper = document.createElement("span");
+        headerWrapper.setAttribute("class", "m-3 d-flex align-items-center tiptext");
+        headerWrapper.style.gap = "5px";
+    
+        let info_title = document.createElement("p");
+        const icon = document.createElement("i");
+        icon.setAttribute("class", "bi bi-info-square");
+        info_title.setAttribute("class", "m-2 fw-bold");
+        info_title.innerHTML = "Информация о конструкции";
+    
+        headerWrapper.appendChild(icon);
+        headerWrapper.appendChild(info_title);
+        info.appendChild(headerWrapper);
+    
+        // Create buttons early
+        let btnWrapper = document.createElement("div");
+        btnWrapper.setAttribute("class", "d-flex justify-content-end mt-2");
+    
+        let constr_buttons = document.createElement("div");
+        constr_buttons.setAttribute("class", "btn-group btn-group-sm");
+        constr_buttons.setAttribute("role", "group");
+    
+        let eng_p = document.createElement("p");
+        let norw_p = document.createElement("p");
+    
+        if (data[exercise_id]["constr_info_eng"]) {
+            let eng_btn = document.createElement("button");
+            eng_btn.setAttribute("type", "button");
+            eng_btn.setAttribute("class", "btn btn-outline-secondary btn-sm");
+            eng_btn.innerHTML = "EN";
+            let text_eng = annotate(data[exercise_id]["constr_info_eng"]);
+            eng_btn.onclick = function () {
+                show_item(eng_p, text_eng);
+            };
+            constr_buttons.appendChild(eng_btn);
         }
-        constr_buttons.appendChild(eng_btn);
-    }
-
-    if (data[exercise_id]["constr_info_nor"]) {
-        let nor_btn = document.createElement("button");
-        nor_btn.setAttribute("type", "button");
-        nor_btn.setAttribute("class", "btn btn-outline-secondary btn-sm");
-        nor_btn.innerHTML = "NO";
-
-        let text_nor = annotate(data[exercise_id]["constr_info_nor"]);
-        nor_btn.onclick = function () {
-            show_item(norw_p, text_nor);
+    
+        if (data[exercise_id]["constr_info_nor"]) {
+            let nor_btn = document.createElement("button");
+            nor_btn.setAttribute("type", "button");
+            nor_btn.setAttribute("class", "btn btn-outline-secondary btn-sm");
+            nor_btn.innerHTML = "NO";
+            let text_nor = annotate(data[exercise_id]["constr_info_nor"]);
+            nor_btn.onclick = function () {
+                show_item(norw_p, text_nor);
+            };
+            constr_buttons.appendChild(nor_btn);
         }
-        constr_buttons.appendChild(nor_btn);
+    
+        btnWrapper.appendChild(constr_buttons);
+    
+        // Content wrapper (text + image side by side)
+        let contentWrapper = document.createElement("div");
+        contentWrapper.setAttribute("class", "d-flex flex-wrap gap-3 align-items-start justify-content-between");
+    
+        // Left: Text
+        let textWrapper = document.createElement("div");
+        textWrapper.setAttribute("style", "flex: 1; min-width: 250px;");
+        let constr_text = typeof data[exercise_id]["constr_info"] === "object"
+            ? data[exercise_id]["constr_info"].text
+            : data[exercise_id]["constr_info"];
+        let rus_p = document.createElement("p");
+        rus_p.innerHTML = annotate(constr_text);
+        textWrapper.appendChild(rus_p);
+    
+        // Right: Image + Buttons (if image exists)
+        if (
+            typeof data[exercise_id]["constr_info"] === "object" &&
+            data[exercise_id]["constr_info"].image &&
+            data[exercise_id]["constr_info"].image.link
+        ) {
+            let imageWrapper = document.createElement("div");
+            imageWrapper.setAttribute("style", "max-width: 300px;");
+    
+            let image = add_image(data[exercise_id]["constr_info"].image);
+            image.classList.add("img-fluid", "rounded");
+    
+            imageWrapper.appendChild(image);
+            imageWrapper.appendChild(btnWrapper);
+    
+            contentWrapper.appendChild(textWrapper);
+            contentWrapper.appendChild(imageWrapper);
+        } else {
+            // No image — just use text and buttons
+            textWrapper.appendChild(btnWrapper);
+            contentWrapper.appendChild(textWrapper);
+        }
+    
+        info.appendChild(contentWrapper);
+        info.appendChild(eng_p);
+        info.appendChild(norw_p);
+    
+        all_exercise.appendChild(info);
     }
+    
 
-    let btnWrapper = document.createElement("div");
-    btnWrapper.setAttribute("class", "d-flex justify-content-end mt-2"); // right-aligned + top margin
-    btnWrapper.appendChild(constr_buttons);
-
-    info.appendChild(btnWrapper);
-    info.appendChild(eng_p);
-    info.appendChild(norw_p);
-
-    // Image if present
-    if (typeof constr_data === "object" && constr_data.image && constr_data.image.link) {
-        let image_wrapper = document.createElement("div");
-        image_wrapper.setAttribute("class", "p-2 m-2");
-
-        let image = add_image(constr_data.image);
-        image.classList.add("img-fluid", "rounded"); // Add rounded corners
-        image_wrapper.appendChild(image);
-
-        info.appendChild(image_wrapper);
-    }
-
-    all_exercise.appendChild(info);
-}
 
 
 
