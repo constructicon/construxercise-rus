@@ -570,13 +570,17 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         if (hasImage) {
             let image_wrapper = document.createElement("div");
             image_wrapper.setAttribute("style", "flex: 0 0 auto;");
-
+        
             let img = document.createElement("img");
             img.setAttribute("src", model_data.image.link);
-            img.setAttribute("class", "rounded"); // removed 'img-fluid'
+            img.setAttribute("class", "rounded");
             img.setAttribute("alt", "model image");
-            
-
+        
+            // ✅ Apply width from YAML if defined
+            if (model_data.image.width) {
+                img.style.width = model_data.image.width;
+            }
+        
             image_wrapper.appendChild(img);
             content_wrapper.appendChild(image_wrapper);
         }
