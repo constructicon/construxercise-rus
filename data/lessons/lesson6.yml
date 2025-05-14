@@ -67,7 +67,8 @@
   model: С точки зрения ________ , ________ лучше/хуже ________
   image: ~
   task: 
-    task1: "
+    task1: 
+      text: "
             цена – EN: price; NO: pris				 <br>
             скорость – EN: speed; NO: hastighet	<br>
             безопасность – EN: safety; NO: sikkerhet<br>
@@ -80,9 +81,9 @@
             мопед – EN: moped; NO: moped<br>
             моноколесо – EN: electronic monocycle; NO: elektrisk enhjulssykkel<br>
             "
-    image:
-      link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/3.1.jpg"
-      width: "300"
+      image:
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/6/3.1.jpg"
+        width: "300"
   answer_to_show: ~
   answer_key: ~
   difficult_words: ~
