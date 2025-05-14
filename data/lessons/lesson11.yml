@@ -461,14 +461,15 @@
         , одежда делового стиля — это скучно, но необходимо."
       image:
         link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/12.jpg"
-        width: "400"
+        width: "300"
   answer_to_show: "1. Скажем<br>
                     2. в частности<br>
                     3. и тому подобное<br>
                     4. Итак"
   answer_key: ~
-  difficult_words: "*уместные — EN: appropriate; NO: passende<br>
-                    *судить «по одёжке» — EN: first impressions count; judge someone by their clothes; NO: dømme noen etter utseendet"
+  difficult_words: 
+    word1: "*уместные — EN: appropriate; NO: passende<br>
+             *судить «по одёжке» — EN: first impressions count; judge someone by their clothes; NO: dømme noen etter utseendet"
   table: ~
 13:
   lesson_id: 11
@@ -595,21 +596,9 @@
   image: ~
   task:
     task1:
-      text: 1. Инна, 29 лет
+      text: ~
       image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/14_2.jpg"
-        width: 250
-
-    task2:
-      text: 2. Олег, 29 лет
-      image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/14_3.jpg"
-        width: 250
-    task3:
-      text: 3. Костя, 31 год
-      image:
-        link: "https://github.com/constructicon/construxercise-rus/raw/main/images/11/14_4.jpg"
-        width: 250
+        link: "https://raw.githubusercontent.com/constructicon/construxercise-rus/refs/heads/main/images/11/15_full.png"
   answer_to_show: 1. на самом деле<br>
                   2. в частности / скажем<br>
                   3. и так далее<br>
