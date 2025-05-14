@@ -578,7 +578,11 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
         
             // ✅ Apply width from YAML if defined
             if (model_data.image.width) {
-                img.style.width = model_data.image.width;
+                img.style.width = typeof model_data.image.width === "number"
+                    ? `${model_data.image.width}px`
+                    : model_data.image.width.match(/^\d+$/)
+                        ? `${model_data.image.width}px`
+                        : model_data.image.width;
             }
         
             image_wrapper.appendChild(img);
