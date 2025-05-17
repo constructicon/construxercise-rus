@@ -202,7 +202,7 @@
   lesson_id: 1
   ex_number: 5
   title: Соедините части предложений, подобрав логичное продолжение.
-  exercise_type: match_lines
+  exercise_type: multichoice_singleanswer
   title_eng: Connect the phrases by choosing the matching continuation.
   title_nor:  Fullfør setningene ved å velge delene som passer sammen.
   comment: ~
