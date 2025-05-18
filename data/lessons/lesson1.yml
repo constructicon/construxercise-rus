@@ -202,48 +202,27 @@
   lesson_id: 1
   ex_number: 5
   title: Соедините части предложений, подобрав логичное продолжение.
-  exercise_type: multichoice_singleanswer
+  exercise_type: text_input_table
   title_eng: Connect the phrases by choosing the matching continuation.
-  title_nor:  Fullfør setningene ved å velge delene som passer sammen.
+  title_nor: Fullfør setningene ved å velge delene som passer sammen.
   comment: ~
   example: ~
   model: ~
   image: ~
   task: 
-    task1: 
-      text: "1"
-    task2: 
-      text: "2"
-    task3: 
-      text: "3"
-    task4: 
-      text: "4"
-    task5: 
-      text: "5"
+    task1:
+      text: Выберите подходящее окончание для каждой фразы. Впишите в таблицу буквы (а, б, в...).
   answer_to_show:
-    answer1: д
-    answer2: в
-    answer3: г
-    answer4: а
-    answer5: б
+    answer1: "1д, 2в, 3г, 4а, 5б"
   answer_key: 
-    answer1: д
-    answer2: в
-    answer3: г
-    answer4: а
-    answer5: б
-  answer_options: 
-   - а
-   - б
-   - в
-   - г
-   - д
+    answer1: "1д, 2в, 3г, 4а, 5б"
+  answer_options: ~
   difficult_words: ~
   table:
     vertical_align: +
     horizontal_align: ~
     width: ~
-    heading: ~
+    heading: ["Начало фразы", "Продолжение"]
     row1:
       - 1. Я люблю не только книги про Шерлока Холмса,
       - а. но и во всей школе!
