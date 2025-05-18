@@ -202,6 +202,76 @@ function add_audio(lesson_id, exercise_id, audio_id) {
     return audio_block
 }
 
+function createTextInputTable(container, answerKeyStr) {
+    // Extract only the letters (e.g. from "1в, 2е, 3а, 4г, 5д, 6б")
+    const answersArr = answerKeyStr.split(',').map(s => s.trim().match(/[а-яА-ЯёЁ]/)[0].toLowerCase());
+
+    const table = document.createElement('table');
+    table.classList.add('table', 'table-bordered', 'text-center');
+    table.style.maxWidth = '100%';
+
+    // Row with numbers
+    const headerRow = document.createElement('tr');
+    answersArr.forEach((_, idx) => {
+        const th = document.createElement('th');
+        th.textContent = idx + 1;
+        headerRow.appendChild(th);
+    });
+    table.appendChild(headerRow);
+
+    // Row with input fields
+    const inputRow = document.createElement('tr');
+    answersArr.forEach((_, idx) => {
+        const td = document.createElement('td');
+        const input = document.createElement('input');
+        input.type = 'text';
+        input.maxLength = 2;
+        input.classList.add('form-control');
+        input.dataset.index = idx;
+        td.appendChild(input);
+        inputRow.appendChild(td);
+    });
+    table.appendChild(inputRow);
+    container.appendChild(table);
+
+    // Button
+    const checkButton = document.createElement('button');
+    checkButton.textContent = "Check Answers";
+    checkButton.classList.add('btn', 'btn-primary', 'mt-2');
+    container.appendChild(checkButton);
+
+    // Feedback div
+    const feedback = document.createElement('div');
+    feedback.classList.add('mt-3');
+    container.appendChild(feedback);
+
+    // Check logic
+    checkButton.addEventListener('click', () => {
+        const inputs = container.querySelectorAll('input');
+        let allCorrect = true;
+        let resultHtml = '';
+
+        inputs.forEach((input, idx) => {
+            const userAnswer = input.value.trim().toLowerCase();
+            const correctAnswer = answersArr[idx];
+
+            if (userAnswer === correctAnswer) {
+                resultHtml += `<div>#${idx + 1}: ✅ Correct</div>`;
+                input.classList.remove('is-invalid');
+                input.classList.add('is-valid');
+            } else {
+                resultHtml += `<div>#${idx + 1}: ❌ Your answer: "${userAnswer || '?'}", correct: "${correctAnswer}"</div>`;
+                input.classList.remove('is-valid');
+                input.classList.add('is-invalid');
+                allCorrect = false;
+            }
+        });
+
+        feedback.innerHTML = resultHtml;
+        feedback.style.color = allCorrect ? 'green' : 'red';
+    });
+}
+
 
 function add_answer(answer_to_show, answer_key, input) {
 
@@ -751,6 +821,17 @@ for (var exercise_id = 1; exercise_id <= exercises_amount; exercise_id++) {
                 // Add audio if available for subtask
                 if (data[exercise_id]["task"][`task${i}`]["audio"] != null) {
                     subtask.appendChild(add_audio(lesson_id, exercise_id, data[exercise_id]["task"][`task${i}`]["audio"]))
+                }
+                // Inside your subtasks loop, after you've created subtask and subtask_col, etc.
+
+                if (data[exercise_id]["exercise_type"] === "text_input_table") {
+                    const answerKeyRaw = data[exercise_id]["answer_key"][`answer${i}`]; // e.g., "1в, 2е, 3а, 4г, 5д, 6б"
+                    const subtask_table_container = document.createElement("div");
+                    subtask_table_container.classList.add("mt-3");
+
+                    createTextInputTable(subtask_table_container, answerKeyRaw);
+
+                    subtask_col.appendChild(subtask_table_container);
                 }
 
                 if (data[exercise_id]["exercise_type"] == "text_input") {
