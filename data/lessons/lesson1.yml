@@ -790,3 +790,65 @@
   answer_key: ~
   difficult_words: ~
   table: ~
+
+16:
+  lesson_id: 1
+  ex_number: 5
+  title: Соедините части предложений, подобрав логичное продолжение.
+  exercise_type: multichoice_singleanswer
+  title_eng: Connect the phrases by choosing the matching continuation.
+  title_nor:  Fullfør setningene ved å velge delene som passer sammen.
+  comment: ~
+  example: ~
+  model: ~
+  image: ~
+  task: 
+    task1: 
+      text: "1"
+    task2: 
+      text: "2"
+    task3: 
+      text: "3"
+    task4: 
+      text: "4"
+    task5: 
+      text: "5"
+  answer_to_show:
+    answer1: д
+    answer2: в
+    answer3: г
+    answer4: а
+    answer5: б
+  answer_key: 
+    answer1: д
+    answer2: в
+    answer3: г
+    answer4: а
+    answer5: б
+  answer_options: 
+   - а
+   - б
+   - в
+   - г
+   - д
+  difficult_words: ~
+  table:
+    vertical_align: +
+    horizontal_align: ~
+    width: ~
+    heading: ~
+    row1:
+      - 1. Я люблю не только книги про Шерлока Холмса,
+      - а. но и во всей школе!
+    row2:
+      - 2. Он был не только талантливым писателем,
+      - б. но и вкусно готовил.
+    row3:
+      - 3. Не только школьники,
+      - в. но и умным политиком.
+    row4:
+      - 4. Ксюша - самая красивая девочка не только в нашем классе,
+      - г. но и учителя выбежали на улицу.
+    row5:
+      - 5. Он не только отлично плавал,
+      - д. но и фильмы о нём.
