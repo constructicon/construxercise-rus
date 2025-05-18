@@ -454,7 +454,7 @@
   lesson_id: 1
   ex_number: 9
   title: Соедините части предложений, подобрав логичное продолжение.
-  exercise_type: multichoice_singleanswer
+  exercise_type: text_input_table
   title_eng: Connect the phrases by choosing a matching continuation. Note that the construction ^кстати, ...@ introduces additional information and often denotes digression.
   title_nor: Koble sammen setningene ved å bruke delene som passer. Legg merke til at konstruksjonen ^кстати, ...@ angir tilleggsinformasjon og ofte indikerer et avvik fra emnet.
   comment: ~
@@ -474,33 +474,12 @@
   image: ~
   task: 
     task1:
-      text: "1"
-    task2:
-      text: "2"
-    task3:
-      text: "3"
-    task4: 
-      text: "4"
-    task5:
-      text: "5"
+      text: Выберите подходящее окончание для каждой фразы. Впишите в таблицу буквы (а, б, в...).
   answer_to_show: 
-    answer1: в
-    answer2: а
-    answer3: г
-    answer4: д
-    answer5: б
+    answer1: "1в, 2а, 3г, 4д, 5б"
   answer_key: 
-    answer1: в
-    answer2: а
-    answer3: г
-    answer4: д
-    answer5: б
-  answer_options:
-    - а
-    - б
-    - в
-    - г
-    - д
+    answer1: "1в, 2а, 3г, 4д, 5б"
+  answer_options: ~
   difficult_words: ~
   table:
     heading: ~
@@ -522,6 +501,7 @@
     row5:
       - 5. Я купил билеты в кино, пойдëшь со мной?
       - д. ^И кстати,@ раньше стены были белого цвета, а не красного, как сегодня.
+
 10:
   lesson_id: 1
   ex_number: 10
