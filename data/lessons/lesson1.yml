@@ -749,35 +749,3 @@
   answer_key: ~
   difficult_words: ~
   table: ~
-
-16:
-  lesson_id: 1
-  ex_number: 16
-  title: |
-    Соня и Серёжа выбирают подарок для Кристины. Перед вами их диалог, в котором реплики перепутались. Восстановите диалог. Что получит в подарок Кристина?
-  instructions: ~
-  exercise_type: text_input_table
-  title_eng: Sonya and Seryozha are picking out a gift for Kristina. Here is their dialogue, where the lines are mixed up. Reconstruct the dialogue. What gift will Kristina end up receiving?
-  title_nor: Sonya og Serjozha velger en gave til Kristina. Foran deg er dialogen deres, der replikkene er blandet. Gjenopprett dialogen. Hva vil Kristina få i gave?
-  comment: ~
-  constr_info: ~
-  example: ~
-  model: ~
-  image: ~
-  task: 
-    task1:
-      text: а. — Да, это верно! Может, билеты в театр? ^Насколько я понимаю,@ Кристина очень любит балет^, так ведь?@<br>
-            б. — ^Вот и отлично!@ Тогда завтра купим ей их!<br>
-            в. — Серёжа, привет! ^Так что насчёт@ подарка для Кристины? У неё День рождения послезавтра, а мы ещё ничего не купили. Может, подарим ей новое платье?<br>
-            г. — ^Как по мне,@ подарок должен быть вещью, чтобы она смотрела на него и думала о нас. ^По-моему,@ Кристине больше понравятся солнечные очки или летняя шляпа, ^а ты как думаешь?@<br>
-            д. — ^На самом деле,@ очки и шляпа — это очень хорошая идея.<br>
-            е. — Привет, Соня! ^Честно говоря,@ платье — это слишком дорогой подарок для меня, и ^к тому же@ платье нужно мерить. ^Не факт, что@ мы выберем правильный размер.<br>
-
-
-  answer_to_show: 
-    answer1: "1в, 2е, 3а, 4г, 5д, 6б"
-  answer_key: 
-    answer1: "1в, 2е, 3а, 4г, 5д, 6б"
-  answer_options: ~
-  difficult_words: ~
-  table: ~
